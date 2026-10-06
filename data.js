@@ -41,7 +41,13 @@ window.CATALOGUE = [
      {
       "name": "Backgrounds Supply",
       "url": "https://backgrounds.supply/",
-      "desc": "Готові до використання фони для сайтів, створені вручну."
+      "desc": "Готові до використання фони для сайтів, створені вручну.",
+      "cases": [
+       {
+        "label": "Gradient Lab",
+        "url": "https://backgrounds.supply/gradient-lab"
+       }
+      ]
      },
      {
       "name": "Venust Backgrounds",
@@ -986,6 +992,11 @@ window.CATALOGUE = [
       "name": "Circular",
       "url": "https://www.madebycircular.com.au/",
       "desc": "Шаблони бренд-гайдлайнів для дизайнерів."
+     },
+     {
+      "name": "Inspotype",
+      "url": "https://inspotype.com/",
+      "desc": "Пошук, розбір і ремікс бренд-систем."
      }
     ],
     "title_en": "Guidelines & Libraries",
@@ -6261,14 +6272,99 @@ window.CATALOGUE = [
       "name": "Departure Mono",
       "url": "https://departuremono.com/",
       "desc": "Піксельний моноширинний шрифт із ретро-характером."
+     },
+     {
+      "name": "Space Type Generator",
+      "url": "https://spacetypegenerator.com/clutter",
+      "desc": "Кінетичні генератори типографіки для постерів і моушну."
+     },
+     {
+      "name": "Figma Resource",
+      "url": "https://figmaresource.com/",
+      "desc": "Безкоштовні шрифти з живими прев’ю й тестерами."
      }
     ],
     "title_en": "Type",
     "id": "type"
    },
    {
-    "title": "Колір",
-    "desc": "Палітри, перевірка контрасту й кольорові шкали для бренд-систем.",
+    "title": "Палітри",
+    "title_en": "Palettes",
+    "desc": "Готові палітри й генератори поєднань.",
+    "id": "palettes",
+    "items": [
+     {
+      "name": "Adobe Color",
+      "url": "https://color.adobe.com/",
+      "desc": "Пошук і створення палітр, колірне коло й тренди.",
+      "cases": [
+       {
+        "label": "Explore",
+        "url": "https://color.adobe.com/explore"
+       },
+       {
+        "label": "Color Wheel",
+        "url": "https://color.adobe.com/create/color-wheel"
+       }
+      ]
+     },
+     {
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "desc": "Швидкий генератор і бібліотека палітр."
+     },
+     {
+      "name": "Colormind",
+      "url": "http://colormind.io/",
+      "desc": "AI-генератор гармонійних палітр в один клік."
+     },
+     {
+      "name": "Canva Colors",
+      "url": "https://www.canva.com/colors/",
+      "desc": "Палітри, значення кольорів і поєднання від Canva."
+     },
+     {
+      "name": "Color Designer",
+      "url": "https://colordesigner.io/",
+      "desc": "Колірне коло, конструктор палітр і градієнтів."
+     },
+     {
+      "name": "ColorHub",
+      "url": "https://www.colorhub.app/browse",
+      "desc": "Каталог палітр для нових проєктів."
+     },
+     {
+      "name": "Hexcolorpedia",
+      "url": "https://hexcolorpedia.com/",
+      "desc": "Енциклопедія кольорів і колірних схем."
+     },
+     {
+      "name": "Color Selector",
+      "url": "http://color-selector.com/",
+      "desc": "База кольорів і зображень для художників і дизайнерів."
+     },
+     {
+      "name": "ColorHexa",
+      "url": "https://www.colorhexa.com/",
+      "desc": "Довідник будь-якого кольору: значення, відтінки, схеми."
+     },
+     {
+      "name": "Palettte",
+      "url": "https://www.bairesdev.com/tools/color-palette",
+      "desc": "Редактор і ремапінг палітр."
+     },
+     {
+      "name": "Pixelfika",
+      "url": "https://pixelfika.com/",
+      "desc": "Щоденне натхнення: дизайни, палітри й тексти."
+     }
+    ]
+   },
+   {
+    "title": "Кольорові системи",
+    "title_en": "Color Systems",
+    "desc": "Шкали й системи кольорів для бренду та дизайн-систем.",
+    "id": "color-systems",
     "items": [
      {
       "name": "OKLCH",
@@ -6276,14 +6372,78 @@ window.CATALOGUE = [
       "desc": "Інструмент вибору кольору в перцептивно рівномірному просторі."
      },
      {
+      "name": "Ramps",
+      "url": "https://www.ramps.studio/",
+      "desc": "Генератор кольорових шкал в OKLCH для бренд-палітр."
+     },
+     {
+      "name": "Geenes",
+      "url": "https://geenes.app/user-interface",
+      "desc": "Генератор кольорових шкал з експортом у макети."
+     },
+     {
+      "name": "ColorBox",
+      "url": "https://colorbox.io/",
+      "desc": "Доступні кольорові системи з кривими відтінку, насиченості й світла."
+     },
+     {
+      "name": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "desc": "Відкрита кольорова система з доступними шкалами.",
+      "cases": [
+       {
+        "label": "Custom palette",
+        "url": "https://www.radix-ui.com/colors/custom"
+       }
+      ]
+     },
+     {
+      "name": "UI Colors",
+      "url": "https://uicolors.app/generate",
+      "desc": "Генератор шкал 50–950 з редагуванням і експортом."
+     },
+     {
+      "name": "Eva Colors",
+      "url": "https://colors.eva.design/",
+      "desc": "Генератор палітр для дизайн-систем на основі нейромережі."
+     },
+     {
+      "name": "Shade Generator",
+      "url": "https://shadegenerator.com/",
+      "desc": "Відтінки й тони будь-якого кольору за секунди."
+     },
+     {
+      "name": "Genome Color",
+      "url": "https://www.genomecolor.space/",
+      "desc": "Інструмент для побудови кольорових систем."
+     },
+     {
+      "name": "Kigen",
+      "url": "https://kigen.design/color",
+      "desc": "Генератор палітр для дизайн-систем."
+     },
+     {
+      "name": "Poline",
+      "url": "https://meodai.github.io/poline/",
+      "desc": "Палітри, побудовані лініями між опорними кольорами."
+     },
+     {
+      "name": "Color Palette Pro",
+      "url": "https://colorpalette.pro/",
+      "desc": "Палітри в сучасних колірних просторах з експортом."
+     }
+    ]
+   },
+   {
+    "title": "Контраст і доступність",
+    "title_en": "Contrast",
+    "desc": "Перевірка контрасту й доступні колірні пари.",
+    "id": "contrast",
+    "items": [
+     {
       "name": "Color.review",
       "url": "https://color.review/",
       "desc": "Перевірка контрасту для створення доступних палітр."
-     },
-     {
-      "name": "Huetone",
-      "url": "https://huetone.ardov.me/",
-      "desc": "Генератор доступних палітр зі збалансованим контрастом."
      },
      {
       "name": "APCA",
@@ -6291,13 +6451,135 @@ window.CATALOGUE = [
       "desc": "Сучасний алгоритм контрасту, що відповідає зоровому сприйняттю."
      },
      {
-      "name": "Ramps",
-      "url": "https://www.ramps.studio/",
-      "desc": "Генератор кольорових шкал в OKLCH для бренд-палітр."
+      "name": "Huetone",
+      "url": "https://huetone.ardov.me/",
+      "desc": "Генератор доступних палітр зі збалансованим контрастом."
+     },
+     {
+      "name": "WebAIM Contrast",
+      "url": "https://webaim.org/resources/contrastchecker/",
+      "desc": "Класична перевірка контрасту за WCAG."
+     },
+     {
+      "name": "Colour Contrast",
+      "url": "https://colourcontrast.cc/",
+      "desc": "Перевірка контрасту колірних пар за WCAG."
+     },
+     {
+      "name": "RandomA11y",
+      "url": "https://randoma11y.com/",
+      "desc": "Нескінченні доступні колірні пари в реальному часі."
      }
-    ],
-    "title_en": "Color",
-    "id": "color"
+    ]
+   },
+   {
+    "title": "Градієнти",
+    "title_en": "Gradients",
+    "desc": "Генератори й бібліотеки градієнтів для фонів і key visuals.",
+    "id": "gradients",
+    "items": [
+     {
+      "name": "LCH Gradient Picker",
+      "url": "https://davidjohnstone.net/lch-lab-colour-gradient-picker",
+      "desc": "Підбір кольорів і градієнтів у просторах LCH та Lab."
+     },
+     {
+      "name": "Mesher",
+      "url": "https://csshero.org/mesher/",
+      "desc": "Генератор mesh-градієнтів."
+     },
+     {
+      "name": "Gradientool",
+      "url": "https://www.gradientool.com/",
+      "desc": "Простий генератор нескінченних унікальних градієнтів."
+     },
+     {
+      "name": "uiGradients",
+      "url": "https://uigradients.com/",
+      "desc": "Добірка красивих градієнтів."
+     },
+     {
+      "name": "Colorion Gradients",
+      "url": "https://gradients.colorion.co/",
+      "desc": "Колекція готових градієнтів для фонів."
+     },
+     {
+      "name": "Grabient",
+      "url": "https://grabient.com/",
+      "desc": "Генератор градієнтів і палітр з експортом у SVG і PNG."
+     },
+     {
+      "name": "Grainient",
+      "url": "https://grainient.supply/",
+      "desc": "Понад 1000 градієнтів, зернисті текстури й анімовані фони."
+     }
+    ]
+   },
+   {
+    "title": "Патерни й генератори",
+    "title_en": "Patterns & Generators",
+    "desc": "Генеративні візерунки, фігури й графічні елементи.",
+    "id": "patterns-generators",
+    "items": [
+     {
+      "name": "Tabbied",
+      "url": "https://tabbied.com/",
+      "desc": "Генеративний конструктор геометричних візерунків у SVG."
+     },
+     {
+      "name": "DotForge",
+      "url": "https://dotforge.vercel.app/",
+      "desc": "Генератор ефекту дизерингу в реальному часі."
+     },
+     {
+      "name": "Book of Shapes",
+      "url": "https://bookofshapes.com/?sort=popular",
+      "desc": "Галерея генеративних патернів із налаштуванням і завантаженням."
+     },
+     {
+      "name": "SVG Hub",
+      "url": "https://svghub.vercel.app/",
+      "desc": "Понад 70 закарлючок, фігур і скетчів у будь-якому кольорі."
+     }
+    ]
+   },
+   {
+    "title": "Моушн та ефекти",
+    "title_en": "Motion & Effects",
+    "desc": "Анімації, текстові ефекти й скло для живих макетів.",
+    "id": "motion-effects",
+    "items": [
+     {
+      "name": "Animos",
+      "url": "https://animos.app/editor",
+      "desc": "Анімаційні шаблони для показу дизайну з експортом у відео."
+     },
+     {
+      "name": "Colorion Text Effects",
+      "url": "https://text-effects.colorion.co/",
+      "desc": "99 текстових ефектів: глітч, неон, градієнт, 3D."
+     },
+     {
+      "name": "Colorion Kinetics",
+      "url": "https://kinetics.colorion.co/",
+      "desc": "Мікровзаємодії на пружинній фізиці."
+     },
+     {
+      "name": "Circle Loaders",
+      "url": "https://circleloaders.dominikakissi.com/",
+      "desc": "24 монохромні круглі анімації завантаження."
+     },
+     {
+      "name": "Liquid Glass",
+      "url": "https://glass.samasante.com/",
+      "desc": "Ефект Apple Liquid Glass для вебу."
+     },
+     {
+      "name": "liquefy-ui",
+      "url": "https://liquefy-ui.com/",
+      "desc": "Прозорі Liquid Glass-елементи з пружинною фізикою."
+     }
+    ]
    },
    {
     "title": "3D",
@@ -6340,6 +6622,17 @@ window.CATALOGUE = [
       "name": "Orbkit",
       "url": "https://orbkit.zzzzshawn.cloud/",
       "desc": "Генератор анімованих сфер на шейдерах."
+     },
+     {
+      "name": "Shaders",
+      "url": "https://shaders.com/",
+      "desc": "Редактор шейдерних ефектів із готовими колекціями.",
+      "cases": [
+       {
+        "label": "City Grid",
+        "url": "https://shaders.com/collection/city-grid/cc316733-d3aa-4ee4-9eaa-cffa12eb6500"
+       }
+      ]
      }
     ],
     "title_en": "Shaders",
@@ -6482,6 +6775,29 @@ window.CATALOGUE = [
     ],
     "title_en": "Icons",
     "id": "icons"
+   },
+   {
+    "title": "UI-кіти",
+    "title_en": "UI Kits",
+    "desc": "Готові інтерфейсні елементи й мікровзаємодії.",
+    "id": "ui-kits",
+    "items": [
+     {
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com/",
+      "desc": "Основа для власної дизайн-системи з продуманими елементами."
+     },
+     {
+      "name": "Uiverse",
+      "url": "https://uiverse.io/elements",
+      "desc": "Тисячі відкритих інтерфейсних елементів від спільноти."
+     },
+     {
+      "name": "MicroKit",
+      "url": "https://microkit.co/",
+      "desc": "49 готових мікровзаємодій: кнопки, ховери, таби, поля."
+     }
+    ]
    }
   ]
  },
@@ -6528,11 +6844,6 @@ window.CATALOGUE = [
       "name": "OGFolio",
       "url": "https://www.ogfolio.com/",
       "desc": "Перевірка та попередній перегляд соціальних карток Open Graph."
-     },
-     {
-      "name": "DotForge",
-      "url": "https://dotforge.vercel.app/",
-      "desc": "Генератор ефекту дизерингу в реальному часі."
      },
      {
       "name": "ASCIInator",
@@ -6603,11 +6914,6 @@ window.CATALOGUE = [
       "name": "ASCII Studio",
       "url": "https://www.asciistudio.space/",
       "desc": "Перетворює зображення та відео на ASCII-арт."
-     },
-     {
-      "name": "Tabbied",
-      "url": "https://tabbied.com/",
-      "desc": "Генеративний конструктор геометричних візерунків у SVG."
      },
      {
       "name": "Rynix Studio",

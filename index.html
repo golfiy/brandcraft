@@ -586,6 +586,7 @@
 <script src="data.js"></script>
 <script>
 (function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   var DATA = window.CATALOGUE;
   var GUIDE = window.AI_GUIDE;
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -1020,7 +1021,11 @@
         (isGuide ? plural(n, 'навичка', 'навички', 'навичок') : plural(n, 'посилання', 'посилання', 'посилань'));
       document.title = (r.cat === DATA[0] ? 'Brandcraft' : r.cat.title + ' – Brandcraft') + ' – ресурси для бренд-дизайнерів';
       if (isGuide) bindGuide();
-      if (r.sec) scrollToSection(r.sec, false); else if (!first) window.scrollTo(0, 0);
+      if (r.sec) {
+        // Wait for layout (fonts, favicons) before jumping, or the browser's own scroll restore wins.
+        scrollToSection(r.sec, false);
+        setTimeout(function () { scrollToSection(r.sec, false); }, 150);
+      } else if (!first) window.scrollTo(0, 0);
       observe();
       contentEl.classList.remove('is-leaving');
       centerActiveChip();

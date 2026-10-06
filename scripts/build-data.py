@@ -441,6 +441,102 @@ def build_aso(categories):
     return {"id": "aso", "title": "ASO", "icon": "phone", "sections": sections}
 
 
+# Visuals restructure (2026-10-06): Color split into Palettes / Color Systems / Contrast / Gradients,
+# plus Patterns, Motion & Effects, UI Kits. Links liveness-checked; dropped: culrs.com (522),
+# vc.ru article (deleted). Existing items are moved by (category, section, name), never duplicated.
+VISUALS_NEW = [
+    # (en, uk, desc, insert_after_en, moved[(cat, sec, name)], new[(name, url, desc, cases)])
+    ("Palettes", "Палітри", "Готові палітри й генератори поєднань.", "Type", [],
+     [("Adobe Color", "https://color.adobe.com/", "Пошук і створення палітр, колірне коло й тренди.",
+       [("Explore", "https://color.adobe.com/explore"), ("Color Wheel", "https://color.adobe.com/create/color-wheel")]),
+      ("Coolors", "https://coolors.co/", "Швидкий генератор і бібліотека палітр.", []),
+      ("Colormind", "http://colormind.io/", "AI-генератор гармонійних палітр в один клік.", []),
+      ("Canva Colors", "https://www.canva.com/colors/", "Палітри, значення кольорів і поєднання від Canva.", []),
+      ("Color Designer", "https://colordesigner.io/", "Колірне коло, конструктор палітр і градієнтів.", []),
+      ("ColorHub", "https://www.colorhub.app/browse", "Каталог палітр для нових проєктів.", []),
+      ("Hexcolorpedia", "https://hexcolorpedia.com/", "Енциклопедія кольорів і колірних схем.", []),
+      ("Color Selector", "http://color-selector.com/", "База кольорів і зображень для художників і дизайнерів.", []),
+      ("ColorHexa", "https://www.colorhexa.com/", "Довідник будь-якого кольору: значення, відтінки, схеми.", []),
+      ("Palettte", "https://www.bairesdev.com/tools/color-palette", "Редактор і ремапінг палітр.", []),
+      ("Pixelfika", "https://pixelfika.com/", "Щоденне натхнення: дизайни, палітри й тексти.", [])]),
+    ("Color Systems", "Кольорові системи", "Шкали й системи кольорів для бренду та дизайн-систем.", "Palettes",
+     [("visuals", "Color", "OKLCH"), ("visuals", "Color", "Ramps")],
+     [("Geenes", "https://geenes.app/user-interface", "Генератор кольорових шкал з експортом у макети.", []),
+      ("ColorBox", "https://colorbox.io/", "Доступні кольорові системи з кривими відтінку, насиченості й світла.", []),
+      ("Radix Colors", "https://www.radix-ui.com/colors", "Відкрита кольорова система з доступними шкалами.",
+       [("Custom palette", "https://www.radix-ui.com/colors/custom")]),
+      ("UI Colors", "https://uicolors.app/generate", "Генератор шкал 50–950 з редагуванням і експортом.", []),
+      ("Eva Colors", "https://colors.eva.design/", "Генератор палітр для дизайн-систем на основі нейромережі.", []),
+      ("Shade Generator", "https://shadegenerator.com/", "Відтінки й тони будь-якого кольору за секунди.", []),
+      ("Genome Color", "https://www.genomecolor.space/", "Інструмент для побудови кольорових систем.", []),
+      ("Kigen", "https://kigen.design/color", "Генератор палітр для дизайн-систем.", []),
+      ("Poline", "https://meodai.github.io/poline/", "Палітри, побудовані лініями між опорними кольорами.", []),
+      ("Color Palette Pro", "https://colorpalette.pro/", "Палітри в сучасних колірних просторах з експортом.", [])]),
+    ("Contrast", "Контраст і доступність", "Перевірка контрасту й доступні колірні пари.", "Color Systems",
+     [("visuals", "Color", "Color.review"), ("visuals", "Color", "APCA"), ("visuals", "Color", "Huetone")],
+     [("WebAIM Contrast", "https://webaim.org/resources/contrastchecker/", "Класична перевірка контрасту за WCAG.", []),
+      ("Colour Contrast", "https://colourcontrast.cc/", "Перевірка контрасту колірних пар за WCAG.", []),
+      ("RandomA11y", "https://randoma11y.com/", "Нескінченні доступні колірні пари в реальному часі.", [])]),
+    ("Gradients", "Градієнти", "Генератори й бібліотеки градієнтів для фонів і key visuals.", "Contrast", [],
+     [("LCH Gradient Picker", "https://davidjohnstone.net/lch-lab-colour-gradient-picker", "Підбір кольорів і градієнтів у просторах LCH та Lab.", []),
+      ("Mesher", "https://csshero.org/mesher/", "Генератор mesh-градієнтів.", []),
+      ("Gradientool", "https://www.gradientool.com/", "Простий генератор нескінченних унікальних градієнтів.", []),
+      ("uiGradients", "https://uigradients.com/", "Добірка красивих градієнтів.", []),
+      ("Colorion Gradients", "https://gradients.colorion.co/", "Колекція готових градієнтів для фонів.", []),
+      ("Grabient", "https://grabient.com/", "Генератор градієнтів і палітр з експортом у SVG і PNG.", []),
+      ("Grainient", "https://grainient.supply/", "Понад 1000 градієнтів, зернисті текстури й анімовані фони.", [])]),
+    ("Patterns & Generators", "Патерни й генератори", "Генеративні візерунки, фігури й графічні елементи.", "Gradients",
+     [("utilities", "Utilities", "Tabbied"), ("utilities", "Utilities", "DotForge")],
+     [("Book of Shapes", "https://bookofshapes.com/?sort=popular", "Галерея генеративних патернів із налаштуванням і завантаженням.", []),
+      ("SVG Hub", "https://svghub.vercel.app/", "Понад 70 закарлючок, фігур і скетчів у будь-якому кольорі.", [])]),
+    ("Motion & Effects", "Моушн та ефекти", "Анімації, текстові ефекти й скло для живих макетів.", "Patterns & Generators", [],
+     [("Animos", "https://animos.app/editor", "Анімаційні шаблони для показу дизайну з експортом у відео.", []),
+      ("Colorion Text Effects", "https://text-effects.colorion.co/", "99 текстових ефектів: глітч, неон, градієнт, 3D.", []),
+      ("Colorion Kinetics", "https://kinetics.colorion.co/", "Мікровзаємодії на пружинній фізиці.", []),
+      ("Circle Loaders", "https://circleloaders.dominikakissi.com/", "24 монохромні круглі анімації завантаження.", []),
+      ("Liquid Glass", "https://glass.samasante.com/", "Ефект Apple Liquid Glass для вебу.", []),
+      ("liquefy-ui", "https://liquefy-ui.com/", "Прозорі Liquid Glass-елементи з пружинною фізикою.", [])]),
+    ("UI Kits", "UI-кіти", "Готові інтерфейсні елементи й мікровзаємодії.", "Icons", [],
+     [("shadcn/ui", "https://ui.shadcn.com/", "Основа для власної дизайн-системи з продуманими елементами.", []),
+      ("Uiverse", "https://uiverse.io/elements", "Тисячі відкритих інтерфейсних елементів від спільноти.", []),
+      ("MicroKit", "https://microkit.co/", "49 готових мікровзаємодій: кнопки, ховери, таби, поля.", [])]),
+]
+VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
+    ("visuals", "Type", "Space Type Generator", "https://spacetypegenerator.com/clutter", "Кінетичні генератори типографіки для постерів і моушну.", []),
+    ("visuals", "Type", "Figma Resource", "https://figmaresource.com/", "Безкоштовні шрифти з живими прев’ю й тестерами.", []),
+    ("visuals", "Shaders", "Shaders", "https://shaders.com/", "Редактор шейдерних ефектів із готовими колекціями.",
+     [("City Grid", "https://shaders.com/collection/city-grid/cc316733-d3aa-4ee4-9eaa-cffa12eb6500")]),
+    ("brand-guidelines", "Guidelines & Libraries", "Inspotype", "https://inspotype.com/", "Пошук, розбір і ремікс бренд-систем.", []),
+]
+VISUALS_CASES = [("inspiration", "Design Galleries", "Backgrounds Supply", ("Gradient Lab", "https://backgrounds.supply/gradient-lab"))]
+
+
+def restructure_visuals(categories):
+    cat = lambda cid: next(c for c in categories if c["id"] == cid)
+    sec = lambda cid, en: next(s for s in cat(cid)["sections"] if s["title_en"] == en)
+    def take(cid, en, name):
+        s_ = sec(cid, en)
+        item = next(i for i in s_["items"] if i["name"] == name)
+        s_["items"] = [i for i in s_["items"] if i["name"] != name]
+        return item
+    mk = lambda n, u, d, cs: {"name": n, "url": u, "desc": d, **({"cases": [{"label": a, "url": b} for a, b in cs]} if cs else {})}
+    visuals = cat("visuals")
+    for en, uk, desc, after, moved, new in VISUALS_NEW:
+        items = [take(*m) for m in moved] + [mk(*n) for n in new]
+        section = {"title": uk, "title_en": en, "desc": desc,
+                   "id": re.sub(r"[^a-z0-9]+", "-", en.lower()).strip("-"), "items": items}
+        idx = next(i for i, s_ in enumerate(visuals["sections"]) if s_["title_en"] == after)
+        visuals["sections"].insert(idx + 1, section)
+    color = sec("visuals", "Color")
+    assert not color["items"], [i["name"] for i in color["items"]]
+    visuals["sections"].remove(color)
+    for cid, en, n, u, d, cs in VISUALS_ADD:
+        sec(cid, en)["items"].append(mk(n, u, d, cs))
+    for cid, en, name, (label, url) in VISUALS_CASES:
+        item = next(i for i in sec(cid, en)["items"] if i["name"] == name)
+        item.setdefault("cases", []).append({"label": label, "url": url})
+
+
 def load_uk():
     uk = {"sections": {}, "items": {}}
     for f in sorted((ROOT / "i18n").glob("uk-part*.json")):
@@ -528,6 +624,7 @@ def main():
     if missing:
         print("UNTRANSLATED:", len(missing), missing[:10])
     apply_brand_pass(categories)
+    restructure_visuals(categories)
     landings = build_landings(categories)
     categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), landings)
     aso = build_aso(categories)
