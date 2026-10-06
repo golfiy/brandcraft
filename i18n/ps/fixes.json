@@ -1,0 +1,34 @@
+{
+ "_note": "Manual QA after liveness check: hijacked/spam domains, shut-down products, placeholders, duplicates.",
+ "drop": {
+  "1-119": "domain hijacked: gambling spam",
+  "3-1": "domain hijacked: casino",
+  "3-21": "domain hijacked: casino",
+  "4-1": "domain hijacked: crypto casino reviews",
+  "4-13": "domain hijacked: casino reviews",
+  "1-34": "product closed (thank-you page)",
+  "4-28": "product shut down 1 Jul 2026",
+  "5-58": "service closed",
+  "5-27": "brand on pause",
+  "4-107": "archived tool",
+  "2-78": "empty placeholder",
+  "2-114": "parked domain",
+  "2-51": "rewind.ai repurposed as generic tools site",
+  "1-78": "redirect stub, no content",
+  "6-97": "duplicate of Porto Rocha (5-12)",
+  "6-62": "duplicate of morpho.org"
+ },
+ "url": {
+  "5-12": "https://portorocha.com/"
+ },
+ "name": {
+  "6-71": "Bürocratik"
+ },
+ "desc": {
+  "5-102": "Компанія, що працює над «невидимими» обчисленнями.",
+  "5-12": "Нью-йоркська студія брендингу й дизайну.",
+  "6-126": "Автономний AI-агент, що бере на себе задачі зі створення софту.",
+  "7-39": "Аналітика продуктивності технічних команд в епоху AI.",
+  "2-49": "Портфоліо дизайнера та засновника."
+ }
+}

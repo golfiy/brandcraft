@@ -1,0 +1,677 @@
+{
+ "4-1": {
+  "name": "Crypto Casinos",
+  "section": "community",
+  "desc": "Огляди криптоказино для гравців зі США."
+ },
+ "4-2": {
+  "name": "Pair Up",
+  "section": "community",
+  "desc": "Спільнота, де креативні люди діляться часом і досвідом."
+ },
+ "4-3": {
+  "name": "KiHealth",
+  "section": "health",
+  "desc": "Сайт компанії у сфері охорони здоров’я."
+ },
+ "4-4": {
+  "name": "1990 Research Labs",
+  "section": "growth",
+  "desc": "Дослідження поведінки споживачів в Індії з AI і модераторами."
+ },
+ "4-5": {
+  "name": "Relieve Furniture",
+  "section": "consumer",
+  "desc": "Сайт меблевого бренду."
+ },
+ "4-6": {
+  "name": "Serkan Bayburtlu",
+  "section": "studios",
+  "desc": "Портфоліо лондонського продуктового дизайнера з фінтех-досвідом."
+ },
+ "4-7": {
+  "name": "Vlastní chutná líp",
+  "section": "consumer",
+  "desc": "Чеська винокурня: власний дистилят із вашого фрукту."
+ },
+ "4-8": {
+  "name": "Captions",
+  "section": "ai",
+  "desc": "AI-редактор і генератор відео для соцмереж."
+ },
+ "4-9": {
+  "name": "Nortera",
+  "section": "consumer",
+  "desc": "Переробка та продаж консервованих і заморожених овочів."
+ },
+ "4-10": {
+  "name": "Readymag",
+  "section": "creative",
+  "desc": "Конструктор вебсайтів для дизайнерів і студій."
+ },
+ "4-11": {
+  "name": "BAT Creators",
+  "section": "community",
+  "desc": "Мережа авторів YouTube: монетизація і виплати в USDT."
+ },
+ "4-12": {
+  "name": "Kotak 811",
+  "section": "fintech",
+  "desc": "Цифровий банківський рахунок від Kotak Mahindra Bank."
+ },
+ "4-13": {
+  "name": "Best Online Casinos",
+  "section": "community",
+  "desc": "Огляди онлайн-казино для гравців із Канади."
+ },
+ "4-14": {
+  "name": "Loop & Tie",
+  "section": "consumer",
+  "desc": "Подарунки, де отримувач сам обирає товар від малого бізнесу."
+ },
+ "4-15": {
+  "name": "Artboard Studio",
+  "section": "creative",
+  "desc": "Онлайн-генератор мокапів для портфоліо і презентацій."
+ },
+ "4-16": {
+  "name": "Moxion Power",
+  "section": "climate",
+  "desc": "Мобільні системи зберігання енергії."
+ },
+ "4-17": {
+  "name": "Intenseye",
+  "section": "ai",
+  "desc": "AI-платформа безпеки праці з відеоаналітикою в реальному часі."
+ },
+ "4-18": {
+  "name": "36ZERO Vision",
+  "section": "ai",
+  "desc": "AI-рішення для автоматизованого контролю якості на виробництві."
+ },
+ "4-19": {
+  "name": "ChainGPT",
+  "section": "crypto",
+  "desc": "AI-інструменти для криптовалют і блокчейну."
+ },
+ "4-20": {
+  "name": "Kitchen Energy Solutions",
+  "section": "climate",
+  "desc": "Енергоощадна вентиляція для комерційних кухонь."
+ },
+ "4-21": {
+  "name": "Titan",
+  "section": "fintech",
+  "desc": "Управління капіталом для працівників техкомпаній."
+ },
+ "4-22": {
+  "name": "Copperx",
+  "section": "crypto",
+  "desc": "Платежі у стейблкоїнах і рахунки для міжнародних переказів."
+ },
+ "4-23": {
+  "name": "Rayon",
+  "section": "creative",
+  "desc": "AI-креслення для дизайнерів інтер’єрів та архітекторів."
+ },
+ "4-24": {
+  "name": "Tubik Studio",
+  "section": "studios",
+  "desc": "Агенція UX-дизайну і брендингу."
+ },
+ "4-25": {
+  "name": "sofi health",
+  "section": "health",
+  "desc": "Рослинні спреї для кращого сну і спокою."
+ },
+ "4-26": {
+  "name": "Energy Profits",
+  "section": "climate",
+  "desc": "Кампанія про прибутки нафтових гігантів і викиди CO2."
+ },
+ "4-27": {
+  "name": "Harmonic Discovery",
+  "section": "health",
+  "desc": "Біотех-компанія, що шукає нові ліки за допомогою AI."
+ },
+ "4-28": {
+  "name": "Supertape",
+  "section": "saas",
+  "desc": "Командний продукт, що припинив роботу 1 липня 2026 року."
+ },
+ "4-29": {
+  "name": "PAVE",
+  "section": "ai",
+  "desc": "AI-огляд автомобілів і фіксація пошкоджень для автопарків."
+ },
+ "4-30": {
+  "name": "ux things",
+  "section": "studios",
+  "desc": "Студія дизайну та розробки продуктів для стартапів."
+ },
+ "4-31": {
+  "name": "Dovetail",
+  "section": "community",
+  "desc": "Інвестиційна компанія, що вкладає в технологічні бізнеси."
+ },
+ "4-32": {
+  "name": "Unbench",
+  "section": "saas",
+  "desc": "Підбір перевірених технічних команд за 48 годин."
+ },
+ "4-33": {
+  "name": "Tandym",
+  "section": "fintech",
+  "desc": "Брендовані платіжні картки для ритейлерів."
+ },
+ "4-34": {
+  "name": "Ultrahuman",
+  "section": "health",
+  "desc": "Смарт-кільце та сервіси для сну, здоров’я і довголіття."
+ },
+ "4-35": {
+  "name": "ReFramed",
+  "section": "consumer",
+  "desc": "Бренд дизайнерських ліжок."
+ },
+ "4-36": {
+  "name": "Stable Audio",
+  "section": "ai",
+  "desc": "AI-інструменти для створення музики та звуку."
+ },
+ "4-37": {
+  "name": "En + Cy",
+  "section": "health",
+  "desc": "Біотех-компанія, що створює ліки від хронічного болю."
+ },
+ "4-38": {
+  "name": "PropellerHeads",
+  "section": "crypto",
+  "desc": "Інструменти для торгівлі в Ethereum без посередників."
+ },
+ "4-39": {
+  "name": "Madiyar Ismagulov",
+  "section": "studios",
+  "desc": "Портфоліо UI-художника для ігор, вебу та застосунків."
+ },
+ "4-40": {
+  "name": "MoneyKit",
+  "section": "fintech",
+  "desc": "Інфраструктура для підключення до фінансових рахунків."
+ },
+ "4-41": {
+  "name": "Media.Work",
+  "section": "studios",
+  "desc": "Колектив дизайнерів і митців, що шукає візуальні форми ідей."
+ },
+ "4-42": {
+  "name": "Relate",
+  "section": "growth",
+  "desc": "CRM для B2B-продажів і командної роботи."
+ },
+ "4-43": {
+  "name": "Lusion",
+  "section": "studios",
+  "desc": "Студія 3D та інтерактивних вебсайтів."
+ },
+ "4-44": {
+  "name": "Kikin",
+  "section": "fintech",
+  "desc": "Фінансування оплати рахунків постачальників для бізнесу."
+ },
+ "4-45": {
+  "name": "Hart",
+  "section": "health",
+  "desc": "Платформа для об’єднання та обробки медичних даних."
+ },
+ "4-46": {
+  "name": "Product Map",
+  "section": "ai",
+  "desc": "AI-помічник продакт-менеджера з автономними агентами."
+ },
+ "4-47": {
+  "name": "TwitchCon",
+  "section": "community",
+  "desc": "Фестиваль і конференція для спільноти лайвстримінгу."
+ },
+ "4-48": {
+  "name": "Xizt Agency",
+  "section": "studios",
+  "desc": "Сайт цифрової агенції."
+ },
+ "4-49": {
+  "name": "MassiveMusic",
+  "section": "studios",
+  "desc": "Агенція звукового брендингу і ліцензування музики."
+ },
+ "4-50": {
+  "name": "Mate Libre",
+  "section": "consumer",
+  "desc": "Функціональні напої на основі єрба мате."
+ },
+ "4-51": {
+  "name": "Type One Ventures",
+  "section": "community",
+  "desc": "Венчурний фонд для індустріальних і глибоких технологій."
+ },
+ "4-52": {
+  "name": "Five Pathways Financial",
+  "section": "fintech",
+  "desc": "Консультанти з планування виходу на пенсію."
+ },
+ "4-53": {
+  "name": "DLMDD",
+  "section": "studios",
+  "desc": "Агенція звукового брендингу."
+ },
+ "4-54": {
+  "name": "Subsystem",
+  "section": "studios",
+  "desc": "Студія, що допомагає швидко створити й запустити продукт."
+ },
+ "4-55": {
+  "name": "onverre",
+  "section": "infra",
+  "desc": "Аналітика на основі вашого сховища даних без cookies."
+ },
+ "4-56": {
+  "name": "Priyansh Singara",
+  "section": "studios",
+  "desc": "Портфоліо продуктового дизайнера."
+ },
+ "4-57": {
+  "name": "Crezco",
+  "section": "fintech",
+  "desc": "Вбудовані платежі для платформ і сервісів."
+ },
+ "4-58": {
+  "name": "The CubeHouse",
+  "section": "community",
+  "desc": "Офісна будівля з гібридної деревини в Амстердамі."
+ },
+ "4-59": {
+  "name": "Acuity Scheduling",
+  "section": "saas",
+  "desc": "Онлайн-запис і планування зустрічей для бізнесу."
+ },
+ "4-60": {
+  "name": "Pelago",
+  "section": "health",
+  "desc": "Лікування залежностей і ментального здоров’я з AI та лікарями."
+ },
+ "4-61": {
+  "name": "Vucko",
+  "section": "studios",
+  "desc": "Студія моушн-систем і айдентики для брендів."
+ },
+ "4-62": {
+  "name": "Karma",
+  "section": "studios",
+  "desc": "Креативна команда, що працює з громадами задля справедливості."
+ },
+ "4-63": {
+  "name": "Deep Sky",
+  "section": "climate",
+  "desc": "Проєкти з видалення вуглецю з атмосфери."
+ },
+ "4-64": {
+  "name": "ABO Digital",
+  "section": "crypto",
+  "desc": "Фінансування для криптопроєктів на ранніх стадіях."
+ },
+ "4-65": {
+  "name": "GSAP",
+  "section": "creative",
+  "desc": "Інструмент для складної анімації на вебсайтах від Webflow."
+ },
+ "4-66": {
+  "name": "Shift Nudge",
+  "section": "community",
+  "desc": "Онлайн-курс з дизайну інтерфейсів для практиків."
+ },
+ "4-67": {
+  "name": "Bambassadors",
+  "section": "growth",
+  "desc": "UGC і маркетинг із креаторами для D2C-брендів."
+ },
+ "4-68": {
+  "name": "E&W",
+  "section": "studios",
+  "desc": "Стокгольмська агенція бренд-дизайну та вебсайтів."
+ },
+ "4-69": {
+  "name": "Atomize",
+  "section": "creative",
+  "desc": "Дизайн-система для Figma для створення інтерфейсів."
+ },
+ "4-70": {
+  "name": "Outerspace",
+  "section": "growth",
+  "desc": "Фулфілмент і логістика для брендів."
+ },
+ "4-71": {
+  "name": "Slater",
+  "section": "creative",
+  "desc": "AI-інструмент для власних скриптів у проєктах на Webflow."
+ },
+ "4-72": {
+  "name": "AWARE",
+  "section": "climate",
+  "desc": "Токенізоване відстеження ланцюгів постачання для брендів."
+ },
+ "4-73": {
+  "name": "RunwayFBU",
+  "section": "community",
+  "desc": "Спільнота, що перетворює індустріальні задачі на компанії."
+ },
+ "4-74": {
+  "name": "NORNORM",
+  "section": "consumer",
+  "desc": "Підписка на офісні меблі з повторним використанням."
+ },
+ "4-75": {
+  "name": "IMAST",
+  "section": "community",
+  "desc": "Регулярні мікродонати на перевірені благодійні проєкти Вірменії."
+ },
+ "4-76": {
+  "name": "Ode to Things",
+  "section": "consumer",
+  "desc": "Магазин якісних речей для щоденного вжитку."
+ },
+ "4-77": {
+  "name": "bio.link",
+  "section": "creative",
+  "desc": "Сервіс сторінок із посиланнями для профілів у соцмережах."
+ },
+ "4-78": {
+  "name": "Cal.com",
+  "section": "saas",
+  "desc": "Гнучкий сервіс онлайн-запису та планування зустрічей."
+ },
+ "4-79": {
+  "name": "Loom",
+  "section": "saas",
+  "desc": "Запис екрана та відеоповідомлення для команд."
+ },
+ "4-80": {
+  "name": "Outverse",
+  "section": "ai",
+  "desc": "Платформа для впровадження AI у сервісні процеси компаній."
+ },
+ "4-81": {
+  "name": "Overhear",
+  "section": "ai",
+  "desc": "Продукт AI-компанії Godel Machines."
+ },
+ "4-82": {
+  "name": "Buff Motion",
+  "section": "studios",
+  "desc": "Студія моушн-дизайну та анімації."
+ },
+ "4-83": {
+  "name": "Outkast Studio",
+  "section": "studios",
+  "desc": "Студія, що втілює вебсайти для дизайнерів і агенцій."
+ },
+ "4-84": {
+  "name": "The Rail Park",
+  "section": "community",
+  "desc": "Громадський парк на місці закинутої залізниці у Філадельфії."
+ },
+ "4-85": {
+  "name": "exactly.ai",
+  "section": "ai",
+  "desc": "AI, що вчиться вашому стилю бренду і масштабує його."
+ },
+ "4-86": {
+  "name": "Appfarm",
+  "section": "creative",
+  "desc": "AI-платформа для візуального створення корпоративних застосунків."
+ },
+ "4-87": {
+  "name": "Evrnu",
+  "section": "climate",
+  "desc": "Нове текстильне волокно з переробленого одягу."
+ },
+ "4-88": {
+  "name": "Retool",
+  "section": "infra",
+  "desc": "Платформа для створення внутрішніх інструментів із AI."
+ },
+ "4-89": {
+  "name": "Plain",
+  "section": "growth",
+  "desc": "AI-платформа клієнтської підтримки для B2B-команд."
+ },
+ "4-90": {
+  "name": "Life at Spotify",
+  "section": "community",
+  "desc": "Кар’єрний сайт Spotify про команду і вакансії."
+ },
+ "4-91": {
+  "name": "Initiate Architecture",
+  "section": "studios",
+  "desc": "Архітектурне бюро, що оновлює будинки та старі будівлі."
+ },
+ "4-92": {
+  "name": "Droplette",
+  "section": "creative",
+  "desc": "AI-генератор колірних палітр для Figma і FigJam."
+ },
+ "4-93": {
+  "name": "Fair Supply",
+  "section": "climate",
+  "desc": "ESG-звітність і перевірка ланцюгів постачання для бізнесу."
+ },
+ "4-94": {
+  "name": "Cobalt",
+  "section": "fintech",
+  "desc": "Фінансова платформа для малого бізнесу."
+ },
+ "4-95": {
+  "name": "Crispy Studio",
+  "section": "studios",
+  "desc": "Агенція дизайну та розробки цифрових продуктів."
+ },
+ "4-96": {
+  "name": "Replit",
+  "section": "ai",
+  "desc": "AI-конструктор застосунків і сайтів за текстовим описом."
+ },
+ "4-97": {
+  "name": "Encontech",
+  "section": "climate",
+  "desc": "Двигуни, що перетворюють тепло на механічну енергію."
+ },
+ "4-98": {
+  "name": "Capsule",
+  "section": "creative",
+  "desc": "Відеоінструмент, що тримає контент у стилі бренду."
+ },
+ "4-99": {
+  "name": "Komandin",
+  "section": "studios",
+  "desc": "Вебдизайнер, що створює сайти на Tilda для бізнесу."
+ },
+ "4-100": {
+  "name": "Dock Health",
+  "section": "health",
+  "desc": "Керування задачами й автоматизація для медичних команд."
+ },
+ "4-101": {
+  "name": "Pedro Matos Chaves",
+  "section": "studios",
+  "desc": "Портфоліо бренд- і UI-дизайнера."
+ },
+ "4-102": {
+  "name": "OHMY",
+  "section": "studios",
+  "desc": "Студія дизайну й технологій: бренди, сайти, застосунки."
+ },
+ "4-103": {
+  "name": "Wix Studio",
+  "section": "creative",
+  "desc": "Платформа створення сайтів для агенцій і великих компаній."
+ },
+ "4-104": {
+  "name": "Aaply",
+  "section": "creative",
+  "desc": "Інструмент для дизайну мобільних застосунків."
+ },
+ "4-105": {
+  "name": "Givingli",
+  "section": "consumer",
+  "desc": "Цифрові листівки та подарункові картки онлайн."
+ },
+ "4-106": {
+  "name": "Lué Studio",
+  "section": "studios",
+  "desc": "Студія цифрового дизайну, розробки та арт-дирекшну."
+ },
+ "4-107": {
+  "name": "Marathon",
+  "section": "creative",
+  "desc": "Архівований інструмент керування Figma для дизайн-команд."
+ },
+ "4-108": {
+  "name": "Faizur Rehman",
+  "section": "community",
+  "desc": "Дизайнер, що навчає дизайну та фрилансу."
+ },
+ "4-109": {
+  "name": "Appwrite",
+  "section": "infra",
+  "desc": "Відкрита хмарна платформа для застосунків і AI-агентів."
+ },
+ "4-110": {
+  "name": "For Good Design Lab",
+  "section": "studios",
+  "desc": "Студія брендів, продуктів і сайтів для ідей, що змінюють світ."
+ },
+ "4-111": {
+  "name": "Ethnocare",
+  "section": "health",
+  "desc": "Повітряна система для кращої посадки протезів гомілки."
+ },
+ "4-112": {
+  "name": "Syncrely",
+  "section": "studios",
+  "desc": "Дизайн-студія для Web3, техкомпаній та AI."
+ },
+ "4-113": {
+  "name": "amina charging",
+  "section": "climate",
+  "desc": "Зарядні станції для електромобілів для дому."
+ },
+ "4-114": {
+  "name": "Endless Tools",
+  "section": "creative",
+  "desc": "Інструмент для 3D-графіки та візуалів без програмування."
+ },
+ "4-115": {
+  "name": "Spellar",
+  "section": "ai",
+  "desc": "AI-нотатки зустрічей без бота у дзвінку."
+ },
+ "4-116": {
+  "name": "Andermatt",
+  "section": "community",
+  "desc": "Нерухомість на альпійському курорті Андерматт."
+ },
+ "4-117": {
+  "name": "OMSE",
+  "section": "studios",
+  "desc": "Незалежна лондонська студія брендингу."
+ },
+ "4-118": {
+  "name": "Barkas",
+  "section": "community",
+  "desc": "Сайт компанії Barkas."
+ },
+ "4-119": {
+  "name": "Flowmapp",
+  "section": "creative",
+  "desc": "Планування сайтів: карти, user flow, вайрфрейми і контент."
+ },
+ "4-120": {
+  "name": "Oak HC/FT",
+  "section": "community",
+  "desc": "Венчурний фонд для охорони здоров’я та фінтеху."
+ },
+ "4-121": {
+  "name": "SEDA",
+  "section": "crypto",
+  "desc": "Потоки даних для ончейн-ринків, що працюють 24/7."
+ },
+ "4-122": {
+  "name": "Fieldguide",
+  "section": "ai",
+  "desc": "AI-платформа для аудиторських і консалтингових фірм."
+ },
+ "4-123": {
+  "name": "Next Big Thing AG",
+  "section": "community",
+  "desc": "Венчур-білдер для масштабованих deep tech компаній."
+ },
+ "4-124": {
+  "name": "Clarify",
+  "section": "studios",
+  "desc": "Студія інформаційного дизайну."
+ },
+ "4-125": {
+  "name": "WeGrow",
+  "section": "studios",
+  "desc": "Бренд- і продуктовий дизайн за підпискою для B2B AI-компаній."
+ },
+ "4-126": {
+  "name": "Open",
+  "section": "health",
+  "desc": "Студія медитацій, дихальних практик і майндфулнесу."
+ },
+ "4-127": {
+  "name": "NutsDev",
+  "section": "studios",
+  "desc": "Креативна агенція брендів і цифрових продуктів."
+ },
+ "4-128": {
+  "name": "Measured",
+  "section": "growth",
+  "desc": "Вимірювання реальної ефективності маркетингових каналів."
+ },
+ "4-129": {
+  "name": "DealerVault",
+  "section": "infra",
+  "desc": "Керування даними та їх захист для автодилерів."
+ },
+ "4-130": {
+  "name": "Founder Shield",
+  "section": "fintech",
+  "desc": "Цифровий страховий брокер для швидкозростаючих компаній."
+ },
+ "4-131": {
+  "name": "eOne",
+  "section": "infra",
+  "desc": "No-code платформа для інтеграції даних між сервісами."
+ },
+ "4-132": {
+  "name": "WorkMade",
+  "section": "fintech",
+  "desc": "AI-бухгалтер для фрилансерів і самозайнятих."
+ },
+ "4-133": {
+  "name": "Vention",
+  "section": "studios",
+  "desc": "Компанія, що створює програмні продукти на замовлення."
+ },
+ "4-134": {
+  "name": "Tripsy",
+  "section": "consumer",
+  "desc": "Застосунок для планування подорожей."
+ },
+ "4-135": {
+  "name": "Superlist",
+  "section": "saas",
+  "desc": "Задачі, нотатки та проєкти в одному застосунку від творців Wunderlist."
+ }
+}

@@ -1202,6 +1202,4762 @@ window.CATALOGUE = [
   ]
  },
  {
+  "id": "product-sites",
+  "title": "Product Sites",
+  "icon": "browser",
+  "sections": [
+   {
+    "title": "AI-продукти",
+    "desc": "Як AI-компанії пояснюють складні продукти через бренд і сайт.",
+    "items": [
+     {
+      "name": "36ZERO Vision",
+      "url": "https://36zerovision.com/",
+      "desc": "AI-рішення для автоматизованого контролю якості на виробництві."
+     },
+     {
+      "name": "8bit",
+      "url": "https://www.8bit.ai/",
+      "desc": "Сайт AI-стартапу."
+     },
+     {
+      "name": "Aaru",
+      "url": "https://aaru.com/",
+      "desc": "AI-симуляція людської поведінки для прогнозів і досліджень."
+     },
+     {
+      "name": "Agentation",
+      "url": "https://www.agentation.com/",
+      "desc": "Візуальний інструмент зворотного зв’язку для AI-агентів."
+     },
+     {
+      "name": "ai.work",
+      "url": "https://www.ai.work/",
+      "desc": "Henry – AI-працівник, що виконує реальні IT-завдання."
+     },
+     {
+      "name": "AIUC",
+      "url": "https://aiuc.com/",
+      "desc": "Стандарт, сертифікація та страхування AI-агентів."
+     },
+     {
+      "name": "Ameba",
+      "url": "https://www.ameba.ai/",
+      "desc": "AI-працівники для адміністрування ланцюгів постачання."
+     },
+     {
+      "name": "Amie",
+      "url": "https://amie.so/",
+      "desc": "AI-нотатник, що перетворює зустрічі на підсумки й задачі."
+     },
+     {
+      "name": "Anon",
+      "url": "https://www.anon.com/",
+      "desc": "Продуктова студія, що створює AI-агентів для великих компаній."
+     },
+     {
+      "name": "Artificial Societies",
+      "url": "https://societies.ai/",
+      "desc": "AI-симуляції суспільства для кращих рішень про людей."
+     },
+     {
+      "name": "Belka",
+      "url": "https://belka.ai/",
+      "desc": "AI-система керування процесами збагачення корисних копалин."
+     },
+     {
+      "name": "Captions",
+      "url": "https://captions.ai/",
+      "desc": "AI-редактор і генератор відео для соцмереж."
+     },
+     {
+      "name": "Cerve",
+      "url": "https://cerve.com/",
+      "desc": "Агентний AI для компаній харчової галузі та напоїв."
+     },
+     {
+      "name": "Chronicle",
+      "url": "https://chroniclehq.com/",
+      "desc": "AI-сервіс для створення професійних інтерактивних презентацій."
+     },
+     {
+      "name": "Cofounder",
+      "url": "https://cofounder.co/",
+      "desc": "AI-система, що веде всю компанію за допомогою агентів."
+     },
+     {
+      "name": "Cohere",
+      "url": "https://cohere.com/",
+      "desc": "Корпоративні AI-моделі та рішення з фокусом на приватність."
+     },
+     {
+      "name": "Composio",
+      "url": "https://composio.dev/",
+      "desc": "Підключення AI-агентів до понад 1500 застосунків."
+     },
+     {
+      "name": "Console",
+      "url": "https://www.console.com/",
+      "desc": "AI-платформа для автоматизації IT-підтримки."
+     },
+     {
+      "name": "Convo",
+      "url": "https://www.convo.app/",
+      "desc": "Багатомовні AI-аудіотури для музеїв і культурних установ."
+     },
+     {
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai/",
+      "desc": "AI-платформа для автоматизації задач продажів і маркетингу."
+     },
+     {
+      "name": "Cotool",
+      "url": "https://www.cotool.ai/",
+      "desc": "AI-агенти для команд кібербезпеки."
+     },
+     {
+      "name": "Crayo",
+      "url": "https://crayo.ai/",
+      "desc": "AI-редактор коротких відео з субтитрами та озвучкою."
+     },
+     {
+      "name": "Cursor",
+      "url": "https://cursor.com/product",
+      "desc": "AI-редактор, де агенти планують і створюють програмні продукти."
+     },
+     {
+      "name": "Delphina",
+      "url": "https://delphina.ai/",
+      "desc": "AI-платформа контексту для команд, що працюють із даними."
+     },
+     {
+      "name": "Devin",
+      "url": "https://devin.ai/",
+      "desc": "Автономний AI-агент, що бере на себе задачі зі створення софту."
+     },
+     {
+      "name": "Dia",
+      "url": "https://www.diabrowser.com/",
+      "desc": "AI-браузер для продуктивної роботи."
+     },
+     {
+      "name": "Epiminds",
+      "url": "https://epiminds.com/",
+      "desc": "Агентний AI для маркетингових команд."
+     },
+     {
+      "name": "exactly.ai",
+      "url": "https://exactly.ai/",
+      "desc": "AI, що вчиться вашому стилю бренду і масштабує його."
+     },
+     {
+      "name": "Fabric",
+      "url": "https://fabric.so/",
+      "desc": "AI-простір для письма, файлів і спільної роботи."
+     },
+     {
+      "name": "Factory",
+      "url": "https://factory.com/",
+      "desc": "AI-агенти Droids для створення, тестування й запуску програм."
+     },
+     {
+      "name": "Fearn",
+      "url": "https://fearn.ai/",
+      "desc": "AI-нативна патентна фірма для стартапів."
+     },
+     {
+      "name": "Fieldguide",
+      "url": "https://www.fieldguide.com/",
+      "desc": "AI-платформа для аудиторських і консалтингових фірм."
+     },
+     {
+      "name": "Flank",
+      "url": "https://flank.ai/",
+      "desc": "AI-агенти для корпоративної юридичної роботи."
+     },
+     {
+      "name": "Functional",
+      "url": "https://functional.co/",
+      "desc": "Автоматизації між сервісами за описом задачі звичайною мовою."
+     },
+     {
+      "name": "Gemini",
+      "url": "https://deepmind.google/models/gemini/",
+      "desc": "Сімейство AI-моделей від Google DeepMind."
+     },
+     {
+      "name": "Gumloop",
+      "url": "https://www.gumloop.com/",
+      "desc": "Конструктор AI-агентів для всієї компанії."
+     },
+     {
+      "name": "Halfspace",
+      "url": "https://halfspace.ai/",
+      "desc": "Компанія з даних, аналітики та AI-рішень для бізнесу."
+     },
+     {
+      "name": "Heynds",
+      "url": "https://www.heynds.com/",
+      "desc": "AI-помічник для Mac і Windows: диктування та обробка тексту."
+     },
+     {
+      "name": "IKI AI",
+      "url": "https://iki.ai/",
+      "desc": "Розумна бібліотека та помічник знань для команд."
+     },
+     {
+      "name": "Intenseye",
+      "url": "https://www.intenseye.com/",
+      "desc": "AI-платформа безпеки праці з відеоаналітикою в реальному часі."
+     },
+     {
+      "name": "Irregular",
+      "url": "https://www.irregular.com/",
+      "desc": "Лабораторія безпеки передових AI-систем."
+     },
+     {
+      "name": "Isidor",
+      "url": "https://www.isidor.ai/",
+      "desc": "Безпечні AI-рішення для великих компаній."
+     },
+     {
+      "name": "Jace",
+      "url": "https://jace.ai/",
+      "desc": "AI-асистент, що відповідає на листи та планує зустрічі."
+     },
+     {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/",
+      "desc": "AI-агенти для наскрізної автоматизації маркетингу."
+     },
+     {
+      "name": "Kive",
+      "url": "https://kive.ai/",
+      "desc": "AI-генерація предметних фото для споживчих брендів."
+     },
+     {
+      "name": "Kodezi",
+      "url": "https://kodezi.com/",
+      "desc": "Автономний AI, що підтримує та розвиває програмні продукти."
+     },
+     {
+      "name": "Lance",
+      "url": "https://www.lance.app/",
+      "desc": "AI-помічник, що веде публікацію застосунків в App Store Connect."
+     },
+     {
+      "name": "Lindy",
+      "url": "https://www.lindy.ai/",
+      "desc": "AI-співробітник, що працює з усіма інструментами команди."
+     },
+     {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/",
+      "desc": "AI-агенти для розпізнавання документів і робочих процесів."
+     },
+     {
+      "name": "Maki",
+      "url": "https://www.makipeople.com/",
+      "desc": "AI-система, що веде найм від початку до кінця."
+     },
+     {
+      "name": "Maple",
+      "url": "https://maple.inc/",
+      "desc": "Голосовий AI, що приймає дзвінки й замовлення в ресторанах."
+     },
+     {
+      "name": "Mastra",
+      "url": "https://mastra.ai/",
+      "desc": "Фреймворк для створення AI-агентів з пам’яттю та інструментами."
+     },
+     {
+      "name": "Microsoft Copilot",
+      "url": "https://www.copilot.com/",
+      "desc": "AI-асистент Microsoft для роботи, навчання та творчості."
+     },
+     {
+      "name": "Monobotics",
+      "url": "https://www.monobotics.tech/",
+      "desc": "Готові системи комп’ютерного зору для бізнесу будь-якого розміру."
+     },
+     {
+      "name": "Norm Ai",
+      "url": "https://www.norm.ai/",
+      "desc": "AI-агенти для юридичних і комплаєнс-процесів."
+     },
+     {
+      "name": "Obvious",
+      "url": "https://obvious.ai/",
+      "desc": "AI-агент для документів, таблиць, слайдів і дашбордів."
+     },
+     {
+      "name": "Obviously AI",
+      "url": "https://obviously.ai/",
+      "desc": "Аналітика даних і прогнози на машинному навчанні в один клік."
+     },
+     {
+      "name": "Otter",
+      "url": "https://otter.ai/",
+      "desc": "AI-нотатник для зустрічей з транскрипцією та підсумками."
+     },
+     {
+      "name": "Outverse",
+      "url": "https://www.outverse.com/",
+      "desc": "Платформа для впровадження AI у сервісні процеси компаній."
+     },
+     {
+      "name": "Overhear",
+      "url": "https://www.overhear.ai/",
+      "desc": "Продукт AI-компанії Godel Machines."
+     },
+     {
+      "name": "Pallet",
+      "url": "https://www.pallet.com/",
+      "desc": "AI-системи для логістики та фізичної економіки."
+     },
+     {
+      "name": "PangeAI",
+      "url": "https://www.pangeai.com/",
+      "desc": "Геопросторовий AI, що перетворює супутникові дані на рішення."
+     },
+     {
+      "name": "Pangram",
+      "url": "https://www.pangram.com/",
+      "desc": "Детектор текстів, згенерованих AI."
+     },
+     {
+      "name": "Paradigm",
+      "url": "https://paradigmai.com/",
+      "desc": "AI-агенти для досліджень і пошуку клієнтів у продажах."
+     },
+     {
+      "name": "PAVE",
+      "url": "https://pave.ai/",
+      "desc": "AI-огляд автомобілів і фіксація пошкоджень для автопарків."
+     },
+     {
+      "name": "Peregrine",
+      "url": "https://peregrine.io/",
+      "desc": "Операційний AI для служб громадської безпеки."
+     },
+     {
+      "name": "Perplexity Sonar",
+      "url": "https://sonar.perplexity.ai/",
+      "desc": "Пошукова AI-модель Perplexity для вбудовування у продукти."
+     },
+     {
+      "name": "Pivot",
+      "url": "https://www.pivotapp.ai/",
+      "desc": "AI-система для закупівель: від запитів до платежів."
+     },
+     {
+      "name": "Plus AI",
+      "url": "https://plusai.com/",
+      "desc": "AI-помічник для створення презентацій у PowerPoint і Slides."
+     },
+     {
+      "name": "Pogo",
+      "url": "https://www.joinpogo.com/",
+      "desc": "AI-інтерв’ю та опитування реальних покупців для досліджень."
+     },
+     {
+      "name": "Portal",
+      "url": "https://www.portalgaming.com/",
+      "desc": "Платформа для генерації ігор та ігрових ассетів."
+     },
+     {
+      "name": "Product Map",
+      "url": "https://www.productmap.io/",
+      "desc": "AI-помічник продакт-менеджера з автономними агентами."
+     },
+     {
+      "name": "Quin",
+      "url": "https://www.heyquin.io/",
+      "desc": "AI-асистент, що веде пошту, CRM, документи й календар."
+     },
+     {
+      "name": "ReflexAI",
+      "url": "https://www.reflexai.com/",
+      "desc": "AI-симуляції та контроль якості для контакт-центрів."
+     },
+     {
+      "name": "Replit",
+      "url": "https://replit.com/",
+      "desc": "AI-конструктор застосунків і сайтів за текстовим описом."
+     },
+     {
+      "name": "Runway",
+      "url": "https://runway.com/",
+      "desc": "AI-компанія, що створює моделі для генерації відео та світу."
+     },
+     {
+      "name": "SafetyKit",
+      "url": "https://www.safetykit.com/",
+      "desc": "AI-агенти для перевірки ризиків, онбордингу та розслідувань."
+     },
+     {
+      "name": "Sana",
+      "url": "https://sanalabs.com/products/sana-learn/",
+      "desc": "Корпоративна платформа навчання з персоналізацією на базі AI."
+     },
+     {
+      "name": "Scale AI",
+      "url": "https://scale.com/",
+      "desc": "Дані, оцінювання та AI-рішення для лабораторій і урядів."
+     },
+     {
+      "name": "Shape",
+      "url": "https://shape.xyz/",
+      "desc": "AI-аналітик даних."
+     },
+     {
+      "name": "Sierra",
+      "url": "https://sierra.ai/",
+      "desc": "AI-агенти для кращого клієнтського досвіду."
+     },
+     {
+      "name": "Source",
+      "url": "https://www.source.ag/",
+      "desc": "AI-рішення для тепличних господарств і виробників."
+     },
+     {
+      "name": "Spellar",
+      "url": "https://www.spellar.ai/",
+      "desc": "AI-нотатки зустрічей без бота у дзвінку."
+     },
+     {
+      "name": "Stable Audio",
+      "url": "https://stableaudio.com/",
+      "desc": "AI-інструменти для створення музики та звуку."
+     },
+     {
+      "name": "Stacker",
+      "url": "https://stacker.ai/",
+      "desc": "AI-платформа для створення внутрішніх інструментів, CRM і дашбордів."
+     },
+     {
+      "name": "Structify",
+      "url": "https://www.structify.ai/",
+      "desc": "Кастомні AI-застосунки для регульованих галузей."
+     },
+     {
+      "name": "STRUT",
+      "url": "https://strut.so/",
+      "desc": "AI-простір для довгих текстів: від нотаток до статей."
+     },
+     {
+      "name": "Summation",
+      "url": "https://www.summation.com/",
+      "desc": "AI-аналітик, що перетворює бізнес-дані на плани та дії."
+     },
+     {
+      "name": "Superhuman",
+      "url": "https://superhuman.com/",
+      "desc": "AI-набір для продуктивності: пошта, документи й асистент."
+     },
+     {
+      "name": "Swan",
+      "url": "https://swan.so/brands",
+      "desc": "AI-примірочна та підбір розміру для онлайн-магазинів."
+     },
+     {
+      "name": "Terminal X",
+      "url": "https://www.terminal-x.ai/",
+      "desc": "AI-агенти для інвестиційних менеджерів."
+     },
+     {
+      "name": "Together AI",
+      "url": "https://www.together.ai/",
+      "desc": "AI-хмара для інференсу, донавчання моделей і GPU-кластерів."
+     },
+     {
+      "name": "Vapi",
+      "url": "https://vapi.ai/",
+      "desc": "Платформа для створення та запуску голосових AI-агентів."
+     },
+     {
+      "name": "Vecton",
+      "url": "https://www.vecton.ai/",
+      "desc": "AI-рішення та автоматизація для банків і фінансових компаній."
+     },
+     {
+      "name": "Vooma",
+      "url": "https://www.vooma.com/",
+      "desc": "AI-автоматизація розрахунків і замовлень для логістичних команд."
+     },
+     {
+      "name": "Warp",
+      "url": "https://www.warp.dev/",
+      "desc": "Платформа для автоматизації створення програм за допомогою AI-агентів."
+     },
+     {
+      "name": "Zaro",
+      "url": "https://zaro.ai/",
+      "desc": "Жива модель роботи компанії, що готує бізнес до AI."
+     },
+     {
+      "name": "zeroG",
+      "url": "https://www.zerog.aero/",
+      "desc": "Дані та AI-рішення для авіаційної галузі."
+     }
+    ],
+    "title_en": "AI",
+    "id": "ai"
+   },
+   {
+    "title": "Фінтех і платежі",
+    "desc": "Банки, картки й платежі: довіра, цифри та чиста подача.",
+    "items": [
+     {
+      "name": "Acctual",
+      "url": "https://www.acctual.com/",
+      "desc": "Безкоштовне виставлення рахунків для малого бізнесу."
+     },
+     {
+      "name": "Alif",
+      "url": "https://www.alif.uz/",
+      "desc": "Фінтех-компанія з Центральної Азії: перекази, платежі, розстрочка."
+     },
+     {
+      "name": "Anchor",
+      "url": "https://getanchor.co/",
+      "desc": "Інфраструктура для запуску банківських і платіжних продуктів."
+     },
+     {
+      "name": "AngelList",
+      "url": "https://www.angellist.com/",
+      "desc": "Фінансова система приватних ринків для фондів та інвесторів."
+     },
+     {
+      "name": "Arc",
+      "url": "https://www.joinarc.com/",
+      "desc": "Керування кешем, дохідністю та борговим капіталом для компаній."
+     },
+     {
+      "name": "Argyle",
+      "url": "https://www.argyle.com/",
+      "desc": "Автоматична перевірка доходів, зайнятості та активів."
+     },
+     {
+      "name": "Aria",
+      "url": "https://www.helloaria.eu/",
+      "desc": "Вбудоване фінансування рахунків для B2B-платформ."
+     },
+     {
+      "name": "Astra",
+      "url": "https://astrafi.com/",
+      "desc": "Платформа миттєвих платежів для продуктових команд."
+     },
+     {
+      "name": "Atlas",
+      "url": "https://atlascard.com/",
+      "desc": "Картка за запрошенням з доступом до ресторанів і подорожей."
+     },
+     {
+      "name": "Autonomous",
+      "url": "https://becomeautonomous.com/",
+      "desc": "AI-сервіс, що керує особистими фінансами без комісій за поради."
+     },
+     {
+      "name": "Autopilot",
+      "url": "https://www.joinautopilot.com/",
+      "desc": "Застосунок, що автоматично повторює портфелі відомих інвесторів."
+     },
+     {
+      "name": "Basic Capital",
+      "url": "https://basiccapital.com/",
+      "desc": "Сервіс, що допомагає американцям більше відкладати на пенсію."
+     },
+     {
+      "name": "Better",
+      "url": "https://better.com/",
+      "desc": "Онлайн-іпотека з AI: швидко, прозоро й з підтримкою."
+     },
+     {
+      "name": "Bonside",
+      "url": "https://bonside.com/",
+      "desc": "Фінансування для офлайн-бізнесу з фізичними точками."
+     },
+     {
+      "name": "Boost",
+      "url": "https://boostinsurance.com/",
+      "desc": "Платформа для запуску вбудованих цифрових страхових продуктів."
+     },
+     {
+      "name": "Cache",
+      "url": "https://usecache.com/",
+      "desc": "Платформа для диверсифікації концентрованих пакетів акцій."
+     },
+     {
+      "name": "Campfire",
+      "url": "https://campfire.ai/",
+      "desc": "AI-нативна ERP для невеликих фінансових команд."
+     },
+     {
+      "name": "Canopy",
+      "url": "https://www.canopyservicing.com/",
+      "desc": "Система керування та обслуговування позик для B2B-кредитування."
+     },
+     {
+      "name": "Capital",
+      "url": "https://capital.xyz/",
+      "desc": "Залучення, зберігання та витрачання коштів в одному місці."
+     },
+     {
+      "name": "Cashew",
+      "url": "https://www.cashewpayments.com/ae/en",
+      "desc": "Сервіс «купуй зараз, плати пізніше» в ОАЕ та регіоні."
+     },
+     {
+      "name": "CFO Ventures",
+      "url": "https://www.cfo.ventures/",
+      "desc": "Фінансовий директор на аутсорсі для стартапів і МСБ у MENA."
+     },
+     {
+      "name": "Charter",
+      "url": "https://www.charterlabs.io/",
+      "desc": "Глобальний необанк для миттєвих міжнародних переказів."
+     },
+     {
+      "name": "Checkout.com",
+      "url": "https://www.checkout.com/",
+      "desc": "Платіжні рішення для бізнесу."
+     },
+     {
+      "name": "Chipper for Business",
+      "url": "https://enterprise.chippercash.com/",
+      "desc": "Платіжні рішення для бізнесу в Африці."
+     },
+     {
+      "name": "Coast",
+      "url": "https://coastpay.com/",
+      "desc": "Картки для палива, автопарку й польових витрат."
+     },
+     {
+      "name": "Cobalt",
+      "url": "https://joincobalt.com/",
+      "desc": "Фінансова платформа для малого бізнесу."
+     },
+     {
+      "name": "Coda",
+      "url": "https://www.coda.co/",
+      "desc": "Локальні платежі, вебмагазини та глобальна дистрибуція в одній платформі."
+     },
+     {
+      "name": "Column",
+      "url": "https://column.com/",
+      "desc": "Національний банк для створення нових фінансових сервісів."
+     },
+     {
+      "name": "Crezco",
+      "url": "https://www.crezco.com/",
+      "desc": "Вбудовані платежі для платформ і сервісів."
+     },
+     {
+      "name": "CS Conseil",
+      "url": "https://cs-conseil-ec.com/",
+      "desc": "Бухгалтерська фірма в Тулузі."
+     },
+     {
+      "name": "Current",
+      "url": "https://current.com/",
+      "desc": "Мобільний банк з ранньою зарплатою та побудовою кредиту."
+     },
+     {
+      "name": "Cytora",
+      "url": "https://www.cytora.com/",
+      "desc": "Платформа андеррайтингу для комерційного страхування."
+     },
+     {
+      "name": "Due",
+      "url": "https://www.opendue.com/",
+      "desc": "Міжнародний рахунок для платежів у цифрових доларах і місцевих валютах."
+     },
+     {
+      "name": "Edda",
+      "url": "https://edda.co/",
+      "desc": "Платформа для венчурних і PE-фондів: угоди, портфель, LP."
+     },
+     {
+      "name": "Era",
+      "url": "https://era.app/",
+      "desc": "AI-агент для керування особистими фінансами."
+     },
+     {
+      "name": "Evervault",
+      "url": "https://evervault.com/",
+      "desc": "Шифрування та захист платіжних даних із повним контролем."
+     },
+     {
+      "name": "Five Pathways Financial",
+      "url": "https://fivepathways.com/",
+      "desc": "Консультанти з планування виходу на пенсію."
+     },
+     {
+      "name": "Flatpay",
+      "url": "https://www.flatpay.com/",
+      "desc": "Прийом платежів для бізнесу за фіксованою ставкою."
+     },
+     {
+      "name": "Flutterwave",
+      "url": "https://flutterwave.com/us",
+      "desc": "Платежі, фінансові продукти та бізнес-інструменти для компаній."
+     },
+     {
+      "name": "Fluz",
+      "url": "https://fluz.app/us",
+      "desc": "Миттєвий кешбек і винагороди за щоденні покупки."
+     },
+     {
+      "name": "Founder Shield",
+      "url": "https://foundershield.com/",
+      "desc": "Цифровий страховий брокер для швидкозростаючих компаній."
+     },
+     {
+      "name": "Frame",
+      "url": "https://frame.xyz/",
+      "desc": "Шар розрахунків для миттєвих цифрових фінансових переказів."
+     },
+     {
+      "name": "Fruitful",
+      "url": "https://www.fruitful.com/",
+      "desc": "Персональний гід і система для керування особистими фінансами."
+     },
+     {
+      "name": "Fuelfinance",
+      "url": "https://fuelfinance.me/",
+      "desc": "FP&A-платформа з AI-агентами для фінансових команд."
+     },
+     {
+      "name": "GRACE",
+      "url": "https://grace.io/",
+      "desc": "Програми захисту цінних речей від крадіжки, втрати й пошкоджень."
+     },
+     {
+      "name": "Hazeltree",
+      "url": "https://hazeltree.com/",
+      "desc": "Керування казначейством і ліквідністю для інвестфондів."
+     },
+     {
+      "name": "Highnote",
+      "url": "https://highnote.com/",
+      "desc": "Платформа для випуску карток і вбудованих платежів."
+     },
+     {
+      "name": "Hill",
+      "url": "https://hill.com/",
+      "desc": "Купівля й продаж акцій компаній до IPO."
+     },
+     {
+      "name": "Increase",
+      "url": "https://increase.com/",
+      "desc": "Банк для технологічних компаній, що створюють фінансові продукти."
+     },
+     {
+      "name": "Insurely",
+      "url": "https://www.insurely.com/",
+      "desc": "Доступ до фінансових і страхових даних клієнтів у реальному часі."
+     },
+     {
+      "name": "Kikin",
+      "url": "https://www.kikin.io/",
+      "desc": "Фінансування оплати рахунків постачальників для бізнесу."
+     },
+     {
+      "name": "Klarna",
+      "url": "https://www.klarna.com/us/klarna-card/",
+      "desc": "Картка Klarna на Visa: плати одразу або пізніше будь-де."
+     },
+     {
+      "name": "Kotak 811",
+      "url": "https://www.kotak811.bank.in/",
+      "desc": "Цифровий банківський рахунок від Kotak Mahindra Bank."
+     },
+     {
+      "name": "Lemon Squeezy",
+      "url": "https://www.lemonsqueezy.com/",
+      "desc": "Платежі, податки й підписки для продажу цифрових продуктів."
+     },
+     {
+      "name": "Loctax",
+      "url": "https://www.loctax.com/",
+      "desc": "Платформа податкової аналітики та комплаєнсу для компаній."
+     },
+     {
+      "name": "Luko by Allianz Direct",
+      "url": "https://www.fr.luko.eu/",
+      "desc": "Онлайн-страхування житла, авто та подорожей у Франції."
+     },
+     {
+      "name": "Magic Beans",
+      "url": "https://magicbeans.app/",
+      "desc": "Рахунки, витрати й фінзвіти стартапу прямо в Notion."
+     },
+     {
+      "name": "Mangopay",
+      "url": "https://mangopay.com/",
+      "desc": "Платіжна інфраструктура на гаманцях для платформ і маркетплейсів."
+     },
+     {
+      "name": "Manza",
+      "url": "https://get-manza.com/",
+      "desc": "Платежі та контроль витрат для малого бізнесу в Африці."
+     },
+     {
+      "name": "Mastercard",
+      "url": "https://www.mastercard.com/businessoutcomes/",
+      "desc": "Рішення Mastercard для бізнесу."
+     },
+     {
+      "name": "Mercury",
+      "url": "https://mercury.com/",
+      "desc": "Онлайн-банкінг для стартапів і бізнесу."
+     },
+     {
+      "name": "Midday",
+      "url": "https://midday.ai/",
+      "desc": "Рахунки, звірка, облік часу й документи для засновників."
+     },
+     {
+      "name": "Middesk",
+      "url": "https://www.middesk.com/",
+      "desc": "Перевірка бізнесів, захист від шахрайства й оцінка кредитних ризиків."
+     },
+     {
+      "name": "Mollie",
+      "url": "https://www.mollie.com/products/pos-payments/tap-terminal",
+      "desc": "Tap – компактний пристрій Mollie для прийому карткових оплат."
+     },
+     {
+      "name": "MoneyKit",
+      "url": "https://moneykit.com/",
+      "desc": "Інфраструктура для підключення до фінансових рахунків."
+     },
+     {
+      "name": "Moss",
+      "url": "https://getmoss.com/public/geo-blocked/index.html",
+      "desc": "Корпоративні картки й керування витратами для бізнесу."
+     },
+     {
+      "name": "Navro",
+      "url": "https://navro.com/",
+      "desc": "Інфраструктура транскордонних платежів у 140+ валютах."
+     },
+     {
+      "name": "Nomod",
+      "url": "https://nomod.com/en-ae",
+      "desc": "Платіжні посилання, рахунки й оплати офлайн для будь-якого бізнесу."
+     },
+     {
+      "name": "Nova Benefits",
+      "url": "https://www.novabenefits.com/",
+      "desc": "Медичне страхування та бенефіти для працівників компаній."
+     },
+     {
+      "name": "Nyatwa",
+      "url": "https://nyatwa.com/",
+      "desc": "Застосунок для переказів, оплати рахунків і покупок онлайн."
+     },
+     {
+      "name": "Osome",
+      "url": "https://osome.com/",
+      "desc": "Реєстрація компанії, бухгалтерія й комплаєнс для засновників."
+     },
+     {
+      "name": "Petal",
+      "url": "https://www.petalcard.com/",
+      "desc": "Кредитні картки для відповідального формування кредитної історії."
+     },
+     {
+      "name": "Pipe",
+      "url": "https://pipe.com/",
+      "desc": "Вбудовані фінансові продукти всередині бізнес-софту."
+     },
+     {
+      "name": "Punto Pago",
+      "url": "https://puntopago.net/",
+      "desc": "Суперзастосунок: від платежів до швидкої доставки."
+     },
+     {
+      "name": "Ramp",
+      "url": "https://ramp.com/",
+      "desc": "Корпоративні картки та керування витратами для бізнесу."
+     },
+     {
+      "name": "Rauva",
+      "url": "https://rauva.com/",
+      "desc": "Бізнес-рахунок і бухгалтерія для підприємців."
+     },
+     {
+      "name": "Rekord",
+      "url": "https://www.rekordsoftware.com/",
+      "desc": "Автоматизація андеррайтингу й онбордингу клієнтів для банків."
+     },
+     {
+      "name": "Revolut",
+      "url": "https://www.revolut.com/",
+      "desc": "Цифровий банк для платежів, переказів, обміну валют і заощаджень."
+     },
+     {
+      "name": "Rho",
+      "url": "https://www.rho.co/",
+      "desc": "Бізнес-банкінг, корпоративні картки й оплата рахунків для стартапів."
+     },
+     {
+      "name": "Rydoo",
+      "url": "https://www.rydoo.com/",
+      "desc": "Автоматизоване керування корпоративними витратами та відшкодуваннями."
+     },
+     {
+      "name": "Secfi",
+      "url": "https://secfi.com/",
+      "desc": "Фінансові поради й ліквідність для власників акцій техкомпаній."
+     },
+     {
+      "name": "Sequence",
+      "url": "https://www.sequencehq.com/",
+      "desc": "Автоматизація білінгу, рахунків і дебіторки для фінкоманд."
+     },
+     {
+      "name": "soNomad",
+      "url": "https://www.sonomad.com/",
+      "desc": "Туристичне та медичне страхування для мандрівників."
+     },
+     {
+      "name": "Spark",
+      "url": "https://spark.finance/",
+      "desc": "Платформа розподілу інституційного капіталу між фінансовими ринками."
+     },
+     {
+      "name": "Spendesk",
+      "url": "https://www.spendesk.com/",
+      "desc": "Керування витратами компанії: картки, рахунки й звіти в одному місці."
+     },
+     {
+      "name": "Square",
+      "url": "https://squareup.com/",
+      "desc": "Платежі, каси й інструменти для малого бізнесу."
+     },
+     {
+      "name": "Stripe",
+      "url": "https://stripe.com/",
+      "desc": "Фінансова інфраструктура для онлайн-платежів, білінгу й руху грошей."
+     },
+     {
+      "name": "sunday",
+      "url": "https://sundayapp.com/",
+      "desc": "Оплата рахунку в ресторані за QR за лічені секунди."
+     },
+     {
+      "name": "TakeProfit",
+      "url": "https://takeprofit.com/",
+      "desc": "Платформа для графіків і трейдингу з AI."
+     },
+     {
+      "name": "Tandym",
+      "url": "https://www.bytandym.com/",
+      "desc": "Брендовані платіжні картки для ритейлерів."
+     },
+     {
+      "name": "Tellus",
+      "url": "https://www.tellusapp.com/",
+      "desc": "Застосунок із заощадженнями та керуванням нерухомістю."
+     },
+     {
+      "name": "Titan",
+      "url": "https://www.titan.com/",
+      "desc": "Управління капіталом для працівників техкомпаній."
+     },
+     {
+      "name": "Tola",
+      "url": "https://usetola.com/",
+      "desc": "Сервіс платежів і рахунків для малого бізнесу."
+     },
+     {
+      "name": "Trullion",
+      "url": "https://trullion.com/",
+      "desc": "AI для бухобліку оренди та підготовки до аудиту."
+     },
+     {
+      "name": "Unit",
+      "url": "https://www.unit.co/",
+      "desc": "Інфраструктура для вбудованих фінансових продуктів."
+     },
+     {
+      "name": "Wealthsimple",
+      "url": "https://www.wealthsimple.com/en-ca",
+      "desc": "Канадський сервіс для витрат, торгівлі та інвестицій."
+     },
+     {
+      "name": "Wise",
+      "url": "https://wise.com/",
+      "desc": "Міжнародний рахунок і недорогі перекази за кордон."
+     },
+     {
+      "name": "WorkMade",
+      "url": "https://www.workmade.com/",
+      "desc": "AI-бухгалтер для фрилансерів і самозайнятих."
+     },
+     {
+      "name": "Yordex",
+      "url": "https://www.yordex.com/",
+      "desc": "Випуск власних карток і банківських рахунків для бізнесу."
+     }
+    ],
+    "title_en": "Fintech & Payments",
+    "id": "fintech-payments"
+   },
+   {
+    "title": "Крипто й Web3",
+    "desc": "Крипто-бренди з сміливою графікою та нетиповою айдентикою.",
+    "items": [
+     {
+      "name": "0x",
+      "url": "https://0x.org/",
+      "desc": "Інфраструктура обміну криптовалют для фінансових застосунків."
+     },
+     {
+      "name": "ABO Digital",
+      "url": "https://www.abodigital.io/",
+      "desc": "Фінансування для криптопроєктів на ранніх стадіях."
+     },
+     {
+      "name": "Avalanche",
+      "url": "https://www.avalanche.com/",
+      "desc": "Високопродуктивна блокчейн-платформа для бізнесу."
+     },
+     {
+      "name": "Base",
+      "url": "https://www.base.org/",
+      "desc": "Блокчейн-мережа для глобальних фінансів."
+     },
+     {
+      "name": "BTC Markets",
+      "url": "https://www.btcmarkets.net/",
+      "desc": "Австралійська біржа для купівлі та продажу криптовалют."
+     },
+     {
+      "name": "Capture",
+      "url": "https://captureapp.xyz/",
+      "desc": "Блокчейн-ліцензування контенту для захисту авторських прав."
+     },
+     {
+      "name": "Celo",
+      "url": "https://celo.org/",
+      "desc": "Ethereum L2 для платежів, стейблкоїнів і DeFi."
+     },
+     {
+      "name": "ChainGPT",
+      "url": "https://www.chaingpt.org/",
+      "desc": "AI-інструменти для криптовалют і блокчейну."
+     },
+     {
+      "name": "Common",
+      "url": "https://www.common.xyz/",
+      "desc": "Платформа для ончейн-спільнот і їхнього управління."
+     },
+     {
+      "name": "Copperx",
+      "url": "https://copperx.io/",
+      "desc": "Платежі у стейблкоїнах і рахунки для міжнародних переказів."
+     },
+     {
+      "name": "Ctrl Wallet",
+      "url": "https://ctrl.xyz/",
+      "desc": "Безпечний і функціональний криптогаманець."
+     },
+     {
+      "name": "Cubist",
+      "url": "https://cubist.dev/",
+      "desc": "Апаратне керування ключами та вбудовані гаманці для Web3."
+     },
+     {
+      "name": "DeSo",
+      "url": "https://www.deso.com/",
+      "desc": "Блокчейн для децентралізованих соцмереж."
+     },
+     {
+      "name": "Eclipse",
+      "url": "https://www.eclipse.xyz/",
+      "desc": "Блокчейн-мережа другого рівня для Ethereum."
+     },
+     {
+      "name": "Etherfuse",
+      "url": "https://etherfuse.com/",
+      "desc": "Токенізовані державні активи для казначейства та валютних операцій."
+     },
+     {
+      "name": "Family",
+      "url": "https://family.co/",
+      "desc": "Зручний криптогаманець на щодень."
+     },
+     {
+      "name": "Gamma",
+      "url": "https://gamma.io/",
+      "desc": "Маркетплейс NFT та Ordinals у мережі Bitcoin."
+     },
+     {
+      "name": "Global Dollar Network",
+      "url": "https://globaldollar.com/",
+      "desc": "Мережа партнерів стейблкоїна USDG з винагородами за його поширення."
+     },
+     {
+      "name": "Glow Finance",
+      "url": "https://glowfinance.xyz/",
+      "desc": "Децентралізований фінансовий сервіс у web3."
+     },
+     {
+      "name": "Hiro",
+      "url": "https://www.hiro.so/",
+      "desc": "Інструменти для створення продуктів на рівнях Bitcoin."
+     },
+     {
+      "name": "Igloo Inc.",
+      "url": "https://www.igloo.inc/",
+      "desc": "Компанія, що будує найбільшу ончейн-спільноту."
+     },
+     {
+      "name": "Matcha",
+      "url": "https://matcha.xyz/",
+      "desc": "Агрегатор децентралізованих бірж для обміну токенів."
+     },
+     {
+      "name": "Melrose",
+      "url": "https://www.melrosepr.com/",
+      "desc": "Комунікаційна агенція для компаній у сфері web3."
+     },
+     {
+      "name": "Morpho",
+      "url": "https://morpho.org/",
+      "desc": "Відкрита кредитна мережа для ончейн-позик."
+     },
+     {
+      "name": "NATION",
+      "url": "https://nation.io/",
+      "desc": "Платформа децентралізованих рухів і голосувань."
+     },
+     {
+      "name": "NEAR",
+      "url": "https://www.near.org/",
+      "desc": "Відкрита блокчейн-інфраструктура для економіки AI-агентів."
+     },
+     {
+      "name": "New Layer Capital",
+      "url": "https://nlc.obys.agency/",
+      "desc": "Інвестиційна компанія, що підтримує проєкти на базі Bitcoin."
+     },
+     {
+      "name": "OG.Art",
+      "url": "https://og.art/",
+      "desc": "Експериментальні генеративні та інтерактивні NFT-проєкти."
+     },
+     {
+      "name": "OpenNode",
+      "url": "https://opennode.com/",
+      "desc": "Приймання платежів і виплат у біткоїні для бізнесу."
+     },
+     {
+      "name": "Parabol",
+      "url": "https://parabol.fi/",
+      "desc": "Протокол стейблкоїна, забезпеченого фіатом, з високою дохідністю."
+     },
+     {
+      "name": "Pera Wallet",
+      "url": "https://perawallet.app/",
+      "desc": "Некастодіальний криптогаманець для Algorand."
+     },
+     {
+      "name": "Phantom",
+      "url": "https://phantom.com/",
+      "desc": "Криптогаманець для трейдингу токенів і прогнозів."
+     },
+     {
+      "name": "Plasma",
+      "url": "https://www.plasma.org/personal",
+      "desc": "Стейблкоїн-картка Visa для щоденних витрат і переказів."
+     },
+     {
+      "name": "PropellerHeads",
+      "url": "https://www.propellerheads.xyz/",
+      "desc": "Інструменти для торгівлі в Ethereum без посередників."
+     },
+     {
+      "name": "Rainbow",
+      "url": "https://rainbow.me/",
+      "desc": "Застосунок для торгівлі криптою, акціями та подіями з телефона."
+     },
+     {
+      "name": "Reown",
+      "url": "https://reown.com/",
+      "desc": "Інфраструктура для створення блокчейн-застосунків."
+     },
+     {
+      "name": "Rome",
+      "url": "https://www.rome.builders/",
+      "desc": "Повноцінна EVM всередині Solana з єдиною ліквідністю."
+     },
+     {
+      "name": "SEDA",
+      "url": "https://www.seda.xyz/",
+      "desc": "Потоки даних для ончейн-ринків, що працюють 24/7."
+     },
+     {
+      "name": "Solana",
+      "url": "https://solana.com/",
+      "desc": "Швидкий блокчейн для ринків капіталу, платежів і криптосервісів."
+     },
+     {
+      "name": "Stable",
+      "url": "https://www.stable.xyz/",
+      "desc": "Блокчейн першого рівня для миттєвих платежів у USD₮."
+     },
+     {
+      "name": "Succinct",
+      "url": "https://www.succinct.xyz/",
+      "desc": "Криптографічна інфраструктура для доказів із нульовим розголошенням."
+     },
+     {
+      "name": "Syndicate",
+      "url": "https://syndicate.io/",
+      "desc": "Платформа для запуску власних масштабованих блокчейн-мереж."
+     },
+     {
+      "name": "Tholos",
+      "url": "https://www.tholos.app/",
+      "desc": "Мультипідписні MPC-гаманці для криптокоманд."
+     },
+     {
+      "name": "World",
+      "url": "https://world.org/",
+      "desc": "Мережа підтвердження реальних людей в епоху AI."
+     },
+     {
+      "name": "Wormhole",
+      "url": "https://wormhole.com/",
+      "desc": "Інфраструктура для переказу токенів і даних між блокчейнами."
+     },
+     {
+      "name": "zerohash",
+      "url": "https://zerohash.com/",
+      "desc": "Інфраструктура для запуску крипто- та стейблкоїн-продуктів."
+     }
+    ],
+    "title_en": "Crypto & Web3",
+    "id": "crypto-web3"
+   },
+   {
+    "title": "SaaS і продуктивність",
+    "desc": "Робочі інструменти: як показати продукт і користь з першого екрана.",
+    "items": [
+     {
+      "name": "acreom",
+      "url": "https://acreom.com/",
+      "desc": "Markdown-база знань із задачами для щоденної роботи."
+     },
+     {
+      "name": "Acuity Scheduling",
+      "url": "https://acuityscheduling.com/",
+      "desc": "Онлайн-запис і планування зустрічей для бізнесу."
+     },
+     {
+      "name": "AFFiNE",
+      "url": "https://affine.pro/",
+      "desc": "Відкрита база знань: документи, дошки й таблиці в одному."
+     },
+     {
+      "name": "Ambar",
+      "url": "https://www.ambarpartners.com/",
+      "desc": "Платформа, що поєднує незалежних юристів і компанії."
+     },
+     {
+      "name": "Ben",
+      "url": "https://www.thanksben.com/",
+      "desc": "Платформа для керування пільгами працівників у різних країнах."
+     },
+     {
+      "name": "BePrepared",
+      "url": "https://bepreparedapp.com/",
+      "desc": "Захищені сховища цифрових активів для юридичних фірм."
+     },
+     {
+      "name": "Bonsai",
+      "url": "https://www.hellobonsai.com/",
+      "desc": "Керування проєктами, клієнтами й рахунками для малого бізнесу."
+     },
+     {
+      "name": "Cal.com",
+      "url": "https://cal.com/",
+      "desc": "Гнучкий сервіс онлайн-запису та планування зустрічей."
+     },
+     {
+      "name": "Campsite",
+      "url": "https://www.campsite.com/",
+      "desc": "Робоча комунікація для розподілених команд."
+     },
+     {
+      "name": "Cequence",
+      "url": "https://cequence.io/",
+      "desc": "Керування повним циклом контрактів у зручному інтерфейсі."
+     },
+     {
+      "name": "ClickUp",
+      "url": "https://clickup.com/about",
+      "desc": "Універсальний інструмент для керування проєктами й задачами."
+     },
+     {
+      "name": "Coda",
+      "url": "https://coda.io/",
+      "desc": "Робочий простір, що поєднує документи, таблиці й AI."
+     },
+     {
+      "name": "Config",
+      "url": "https://config.com/",
+      "desc": "Робочий простір для команд, які створюють апаратні продукти."
+     },
+     {
+      "name": "Curri",
+      "url": "https://www.curri.com/",
+      "desc": "Доставка останньої милі та вантажів для дистриб’юторів."
+     },
+     {
+      "name": "Documenso",
+      "url": "https://documenso.com/",
+      "desc": "Відкрита альтернатива DocuSign для електронного підпису."
+     },
+     {
+      "name": "Docusign",
+      "url": "https://www.docusign.com/customer-stories",
+      "desc": "Платформа для створення, підписання та керування угодами."
+     },
+     {
+      "name": "Dovetail",
+      "url": "https://dovetail.com/",
+      "desc": "Платформа для аналізу відгуків і досліджень клієнтів."
+     },
+     {
+      "name": "Fibery",
+      "url": "https://fibery.com/",
+      "desc": "Робоча платформа, що замінює розрізнені інструменти команд."
+     },
+     {
+      "name": "Fledge",
+      "url": "https://www.fledge.net/",
+      "desc": "Стратегія управління талантами для команд."
+     },
+     {
+      "name": "G-P",
+      "url": "https://www.globalization-partners.com/",
+      "desc": "Платформа для найму й виплат працівникам по всьому світу."
+     },
+     {
+      "name": "GitBook",
+      "url": "https://www.gitbook.com/",
+      "desc": "Платформа документації та знань для продуктів і користувачів."
+     },
+     {
+      "name": "Goodnotes",
+      "url": "https://www.goodnotes.com/",
+      "desc": "Застосунок для нотаток, дошок і спільної роботи."
+     },
+     {
+      "name": "Growth",
+      "url": "https://www.get-growth.app/",
+      "desc": "Нативний список справ із трекінгом часу для macOS."
+     },
+     {
+      "name": "Guild",
+      "url": "https://guild.com/",
+      "desc": "Освітні пільги для працівників, що допомагають утримати команду."
+     },
+     {
+      "name": "Herding",
+      "url": "https://www.herdi.ng/lp",
+      "desc": "Сайт застосунку для команд."
+     },
+     {
+      "name": "Homerun",
+      "url": "https://www.homerun.co/",
+      "desc": "Найм і HR-інструменти для команд, що ростуть."
+     },
+     {
+      "name": "Huly",
+      "url": "https://huly.io/",
+      "desc": "Відкрита платформа «все в одному» для командної роботи."
+     },
+     {
+      "name": "Ironclad",
+      "url": "https://ironcladapp.com/",
+      "desc": "Керування життєвим циклом договорів із підтримкою AI."
+     },
+     {
+      "name": "Jam",
+      "url": "https://jam.dev/",
+      "desc": "Запис екрана для швидкої передачі багів і фідбеку команді."
+     },
+     {
+      "name": "JobzMall",
+      "url": "https://www.jobzmall.com/",
+      "desc": "Онлайн-платформа для пошуку роботи та найму."
+     },
+     {
+      "name": "Join",
+      "url": "https://join.com/en",
+      "desc": "Система відбору кандидатів і розміщення вакансій для малого бізнесу."
+     },
+     {
+      "name": "Kaizen Labs",
+      "url": "https://www.kaizenlabs.co/",
+      "desc": "Технологічний стартап зі США."
+     },
+     {
+      "name": "Keel",
+      "url": "https://keel.so/",
+      "desc": "Платформа для операційних команд на заміну застарілим ERP."
+     },
+     {
+      "name": "Lattice",
+      "url": "https://lattice.com/",
+      "desc": "HR-платформа для керування людьми та їхньою ефективністю."
+     },
+     {
+      "name": "Lawtrades",
+      "url": "https://www.lawtrades.com/",
+      "desc": "Маркетплейс юристів і паралегалів для бізнесу."
+     },
+     {
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "desc": "Запис екрана та відеоповідомлення для команд."
+     },
+     {
+      "name": "Mesh",
+      "url": "https://me.sh/",
+      "desc": "Персональна CRM для особистих і професійних контактів."
+     },
+     {
+      "name": "monday.com",
+      "url": "https://monday.com/",
+      "desc": "Робоча платформа, де люди й AI-агенти разом ведуть проєкти."
+     },
+     {
+      "name": "Mosey",
+      "url": "https://mosey.com/",
+      "desc": "Корпоративний комплаєнс у всіх штатах США на одній платформі."
+     },
+     {
+      "name": "Munu",
+      "url": "https://munu.cloud/",
+      "desc": "Платформа для ресторанів: каса, бронювання й аналітика."
+     },
+     {
+      "name": "Mural",
+      "url": "https://www.mural.co/",
+      "desc": "Візуальний простір з AI для спільної роботи команд."
+     },
+     {
+      "name": "Odinaut",
+      "url": "https://www.odinaut.com/businesses",
+      "desc": "Перевірені IT-фрилансери для надійного аутсорсингу."
+     },
+     {
+      "name": "OnHand",
+      "url": "https://www.beonhand.co.uk/",
+      "desc": "Платформа корпоративного волонтерства для залучення працівників."
+     },
+     {
+      "name": "Opus",
+      "url": "https://www.opus.so/",
+      "desc": "Платформа навчання навичок для лінійного персоналу."
+     },
+     {
+      "name": "Paraform",
+      "url": "https://www.paraform.com/",
+      "desc": "Платформа найму з AI-агентами та маркетплейсом рекрутерів."
+     },
+     {
+      "name": "Parallel",
+      "url": "https://www.useparallel.com/",
+      "desc": "Маркетплейс вакансій із прямим зв’язком із наймачами."
+     },
+     {
+      "name": "Paste",
+      "url": "https://pasteapp.io/",
+      "desc": "Менеджер буфера обміну для Mac, iPhone та iPad."
+     },
+     {
+      "name": "Planned",
+      "url": "https://planned.com/",
+      "desc": "AI-платформа для планування, закупівель і оплати подій."
+     },
+     {
+      "name": "Popp",
+      "url": "https://www.joinpopp.com/",
+      "desc": "Автоматизація спілкування з кандидатами для рекрутингових команд."
+     },
+     {
+      "name": "Proof",
+      "url": "https://www.proofserve.com/",
+      "desc": "Цифрова платформа вручення судових документів у США."
+     },
+     {
+      "name": "Ready",
+      "url": "https://ready.so/",
+      "desc": "Календар, що перетворює зустрічі на спільний живий простір."
+     },
+     {
+      "name": "Reflect",
+      "url": "https://reflect.app/",
+      "desc": "Застосунок нотаток із пов’язаними ідеями у форматі Markdown."
+     },
+     {
+      "name": "Remote",
+      "url": "https://remote.com/",
+      "desc": "Глобальний найм, зарплати й комплаєнс для команд у всьому світі."
+     },
+     {
+      "name": "SavvyCal",
+      "url": "https://savvycal.com/",
+      "desc": "Сервіс планування зустрічей, зручний для обох сторін."
+     },
+     {
+      "name": "Sharebite",
+      "url": "https://sharebite.com/",
+      "desc": "Корпоративне харчування та групові замовлення їжі для команд."
+     },
+     {
+      "name": "Shuttle",
+      "url": "https://shuttle.zip/new/s/space/",
+      "desc": "Обмін файлами в брендованих просторах."
+     },
+     {
+      "name": "Skiff",
+      "url": "https://skiff.com/",
+      "desc": "Приватна зашифрована пошта, календар, документи й диск."
+     },
+     {
+      "name": "Slite",
+      "url": "https://slite.com/",
+      "desc": "AI-база знань команди, що сама підтримує актуальність."
+     },
+     {
+      "name": "SquadEasy",
+      "url": "https://www.squadeasy.com/",
+      "desc": "Застосунок для згуртованості працівників у компаніях."
+     },
+     {
+      "name": "Superlist",
+      "url": "https://www.superlist.com/",
+      "desc": "Задачі, нотатки та проєкти в одному застосунку від творців Wunderlist."
+     },
+     {
+      "name": "Supernotes",
+      "url": "https://supernotes.app/",
+      "desc": "Застосунок для нотаток-карток і спільної роботи з ними."
+     },
+     {
+      "name": "Terminal Industries",
+      "url": "https://terminal-industries.com/",
+      "desc": "AI-платформа для керування вантажними майданчиками."
+     },
+     {
+      "name": "Todoist",
+      "url": "https://www.todoist.com/",
+      "desc": "Список справ для організації роботи й життя."
+     },
+     {
+      "name": "Tomorro",
+      "url": "https://www.tomorro.com/",
+      "desc": "Керування договорами з підтримкою AI."
+     },
+     {
+      "name": "Tona",
+      "url": "https://www.tona.so/",
+      "desc": "Сайт технологічного стартапу."
+     },
+     {
+      "name": "Unbench",
+      "url": "https://www.unbench.us/",
+      "desc": "Підбір перевірених технічних команд за 48 годин."
+     },
+     {
+      "name": "Upwork",
+      "url": "https://www.upwork.com/",
+      "desc": "Маркетплейс фрилансерів і замовників."
+     },
+     {
+      "name": "UserWay",
+      "url": "https://userway.org/",
+      "desc": "Інструменти, що роблять сайти доступнішими за стандартами WCAG."
+     },
+     {
+      "name": "Volta",
+      "url": "https://volta.net/",
+      "desc": "Сервіс для керування проєктами команд."
+     },
+     {
+      "name": "Voy",
+      "url": "https://www.joinvoy.com/",
+      "desc": "Сайт технологічного стартапу."
+     },
+     {
+      "name": "Warp",
+      "url": "https://www.warp.co/",
+      "desc": "AI-автоматизація зарплат, комплаєнсу та бенефітів."
+     },
+     {
+      "name": "Whereby",
+      "url": "https://whereby.com/",
+      "desc": "Відеозустрічі в браузері та вбудовані відеодзвінки для платформ."
+     },
+     {
+      "name": "Whimsical",
+      "url": "https://whimsical.com/",
+      "desc": "Дошка для діаграм, вайрфреймів і документації продукту."
+     },
+     {
+      "name": "Zapier",
+      "url": "https://zapier.com/",
+      "desc": "Автоматизація процесів і AI-агентів у 9000+ застосунках."
+     },
+     {
+      "name": "Zelt",
+      "url": "https://zelt.app/",
+      "desc": "HR-платформа для британських компаній, що ростуть."
+     },
+     {
+      "name": "Zip",
+      "url": "https://zip.com/",
+      "desc": "AI-платформа для закупівель від заявки до оплати."
+     }
+    ],
+    "title_en": "SaaS & Productivity",
+    "id": "saas-productivity"
+   },
+   {
+    "title": "Дані та хмара",
+    "desc": "Технічні продукти, що звучать просто й виглядають преміально.",
+    "items": [
+     {
+      "name": "100ms",
+      "url": "https://www.100ms.live/",
+      "desc": "Інфраструктура для відеодзвінків і стримів у реальному часі."
+     },
+     {
+      "name": "1iO",
+      "url": "https://1io.com/en",
+      "desc": "Технологія для цифрового суверенітету й контролю над даними."
+     },
+     {
+      "name": "Antimetal",
+      "url": "https://antimetal.com/",
+      "desc": "AI-система, що автономно обслуговує хмарну інфраструктуру."
+     },
+     {
+      "name": "Appwrite",
+      "url": "https://appwrite.io/",
+      "desc": "Відкрита хмарна платформа для застосунків і AI-агентів."
+     },
+     {
+      "name": "Assurestor",
+      "url": "https://www.assurestor.com/",
+      "desc": "Єдина платформа резервного копіювання й відновлення для MSP."
+     },
+     {
+      "name": "Astral",
+      "url": "https://astral.sh/",
+      "desc": "Надшвидкі інструменти для екосистеми Python."
+     },
+     {
+      "name": "Auth0",
+      "url": "https://auth0.com/",
+      "desc": "Платформа автентифікації та доступу для користувачів і AI-агентів."
+     },
+     {
+      "name": "Avo",
+      "url": "https://www.avo.app/",
+      "desc": "Контроль якості даних про події для продуктових команд."
+     },
+     {
+      "name": "Bequant",
+      "url": "https://www.bequant.com/",
+      "desc": "Технології для швидкості й прозорості телеком-мереж."
+     },
+     {
+      "name": "Better Stack",
+      "url": "https://betterstack.com/",
+      "desc": "Моніторинг, логи, інциденти та чергування з AI-допомогою."
+     },
+     {
+      "name": "Checkly",
+      "url": "https://www.checklyhq.com/",
+      "desc": "Моніторинг надійності та стану застосунків."
+     },
+     {
+      "name": "Clerk",
+      "url": "https://clerk.com/",
+      "desc": "Автентифікація та керування користувачами для вебзастосунків."
+     },
+     {
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com/",
+      "desc": "Глобальна мережа для швидких і захищених вебпродуктів."
+     },
+     {
+      "name": "CloudZero",
+      "url": "https://www.cloudzero.com/",
+      "desc": "Аналітика витрат на хмару й AI з прив’язкою до продуктів і клієнтів."
+     },
+     {
+      "name": "Clutch",
+      "url": "https://www.clutch.security/",
+      "desc": "Захист нелюдських ідентичностей, AI-агентів і секретів."
+     },
+     {
+      "name": "Coder",
+      "url": "https://coder.com/",
+      "desc": "Захищене середовище для запуску AI-агентів у компаніях."
+     },
+     {
+      "name": "CodeSandbox",
+      "url": "https://codesandbox.io/",
+      "desc": "Хмарні середовища для створення та спільної роботи над вебпроєктами."
+     },
+     {
+      "name": "CometChat",
+      "url": "https://www.cometchat.com/solutions/dating",
+      "desc": "Чати та дзвінки в реальному часі для дейтинг-застосунків."
+     },
+     {
+      "name": "Crusoe",
+      "url": "https://www.crusoe.ai/",
+      "desc": "AI-інфраструктура та хмарні обчислення з енергетичним підходом."
+     },
+     {
+      "name": "DealerVault",
+      "url": "https://www.authenticom.com/product/dealervault",
+      "desc": "Керування даними та їх захист для автодилерів."
+     },
+     {
+      "name": "Deno",
+      "url": "https://deno.com/",
+      "desc": "Сучасне середовище для запуску вебзастосунків із вбудованим захистом."
+     },
+     {
+      "name": "Ducky",
+      "url": "https://www.ducky.ai/",
+      "desc": "Керована інфраструктура AI-пошуку з підтримкою RAG."
+     },
+     {
+      "name": "elba",
+      "url": "https://www.elba.security/",
+      "desc": "Безпека SaaS, AI-сервісів і співробітників."
+     },
+     {
+      "name": "eOne",
+      "url": "https://www.eonesolutions.com/",
+      "desc": "No-code платформа для інтеграції даних між сервісами."
+     },
+     {
+      "name": "Equals",
+      "url": "https://equals.com/",
+      "desc": "AI-аналітика для точних фінансових і бізнес-показників."
+     },
+     {
+      "name": "Fiberplane",
+      "url": "https://fiberplane.com/",
+      "desc": "Платформа керування роботою над софтом в епоху AI-агентів."
+     },
+     {
+      "name": "Formcarry",
+      "url": "https://formcarry.com/",
+      "desc": "Сервіс обробки вебформ: заявки на пошту, антиспам, інтеграції."
+     },
+     {
+      "name": "Geckoboard",
+      "url": "https://www.geckoboard.com/",
+      "desc": "Живі KPI-дашборди для команд на екранах і в месенджерах."
+     },
+     {
+      "name": "Hyperping",
+      "url": "https://hyperping.com/",
+      "desc": "Моніторинг аптайму сайтів, статус-сторінки та чергування."
+     },
+     {
+      "name": "incident.io",
+      "url": "https://incident.io/",
+      "desc": "Платформа для чергувань, реагування на інциденти та статус-сторінок."
+     },
+     {
+      "name": "Kinsta",
+      "url": "https://kinsta.com/",
+      "desc": "Швидкий і захищений хостинг для WordPress."
+     },
+     {
+      "name": "LaunchDarkly",
+      "url": "https://launchdarkly.com/",
+      "desc": "Безпечне керування релізами функцій і AI-агентами."
+     },
+     {
+      "name": "Liveblocks",
+      "url": "https://liveblocks.io/",
+      "desc": "Інфраструктура спільного редагування для людей і AI-агентів."
+     },
+     {
+      "name": "LocalCan",
+      "url": "https://www.localcan.com/",
+      "desc": "Публічні посилання на локальні проєкти для тестів і прев’ю."
+     },
+     {
+      "name": "LogSnag",
+      "url": "https://logsnag.com/",
+      "desc": "Гнучке відстеження подій і метрик продукту."
+     },
+     {
+      "name": "Mapbox",
+      "url": "https://www.mapbox.com/",
+      "desc": "Карти, навігація, пошук локацій і геодані для застосунків."
+     },
+     {
+      "name": "Meilisearch",
+      "url": "https://www.meilisearch.com/",
+      "desc": "Швидкий пошук і AI-видача для продуктів."
+     },
+     {
+      "name": "Memory",
+      "url": "https://www.inthememory.com/",
+      "desc": "Аналітика даних для рішень у роздрібній торгівлі."
+     },
+     {
+      "name": "Mintlify",
+      "url": "https://www.mintlify.com/",
+      "desc": "Платформа документації, що оновлюється сама."
+     },
+     {
+      "name": "Mixpanel",
+      "url": "https://mixpanel.com/home/",
+      "desc": "Продуктова аналітика, записи сесій та експерименти."
+     },
+     {
+      "name": "Modal",
+      "url": "https://modal.com/",
+      "desc": "Хмарна платформа для навчання й запуску AI-продуктів."
+     },
+     {
+      "name": "Mode",
+      "url": "https://mode.com/",
+      "desc": "Спільна платформа бізнес-аналітики та візуалізації даних."
+     },
+     {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/",
+      "desc": "Платформа даних для продуктів епохи AI."
+     },
+     {
+      "name": "Mux",
+      "url": "https://www.mux.com/",
+      "desc": "Платформа для швидкого й недорогого відео у вебпродуктах."
+     },
+     {
+      "name": "Neon",
+      "url": "https://neon.com/",
+      "desc": "Безсерверна база Postgres для продуктів і AI-агентів."
+     },
+     {
+      "name": "NEVERHACK",
+      "url": "https://neverhack.com/",
+      "desc": "Кібербезпека та суверенна AI-інфраструктура для захисту бізнесу."
+     },
+     {
+      "name": "Nuxt",
+      "url": "https://nuxt.com/",
+      "desc": "Фреймворк для створення швидких вебзастосунків на Vue."
+     },
+     {
+      "name": "onverre",
+      "url": "https://onverre.com/",
+      "desc": "Аналітика на основі вашого сховища даних без cookies."
+     },
+     {
+      "name": "Oxide",
+      "url": "https://oxide.computer/",
+      "desc": "Власна хмара: сервери з вбудованим софтом для інфраструктури."
+     },
+     {
+      "name": "Payload",
+      "url": "https://payloadcms.com/",
+      "desc": "Відкрита CMS і платформа для створення вебзастосунків."
+     },
+     {
+      "name": "PlanetScale",
+      "url": "https://planetscale.com/",
+      "desc": "Швидкий масштабований хмарний хостинг баз даних."
+     },
+     {
+      "name": "Prelude",
+      "url": "https://prelude.so/",
+      "desc": "Перевірка реєстрацій для захисту від шахрайства."
+     },
+     {
+      "name": "PrevalentAI",
+      "url": "https://prevalent.ai/",
+      "desc": "Платформа аналітики даних для кібербезпеки."
+     },
+     {
+      "name": "Railway",
+      "url": "https://railway.com/",
+      "desc": "Хмарна платформа для запуску вебпродуктів і баз даних."
+     },
+     {
+      "name": "ReadMe",
+      "url": "https://readme.com/",
+      "desc": "Платформа інтерактивної технічної документації для продуктів."
+     },
+     {
+      "name": "Reflag",
+      "url": "https://reflag.com/",
+      "desc": "Керування функціями продукту та їх поступовим запуском."
+     },
+     {
+      "name": "Resend",
+      "url": "https://resend.com/home",
+      "desc": "Сервіс доставки транзакційних і маркетингових листів."
+     },
+     {
+      "name": "Retool",
+      "url": "https://retool.com/",
+      "desc": "Платформа для створення внутрішніх інструментів із AI."
+     },
+     {
+      "name": "Secureframe",
+      "url": "https://secureframe.com/",
+      "desc": "Автоматизація комплаєнсу та керування ризиками безпеки."
+     },
+     {
+      "name": "Sevalla",
+      "url": "https://sevalla.com/",
+      "desc": "Хмарна платформа для запуску застосунків, баз даних і сайтів."
+     },
+     {
+      "name": "Span",
+      "url": "https://www.span.app/",
+      "desc": "Аналітика продуктивності технічних команд в епоху AI."
+     },
+     {
+      "name": "Speakeasy",
+      "url": "https://www.speakeasy.com/",
+      "desc": "Контроль і безпека AI-агентів та AI-застосунків у компаніях."
+     },
+     {
+      "name": "Stripe Dot Dev",
+      "url": "https://stripe.dev/",
+      "desc": "Навчальні матеріали Stripe про створення платіжних продуктів."
+     },
+     {
+      "name": "Supabase",
+      "url": "https://supabase.com/",
+      "desc": "Платформа на базі Postgres для запуску продуктів і AI-агентів."
+     },
+     {
+      "name": "Synthesized",
+      "url": "https://www.synthesized.io/",
+      "desc": "Синтетичні тестові дані, схожі на реальні."
+     },
+     {
+      "name": "Tailscale",
+      "url": "https://tailscale.com/",
+      "desc": "Захищене підключення до будь-яких ресурсів за моделлю Zero Trust."
+     },
+     {
+      "name": "Tines",
+      "url": "https://www.tines.com/",
+      "desc": "Безпечне середовище для AI-агентів і автоматизації процесів."
+     },
+     {
+      "name": "Tracebit",
+      "url": "https://tracebit.com/",
+      "desc": "Пастки-канарки, що за секунди виявляють зломи."
+     },
+     {
+      "name": "traceVision",
+      "url": "https://www.tracevision.com/",
+      "desc": "Платформа, що перетворює відео на корисні інсайти."
+     },
+     {
+      "name": "Twingate",
+      "url": "https://www.twingate.com/",
+      "desc": "Безпечний доступ на основі ідентичності замість VPN."
+     },
+     {
+      "name": "Velt",
+      "url": "https://velt.dev/",
+      "desc": "Вбудовані коментарі й погодження для AI-продуктів."
+     },
+     {
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "desc": "Хмарна платформа для запуску вебпродуктів і AI-агентів."
+     },
+     {
+      "name": "Vetric",
+      "url": "https://www.vetric.io/",
+      "desc": "Аналітика соцмереж для розслідувачів і служб безпеки."
+     },
+     {
+      "name": "Vobiz",
+      "url": "https://www.vobiz.ai/",
+      "desc": "Хмарна телефонія та голосові сервіси для бізнесу в Індії."
+     },
+     {
+      "name": "Wiz",
+      "url": "https://www.wiz.io/",
+      "desc": "Кібербезпека для хмарної та AI-інфраструктури."
+     },
+     {
+      "name": "WorkOS",
+      "url": "https://workos.com/",
+      "desc": "Корпоративні функції для застосунків: SSO, каталоги, аудит."
+     },
+     {
+      "name": "Y42",
+      "url": "https://www.y42.com/",
+      "desc": "Платформа для побудови та моніторингу потоків даних бізнесу."
+     }
+    ],
+    "title_en": "Data & Cloud",
+    "id": "data-cloud"
+   },
+   {
+    "title": "Маркетинг і продажі",
+    "desc": "Продукти для росту, продажів і підтримки клієнтів.",
+    "items": [
+     {
+      "name": "1990 Research Labs",
+      "url": "https://www.1990labs.com/",
+      "desc": "Дослідження поведінки споживачів в Індії з AI і модераторами."
+     },
+     {
+      "name": "Acquire",
+      "url": "https://acquire.io/",
+      "desc": "Платформа підтримки клієнтів: чат, відео та робоче місце агента."
+     },
+     {
+      "name": "Ada",
+      "url": "https://www.ada.cx/",
+      "desc": "AI-агент для автоматизації клієнтської підтримки."
+     },
+     {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/",
+      "desc": "Маркетингова платформа для SEO, контенту та видимості в AI-пошуку."
+     },
+     {
+      "name": "Amplemarket",
+      "url": "https://www.amplemarket.com/",
+      "desc": "AI-копілот для відділів продажів."
+     },
+     {
+      "name": "AMZ Atlas",
+      "url": "https://www.amzatlas.com/",
+      "desc": "Стратегії виходу та зростання брендів на Amazon."
+     },
+     {
+      "name": "Anchor",
+      "url": "https://www.getanchor.ai/",
+      "desc": "AI-автоматизація відповідей на RFP для команд продажів."
+     },
+     {
+      "name": "Attio",
+      "url": "https://attio.com/",
+      "desc": "CRM для команд продажів, що будують пайплайн і закривають угоди."
+     },
+     {
+      "name": "bakedwith",
+      "url": "https://www.bakedwith.com/en",
+      "desc": "AI-агенція автоматизації для B2B-маркетингу та продажів."
+     },
+     {
+      "name": "Bambassadors",
+      "url": "https://www.bambassadors.com/",
+      "desc": "UGC і маркетинг із креаторами для D2C-брендів."
+     },
+     {
+      "name": "Beside",
+      "url": "https://www.beside.com/",
+      "desc": "AI-система для залучення й утримання клієнтів локального бізнесу."
+     },
+     {
+      "name": "Bïrch",
+      "url": "https://bir.ch/",
+      "desc": "Автоматизація реклами з AI для Meta, Google, TikTok і Snap."
+     },
+     {
+      "name": "Cello",
+      "url": "https://cello.so/",
+      "desc": "Реферальні програми, що перетворюють користувачів на канал росту."
+     },
+     {
+      "name": "Cernel",
+      "url": "https://cernel.com/",
+      "desc": "Автоматизація карток товарів і фідів для e-commerce."
+     },
+     {
+      "name": "Clarisights",
+      "url": "https://clarisights.com/",
+      "desc": "Маркетингова аналітика для великих компаній."
+     },
+     {
+      "name": "Clay",
+      "url": "https://www.clay.com/",
+      "desc": "Дані й агентні сценарії для зростання продажів."
+     },
+     {
+      "name": "Clearbit",
+      "url": "https://clearbit.com/",
+      "desc": "Збагачення даних про клієнтів і сигнали наміру купівлі в HubSpot."
+     },
+     {
+      "name": "Clyde",
+      "url": "https://joinclyde.com/",
+      "desc": "Платформа, що допомагає брендам заробляти на клієнтах після покупки."
+     },
+     {
+      "name": "Contentsquare",
+      "url": "https://contentsquare.com/",
+      "desc": "Аналітика користувацького досвіду для залучення й конверсії."
+     },
+     {
+      "name": "Determ",
+      "url": "https://determ.com/",
+      "desc": "AI-моніторинг медіа та згадок бренду для PR-команд."
+     },
+     {
+      "name": "Dock",
+      "url": "https://www.dock.us/",
+      "desc": "AI-платформа для продажів і спільної роботи з покупцями."
+     },
+     {
+      "name": "Drop",
+      "url": "https://www.usedrop.io/",
+      "desc": "Продажі брендів напряму через Instagram Direct."
+     },
+     {
+      "name": "Fernand",
+      "url": "https://getfernand.com/",
+      "desc": "Платформа підтримки клієнтів для засновників SaaS."
+     },
+     {
+      "name": "Flashform",
+      "url": "https://www.flshfrm.com/",
+      "desc": "Пересилає заявки з форм сайту в месенджери та на пошту."
+     },
+     {
+      "name": "Focal",
+      "url": "https://focal.inc/",
+      "desc": "Сховище креативів для рекламних команд з AI-тегуванням."
+     },
+     {
+      "name": "Front",
+      "url": "https://front.com/",
+      "desc": "Платформа клієнтського сервісу з AI-автоматизацією та аналітикою."
+     },
+     {
+      "name": "Genie",
+      "url": "https://genie.io/",
+      "desc": "Керування запасами для брендів на Shopify."
+     },
+     {
+      "name": "Helply",
+      "url": "https://helply.com/",
+      "desc": "AI-платформа клієнтської підтримки з агентами, що вирішують запити."
+     },
+     {
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com/",
+      "desc": "Платформа для маркетингу, продажів і підтримки клієнтів."
+     },
+     {
+      "name": "Intercom",
+      "url": "https://www.intercom.com/",
+      "desc": "Служба підтримки клієнтів з вбудованим AI-агентом Fin."
+     },
+     {
+      "name": "Junip",
+      "url": "https://junip.co/",
+      "desc": "Збір і показ відгуків про товари для e-commerce брендів."
+     },
+     {
+      "name": "Klaviyo",
+      "url": "https://www.klaviyo.com/uk/",
+      "desc": "AI-маркетинг і CRM для брендів: email, SMS і WhatsApp."
+     },
+     {
+      "name": "Lefty",
+      "url": "https://lefty.io/",
+      "desc": "Аналітика та керування програмами інфлюенс-маркетингу."
+     },
+     {
+      "name": "Livestorm",
+      "url": "https://livestorm.co/",
+      "desc": "Платформа вебінарів для маркетингових команд."
+     },
+     {
+      "name": "Loop",
+      "url": "https://www.loopreturns.com/",
+      "desc": "Платформа повернень, обмінів і доставки для онлайн-магазинів."
+     },
+     {
+      "name": "Loops",
+      "url": "https://loops.so/",
+      "desc": "Email-платформа для SaaS: маркетингові й транзакційні листи."
+     },
+     {
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com/",
+      "desc": "Платформа email- та SMS-маркетингу."
+     },
+     {
+      "name": "MailerSend",
+      "url": "https://www.mailersend.com/",
+      "desc": "Сервіс надсилання транзакційних email-листів для бізнесу."
+     },
+     {
+      "name": "Measured",
+      "url": "https://www.measuredhq.com/",
+      "desc": "Вимірювання реальної ефективності маркетингових каналів."
+     },
+     {
+      "name": "Medusmo",
+      "url": "https://www.medusmo.com/",
+      "desc": "Експертна команда з клієнтського досвіду на технологіях Genesys."
+     },
+     {
+      "name": "Merchery",
+      "url": "https://merchery.co/",
+      "desc": "Сайт сервісу для онлайн-продавців."
+     },
+     {
+      "name": "mParticle",
+      "url": "https://www.mparticle.com/",
+      "desc": "Платформа клієнтських даних для аудиторій і маркетингу."
+     },
+     {
+      "name": "Ortto",
+      "url": "https://ortto.com/",
+      "desc": "Автоматизація маркетингу, дані клієнтів і аналітика разом."
+     },
+     {
+      "name": "Ottomate",
+      "url": "https://ottomate.co/",
+      "desc": "Консалтинг із lifecycle-маркетингу та автоматичних розсилок."
+     },
+     {
+      "name": "Outerspace",
+      "url": "https://www.outerspace.com/",
+      "desc": "Фулфілмент і логістика для брендів."
+     },
+     {
+      "name": "Parcel",
+      "url": "https://parcel.io/",
+      "desc": "Платформа для створення й тестування email-листів."
+     },
+     {
+      "name": "Partnero",
+      "url": "https://www.partnero.com/",
+      "desc": "AI-платформа для афіліатних і реферальних програм."
+     },
+     {
+      "name": "Paved",
+      "url": "https://www.paved.com/",
+      "desc": "Рекламна мережа для розміщення оголошень у тисячах розсилок."
+     },
+     {
+      "name": "Peek Insights",
+      "url": "https://peekinsights.co/",
+      "desc": "Агенція з оптимізації конверсії сайтів."
+     },
+     {
+      "name": "Plain",
+      "url": "https://www.plain.com/",
+      "desc": "AI-платформа клієнтської підтримки для B2B-команд."
+     },
+     {
+      "name": "Reachdesk",
+      "url": "https://www.reachdesk.com/",
+      "desc": "Платформа для B2B-подарунків і брендованого мерчу по всьому світу."
+     },
+     {
+      "name": "Relate",
+      "url": "https://www.relate.so/",
+      "desc": "CRM для B2B-продажів і командної роботи."
+     },
+     {
+      "name": "Reveni",
+      "url": "https://www.reveni.com/",
+      "desc": "Миттєві повернення та обміни для інтернет-магазинів."
+     },
+     {
+      "name": "Secco Squared",
+      "url": "https://www.seccosquared.com/",
+      "desc": "Агенція омніканального перформанс-маркетингу."
+     },
+     {
+      "name": "Senja",
+      "url": "https://senja.io/",
+      "desc": "Збір і показ відгуків клієнтів на сайті."
+     },
+     {
+      "name": "Shopify",
+      "url": "https://www.shopify.com/",
+      "desc": "Платформа для запуску й розвитку онлайн-магазину."
+     },
+     {
+      "name": "Superchat",
+      "url": "https://www.superchat.com/",
+      "desc": "Платформа месенджерів для спілкування бізнесу з клієнтами."
+     },
+     {
+      "name": "SupportLogic",
+      "url": "https://www.supportlogic.com/",
+      "desc": "AI-агенти, що допомагають командам підтримки уникати ескалацій."
+     },
+     {
+      "name": "Surfe",
+      "url": "https://www.surfe.com/",
+      "desc": "Пошук B2B-контактів і синхронізація з CRM."
+     },
+     {
+      "name": "Surfer",
+      "url": "https://surferseo.com/",
+      "desc": "Відстеження видимості бренду в Google та AI-пошуку."
+     },
+     {
+      "name": "Swap",
+      "url": "https://www.swap-commerce.com/",
+      "desc": "Платформа глобальної електронної комерції для брендів."
+     },
+     {
+      "name": "Tolstoy",
+      "url": "https://www.gotolstoy.com/",
+      "desc": "AI-платформа відео й UGC для магазинів на Shopify."
+     },
+     {
+      "name": "Vori",
+      "url": "https://www.vori.com/",
+      "desc": "Каса та система керування для незалежних продуктових магазинів."
+     },
+     {
+      "name": "Wappalyzer",
+      "url": "https://www.wappalyzer.com/",
+      "desc": "Дані про технології сайтів для продажів і пошуку клієнтів."
+     },
+     {
+      "name": "Whelp",
+      "url": "https://whelp.co/",
+      "desc": "AI-агенти й омніканальна скринька для клієнтської підтримки."
+     },
+     {
+      "name": "Wiza",
+      "url": "https://wiza.co/",
+      "desc": "Пошук і перевірка B2B-контактів для продажів."
+     },
+     {
+      "name": "Wope",
+      "url": "https://wope.com/",
+      "desc": "Інструмент для SEO-досліджень і маркетингової стратегії."
+     },
+     {
+      "name": "Zaap",
+      "url": "https://zaap.ai/",
+      "desc": "Магазин для креаторів: посилання, продажі й цифрові товари."
+     },
+     {
+      "name": "Zendesk",
+      "url": "https://www.zendesk.com/",
+      "desc": "AI-платформа клієнтської підтримки."
+     },
+     {
+      "name": "Zing",
+      "url": "https://www.zing.dev/",
+      "desc": "Впровадження Twilio Flex для хмарних контакт-центрів."
+     }
+    ],
+    "title_en": "Marketing & Sales",
+    "id": "marketing-sales"
+   },
+   {
+    "title": "Здоров’я та біотех",
+    "desc": "Медицина, велнес і біотех: тепла, але точна мова бренду.",
+    "items": [
+     {
+      "name": "Alveos",
+      "url": "https://www.alveoslabs.com/",
+      "desc": "Легкий носимий монітор дихання для турботи про здоров’я."
+     },
+     {
+      "name": "Atrium",
+      "url": "https://www.atrium.se/",
+      "desc": "Шведський центр первинної медичної допомоги."
+     },
+     {
+      "name": "brain.space",
+      "url": "https://www.brain.space/",
+      "desc": "Технологія вимірювання активності мозку."
+     },
+     {
+      "name": "Breastcancer.org",
+      "url": "https://www.breastcancer.org/",
+      "desc": "Достовірна інформація та підтримка спільноти щодо раку грудей."
+     },
+     {
+      "name": "Click Therapeutics",
+      "url": "https://www.clicktherapeutics.com/",
+      "desc": "Цифрові терапевтичні програми, що призначає лікар."
+     },
+     {
+      "name": "Coherence",
+      "url": "https://www.coherenceneuro.com/",
+      "desc": "Терапевтична нейротехнологія для контролю раку."
+     },
+     {
+      "name": "Compsych",
+      "url": "https://compsych.konpo.co/",
+      "desc": "Брендбук Compsych – сервісу підтримки добробуту працівників."
+     },
+     {
+      "name": "Diag-Nose.io",
+      "url": "https://www.diag-nose.io/",
+      "desc": "Біотех-компанія, що досліджує дихальні шляхи для точного лікування."
+     },
+     {
+      "name": "Dock Health",
+      "url": "https://dock.health/",
+      "desc": "Керування задачами й автоматизація для медичних команд."
+     },
+     {
+      "name": "Doxy.me",
+      "url": "https://doxy.me/site/",
+      "desc": "Проста й безпечна платформа телемедицини."
+     },
+     {
+      "name": "DVLP Medicines",
+      "url": "https://dvlpmedicines.com/",
+      "desc": "Створення інтелектуальних ліків за допомогою AI."
+     },
+     {
+      "name": "En + Cy",
+      "url": "https://www.cybiopharma.com/",
+      "desc": "Біотех-компанія, що створює ліки від хронічного болю."
+     },
+     {
+      "name": "Ethnocare",
+      "url": "https://ethnocare.ca/",
+      "desc": "Повітряна система для кращої посадки протезів гомілки."
+     },
+     {
+      "name": "Harmonic Discovery",
+      "url": "https://www.harmonicdiscovery.com/",
+      "desc": "Біотех-компанія, що шукає нові ліки за допомогою AI."
+     },
+     {
+      "name": "Hart",
+      "url": "https://hart.com/",
+      "desc": "Платформа для об’єднання та обробки медичних даних."
+     },
+     {
+      "name": "Hawthorne Skin & Beauty",
+      "url": "https://www.hawthorneskinandbeauty.com.au/",
+      "desc": "Клініка догляду за шкірою в Брисбені."
+     },
+     {
+      "name": "Healthy Together",
+      "url": "https://www.healthytogether.co/",
+      "desc": "AI-сервіс для держагенцій соцзахисту та медичних програм США."
+     },
+     {
+      "name": "Hematogenix",
+      "url": "https://hematogenix.com/",
+      "desc": "Лабораторія для клінічних досліджень в онкології."
+     },
+     {
+      "name": "inne",
+      "url": "https://inne.io/",
+      "desc": "Безгормональна контрацепція на основі аналізу слини."
+     },
+     {
+      "name": "KiHealth",
+      "url": "https://www.kihealth.com/",
+      "desc": "Сайт компанії у сфері охорони здоров’я."
+     },
+     {
+      "name": "Lovi",
+      "url": "https://lovi.care/",
+      "desc": "AI-косметолог для догляду за шкірою на основі науки."
+     },
+     {
+      "name": "Magic Molecule",
+      "url": "https://magicmolecule.com/",
+      "desc": "Засіб для загоєння шкіри на основі гіпохлорної кислоти."
+     },
+     {
+      "name": "MyHealthPrac",
+      "url": "https://www.myhealthprac.com/",
+      "desc": "Персоналізована аналітика здоров’я на основі функціональної медицини."
+     },
+     {
+      "name": "NOON WORLD",
+      "url": "https://noon.world/",
+      "desc": "Функціональні желейки з грибами для фокусу, спокою та сну."
+     },
+     {
+      "name": "Open",
+      "url": "https://o-p-e-n.com/",
+      "desc": "Студія медитацій, дихальних практик і майндфулнесу."
+     },
+     {
+      "name": "Pelago",
+      "url": "https://www.pelagohealth.com/",
+      "desc": "Лікування залежностей і ментального здоров’я з AI та лікарями."
+     },
+     {
+      "name": "Profluent",
+      "url": "https://www.profluent.bio/",
+      "desc": "AI для створення нових білків для медицини та біології."
+     },
+     {
+      "name": "Replay",
+      "url": "https://replay.bio/",
+      "desc": "Біотех-компанія, що перепрограмовує біологію за допомогою ДНК."
+     },
+     {
+      "name": "Sahha",
+      "url": "https://sahha.ai/",
+      "desc": "Єдине джерело даних про здоров’я з 800+ носимих пристроїв."
+     },
+     {
+      "name": "SkyView",
+      "url": "https://skyviewlight.com/",
+      "desc": "Світильники, що покращують настрій, роботу й сон."
+     },
+     {
+      "name": "sofi health",
+      "url": "https://sofi.health/",
+      "desc": "Рослинні спреї для кращого сну і спокою."
+     },
+     {
+      "name": "Stryds",
+      "url": "https://www.stryds.com/",
+      "desc": "Соціальний застосунок про здоров’я та активність."
+     },
+     {
+      "name": "Superpower",
+      "url": "https://superpower.com/",
+      "desc": "Членство з аналізами 150+ біомаркерів і планом здоров’я."
+     },
+     {
+      "name": "The Luckiest Club",
+      "url": "https://www.theluckiestclub.com/",
+      "desc": "Онлайн-спільнота підтримки для тих, хто відмовляється від алкоголю."
+     },
+     {
+      "name": "Timeline",
+      "url": "https://www.timeline.com/",
+      "desc": "Добавки з уролітином A для здоров’я клітин."
+     },
+     {
+      "name": "TransCure bioServices",
+      "url": "https://www.transcurebioservices.com/",
+      "desc": "Гуманізовані моделі мишей для доклінічних досліджень."
+     },
+     {
+      "name": "Ultrahuman",
+      "url": "https://www.ultrahuman.com/ua/",
+      "desc": "Смарт-кільце та сервіси для сну, здоров’я і довголіття."
+     },
+     {
+      "name": "Unmind",
+      "url": "https://unmind.com/",
+      "desc": "Платформа ментального здоров’я для працівників: терапія й коучинг."
+     }
+    ],
+    "title_en": "Health & Bio",
+    "id": "health-bio"
+   },
+   {
+    "title": "Клімат і енергетика",
+    "desc": "Клімат, енергія й сталий розвиток у сучасній подачі.",
+    "items": [
+     {
+      "name": "amina charging",
+      "url": "https://aminacharging.com/",
+      "desc": "Зарядні станції для електромобілів для дому."
+     },
+     {
+      "name": "AWARE",
+      "url": "https://www.traceaware.io/",
+      "desc": "Токенізоване відстеження ланцюгів постачання для брендів."
+     },
+     {
+      "name": "Breaking",
+      "url": "https://www.breaking.com/",
+      "desc": "Технологія біологічного розкладання пластику."
+     },
+     {
+      "name": "Cecilia",
+      "url": "https://www.ceciliamaterials.com/",
+      "desc": "Перетворення пластикових відходів на вуглецеві матеріали."
+     },
+     {
+      "name": "Deep Sky",
+      "url": "https://www.deepskyclimate.com/",
+      "desc": "Проєкти з видалення вуглецю з атмосфери."
+     },
+     {
+      "name": "ECI",
+      "url": "https://www.eci.io/",
+      "desc": "AI-моделі на кшталт ClimateGPT для кліматичних досліджень."
+     },
+     {
+      "name": "Encontech",
+      "url": "https://encontech.nl/",
+      "desc": "Двигуни, що перетворюють тепло на механічну енергію."
+     },
+     {
+      "name": "Energy Profits",
+      "url": "https://energy-profits.org/",
+      "desc": "Кампанія про прибутки нафтових гігантів і викиди CO2."
+     },
+     {
+      "name": "Enode",
+      "url": "https://enode.com/",
+      "desc": "Платформа, що координує домашні енергоактиви для постачальників."
+     },
+     {
+      "name": "erthos",
+      "url": "https://www.planeterthos.com/",
+      "desc": "Кліматична компанія, що замінює пластик біоматеріалами."
+     },
+     {
+      "name": "Evrnu",
+      "url": "https://www.evrnu.com/",
+      "desc": "Нове текстильне волокно з переробленого одягу."
+     },
+     {
+      "name": "Exagen",
+      "url": "https://exagen.co.uk/",
+      "desc": "Британська компанія, що розвиває проєкти відновлюваної енергетики."
+     },
+     {
+      "name": "Fair Supply",
+      "url": "https://www.fairsupply.com/",
+      "desc": "ESG-звітність і перевірка ланцюгів постачання для бізнесу."
+     },
+     {
+      "name": "Farm Minerals",
+      "url": "https://www.farmminerals.com/promo",
+      "desc": "CropTab – ефективне NPK-добриво для кращих урожаїв."
+     },
+     {
+      "name": "Farmless",
+      "url": "https://farmless.com/",
+      "desc": "Білкові інгредієнти, дружні до планети."
+     },
+     {
+      "name": "FC88",
+      "url": "https://www.thisisfc88.com/",
+      "desc": "Апсайклінг невикористаного спортивного одягу в нові продукти."
+     },
+     {
+      "name": "Genesis",
+      "url": "https://www.genesis.live/",
+      "desc": "Аналітика ґрунтів для сталого розвитку бізнесу."
+     },
+     {
+      "name": "Gravity",
+      "url": "https://www.gravityplatform.com/",
+      "desc": "Керування вуглецевими й енергетичними даними для підприємств."
+     },
+     {
+      "name": "Greenly",
+      "url": "https://greenly.earth/",
+      "desc": "Платформа для обліку та скорочення вуглецевого сліду компаній."
+     },
+     {
+      "name": "Haven Energy",
+      "url": "https://havenenergy.com/",
+      "desc": "Домашні акумулятори для резервного живлення з помісячною оплатою."
+     },
+     {
+      "name": "ION Solar",
+      "url": "https://www.ionsolar.com/",
+      "desc": "Встановлення сонячних панелей для будинків у США."
+     },
+     {
+      "name": "Karibou",
+      "url": "https://karibou.eu/",
+      "desc": "Пакування на 100% з рослинних матеріалів."
+     },
+     {
+      "name": "Kitchen Energy Solutions",
+      "url": "https://kitchenenergysolutions.com/",
+      "desc": "Енергоощадна вентиляція для комерційних кухонь."
+     },
+     {
+      "name": "Leap",
+      "url": "https://www.leap.energy/",
+      "desc": "Платформа, що перетворює розподілені енергоресурси на дохід."
+     },
+     {
+      "name": "Moxion Power",
+      "url": "https://moxion-preprod.rejouice.io/",
+      "desc": "Мобільні системи зберігання енергії."
+     },
+     {
+      "name": "Patch",
+      "url": "https://www.patch.io/intake-form",
+      "desc": "Платформа для купівлі вуглецевих кредитів."
+     },
+     {
+      "name": "Peak Energy",
+      "url": "https://peakenergy.com/",
+      "desc": "Натрій-іонні системи накопичення енергії для мережі."
+     },
+     {
+      "name": "Pioniq Technologies",
+      "url": "https://pioniq-technologies.com/",
+      "desc": "Матеріали для накопичувачів енергії нового покоління без літію."
+     },
+     {
+      "name": "PVG",
+      "url": "https://pvg.co/",
+      "desc": "Інвестиційна група, що фінансує кліматичні рішення."
+     },
+     {
+      "name": "Renew Home",
+      "url": "https://www.renewhome.com/",
+      "desc": "Керування енергоспоживанням дому та віртуальна електростанція."
+     },
+     {
+      "name": "Smarkia",
+      "url": "https://smarkia.com/",
+      "desc": "Автоматизоване керування енергоспоживанням об’єктів."
+     },
+     {
+      "name": "T1 Energy",
+      "url": "https://t1energy.com/",
+      "desc": "Американське виробництво сонячних панелей і батарей."
+     },
+     {
+      "name": "Watershed",
+      "url": "https://watershed.com/",
+      "desc": "AI-платформа для обліку та скорочення викидів."
+     },
+     {
+      "name": "Wyse Meter",
+      "url": "https://www.wysemeter.com/",
+      "desc": "Субметеринг енергії, води, тепла й газу."
+     }
+    ],
+    "title_en": "Climate & Energy",
+    "id": "climate-energy"
+   },
+   {
+    "title": "Залізо та мобільність",
+    "desc": "Пристрої, роботи, транспорт і deep tech.",
+    "items": [
+     {
+      "name": "1X",
+      "url": "https://www.1x.tech/",
+      "desc": "Безпечні роботи-гуманоїди для дому."
+     },
+     {
+      "name": "Albedo",
+      "url": "https://albedo.com/",
+      "desc": "Супутники, що наближають космос до Землі."
+     },
+     {
+      "name": "Apollo",
+      "url": "https://www.apollofmg.com/",
+      "desc": "Компанія сталої мобільності та електротранспорту."
+     },
+     {
+      "name": "Apple watchOS",
+      "url": "https://www.apple.com/os/watchos/",
+      "desc": "Операційна система Apple Watch із новою Siri на Apple Intelligence."
+     },
+     {
+      "name": "Augen",
+      "url": "https://augen.pro/",
+      "desc": "Компанія, що працює над «невидимими» обчисленнями."
+     },
+     {
+      "name": "Autonomous",
+      "url": "https://www.autonomous.ai/",
+      "desc": "Майстерня пристроїв із вбудованим AI."
+     },
+     {
+      "name": "AVATR",
+      "url": "https://vision.avatr.com/",
+      "desc": "Концепція емоційної розкоші в електромобілях AVATR."
+     },
+     {
+      "name": "BUSY",
+      "url": "https://busy.app/",
+      "desc": "Настільний пристрій з LED-екраном для статусу зайнятості й фокусу."
+     },
+     {
+      "name": "Cortical Labs",
+      "url": "https://corticallabs.com/",
+      "desc": "Біологічні комп’ютери на основі живих нейронів."
+     },
+     {
+      "name": "Droneland",
+      "url": "https://www.droneland.au/",
+      "desc": "Дронова зйомка й аналітика територій для громад і ферм."
+     },
+     {
+      "name": "Einride",
+      "url": "https://www.einride.tech/",
+      "desc": "Технології вантажної логістики з меншими викидами."
+     },
+     {
+      "name": "Fauna Robotics",
+      "url": "https://faunarobotics.com/",
+      "desc": "Безпечні гуманоїдні роботи для бізнесу, науки й людей."
+     },
+     {
+      "name": "Google Store",
+      "url": "https://store.google.com/regionpicker",
+      "desc": "Офіційний магазин пристроїв Google."
+     },
+     {
+      "name": "Lucid",
+      "url": "https://lucidmotors.com/",
+      "desc": "Електромобілі, що переосмислюють досвід водіння."
+     },
+     {
+      "name": "Nuro",
+      "url": "https://www.nuro.ai/",
+      "desc": "Автономне водіння на базі масштабованого AI-водія."
+     },
+     {
+      "name": "Opal",
+      "url": "https://op.al/",
+      "desc": "Каліфорнійська компанія, що проєктує та створює власні пристрої."
+     },
+     {
+      "name": "OXI Instruments",
+      "url": "https://oxiinstruments.com/",
+      "desc": "Іспанський виробник преміальних музичних секвенсорів."
+     },
+     {
+      "name": "Polar Cooling",
+      "url": "https://www.polarct.com/",
+      "desc": "Виробник систем охолодження й опалення для комерції."
+     },
+     {
+      "name": "Q-Refinish",
+      "url": "https://www.qrefinish.com/en-de",
+      "desc": "Німецький бренд матеріалів для авторемонтного фарбування."
+     },
+     {
+      "name": "Relats",
+      "url": "https://toptier.relats.com/",
+      "desc": "Захисні рукави для безпеки в електромобільності."
+     },
+     {
+      "name": "Sandbar",
+      "url": "https://www.sandbar.com/",
+      "desc": "Stream – приватна голосова каблучка для нотаток і диктування."
+     },
+     {
+      "name": "Sol",
+      "url": "https://solreader.com/",
+      "desc": "Компанія, що створює пристрої та інструменти для читання."
+     },
+     {
+      "name": "Standard Bots",
+      "url": "https://standardbots.com/",
+      "desc": "Доступні та інтуїтивні промислові роботи."
+     },
+     {
+      "name": "Sunday",
+      "url": "https://www.sunday.ai/",
+      "desc": "Домашній робот Memo для щоденних справ."
+     },
+     {
+      "name": "Torch Sensors",
+      "url": "https://torchsensors.webflow.io/",
+      "desc": "Датчики для раннього виявлення пожеж на великих ділянках."
+     },
+     {
+      "name": "True Anomaly",
+      "url": "https://www.trueanomaly.space/",
+      "desc": "Космічні технології для безпеки на орбіті."
+     },
+     {
+      "name": "Tuya",
+      "url": "https://www.tuya.com/",
+      "desc": "Глобальна AIoT-платформа для створення розумних пристроїв."
+     },
+     {
+      "name": "Umbrel",
+      "url": "https://umbrel.com/",
+      "desc": "Домашній сервер і операційна система для власної хмари."
+     },
+     {
+      "name": "Waabi",
+      "url": "https://waabi.ai/",
+      "desc": "Безпілотні вантажівки та роботаксі на основі AI."
+     },
+     {
+      "name": "XPANCEO",
+      "url": "https://www.xpanceo.com/",
+      "desc": "Розумна контактна лінза як обчислювальна платформа епохи AI."
+     },
+     {
+      "name": "Yuri Gravity",
+      "url": "https://yurigravity.com/",
+      "desc": "Симулятори мікрогравітації для наукових і космічних досліджень."
+     },
+     {
+      "name": "Zipline",
+      "url": "https://www.zipline.com/",
+      "desc": "Доставка їжі, продуктів і ліків дронами за лічені хвилини."
+     }
+    ],
+    "title_en": "Hardware & Mobility",
+    "id": "hardware-mobility"
+   },
+   {
+    "title": "Консьюмер-бренди",
+    "desc": "Їжа, мода, меблі, подорожі й застосунки для людей.",
+    "items": [
+     {
+      "name": "222",
+      "url": "https://222.place/",
+      "desc": "Застосунок для нових знайомств і відкриття свого міста."
+     },
+     {
+      "name": "Airbnb",
+      "url": "https://ru.airbnb.com/services",
+      "desc": "Бронювання послуг у подорожі: кухарі, масаж, фотозйомка."
+     },
+     {
+      "name": "Airtasker",
+      "url": "https://www.airtasker.com/us/",
+      "desc": "Маркетплейс, де можна знайти виконавця для будь-якого завдання."
+     },
+     {
+      "name": "Alpine",
+      "url": "https://www.alpinehearingprotection.com/",
+      "desc": "Беруші для концертів, подорожей, сну та інших гучних ситуацій."
+     },
+     {
+      "name": "Andersen-Andersen",
+      "url": "https://andersen-andersen.com/",
+      "desc": "Данський бренд робочого одягу та трикотажу."
+     },
+     {
+      "name": "Anketa",
+      "url": "https://anketa.com/",
+      "desc": "Анонімні опитування в реальному часі з результатами в блокчейні."
+     },
+     {
+      "name": "Atomic Mail",
+      "url": "https://atomicmail.io/",
+      "desc": "Приватна пошта з наскрізним шифруванням і без реклами."
+     },
+     {
+      "name": "Ayo",
+      "url": "https://joinlava.com/",
+      "desc": "Соціальний аудіозастосунок для розмов і спілкування з друзями."
+     },
+     {
+      "name": "BAMBOKIDS",
+      "url": "https://bambokids.ru/",
+      "desc": "Фабрика дизайнерських дитячих меблів."
+     },
+     {
+      "name": "Banff & Lake Louise Tourism",
+      "url": "https://www.banfflakelouise.com/",
+      "desc": "Офіційний туристичний сайт Банфа та озера Луїз."
+     },
+     {
+      "name": "Bending Spoons",
+      "url": "https://bendingspoons.com/",
+      "desc": "Компанія, що купує й покращує відомі цифрові продукти."
+     },
+     {
+      "name": "Block Renovation",
+      "url": "https://www.blockrenovation.com/",
+      "desc": "Ремонт квартир і будинків із перевіреними підрядниками."
+     },
+     {
+      "name": "Boldly",
+      "url": "https://www.boldlyfoods.com/",
+      "desc": "Сайт харчового бренду Boldly."
+     },
+     {
+      "name": "Brainsave",
+      "url": "https://brainsave.ai/",
+      "desc": "Сервіс для збереження спогадів і особистого досвіду."
+     },
+     {
+      "name": "BRĒZ",
+      "url": "https://www.drinkbrez.com/",
+      "desc": "Функціональні напої з грибами й адаптогенами замість алкоголю."
+     },
+     {
+      "name": "BYBORRE",
+      "url": "https://byborre.com/",
+      "desc": "Амстердамська студія інноваційного текстилю для брендів."
+     },
+     {
+      "name": "Capsules",
+      "url": "https://capsules.moyra.co/",
+      "desc": "Будиночки-капсули для відпочинку в пустелі Каліфорнії."
+     },
+     {
+      "name": "Cometeer",
+      "url": "https://cometeer.com/",
+      "desc": "Заморожена спешелті-кава в капсулах із доставкою."
+     },
+     {
+      "name": "Floema",
+      "url": "https://floema.com/",
+      "desc": "Навігація, меблі та обладнання для сталих громадських просторів."
+     },
+     {
+      "name": "Fredericia",
+      "url": "https://www.fredericia.com/",
+      "desc": "Данські дизайнерські меблі з 1911 року, створені на довгі роки."
+     },
+     {
+      "name": "Givingli",
+      "url": "https://givingli.com/",
+      "desc": "Цифрові листівки та подарункові картки онлайн."
+     },
+     {
+      "name": "Hello Klean",
+      "url": "https://helloklean.com/",
+      "desc": "Б’юті-рішення, що захищають шкіру й волосся від жорсткої води."
+     },
+     {
+      "name": "Homa",
+      "url": "https://www.homagames.com/",
+      "desc": "Інструменти й паблішинг для створення хітових мобільних ігор."
+     },
+     {
+      "name": "Journal",
+      "url": "https://www.journal.do/",
+      "desc": "Застосунок для ведення щоденника на macOS."
+     },
+     {
+      "name": "Krazam",
+      "url": "https://www.krazam.tv/",
+      "desc": "Комедійні скетчі про технології та стартапи."
+     },
+     {
+      "name": "Literal",
+      "url": "https://literal.club/",
+      "desc": "Соцмережа для читачів: книжкові полиці та відгуки."
+     },
+     {
+      "name": "Loop & Tie",
+      "url": "https://www.loopandtie.com/",
+      "desc": "Подарунки, де отримувач сам обирає товар від малого бізнесу."
+     },
+     {
+      "name": "Marathon",
+      "url": "https://marathontv.app/",
+      "desc": "Застосунок для обліку серіалів і їх обговорення з друзями."
+     },
+     {
+      "name": "Mate Libre",
+      "url": "https://matelibre.com/",
+      "desc": "Функціональні напої на основі єрба мате."
+     },
+     {
+      "name": "Modelec",
+      "url": "https://www.modelec.com/fr",
+      "desc": "Преміальні вимикачі й розетки, виготовлені у Франції з 1976 року."
+     },
+     {
+      "name": "mymind",
+      "url": "https://mymind.com/mobile",
+      "desc": "Приватне місце для нотаток, закладок і натхнення."
+     },
+     {
+      "name": "NORNORM",
+      "url": "https://nornorm.com/",
+      "desc": "Підписка на офісні меблі з повторним використанням."
+     },
+     {
+      "name": "Nortera",
+      "url": "https://www.norterafoods.com/",
+      "desc": "Переробка та продаж консервованих і заморожених овочів."
+     },
+     {
+      "name": "Ode to Things",
+      "url": "https://www.odetothings.com/",
+      "desc": "Магазин якісних речей для щоденного вжитку."
+     },
+     {
+      "name": "Offsuit Games",
+      "url": "https://offsuit.app/",
+      "desc": "Студія простих і ретельно продуманих ігор."
+     },
+     {
+      "name": "Old Riga KVEST",
+      "url": "https://rigakvest.com/",
+      "desc": "Онлайн-квест старим містом Риги."
+     },
+     {
+      "name": "OurFamilyWizard",
+      "url": "https://www.ourfamilywizard.com/",
+      "desc": "Застосунок для спільного виховання дітей після розлучення."
+     },
+     {
+      "name": "Pepette",
+      "url": "https://www.pepette.co/",
+      "desc": "Свіжий персоналізований корм для собак і котів у Франції."
+     },
+     {
+      "name": "Pimpinella",
+      "url": "https://www.pimpinella.cooking/",
+      "desc": "Одноденний воркшоп: збір дикорослих рослин і домашня паста."
+     },
+     {
+      "name": "Portrait",
+      "url": "https://portrait.so/",
+      "desc": "Персональний онлайн-простір, яким можна володіти й ділитися."
+     },
+     {
+      "name": "PrimeAsia",
+      "url": "https://www.primeasialeather.com/",
+      "desc": "Шкіряне виробництво на основі традицій американської дубильні."
+     },
+     {
+      "name": "Quechua",
+      "url": "https://quechua-lookbook.com/ss25/",
+      "desc": "Лукбук туристичної колекції Quechua весна-літо 2025."
+     },
+     {
+      "name": "Rare Assembly",
+      "url": "https://rareassembly.com/",
+      "desc": "Преміальні корпоративні подарунки для клієнтів і команд."
+     },
+     {
+      "name": "Refrakt",
+      "url": "https://refrakt.app/",
+      "desc": "Платформа для фотографії, створена фотографами."
+     },
+     {
+      "name": "ReFramed",
+      "url": "https://reframedbrand.com/",
+      "desc": "Бренд дизайнерських ліжок."
+     },
+     {
+      "name": "Relieve Furniture",
+      "url": "https://www.relievefurniture.com/",
+      "desc": "Сайт меблевого бренду."
+     },
+     {
+      "name": "Roamee",
+      "url": "https://roamee.co/",
+      "desc": "Застосунок, щоб планувати, фіксувати й згадувати подорожі."
+     },
+     {
+      "name": "Shareup",
+      "url": "https://shareup.app/",
+      "desc": "Прості й приватні інструменти, що зближують людей."
+     },
+     {
+      "name": "Shop",
+      "url": "https://shop.app/",
+      "desc": "Застосунок Shopify для покупок і відстеження замовлень."
+     },
+     {
+      "name": "Sleeve",
+      "url": "https://replay.software/sleeve",
+      "desc": "Віджет для Mac, що показує музику, яка грає зараз."
+     },
+     {
+      "name": "SLOT",
+      "url": "https://slotapp.me/",
+      "desc": "Цифровий шар для подорожей: контент, модулі й маршрути."
+     },
+     {
+      "name": "Stack",
+      "url": "https://motostack.com/",
+      "desc": "Модульні алюмінієві стелажі для творчих просторів."
+     },
+     {
+      "name": "Talgh",
+      "url": "https://talgh.co/",
+      "desc": "Дезодорант на основі лою без алюмінію та парабенів."
+     },
+     {
+      "name": "Tedy",
+      "url": "https://www.tedy.app/",
+      "desc": "Сайт мобільного застосунку."
+     },
+     {
+      "name": "Then",
+      "url": "https://timestwelve.xyz/then",
+      "desc": "Трекер часу, що показує, як справи впливають на настрій."
+     },
+     {
+      "name": "TIDAL",
+      "url": "https://tidal.com/",
+      "desc": "Музичний стримінг із високою якістю звуку."
+     },
+     {
+      "name": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurants",
+      "desc": "Відгуки та рейтинги ресторанів для мандрівників."
+     },
+     {
+      "name": "Tripsy",
+      "url": "https://tripsy.app/",
+      "desc": "Застосунок для планування подорожей."
+     },
+     {
+      "name": "TWYG",
+      "url": "https://twygskincare.com/",
+      "desc": "Натуральна люксова косметика для шкіри з Нової Зеландії."
+     },
+     {
+      "name": "Tylko",
+      "url": "https://tylko.com/",
+      "desc": "Меблі на замовлення, які можна налаштувати онлайн."
+     },
+     {
+      "name": "Unknown Golf",
+      "url": "https://www.unknowngolf.com/",
+      "desc": "Застосунок для гольфу: рахунок, турніри й спільнота гравців."
+     },
+     {
+      "name": "Vlastní chutná líp",
+      "url": "https://www.vlastnichutnanejlip.cz/",
+      "desc": "Чеська винокурня: власний дистилят із вашого фрукту."
+     },
+     {
+      "name": "Wander",
+      "url": "https://www.wander.com/",
+      "desc": "Розкішні будинки для відпочинку із сервісом рівня готелю."
+     }
+    ],
+    "title_en": "Consumer",
+    "id": "consumer"
+   },
+   {
+    "title": "Креативні інструменти",
+    "desc": "Інструменти для дизайну, відео й сайтів.",
+    "items": [
+     {
+      "name": "099 Supply",
+      "url": "https://099.supply/",
+      "desc": "Архів мокапів, компонентів для Framer і 3D-редактор мокапів."
+     },
+     {
+      "name": "Aaply",
+      "url": "https://aaply.app/",
+      "desc": "Інструмент для дизайну мобільних застосунків."
+     },
+     {
+      "name": "Affinity",
+      "url": "https://www.affinity.studio/",
+      "desc": "Професійні застосунки для фото, дизайну та верстки від Canva."
+     },
+     {
+      "name": "Appfarm",
+      "url": "https://www.appfarm.io/",
+      "desc": "AI-платформа для візуального створення корпоративних застосунків."
+     },
+     {
+      "name": "Artboard Studio",
+      "url": "https://artboard.studio/",
+      "desc": "Онлайн-генератор мокапів для портфоліо і презентацій."
+     },
+     {
+      "name": "Atomize",
+      "url": "https://atomizedesign.com/",
+      "desc": "Дизайн-система для Figma для створення інтерфейсів."
+     },
+     {
+      "name": "bio.link",
+      "url": "https://bio.link/",
+      "desc": "Сервіс сторінок із посиланнями для профілів у соцмережах."
+     },
+     {
+      "name": "Blank",
+      "url": "https://useblank.design/",
+      "desc": "UI-кіт і дизайн-система для Figma."
+     },
+     {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "desc": "Онлайн-сервіс для створення графіки, презентацій і відео."
+     },
+     {
+      "name": "Capsule",
+      "url": "https://capsule.video/",
+      "desc": "Відеоінструмент, що тримає контент у стилі бренду."
+     },
+     {
+      "name": "Creatoom",
+      "url": "https://creatoom.com/",
+      "desc": "Преміальні та безкоштовні PSD-мокапи для брендингу."
+     },
+     {
+      "name": "Detax",
+      "url": "https://detax.framer.website/",
+      "desc": "Концепт фінтех-сайту, створений на Framer."
+     },
+     {
+      "name": "Droplette",
+      "url": "https://www.droplette.app/",
+      "desc": "AI-генератор колірних палітр для Figma і FigJam."
+     },
+     {
+      "name": "Durable",
+      "url": "https://durable.com/",
+      "desc": "AI-конструктор сайтів і маркетингу для малого бізнесу."
+     },
+     {
+      "name": "Endless Tools",
+      "url": "https://endlesstools.io/",
+      "desc": "Інструмент для 3D-графіки та візуалів без програмування."
+     },
+     {
+      "name": "Fixel",
+      "url": "https://fixel.macpaw.com/",
+      "desc": "Безкоштовний варіативний гротеск від MacPaw."
+     },
+     {
+      "name": "Flareum",
+      "url": "https://flareum.io/",
+      "desc": "Конструктор дизайн-систем для дизайнерів."
+     },
+     {
+      "name": "FlipaClip",
+      "url": "https://www.flipaclip.com/",
+      "desc": "Застосунок для 2D-анімації на телефоні чи планшеті."
+     },
+     {
+      "name": "FLORA",
+      "url": "https://flora.ai/",
+      "desc": "Генеративне AI-полотно для креативних команд."
+     },
+     {
+      "name": "Flowmapp",
+      "url": "https://www.flowmapp.com/",
+      "desc": "Планування сайтів: карти, user flow, вайрфрейми і контент."
+     },
+     {
+      "name": "Frame.io",
+      "url": "https://frame.io/",
+      "desc": "Платформа для спільної роботи над відео та креативом з фідбеком."
+     },
+     {
+      "name": "FrameAuth",
+      "url": "https://frameauth.com/",
+      "desc": "Авторизація, платний контент і членство для сайтів на Framer."
+     },
+     {
+      "name": "Framer Commerce",
+      "url": "https://framercommerce.com/",
+      "desc": "Створення Shopify-магазинів у Framer."
+     },
+     {
+      "name": "Free Faces",
+      "url": "https://www.freefaces.gallery/",
+      "desc": "Добірка безкоштовних шрифтів із вільними ліцензіями."
+     },
+     {
+      "name": "Glide",
+      "url": "https://www.glideapps.com/",
+      "desc": "AI-конструктор внутрішніх бізнес-застосунків."
+     },
+     {
+      "name": "GSAP",
+      "url": "https://gsap.com/",
+      "desc": "Інструмент для складної анімації на вебсайтах від Webflow."
+     },
+     {
+      "name": "H1 Gallery",
+      "url": "https://h1gallery.com/",
+      "desc": "Добірка найкращих маркетингових заголовків з інтернету."
+     },
+     {
+      "name": "Innova",
+      "url": "https://innova-template.webflow.io/",
+      "desc": "Шаблон сайту для Webflow з великою бібліотекою блоків."
+     },
+     {
+      "name": "Instant",
+      "url": "https://instant.so/",
+      "desc": "AI-конструктор сторінок для магазинів на Shopify."
+     },
+     {
+      "name": "ISO Meet",
+      "url": "https://www.isomeet.com/",
+      "desc": "Платформа для пошуку креативних фахівців і співпраці з ними."
+     },
+     {
+      "name": "Maneken",
+      "url": "https://maneken.app/",
+      "desc": "Сотні мокапів у браузерному редакторі."
+     },
+     {
+      "name": "Nucleo",
+      "url": "https://nucleoapp.com/",
+      "desc": "Великий набір іконок для інтерфейсів, презентацій і друку."
+     },
+     {
+      "name": "Nuraform",
+      "url": "https://www.nuraform.com/",
+      "desc": "AI-конструктор красивих форм із високою конверсією."
+     },
+     {
+      "name": "Nuxt Studio",
+      "url": "https://nuxt.studio/",
+      "desc": "Візуальне редагування контенту сайтів на Nuxt."
+     },
+     {
+      "name": "Orbyt",
+      "url": "https://orbyt.studio/",
+      "desc": "Якісні мокапи для Photoshop для графічних дизайнерів."
+     },
+     {
+      "name": "Overflow",
+      "url": "https://overflow.io/",
+      "desc": "Інструмент для діаграм user flow і дизайн-презентацій."
+     },
+     {
+      "name": "pen.dev",
+      "url": "https://www.pen.dev/",
+      "desc": "Агентне полотно для створення сміливих цифрових продуктів."
+     },
+     {
+      "name": "Pitch",
+      "url": "https://pitch.com/",
+      "desc": "Спільний простір для створення презентацій з AI."
+     },
+     {
+      "name": "PixelSnap",
+      "url": "https://pixelsnap.com/",
+      "desc": "Застосунок для Mac для швидкого вимірювання будь-чого на екрані."
+     },
+     {
+      "name": "Prismic",
+      "url": "https://prismic.io/",
+      "desc": "AI-платформа для маркетологів, щоб швидко створювати сайти."
+     },
+     {
+      "name": "Procreate",
+      "url": "https://procreate.com/",
+      "desc": "Застосунки для малювання та анімації на iPad."
+     },
+     {
+      "name": "Provisual",
+      "url": "https://provisual.app/",
+      "desc": "Сайт цифрового продукту."
+     },
+     {
+      "name": "Rayon",
+      "url": "https://www.rayon.design/",
+      "desc": "AI-креслення для дизайнерів інтер’єрів та архітекторів."
+     },
+     {
+      "name": "Readymag",
+      "url": "https://readymag.com/about",
+      "desc": "Конструктор вебсайтів для дизайнерів і студій."
+     },
+     {
+      "name": "Realtime Colors",
+      "url": "https://www.realtimecolors.com/",
+      "desc": "Інструмент для перевірки кольорових палітр на реальному сайті."
+     },
+     {
+      "name": "Relume",
+      "url": "https://www.relume.ai/",
+      "desc": "Конструктор маркетингових сайтів на готовій системі компонентів."
+     },
+     {
+      "name": "Rive",
+      "url": "https://rive.app/",
+      "desc": "Інструмент для інтерактивної анімації та живих інтерфейсів."
+     },
+     {
+      "name": "ryOS",
+      "url": "https://os.ryo.lu/",
+      "desc": "Ретро-операційна система в браузері від дизайнера Ryo Lu."
+     },
+     {
+      "name": "Semplice",
+      "url": "https://www.semplice.com/v7",
+      "desc": "Конструктор портфоліо для креативників на базі WordPress."
+     },
+     {
+      "name": "Shade",
+      "url": "https://shade.inc/",
+      "desc": "Хмарне сховище для медіакоманд з пошуком і погодженням."
+     },
+     {
+      "name": "Slater",
+      "url": "https://hi.slater.app/",
+      "desc": "AI-інструмент для власних скриптів у проєктах на Webflow."
+     },
+     {
+      "name": "Specify",
+      "url": "https://specifyapp.com/",
+      "desc": "Платформа для керування дизайн-токенами в дизайн-системі."
+     },
+     {
+      "name": "StealthAI",
+      "url": "https://stealthai.framer.website/",
+      "desc": "Шаблон Framer для лендингів SaaS і AI-компаній."
+     },
+     {
+      "name": "Tella",
+      "url": "https://www.tella.com/",
+      "desc": "Запис екрана з AI-монтажем для Mac, Windows і вебу."
+     },
+     {
+      "name": "The Bureau",
+      "url": "https://the-bureau.framer.website/",
+      "desc": "Мінімалістичний шаблон сайту агенції для Framer."
+     },
+     {
+      "name": "Typedream",
+      "url": "https://typedream.com/",
+      "desc": "AI-конструктор лендингів з одного речення."
+     },
+     {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio/",
+      "desc": "Створення інтерактивної вебграфіки з шейдерами й 3D."
+     },
+     {
+      "name": "Vibrant",
+      "url": "https://vibrant.framer.website/",
+      "desc": "Шаблон лендингу для Framer для SaaS-продуктів."
+     },
+     {
+      "name": "Visily",
+      "url": "https://www.visily.ai/",
+      "desc": "AI-інструмент для швидкого створення вайрфреймів і прототипів."
+     },
+     {
+      "name": "Webflow",
+      "url": "https://webflow.com/",
+      "desc": "Платформа для дизайну, створення та просування сайтів."
+     },
+     {
+      "name": "WeWeb",
+      "url": "https://www.weweb.io/",
+      "desc": "AI-конструктор безпечних застосунків для бізнес-команд."
+     },
+     {
+      "name": "Wiggle Bones",
+      "url": "https://wiggle.xl.digital/",
+      "desc": "Інструмент для м’якої анімації 3D-об’єктів у вебі."
+     },
+     {
+      "name": "Wix Studio",
+      "url": "https://www.wix.com/studio",
+      "desc": "Платформа створення сайтів для агенцій і великих компаній."
+     },
+     {
+      "name": "Ycode",
+      "url": "https://www.ycode.com/",
+      "desc": "Відкритий конструктор сайтів і CMS."
+     }
+    ],
+    "title_en": "Creative Tools",
+    "id": "creative-tools"
+   },
+   {
+    "title": "Студії та портфоліо",
+    "desc": "Сайти студій, агенцій і дизайнерів.",
+    "items": [
+     {
+      "name": "10Clouds",
+      "url": "https://www.10clouds.design/",
+      "desc": "Студія брендингу та дизайну цифрових продуктів."
+     },
+     {
+      "name": "5AM",
+      "url": "https://five-am.com/",
+      "desc": "Студія дизайну й технологій з Гамбурга."
+     },
+     {
+      "name": "A Color Bright",
+      "url": "https://www.acolorbright.com/",
+      "desc": "Студія бренд- і продуктового дизайну."
+     },
+     {
+      "name": "Alex Pokidyshev",
+      "url": "https://pkdshv.com/",
+      "desc": "Портфоліо дизайнера: дизайн-системи, взаємодія та моушн."
+     },
+     {
+      "name": "Arcade Labs",
+      "url": "https://arcade.la/",
+      "desc": "Студія дизайну брендів і продуктів для стартапів у Лос-Анджелесі."
+     },
+     {
+      "name": "Aristide Benoist",
+      "url": "https://aristidebenoist.com/",
+      "desc": "Незалежний спеціаліст з моушну та інтерактиву для сайтів."
+     },
+     {
+      "name": "Arqui9",
+      "url": "https://www.arqui9.com/",
+      "desc": "Лондонська 3D-агенція архітектурної візуалізації та анімації."
+     },
+     {
+      "name": "Article",
+      "url": "https://madebyarticle.com/",
+      "desc": "Бренд- і діджитал-агенція для культури, комерції та добрих справ."
+     },
+     {
+      "name": "Atoll Digital",
+      "url": "https://atolldigital.com/",
+      "desc": "Монреальська агенція з вебдизайну та створення сайтів."
+     },
+     {
+      "name": "AWSMD",
+      "url": "https://awsmd.com/",
+      "desc": "Агенція продуктового й UX-дизайну з вимірюваними результатами."
+     },
+     {
+      "name": "Bakken & Bæck",
+      "url": "https://bakkenbaeck.com/",
+      "desc": "Студія дизайну й технологій, що створює цифрові продукти."
+     },
+     {
+      "name": "BaseCreate",
+      "url": "https://www.basecreate.com/en",
+      "desc": "Брендингова та маркетингова агенція в Європі й Гонконзі."
+     },
+     {
+      "name": "basement chronicles",
+      "url": "https://chronicles.basement.studio/",
+      "desc": "Піксельна квест-гра в браузері від basement.studio."
+     },
+     {
+      "name": "Better Mistakes",
+      "url": "https://www.bettermistakes.com/",
+      "desc": "Агенція бренд-дизайну та сайтів для B2B-компаній."
+     },
+     {
+      "name": "Bilal Limi",
+      "url": "https://bilal.world/",
+      "desc": "Портфоліо продуктового дизайнера з Мілана."
+     },
+     {
+      "name": "Billy Sweeney",
+      "url": "https://billysweeney.com/",
+      "desc": "Портфоліо дизайнера Billy Sweeney."
+     },
+     {
+      "name": "Branda",
+      "url": "https://www.mabranda.com/",
+      "desc": "Студія копірайтингу й бренд-стратегії з Бордо."
+     },
+     {
+      "name": "Buff Motion",
+      "url": "https://www.buffmotion.com/",
+      "desc": "Студія моушн-дизайну та анімації."
+     },
+     {
+      "name": "Bürocratik",
+      "url": "https://www.burocratik.com/",
+      "desc": "Мультидисциплінарна студія брендингу та цифрового дизайну."
+     },
+     {
+      "name": "Caglar Araz",
+      "url": "https://caglar.co/",
+      "desc": "Портфоліо продуктового дизайнера мобільних спортивних продуктів."
+     },
+     {
+      "name": "Clarify",
+      "url": "https://clarify.nl/",
+      "desc": "Студія інформаційного дизайну."
+     },
+     {
+      "name": "COMET",
+      "url": "https://www.cometstudio.io/",
+      "desc": "Стратегічна цифрова студія."
+     },
+     {
+      "name": "CRFT Studio",
+      "url": "https://www.crft.studio/",
+      "desc": "Студія маркетингових сайтів, що конвертують."
+     },
+     {
+      "name": "Crispy Studio",
+      "url": "https://www.supastellar.co/",
+      "desc": "Агенція дизайну та розробки цифрових продуктів."
+     },
+     {
+      "name": "Cube",
+      "url": "https://cube.nl/",
+      "desc": "Нідерландська агенція, що створює застосунки, вебмагазини та портали."
+     },
+     {
+      "name": "Cut the Code",
+      "url": "https://www.cutthecode.com/",
+      "desc": "No-code агенція та партнер Webflow з Нідерландів."
+     },
+     {
+      "name": "Daniella Marynova",
+      "url": "https://hellodani.co/",
+      "desc": "Портфоліо візуальної та продуктової дизайнерки для SaaS і fintech."
+     },
+     {
+      "name": "Datalands",
+      "url": "https://datalands.co/",
+      "desc": "Студія, що перетворює дані на історії для брендів."
+     },
+     {
+      "name": "Dawn",
+      "url": "https://www.wearedawn.co.uk/",
+      "desc": "B2B-агенція з Манчестера: бренд, діджитал і моушн для зростання."
+     },
+     {
+      "name": "Deduxer",
+      "url": "https://www.deduxer.studio/",
+      "desc": "AI-first цифрова студія: сайти, застосунки та AI-системи."
+     },
+     {
+      "name": "Deserve Studio",
+      "url": "https://deserve.studio/",
+      "desc": "Креативна студія стратегії, брендингу та сайтів на Framer."
+     },
+     {
+      "name": "Deux Huit Huit",
+      "url": "https://deuxhuithuit.com/en",
+      "desc": "Креативна студія з Квебеку, що будує бренди."
+     },
+     {
+      "name": "dgrees.studio",
+      "url": "https://dgrees.studio/",
+      "desc": "Сайт дизайн-студії."
+     },
+     {
+      "name": "Dine",
+      "url": "https://dinehq.com/",
+      "desc": "Студія дизайну цифрових продуктів, сайтів і брендів з Пекіна."
+     },
+     {
+      "name": "DLMDD",
+      "url": "https://dlmdd.com/",
+      "desc": "Агенція звукового брендингу."
+     },
+     {
+      "name": "Double Makers",
+      "url": "https://doublemakers.co/",
+      "desc": "Вебдизайн-агенція для неприбуткових організацій і соцпідприємств."
+     },
+     {
+      "name": "Driftime",
+      "url": "https://driftime.com/",
+      "desc": "Стратегічна та креативна агенція для соціальних і екологічних змін."
+     },
+     {
+      "name": "E&W",
+      "url": "https://www.ew.studio/",
+      "desc": "Стокгольмська агенція бренд-дизайну та вебсайтів."
+     },
+     {
+      "name": "Fairpixels",
+      "url": "https://fairpixels.pro/",
+      "desc": "UI/UX-дизайн для B2B SaaS-стартапів."
+     },
+     {
+      "name": "Fiasco",
+      "url": "https://fiasco.design/",
+      "desc": "Брендингова та цифрова агенція."
+     },
+     {
+      "name": "Figura",
+      "url": "https://figura.digital/",
+      "desc": "Дизайн-студія для стартапів і фаундерів, що рухаються швидко."
+     },
+     {
+      "name": "Finiam",
+      "url": "https://finiam.com/",
+      "desc": "Технологічна студія цифрових продуктів для фінансового світу."
+     },
+     {
+      "name": "Fold7",
+      "url": "https://fold7.com/",
+      "desc": "Лондонська креативна рекламна й діджитал-агенція."
+     },
+     {
+      "name": "For Good Design Lab",
+      "url": "https://www.forgooddesignlab.com/",
+      "desc": "Студія брендів, продуктів і сайтів для ідей, що змінюють світ."
+     },
+     {
+      "name": "Fourth Floor",
+      "url": "https://www.fourthfloor.design/",
+      "desc": "Дизайн-студія для AI, фінтех і B2B-компаній."
+     },
+     {
+      "name": "Framna",
+      "url": "https://framna.com/",
+      "desc": "Агенція, що створює цифрові продукти для лідерів ринку."
+     },
+     {
+      "name": "Genesis Creative",
+      "url": "https://genesiscreative.uk/",
+      "desc": "Студія брендингу та дизайну, що допомагає брендам вирізнятися."
+     },
+     {
+      "name": "Gopher Productions",
+      "url": "https://www.gopherproductions.com/",
+      "desc": "Сайт продакшн-компанії."
+     },
+     {
+      "name": "Griflan",
+      "url": "https://griflan.com/",
+      "desc": "Креативна агенція брендів і цифрового дизайну."
+     },
+     {
+      "name": "Growmodo",
+      "url": "https://www.growmodo.com/",
+      "desc": "Дизайн і веб-продакшн за підпискою без найму штатної команди."
+     },
+     {
+      "name": "G–W Studios",
+      "url": "https://g-w.studio/studio/",
+      "desc": "Студія брендів, сайтів і застосунків для Klarna, Legora та інших."
+     },
+     {
+      "name": "HappyDesign",
+      "url": "https://www.happydesign.today/",
+      "desc": "Продуктовий дизайн інтерфейсів для SaaS-стартапів."
+     },
+     {
+      "name": "Hello Robo",
+      "url": "https://www.hellorobo.co/",
+      "desc": "Дизайн-студія, що проєктує людську сторону робототехніки."
+     },
+     {
+      "name": "Henry Ludlam-Steinke",
+      "url": "https://hen-ry.com/",
+      "desc": "Портфоліо дизайнера та засновника."
+     },
+     {
+      "name": "HEX Studio",
+      "url": "https://www.hex.inc/",
+      "desc": "Експериментальна студія айдентики, сайтів і продуктів."
+     },
+     {
+      "name": "Hoodzpah",
+      "url": "https://hoodzpahdesign.com/",
+      "desc": "Студія бренд-айдентики та шрифтового дизайну з Каліфорнії."
+     },
+     {
+      "name": "How&How",
+      "url": "https://how.studio/",
+      "desc": "Брендингова агенція в Лондоні та Лос-Анджелесі."
+     },
+     {
+      "name": "Huddle",
+      "url": "https://www.huddle.works/",
+      "desc": "Доступ до топових дизайнерів на частковий час за гроші чи частку."
+     },
+     {
+      "name": "Inette",
+      "url": "https://inette.co/",
+      "desc": "Креативна студія вебдизайну, брендингу та візуалів."
+     },
+     {
+      "name": "Initiate Architecture",
+      "url": "https://initiatearchitecture.com/",
+      "desc": "Архітектурне бюро, що оновлює будинки та старі будівлі."
+     },
+     {
+      "name": "INPULS",
+      "url": "https://in-puls.com/de",
+      "desc": "Студія інтер’єрного дизайну робочих просторів у Мюнхені."
+     },
+     {
+      "name": "Jordan Jenkins",
+      "url": "https://www.jkane.co/",
+      "desc": "Портфоліо незалежного креативного директора й дизайнера."
+     },
+     {
+      "name": "jp.works",
+      "url": "https://www.jp.works/",
+      "desc": "Особисте портфоліо дизайнера."
+     },
+     {
+      "name": "K72",
+      "url": "https://k72.ca/",
+      "desc": "Креативна агенція з Монреаля."
+     },
+     {
+      "name": "Karma",
+      "url": "https://tuxkarma.co/",
+      "desc": "Креативна команда, що працює з громадами задля справедливості."
+     },
+     {
+      "name": "Komandin",
+      "url": "https://komandin.com/",
+      "desc": "Вебдизайнер, що створює сайти на Tilda для бізнесу."
+     },
+     {
+      "name": "Kurt Winter",
+      "url": "https://www.kurtwinterdesign.com/",
+      "desc": "Портфоліо продуктового дизайнера Kurt Winter."
+     },
+     {
+      "name": "Lane + Co",
+      "url": "https://www.laneandco.design/",
+      "desc": "Креативна студія: рекламні кампанії, брендинг і дизайн."
+     },
+     {
+      "name": "Leoleo Studio",
+      "url": "https://www.leoleo.studio/",
+      "desc": "Сайт дизайн-студії."
+     },
+     {
+      "name": "Logolivery",
+      "url": "https://logolivery.com/",
+      "desc": "Сайт сервісу з дизайну логотипів."
+     },
+     {
+      "name": "Lukas Guschlbauer",
+      "url": "https://www.der-lukas.net/",
+      "desc": "Портфоліо провідного продуктового дизайнера з Австрії."
+     },
+     {
+      "name": "Lusion",
+      "url": "https://lusion.co/",
+      "desc": "Студія 3D та інтерактивних вебсайтів."
+     },
+     {
+      "name": "Lué Studio",
+      "url": "https://lue.studio/",
+      "desc": "Студія цифрового дизайну, розробки та арт-дирекшну."
+     },
+     {
+      "name": "Maciej Zadykowicz",
+      "url": "https://www.maciej.co/",
+      "desc": "Портфоліо дизайнера, що допомагає фаундерам створювати бренди."
+     },
+     {
+      "name": "Madiyar Ismagulov",
+      "url": "https://madiyour.com/",
+      "desc": "Портфоліо UI-художника для ігор, вебу та застосунків."
+     },
+     {
+      "name": "Makepill",
+      "url": "https://makepill.com/",
+      "desc": "Продуктова агенція з фокусом на досвіді користувачів."
+     },
+     {
+      "name": "MassiveMusic",
+      "url": "https://massivemusic.com/",
+      "desc": "Агенція звукового брендингу і ліцензування музики."
+     },
+     {
+      "name": "Maxime Heckel",
+      "url": "https://maximeheckel.com/",
+      "desc": "Особистий сайт Maxime Heckel з роботами та експериментами."
+     },
+     {
+      "name": "Media.Work",
+      "url": "https://media.work/",
+      "desc": "Колектив дизайнерів і митців, що шукає візуальні форми ідей."
+     },
+     {
+      "name": "Midnight",
+      "url": "https://midnight.agency/",
+      "desc": "Технічний партнер креативних агенцій: сайти й складні системи."
+     },
+     {
+      "name": "Monolith",
+      "url": "https://monolith.agency/",
+      "desc": "Креативна агенція брендингу та дизайну з Монреаля."
+     },
+     {
+      "name": "Most Studios",
+      "url": "https://moststudios.com/",
+      "desc": "Агенція бренду, UX і вебдизайну зі Стокгольма."
+     },
+     {
+      "name": "Nestvested",
+      "url": "https://nestvested.co/",
+      "desc": "Студія вебдизайну та застосунків для гуманітарного сектору."
+     },
+     {
+      "name": "Neverbland",
+      "url": "https://neverbland.com/",
+      "desc": "Лондонська студія цифрових продуктів."
+     },
+     {
+      "name": "New Genre",
+      "url": "https://www.newgenre.studio/",
+      "desc": "Глобальна студія дизайну й технологій для брендів і продуктів."
+     },
+     {
+      "name": "nk.studio",
+      "url": "https://www.nk.studio/",
+      "desc": "Відзначена нагородами студія дизайну й технологій з Латинської Америки."
+     },
+     {
+      "name": "North2",
+      "url": "https://north2.net/",
+      "desc": "Креативна студія дизайну та вебпроєктів."
+     },
+     {
+      "name": "NutsDev",
+      "url": "https://www.nutsdev.com/",
+      "desc": "Креативна агенція брендів і цифрових продуктів."
+     },
+     {
+      "name": "Off Menu",
+      "url": "https://www.offmenu.design/",
+      "desc": "Продуктова студія, що проєктує інтерфейси для AI-агентів."
+     },
+     {
+      "name": "OHMY",
+      "url": "https://www.ohmy.studio/",
+      "desc": "Студія дизайну й технологій: бренди, сайти, застосунки."
+     },
+     {
+      "name": "OMSE",
+      "url": "https://www.omse.co/",
+      "desc": "Незалежна лондонська студія брендингу."
+     },
+     {
+      "name": "Onceadev",
+      "url": "https://onceadev.com/",
+      "desc": "Агенція брендингу та цифрових продуктів."
+     },
+     {
+      "name": "Onur Çoban",
+      "url": "https://www.onur.design/",
+      "desc": "Портфоліо дизайнера систем і досвіду, що працює в Apple."
+     },
+     {
+      "name": "Openprest",
+      "url": "https://www.openprest.com/",
+      "desc": "Сайт студії цифрових продуктів."
+     },
+     {
+      "name": "Oratory",
+      "url": "https://www.oratory.co/",
+      "desc": "Студія вебдизайн-спринтів для B2B-стартапів."
+     },
+     {
+      "name": "Our Life’s Work",
+      "url": "https://ourlifeswork.com/",
+      "desc": "Студія брендів і сайтів із Лос-Анджелеса."
+     },
+     {
+      "name": "Outkast Studio",
+      "url": "https://www.outkast.studio/",
+      "desc": "Студія, що втілює вебсайти для дизайнерів і агенцій."
+     },
+     {
+      "name": "Over-Stimulated",
+      "url": "https://www.over-stimulated.com/",
+      "desc": "Студія, що створює продукти й сайти для AI та технологічних компаній."
+     },
+     {
+      "name": "Pact",
+      "url": "https://workwithpact.com/",
+      "desc": "Студія дизайну та партнерства для цифрових брендів."
+     },
+     {
+      "name": "Paseo",
+      "url": "https://paseo.studio/",
+      "desc": "Сайт творчої студії Paseo."
+     },
+     {
+      "name": "Pedro Matos Chaves",
+      "url": "https://pedromc.design/",
+      "desc": "Портфоліо бренд- і UI-дизайнера."
+     },
+     {
+      "name": "Philip Malan",
+      "url": "https://www.philipmalan.dk/",
+      "desc": "Незалежний вебдизайнер на Webflow з Орхуса."
+     },
+     {
+      "name": "PIVOT",
+      "url": "https://pivotmade.com/",
+      "desc": "Shopify Plus агенція для DTC і B2B брендів."
+     },
+     {
+      "name": "plantica",
+      "url": "https://plantica.net/",
+      "desc": "Японська флористична арт-студія: інсталяції, простір і текстиль."
+     },
+     {
+      "name": "Poch Studio",
+      "url": "https://poch.studio/",
+      "desc": "Дизайн-студія, що допомагає брендам розквітнути."
+     },
+     {
+      "name": "Polar, Ltda.",
+      "url": "https://polar.ltda/",
+      "desc": "Студія та магазин дизайну для людей, брендів і просторів."
+     },
+     {
+      "name": "Porto Rocha",
+      "url": "https://portorocha.com/",
+      "desc": "Нью-йоркська студія брендингу й дизайну."
+     },
+     {
+      "name": "Primary",
+      "url": "https://www.primary.studio/",
+      "desc": "Агенція, що створює айдентику бренду за два тижні."
+     },
+     {
+      "name": "Priyansh Singara",
+      "url": "https://priyanshsingara.framer.website/",
+      "desc": "Портфоліо продуктового дизайнера."
+     },
+     {
+      "name": "Qude",
+      "url": "https://qude.audio/",
+      "desc": "Студія виробництва подкастів у Тулузі."
+     },
+     {
+      "name": "Raw Materials",
+      "url": "https://www.therawmaterials.com/approach",
+      "desc": "Дизайн-компанія, що створює креативні цифрові продукти."
+     },
+     {
+      "name": "REF",
+      "url": "https://ref.digital/",
+      "desc": "Сайт цифрової агенції."
+     },
+     {
+      "name": "Rise at Seven",
+      "url": "https://riseatseven.com/",
+      "desc": "Агенція контент-маркетингу з фокусом на пошук і SEO."
+     },
+     {
+      "name": "Robin Holesinsky",
+      "url": "https://www.rh.design/",
+      "desc": "Продуктовий дизайнер, що створює продукти для стартапів."
+     },
+     {
+      "name": "Roman Tesliuk",
+      "url": "https://pixelwrld.co/",
+      "desc": "Портфоліо дизайнера Романа Теслюка."
+     },
+     {
+      "name": "Roxane Hassler",
+      "url": "https://www.roxanehassler.com/",
+      "desc": "Продуктова лідерка й коуч для команд і компаній."
+     },
+     {
+      "name": "sensa",
+      "url": "https://sensa.co/",
+      "desc": "Стратегія, бренд і вебдизайн зі щотижневими результатами."
+     },
+     {
+      "name": "Sergey Lisovskiy",
+      "url": "https://lisovskiy.work/",
+      "desc": "Креативна студія: арт-дирекшн, дизайн та інтерактив."
+     },
+     {
+      "name": "Serkan Bayburtlu",
+      "url": "https://srkn.co.uk/",
+      "desc": "Портфоліо лондонського продуктового дизайнера з фінтех-досвідом."
+     },
+     {
+      "name": "Simple Studio",
+      "url": "https://www.simplestudio.is/",
+      "desc": "Студія продуктового дизайну цифрових продуктів і сервісів."
+     },
+     {
+      "name": "Snowhouse Studio",
+      "url": "https://www.snowhouse.studio/year-in-review-2024",
+      "desc": "Підсумки 2024 року від креативної студії Snowhouse."
+     },
+     {
+      "name": "Source",
+      "url": "https://source.paris/",
+      "desc": "Паризька агенція продуктового дизайну."
+     },
+     {
+      "name": "Spring/Summer",
+      "url": "https://springsummer.dk/",
+      "desc": "Копенгагенська агенція дизайну, брендингу та e-commerce."
+     },
+     {
+      "name": "Stokt",
+      "url": "https://wearestokt.com/",
+      "desc": "Креативна студія моушн-дизайну, брендів і сайтів."
+     },
+     {
+      "name": "Studio Alphonse",
+      "url": "https://www.studioalphonse.com/",
+      "desc": "Студія продакшну й постпродакшну на острові Реюньйон."
+     },
+     {
+      "name": "Studio Lenzing",
+      "url": "https://www.studiolenzing.com/",
+      "desc": "Студія UX/UI-дизайну для застосунків, сайтів і брендів."
+     },
+     {
+      "name": "Studio RHE",
+      "url": "https://www.studiorhe.com/",
+      "desc": "Лондонське бюро архітектури та дизайну."
+     },
+     {
+      "name": "Study Architects",
+      "url": "https://www.study-arch.com/",
+      "desc": "Архітектурне бюро, що створює будівлі та простори з історією."
+     },
+     {
+      "name": "Subsystem",
+      "url": "https://subsystem.design/",
+      "desc": "Студія, що допомагає швидко створити й запустити продукт."
+     },
+     {
+      "name": "Superside",
+      "url": "https://www.superside.com/",
+      "desc": "AI-креативний сервіс для внутрішніх команд великих компаній."
+     },
+     {
+      "name": "Syncrely",
+      "url": "https://www.syncrely.com/",
+      "desc": "Дизайн-студія для Web3, техкомпаній та AI."
+     },
+     {
+      "name": "Símon",
+      "url": "https://xn--smon-vpa.com/",
+      "desc": "Студія обчислювального дизайну та генеративного мистецтва."
+     },
+     {
+      "name": "tCR",
+      "url": "https://www.thecombinationrule.com/",
+      "desc": "Студія продуктового дизайну від ексголови дизайну Oscar Health."
+     },
+     {
+      "name": "The Brand Education",
+      "url": "https://thebrandeducation.com/",
+      "desc": "Брендинг і репутація для провідних університетів світу."
+     },
+     {
+      "name": "The/ Thirty7",
+      "url": "https://www.thethirty7.com/",
+      "desc": "Колектив, що створює візіонерські цифрові продукти."
+     },
+     {
+      "name": "theprocess",
+      "url": "https://www.carlhauser.com/",
+      "desc": "Особистий блог ескізів та ідей дизайнера Carl Hauser."
+     },
+     {
+      "name": "Times Two",
+      "url": "https://timestwo.design/services",
+      "desc": "Студія бренд- і діджитал-дизайну з Нью-Йорка та Сан-Франциско."
+     },
+     {
+      "name": "tonik",
+      "url": "https://www.tonik.com/",
+      "desc": "Дизайн-студія, що створює продукти для засновників з нуля."
+     },
+     {
+      "name": "TRiC",
+      "url": "https://tric.studio/",
+      "desc": "Креативна студія на перетині бренду й культури."
+     },
+     {
+      "name": "Tubik Studio",
+      "url": "https://tubikstudio.com/",
+      "desc": "Агенція UX-дизайну і брендингу."
+     },
+     {
+      "name": "Turnus Studio",
+      "url": "https://www.turnus.studio/",
+      "desc": "Студія брендингу, стратегії та цифрової присутності."
+     },
+     {
+      "name": "ux things",
+      "url": "https://www.uxthings.com/",
+      "desc": "Студія дизайну та розробки продуктів для стартапів."
+     },
+     {
+      "name": "Vention",
+      "url": "https://ventionteams.com/",
+      "desc": "Компанія, що створює програмні продукти на замовлення."
+     },
+     {
+      "name": "Virtu Digital",
+      "url": "https://virtudigital.agency/",
+      "desc": "Цифрова агенція, що об’єднує фахівців різних напрямів."
+     },
+     {
+      "name": "Vucko",
+      "url": "https://vucko.co/",
+      "desc": "Студія моушн-систем і айдентики для брендів."
+     },
+     {
+      "name": "we3",
+      "url": "https://we3.co/",
+      "desc": "Дизайн-колектив, що інвестує дизайн у ранні техстартапи."
+     },
+     {
+      "name": "WeGrow",
+      "url": "https://www.wegrow.design/",
+      "desc": "Бренд- і продуктовий дизайн за підпискою для B2B AI-компаній."
+     },
+     {
+      "name": "Will Beeching",
+      "url": "https://willbeeching.com/",
+      "desc": "Креативний директор і співзасновник студії Together."
+     },
+     {
+      "name": "Wondertabs",
+      "url": "https://www.wondertabs.com/",
+      "desc": "Креативна агенція з брендингу, сайтів і цифрових систем."
+     },
+     {
+      "name": "Workshop",
+      "url": "https://workshopbuilt.com/",
+      "desc": "Агенція брендингу, стратегії та дизайну."
+     },
+     {
+      "name": "XAVIERLUV",
+      "url": "https://xavierluv.com/",
+      "desc": "Цифровий дизайнер і креативний директор із Джок’якарти."
+     },
+     {
+      "name": "Xizt Agency",
+      "url": "https://www.xiztdevops.com/",
+      "desc": "Сайт цифрової агенції."
+     },
+     {
+      "name": "Yummygum",
+      "url": "https://yummygum.com/",
+      "desc": "Агенція цифрових продуктів для технологічних компаній, що ростуть."
+     },
+     {
+      "name": "ÆRA",
+      "url": "https://www.era.as/",
+      "desc": "Інноваційний консалтинг для зростання в межах планети."
+     }
+    ],
+    "title_en": "Studios & Portfolios",
+    "id": "studios-portfolios"
+   },
+   {
+    "title": "Венчур і спільноти",
+    "desc": "Фонди, події, освіта й некомерційні проєкти.",
+    "items": [
+     {
+      "name": "(dot)connect",
+      "url": "https://dotconnect.vc/",
+      "desc": "Венчурна студія, що створює deep-tech продукти."
+     },
+     {
+      "name": "Andermatt",
+      "url": "https://andermatt-realestate.ch/",
+      "desc": "Нерухомість на альпійському курорті Андерматт."
+     },
+     {
+      "name": "Barkas",
+      "url": "https://barkas.com/",
+      "desc": "Сайт компанії Barkas."
+     },
+     {
+      "name": "BAT Creators",
+      "url": "https://batagency.org/",
+      "desc": "Мережа авторів YouTube: монетизація і виплати в USDT."
+     },
+     {
+      "name": "C2 Montréal",
+      "url": "https://c2montreal.com/",
+      "desc": "Конференція про креативність і бізнес у Монреалі."
+     },
+     {
+      "name": "Canals and Windmills",
+      "url": "https://canalsandwindmills.com/",
+      "desc": "Організація корпоративних заходів і поїздок в Амстердамі."
+     },
+     {
+      "name": "Colabs",
+      "url": "https://colabs.com.au/",
+      "desc": "Лабораторії й офіси для біотех і deep tech стартапів в Австралії."
+     },
+     {
+      "name": "Compass Fostering",
+      "url": "https://www.compassfostering.com/",
+      "desc": "Агенція прийомного виховання у Великій Британії."
+     },
+     {
+      "name": "Composites.archi",
+      "url": "https://www.composites.archi/",
+      "desc": "Проєкт про композитні матеріали в архітектурі."
+     },
+     {
+      "name": "Concept Ventures",
+      "url": "https://concept.vc/",
+      "desc": "Найбільший у Європі венчурний фонд стадії pre-seed."
+     },
+     {
+      "name": "Conversation Design Institute",
+      "url": "https://www.conversationdesigninstitute.com/",
+      "desc": "Навчання й сертифікація з дизайну розмов для AI."
+     },
+     {
+      "name": "Creators Guild of America",
+      "url": "https://creatorsguildofamerica.org/",
+      "desc": "Гільдія, що захищає права та інтереси креаторів."
+     },
+     {
+      "name": "DCVC",
+      "url": "https://www.dcvc.com/",
+      "desc": "Венчурний фонд, що інвестує в deep tech."
+     },
+     {
+      "name": "Defiant",
+      "url": "https://defiant.vc/",
+      "desc": "Європейський венчурний фонд, побудований як технологічна компанія."
+     },
+     {
+      "name": "Design Everywhere",
+      "url": "https://designeverywhere.co/",
+      "desc": "Добірка робіт креативних студій і дизайнерів з усього світу."
+     },
+     {
+      "name": "Designer Portfolios",
+      "url": "https://mamkindesigner.raindrop.page/designer-portfolios-10167530",
+      "desc": "Добірка закладок із портфоліо дизайнерів."
+     },
+     {
+      "name": "Designflows",
+      "url": "https://designflows.it/",
+      "desc": "Конкурс для найперспективніших дизайнерів цифрових продуктів Європи."
+     },
+     {
+      "name": "Dirt",
+      "url": "https://dirt.fyi/",
+      "desc": "Студія спецпроєктів і видавництво."
+     },
+     {
+      "name": "Dovetail",
+      "url": "https://dovetail.no/",
+      "desc": "Інвестиційна компанія, що вкладає в технологічні бізнеси."
+     },
+     {
+      "name": "DuneCon",
+      "url": "https://dune.com/dunecon",
+      "desc": "Конференція Dune про ончейн-дані та криптоаналітику."
+     },
+     {
+      "name": "Elimar",
+      "url": "https://elimar.lmigroupintl.com/",
+      "desc": "Дослідження LMI Group з автентифікації картини Elimar."
+     },
+     {
+      "name": "Euphemia",
+      "url": "https://euphemia.com/",
+      "desc": "Венчурна спільнота, що розвиває стартап-екосистему Австралії."
+     },
+     {
+      "name": "Fabric",
+      "url": "https://www.fabric.vc/",
+      "desc": "Сайт венчурного фонду Fabric."
+     },
+     {
+      "name": "Faizur Rehman",
+      "url": "https://www.faizur.com/",
+      "desc": "Дизайнер, що навчає дизайну та фрилансу."
+     },
+     {
+      "name": "Genesis Mission",
+      "url": "https://genesis.energy.gov/",
+      "desc": "Національна ініціатива США з прискорення науки за допомогою AI."
+     },
+     {
+      "name": "GitHub Universe",
+      "url": "https://githubuniverse.com/",
+      "desc": "Щорічна глобальна конференція GitHub."
+     },
+     {
+      "name": "Groupe Montoni",
+      "url": "https://groupemontoni.com/en",
+      "desc": "Канадський забудовник сертифікованих екологічних будівель."
+     },
+     {
+      "name": "Hempel Foundation",
+      "url": "https://hempelfoundation.com/",
+      "desc": "Фонд – власник Hempel Group, що підтримує освіту й біорізноманіття."
+     },
+     {
+      "name": "HHQ",
+      "url": "https://www.haymarkethq.com/",
+      "desc": "Коворкінг і творчий простір у Сіднеї."
+     },
+     {
+      "name": "House of Heat",
+      "url": "https://houseofheat.co/",
+      "desc": "Медіа про кросівки, футбол, колекційні речі та стрітвір."
+     },
+     {
+      "name": "Hudson Film Festival",
+      "url": "https://www.hudsonfilmfestival.org/",
+      "desc": "Кінофестиваль у Гадсоні, що підтримує недостатньо представлене кіно."
+     },
+     {
+      "name": "Huts",
+      "url": "https://huts.com/",
+      "desc": "Проєктування та будівництво заміських будинків по всій країні."
+     },
+     {
+      "name": "IMAST",
+      "url": "https://imast.am/",
+      "desc": "Регулярні мікродонати на перевірені благодійні проєкти Вірменії."
+     },
+     {
+      "name": "Kodeco",
+      "url": "https://www.kodeco.com/",
+      "desc": "Відеокурси та книги про створення застосунків для iOS і Android."
+     },
+     {
+      "name": "Life at Spotify",
+      "url": "https://www.lifeatspotify.com/",
+      "desc": "Кар’єрний сайт Spotify про команду і вакансії."
+     },
+     {
+      "name": "Maker Stations",
+      "url": "https://www.makerstations.io/",
+      "desc": "Добірка реальних робочих місць і порад про продуктивність."
+     },
+     {
+      "name": "Maze",
+      "url": "https://maze.co/podcast/",
+      "desc": "Подкаст Maze про дослідження користувачів і продуктові рішення."
+     },
+     {
+      "name": "Memorisely",
+      "url": "https://www.memorisely.com/",
+      "desc": "Практичні курси й буткемпи з AI-дизайну та дизайн-систем."
+     },
+     {
+      "name": "Meshed Cover",
+      "url": "https://www.meshedcover.com/",
+      "desc": "Сайт технологічного стартапу."
+     },
+     {
+      "name": "MML Ventures",
+      "url": "https://mmlventures.com/",
+      "desc": "Сайт венчурної компанії."
+     },
+     {
+      "name": "Next Big Thing AG",
+      "url": "https://nextbigthing.ag/",
+      "desc": "Венчур-білдер для масштабованих deep tech компаній."
+     },
+     {
+      "name": "Oak HC/FT",
+      "url": "https://www.oakhcft.com/",
+      "desc": "Венчурний фонд для охорони здоров’я та фінтеху."
+     },
+     {
+      "name": "Outsource Consultants",
+      "url": "https://oci.madebybuzzworthy.com/",
+      "desc": "Експерти з будівельних норм, зонування й дозволів у Нью-Йорку."
+     },
+     {
+      "name": "Pair Up",
+      "url": "https://www.pair-up.org/",
+      "desc": "Спільнота, де креативні люди діляться часом і досвідом."
+     },
+     {
+      "name": "Pirate Wires",
+      "url": "https://www.piratewires.com/",
+      "desc": "Медіа про технології, політику та культуру."
+     },
+     {
+      "name": "Polpis",
+      "url": "https://www.polpissystems.com/",
+      "desc": "Сайт технологічної компанії."
+     },
+     {
+      "name": "Riot Ventures",
+      "url": "https://www.riot.vc/",
+      "desc": "Венчурний фонд, що інвестує в модернізацію фізичного світу."
+     },
+     {
+      "name": "RunwayFBU",
+      "url": "https://runwayfbu.com/",
+      "desc": "Спільнота, що перетворює індустріальні задачі на компанії."
+     },
+     {
+      "name": "Samara",
+      "url": "https://www.samara.com/",
+      "desc": "Проєктування й будівництво будинків і прибудов ADU."
+     },
+     {
+      "name": "Search System",
+      "url": "https://searchsystem.co/",
+      "desc": "Сайт креативного проєкту."
+     },
+     {
+      "name": "Shift Nudge",
+      "url": "https://www.shiftnudge.com/",
+      "desc": "Онлайн-курс з дизайну інтерфейсів для практиків."
+     },
+     {
+      "name": "Shop Circle",
+      "url": "https://shopcircle.co/",
+      "desc": "Компанія, що купує та розвиває B2B-софт для епохи AI."
+     },
+     {
+      "name": "Shopify Ventures",
+      "url": "https://shopify.vc/",
+      "desc": "Венчурний підрозділ Shopify, що інвестує в стартапи."
+     },
+     {
+      "name": "Sinefine",
+      "url": "https://www.sinefine.co/",
+      "desc": "Ресурси та інвестори для нових венчурних менеджерів."
+     },
+     {
+      "name": "Solar Sky",
+      "url": "https://solarsky.studio.site/",
+      "desc": "Сайт компанії Solar Sky."
+     },
+     {
+      "name": "SuperHi Plus",
+      "url": "https://superhi.plus/",
+      "desc": "Кооперативний акселератор і фінансування для творців контенту."
+     },
+     {
+      "name": "The American Housing Corporation",
+      "url": "https://www.americanhousing.com/",
+      "desc": "Американська компанія у сфері житлового будівництва."
+     },
+     {
+      "name": "The Cape Agency",
+      "url": "https://thecape.agency/",
+      "desc": "Агенція з рекрутингу, HR і навчання на частковий час."
+     },
+     {
+      "name": "The CubeHouse",
+      "url": "https://the-cubehouse.com/",
+      "desc": "Офісна будівля з гібридної деревини в Амстердамі."
+     },
+     {
+      "name": "The Power Plant",
+      "url": "https://www.thepowerplant.org/",
+      "desc": "Безкоштовна галерея сучасного мистецтва в Торонто."
+     },
+     {
+      "name": "The Rail Park",
+      "url": "https://www.therailpark.org/",
+      "desc": "Громадський парк на місці закинутої залізниці у Філадельфії."
+     },
+     {
+      "name": "The Workshop Survival Guide",
+      "url": "https://www.workshopsurvival.com/",
+      "desc": "Книга-посібник про проведення освітніх воркшопів."
+     },
+     {
+      "name": "TITLE",
+      "url": "https://www.title.org.uk/",
+      "desc": "Видання про виклики, з якими стикається планета."
+     },
+     {
+      "name": "Topology",
+      "url": "https://www.topology.vc/",
+      "desc": "Сайт венчурного фонду."
+     },
+     {
+      "name": "Travalyst",
+      "url": "https://travalyst.org/industry/",
+      "desc": "Коаліція лідерів туризму за сталіші подорожі."
+     },
+     {
+      "name": "TripleTen",
+      "url": "https://tripleten.com/",
+      "desc": "Онлайн-навчання для переходу в техно- та AI-професії."
+     },
+     {
+      "name": "TwitchCon",
+      "url": "https://twitchcon.com/",
+      "desc": "Фестиваль і конференція для спільноти лайвстримінгу."
+     },
+     {
+      "name": "Two Good Co",
+      "url": "https://twogood.com.au/",
+      "desc": "Соціальне підприємство, що підтримує жінок у кризі."
+     },
+     {
+      "name": "Type One Ventures",
+      "url": "https://type1ventures.com/",
+      "desc": "Венчурний фонд для індустріальних і глибоких технологій."
+     },
+     {
+      "name": "UFO Timeline",
+      "url": "https://ufotimeline.com/",
+      "desc": "Хронологія та огляд феномену НЛО."
+     },
+     {
+      "name": "Valar",
+      "url": "https://www.valar.com/",
+      "desc": "Венчурний фонд Valar Ventures."
+     },
+     {
+      "name": "Wacomet",
+      "url": "https://www.wacomet.com/",
+      "desc": "Сайт компанії Wacomet."
+     },
+     {
+      "name": "WalletCon",
+      "url": "https://www.walletcon.com/",
+      "desc": "Конференція про майбутнє ончейн-фінансів."
+     },
+     {
+      "name": "WebexOne",
+      "url": "https://www.webexone.com/",
+      "desc": "Щорічна конференція Cisco про Webex."
+     },
+     {
+      "name": "Wing",
+      "url": "https://www.wing.vc/",
+      "desc": "Венчурний фонд ранніх стадій із фокусом на AI."
+     },
+     {
+      "name": "World Peace Foundation",
+      "url": "https://worldpeacefoundation.org/",
+      "desc": "Дослідницький центр Університету Тафтса про ненасильницьке майбутнє."
+     },
+     {
+      "name": "Yes VC",
+      "url": "https://yes.vc/",
+      "desc": "Венчурний фонд для стартапів на стадіях pre-seed і seed."
+     },
+     {
+      "name": "Yllw",
+      "url": "https://www.yllw.com/en",
+      "desc": "Партнер зі створення сталих робочих просторів із циркулярним дизайном."
+     }
+    ],
+    "title_en": "Venture & Community",
+    "id": "venture-community"
+   }
+  ]
+ },
+ {
   "id": "visuals",
   "title": "Visuals",
   "icon": "palette",

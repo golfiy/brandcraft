@@ -276,6 +276,54 @@ def build_ai_guide():
     }
 
 
+PRODUCT_SECTIONS = [
+    ("ai", "AI", "AI-продукти", "Як AI-компанії пояснюють складні продукти через бренд і сайт."),
+    ("fintech", "Fintech & Payments", "Фінтех і платежі", "Банки, картки й платежі: довіра, цифри та чиста подача."),
+    ("crypto", "Crypto & Web3", "Крипто й Web3", "Крипто-бренди з сміливою графікою та нетиповою айдентикою."),
+    ("saas", "SaaS & Productivity", "SaaS і продуктивність", "Робочі інструменти: як показати продукт і користь з першого екрана."),
+    ("infra", "Data & Cloud", "Дані та хмара", "Технічні продукти, що звучать просто й виглядають преміально."),
+    ("growth", "Marketing & Sales", "Маркетинг і продажі", "Продукти для росту, продажів і підтримки клієнтів."),
+    ("health", "Health & Bio", "Здоров’я та біотех", "Медицина, велнес і біотех: тепла, але точна мова бренду."),
+    ("climate", "Climate & Energy", "Клімат і енергетика", "Клімат, енергія й сталий розвиток у сучасній подачі."),
+    ("hardware", "Hardware & Mobility", "Залізо та мобільність", "Пристрої, роботи, транспорт і deep tech."),
+    ("consumer", "Consumer", "Консьюмер-бренди", "Їжа, мода, меблі, подорожі й застосунки для людей."),
+    ("creative", "Creative Tools", "Креативні інструменти", "Інструменти для дизайну, відео й сайтів."),
+    ("studios", "Studios & Portfolios", "Студії та портфоліо", "Сайти студій, агенцій і дизайнерів."),
+    ("community", "Venture & Community", "Венчур і спільноти", "Фонди, події, освіта й некомерційні проєкти."),
+]
+
+
+def build_product_sites():
+    """Product Sites: link list checked for liveness and deduped; labels from i18n/ps/out-*.json."""
+    sites = json.loads((SRC / "product-sites.json").read_text())
+    labels = {}
+    for f in sorted((ROOT / "i18n" / "ps").glob("out-*.json")):
+        labels.update(json.loads(f.read_text()))
+    fixes = json.loads((ROOT / "i18n" / "ps" / "fixes.json").read_text())
+    by = {k: [] for k, *_ in PRODUCT_SECTIONS}
+    missing = 0
+    for x in sites:
+        if x["id"] in fixes["drop"]:
+            continue
+        lab = dict(labels.get(x["id"]) or {})
+        if lab:
+            x = {**x, "url": fixes["url"].get(x["id"], x["url"])}
+            lab["name"] = fixes["name"].get(x["id"], lab["name"])
+            lab["desc"] = fixes["desc"].get(x["id"], lab["desc"])
+        if not lab:
+            missing += 1
+            continue
+        by[lab["section"]].append({"name": lab["name"], "url": x["url"], "desc": lab["desc"].replace("—", "–")})
+    if missing:
+        print("PRODUCT SITES without labels:", missing)
+    sections = []
+    for key, en, uk, desc in PRODUCT_SECTIONS:
+        items = sorted(by[key], key=lambda i: i["name"].lower())
+        if items:
+            sections.append({"title": en, "title_uk": uk, "desc": desc, "items": items})
+    return sections
+
+
 def load_uk():
     uk = {"sections": {}, "items": {}}
     for f in sorted((ROOT / "i18n").glob("uk-part*.json")):
@@ -327,6 +375,7 @@ def main():
         {"id": "inspiration", "title": "Inspiration", "icon": "spark",
          "sections": pick("Design Galleries", "Interface Design", "Reading")},
         {"id": "brand-guidelines", "title": "Brand Guidelines", "icon": "brand", "sections": BRAND},
+        {"id": "product-sites", "title": "Product Sites", "icon": "browser", "sections": build_product_sites()},
         {"id": "visuals", "title": "Visuals", "icon": "palette",
          "sections": pick("Type", "Color", "3D", "Shaders", "Icons")},
         {"id": "utilities", "title": "Utilities", "icon": "tool",
@@ -345,6 +394,9 @@ def main():
             s["title_en"] = en_title  # left nav stays English
             s["id"] = re.sub(r"[^a-z0-9]+", "-", en_title.lower()).strip("-")
             assert all(not DROP_URL.search(i["url"]) for i in s["items"])
+            if "title_uk" in s:
+                s["title"] = s.pop("title_uk")
+                continue
             if en_title in uk["sections"]:
                 s["title"] = uk["sections"][en_title]["title"]
                 s["desc"] = uk["sections"][en_title]["desc"]

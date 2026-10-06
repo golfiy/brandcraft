@@ -14,6 +14,7 @@ python3 -m http.server 4960
 - `data.js` – generated catalogue, do not edit by hand
 - `scripts/build-data.py` – builds `data.js`; the Brand Guidelines list and AI Guide structure live here
 - `i18n/uk-part*.json` – Ukrainian section titles and link descriptions (UI language is Ukrainian, left-nav categories stay English)
+- `source/product-sites.json` + `i18n/ps/out-*.json` – Product Sites (liveness-checked, deduped by domain); `i18n/ps/fixes.json` – manual drops (hijacked/spam domains, shut-down products), dead links in `source/product-sites-dead.txt`
 - `source/ai-guidelines.xlsx` → `source/ai-guide.json` – AI Guide content
 - `source/` – base catalogue (sections Inspiration, Visuals, Utilities, Design Engineers)
 - `content/brand-identity-studios.md` – review notes on the studio links
