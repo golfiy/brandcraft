@@ -186,6 +186,13 @@
     font-variant-numeric: tabular-nums;
   }
   .sec-block { flex: 1; }
+  .sec-idx {
+    flex: none; width: 18px;
+    font: 400 10px/1 var(--font-mono);
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .sec-link.is-active .sec-idx { color: var(--ink); }
 
   /* ---------- Main ---------- */
   main { min-width: 0; }
@@ -840,9 +847,12 @@
     function swap() {
       var isGuide = r.cat.type === 'guide';
       contentEl.innerHTML = isGuide ? renderGuide() : renderCategory(r.cat);
-      secNavEl.innerHTML = (isGuide ? GUIDE_SECTIONS : r.cat.sections).map(function (s) {
+      // Guide: numbered steps matching the 01–07 headings, no counts (they read as step numbers).
+      secNavEl.innerHTML = (isGuide ? GUIDE_SECTIONS : r.cat.sections).map(function (s, i) {
+        var label = '<span>' + esc(s.short || s.title_en || s.title) + '</span>';
         return '<li><a class="sec-link" data-sec="' + s.id + '" href="#/' + r.cat.id + '/' + s.id + '">' +
-          '<span>' + esc(s.short || s.title_en || s.title) + '</span><span class="count">' + pad(s.count != null ? s.count : s.items.length) + '</span></a></li>';
+          (isGuide ? '<span class="sec-idx">' + pad(i + 1) + '</span>' + label
+                   : label + '<span class="count">' + pad(s.items.length) + '</span>') + '</a></li>';
       }).join('');
       [].forEach.call(navEl.querySelectorAll('.nav-link'), function (a) {
         if (a.dataset.cat === r.cat.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
