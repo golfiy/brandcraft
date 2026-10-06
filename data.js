@@ -94,11 +94,6 @@ window.CATALOGUE = [
       "desc": "Онлайн-журнал про креативний візуальний дизайн."
      },
      {
-      "name": "Scrnshts",
-      "url": "https://scrnshts.club/",
-      "desc": "Добірка дизайнів скриншотів для App Store."
-     },
-     {
       "name": "Are.na",
       "url": "https://www.are.na/",
       "desc": "Платформа для спільних досліджень і візуальних закладок."
@@ -147,11 +142,6 @@ window.CATALOGUE = [
       "name": "Motionimo",
       "url": "https://motionimo.xyz/",
       "desc": "Велика бібліотека кліпів із моушн-дизайном."
-     },
-     {
-      "name": "before.click",
-      "url": "https://before.click/",
-      "desc": "Концепти скриншотів застосунків із високою конверсією."
      },
      {
       "name": "Swiped",
@@ -1284,6 +1274,16 @@ window.CATALOGUE = [
       "name": "Handheld",
       "url": "https://www.handheld.design/",
       "desc": "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти."
+     },
+     {
+      "name": "Page Flows",
+      "url": "https://pageflows.com/",
+      "desc": "Понад 100 тисяч записаних флоу й екранів топових застосунків."
+     },
+     {
+      "name": "Patttterns",
+      "url": "https://patttterns.com/",
+      "desc": "Понад 400 реальних дизайн-патернів, відібраних вручну."
      }
     ]
    },
@@ -1335,6 +1335,133 @@ window.CATALOGUE = [
       "name": "Klikkenthéke",
       "url": "https://klikkentheke.com/catalogue/",
       "desc": "Каталог візуальних референсів."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aso",
+  "title": "ASO",
+  "icon": "phone",
+  "sections": [
+   {
+    "title": "Галереї скриншотів",
+    "title_en": "Screenshot Galleries",
+    "desc": "Як топові застосунки продають себе в сторі з перших трьох кадрів.",
+    "id": "screenshot-galleries",
+    "items": [
+     {
+      "name": "before.click",
+      "url": "https://before.click/",
+      "desc": "Добірка скриншотів App Store топових iOS-застосунків."
+     },
+     {
+      "name": "Appshot Gallery",
+      "url": "https://www.appshot.gallery/",
+      "desc": "Галерея скриншотів App Store для ASO та мобільного UI."
+     },
+     {
+      "name": "ScreensDesign",
+      "url": "https://screensdesign.com/",
+      "desc": "Екрани iOS-застосунків: онбординг, пейволи й скриншоти зі стору.",
+      "cases": [
+       {
+        "label": "Store Screenshots",
+        "url": "https://screensdesign.com/store-screenshots/"
+       }
+      ]
+     },
+     {
+      "name": "Asoinspo",
+      "url": "https://www.asoinspo.com/",
+      "desc": "Скриншоти App Store, ідеї онбордингу й пейволів."
+     },
+     {
+      "name": "AppLaunchpad Inspiration",
+      "url": "https://theapplaunchpad.com/app-screenshot-inspiration",
+      "desc": "Тисячі прикладів скриншотів для App Store."
+     },
+     {
+      "name": "Screenhance",
+      "url": "https://screenhance.com/examples",
+      "desc": "Приклади скриншотів для стору, запусків і соцмереж."
+     }
+    ]
+   },
+   {
+    "title": "Інструменти для скриншотів",
+    "title_en": "Screenshot Tools",
+    "desc": "Генератори наборів скриншотів, мокапи й 3D-подача.",
+    "id": "screenshot-tools",
+    "items": [
+     {
+      "name": "Screan",
+      "url": "https://screan.app/",
+      "desc": "Рекламні мокапи скриншотів для App Store."
+     },
+     {
+      "name": "Screenshot Studio",
+      "url": "https://www.screenshot-studio.com/",
+      "desc": "Розміщує скриншоти в реалістичних 3D-мокапах."
+     },
+     {
+      "name": "AppLaunchpad",
+      "url": "https://theapplaunchpad.com/",
+      "desc": "Генератор скриншотів для App Store і Google Play у потрібних розмірах."
+     },
+     {
+      "name": "Screenshots Pro",
+      "url": "https://screenshots.pro/",
+      "desc": "Набори скриншотів-мокапів для iOS та Android із шаблонами."
+     },
+     {
+      "name": "AppScreens",
+      "url": "https://appscreens.com/",
+      "desc": "Візуальний редактор скриншотів із локалізацією на 80+ мов."
+     },
+     {
+      "name": "Previewed",
+      "url": "https://previewed.app/",
+      "desc": "3D-мокапи й анімації для презентації застосунку."
+     },
+     {
+      "name": "Rotato",
+      "url": "https://rotato.app/",
+      "desc": "3D-мокапи пристроїв і анімації для Mac."
+     }
+    ]
+   },
+   {
+    "title": "Гайдлайни й поради",
+    "title_en": "Guidelines",
+    "desc": "Офіційні вимоги сторів і перевірені практики ASO.",
+    "id": "guidelines",
+    "items": [
+     {
+      "name": "Apple: Product Page",
+      "url": "https://developer.apple.com/app-store/product-page/",
+      "desc": "Як Apple радить будувати сторінку застосунку в App Store."
+     },
+     {
+      "name": "Apple: Screenshot Specs",
+      "url": "https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications/",
+      "desc": "Офіційні розміри й вимоги до скриншотів App Store."
+     },
+     {
+      "name": "Google Play: Preview Assets",
+      "url": "https://support.google.com/googleplay/android-developer/answer/9866151",
+      "desc": "Вимоги й поради щодо графіки сторінки в Google Play."
+     },
+     {
+      "name": "Apple Design Resources",
+      "url": "https://developer.apple.com/design/resources/",
+      "desc": "Офіційні шаблони, рамки пристроїв і кольорові гайди Apple."
+     },
+     {
+      "name": "AppTweak: Screenshot Guide",
+      "url": "https://www.apptweak.com/en/aso-blog/how-to-optimize-your-app-screenshots",
+      "desc": "Найкращі практики оптимізації скриншотів для ASO."
      }
     ]
    }
@@ -6448,11 +6575,6 @@ window.CATALOGUE = [
       "desc": "Браузерні утиліти для дизерингу та пікселізації зображень."
      },
      {
-      "name": "Screan",
-      "url": "https://screan.app/",
-      "desc": "Рекламні мокапи скриншотів для App Store."
-     },
-     {
       "name": "PostSpark",
       "url": "https://postspark.app/",
       "desc": "Оформлює скриншоти на охайних фонах для соцмереж."
@@ -6496,11 +6618,6 @@ window.CATALOGUE = [
       "name": "Mascofast",
       "url": "https://mascofast.com/",
       "desc": "AI-інструмент, що генерує анімованих 3D-маскотів із прозорим фоном."
-     },
-     {
-      "name": "Screenshot Studio",
-      "url": "https://www.screenshot-studio.com/",
-      "desc": "Розміщує скриншоти в реалістичних 3D-мокапах."
      }
     ],
     "title_en": "Utilities",

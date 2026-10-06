@@ -349,7 +349,9 @@ LANDINGS = [
      [("Refero", "https://refero.design/", "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."),
       ("Nicelydone", "https://nicelydone.club/", "Понад 200 тисяч екранів SaaS: ціни, онбординг, налаштування."),
       ("abtest.design", "https://abtest.design/", "Результати A/B-тестів у найкращих застосунках."),
-      ("Handheld", "https://www.handheld.design/", "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти.")]),
+      ("Handheld", "https://www.handheld.design/", "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти."),
+      ("Page Flows", "https://pageflows.com/", "Понад 100 тисяч записаних флоу й екранів топових застосунків."),
+      ("Patttterns", "https://patttterns.com/", "Понад 400 реальних дизайн-патернів, відібраних вручну.")]),
     ("Portfolios", "Портфоліо", "Сайти-портфоліо дизайнерів і студій.",
      ["Folios Gallery", "Wall of Portfolios"],
      [("Killer Portfolio", "https://www.killerportfolio.com/", "Добірка ефективних сайтів-портфоліо.")]),
@@ -383,6 +385,60 @@ def build_landings(categories):
                          "id": re.sub(r"[^a-z0-9]+", "-", en.lower()).strip("-"), "items": items})
     galleries["items"] = [i for i in galleries["items"] if i["name"] not in taken]
     return {"id": "landings", "title": "Landings", "icon": "layout", "sections": sections}
+
+
+# ASO: App Store / Google Play screenshot galleries, tools and official guidelines (checked 2026-10-06).
+# scrnshts.club now redirects to ScreensDesign, so it is merged there; noesis (not reachable) skipped.
+ASO = [
+    ("Screenshot Galleries", "Галереї скриншотів", "Як топові застосунки продають себе в сторі з перших трьох кадрів.",
+     [("inspiration", "Design Galleries", "before.click", "Добірка скриншотів App Store топових iOS-застосунків.")],
+     [("Appshot Gallery", "https://www.appshot.gallery/", "Галерея скриншотів App Store для ASO та мобільного UI."),
+      ("ScreensDesign", "https://screensdesign.com/", "Екрани iOS-застосунків: онбординг, пейволи й скриншоти зі стору."),
+      ("Asoinspo", "https://www.asoinspo.com/", "Скриншоти App Store, ідеї онбордингу й пейволів."),
+      ("AppLaunchpad Inspiration", "https://theapplaunchpad.com/app-screenshot-inspiration", "Тисячі прикладів скриншотів для App Store."),
+      ("Screenhance", "https://screenhance.com/examples", "Приклади скриншотів для стору, запусків і соцмереж.")]),
+    ("Screenshot Tools", "Інструменти для скриншотів", "Генератори наборів скриншотів, мокапи й 3D-подача.",
+     [("utilities", "Utilities", "Screan", None), ("utilities", "Utilities", "Screenshot Studio", None)],
+     [("AppLaunchpad", "https://theapplaunchpad.com/", "Генератор скриншотів для App Store і Google Play у потрібних розмірах."),
+      ("Screenshots Pro", "https://screenshots.pro/", "Набори скриншотів-мокапів для iOS та Android із шаблонами."),
+      ("AppScreens", "https://appscreens.com/", "Візуальний редактор скриншотів із локалізацією на 80+ мов."),
+      ("Previewed", "https://previewed.app/", "3D-мокапи й анімації для презентації застосунку."),
+      ("Rotato", "https://rotato.app/", "3D-мокапи пристроїв і анімації для Mac.")]),
+    ("Guidelines", "Гайдлайни й поради", "Офіційні вимоги сторів і перевірені практики ASO.",
+     [],
+     [("Apple: Product Page", "https://developer.apple.com/app-store/product-page/", "Як Apple радить будувати сторінку застосунку в App Store."),
+      ("Apple: Screenshot Specs", "https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications/", "Офіційні розміри й вимоги до скриншотів App Store."),
+      ("Google Play: Preview Assets", "https://support.google.com/googleplay/android-developer/answer/9866151", "Вимоги й поради щодо графіки сторінки в Google Play."),
+      ("Apple Design Resources", "https://developer.apple.com/design/resources/", "Офіційні шаблони, рамки пристроїв і кольорові гайди Apple."),
+      ("AppTweak: Screenshot Guide", "https://www.apptweak.com/en/aso-blog/how-to-optimize-your-app-screenshots", "Найкращі практики оптимізації скриншотів для ASO.")]),
+]
+ASO_CASES = {"ScreensDesign": [{"label": "Store Screenshots", "url": "https://screensdesign.com/store-screenshots/"}]}
+ASO_REMOVE = [("inspiration", "Design Galleries", "Scrnshts")]  # merged into ScreensDesign
+
+
+def build_aso(categories):
+    """ASO category: moves store-screenshot items out of other categories and adds new ones."""
+    def section_of(cat_id, en):
+        cat = next(c for c in categories if c["id"] == cat_id)
+        return next(s for s in cat["sections"] if s["title_en"] == en)
+    for cat_id, en, name in ASO_REMOVE:
+        sec = section_of(cat_id, en)
+        sec["items"] = [i for i in sec["items"] if i["name"] != name]
+    sections = []
+    for en, uk, desc, moved, new in ASO:
+        items = []
+        for cat_id, sec_en, name, new_desc in moved:
+            sec = section_of(cat_id, sec_en)
+            item = next(i for i in sec["items"] if i["name"] == name)
+            sec["items"] = [i for i in sec["items"] if i["name"] != name]
+            items.append({**item, "desc": new_desc or item["desc"]})
+        items += [{"name": n, "url": u, "desc": d} for n, u, d in new]
+        for i in items:
+            if i["name"] in ASO_CASES:
+                i["cases"] = ASO_CASES[i["name"]]
+        sections.append({"title": uk, "title_en": en, "desc": desc,
+                         "id": re.sub(r"[^a-z0-9]+", "-", en.lower()).strip("-"), "items": items})
+    return {"id": "aso", "title": "ASO", "icon": "phone", "sections": sections}
 
 
 def load_uk():
@@ -474,6 +530,8 @@ def main():
     apply_brand_pass(categories)
     landings = build_landings(categories)
     categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), landings)
+    aso = build_aso(categories)
+    categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), aso)
 
     ai = build_ai_guide()
     out = ("window.CATALOGUE = " + json.dumps(categories, ensure_ascii=False, indent=1) + ";\n"
