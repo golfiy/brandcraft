@@ -1,0 +1,296 @@
+[
+ {
+  "name": "Higgsfield",
+  "url": "https://higgsfield.ai/",
+  "section": "ai",
+  "desc": "AI-студія для зображень, відео й голосу з текстів і референсів."
+ },
+ {
+  "name": "Suno",
+  "url": "https://suno.com/",
+  "section": "ai",
+  "desc": "AI-генератор оригінальної музики за лічені секунди."
+ },
+ {
+  "name": "Lovable",
+  "url": "https://lovable.dev/",
+  "section": "ai",
+  "desc": "AI-платформа, що створює застосунки й сайти з опису."
+ },
+ {
+  "name": "Perplexity",
+  "url": "https://www.perplexity.ai/",
+  "section": "ai",
+  "desc": "AI-пошук із відповідями та джерелами."
+ },
+ {
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io/",
+  "section": "ai",
+  "desc": "AI-голоси, озвучення й голосові агенти на 90+ мовах."
+ },
+ {
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com/",
+  "section": "ai",
+  "desc": "Генерація зображень з виразною естетикою."
+ },
+ {
+  "name": "OpenArt",
+  "url": "https://openart.ai/",
+  "section": "ai",
+  "desc": "Понад 100 моделей для зображень, відео й аудіо в одному місці."
+ },
+ {
+  "name": "OpenRouter",
+  "url": "https://openrouter.ai/",
+  "section": "ai",
+  "desc": "Єдиний доступ до сотень AI-моделей із порівнянням цін."
+ },
+ {
+  "name": "Manus",
+  "url": "https://manus.im/",
+  "section": "ai",
+  "desc": "AI-агент, що не просто відповідає, а виконує задачі."
+ },
+ {
+  "name": "Speechify",
+  "url": "https://speechify.com/",
+  "section": "ai",
+  "desc": "Озвучення текстів, книжок і PDF природними голосами."
+ },
+ {
+  "name": "HeyGen",
+  "url": "https://www.heygen.com/",
+  "section": "ai",
+  "desc": "Реалістичні AI-відео з аватарами, озвученням і субтитрами."
+ },
+ {
+  "name": "Kling AI",
+  "url": "https://kling.ai/",
+  "section": "ai",
+  "desc": "Генерація відео й зображень з тексту та референсів."
+ },
+ {
+  "name": "Topview",
+  "url": "https://www.topview.ai/",
+  "section": "ai",
+  "desc": "AI-генератор рекламних відео для продуктів."
+ },
+ {
+  "name": "Meshy",
+  "url": "https://www.meshy.ai/",
+  "section": "ai",
+  "desc": "3D-моделі з тексту й зображень за пів хвилини."
+ },
+ {
+  "name": "QuillBot",
+  "url": "https://quillbot.com/",
+  "section": "ai",
+  "desc": "AI-перефразування, граматика й робота з текстом."
+ },
+ {
+  "name": "NovelAI",
+  "url": "https://novelai.net/",
+  "section": "ai",
+  "desc": "AI для аніме-ілюстрацій і художніх історій."
+ },
+ {
+  "name": "JustDone",
+  "url": "https://justdone.com/",
+  "section": "ai",
+  "desc": "AI-асистент для досліджень і написання текстів."
+ },
+ {
+  "name": "Fireflies",
+  "url": "https://fireflies.ai/",
+  "section": "ai",
+  "desc": "AI-нотатки зустрічей, задачі й база знань команди."
+ },
+ {
+  "name": "Sudowrite",
+  "url": "https://sudowrite.com/",
+  "section": "ai",
+  "desc": "AI-співавтор для художньої прози."
+ },
+ {
+  "name": "Hugging Face",
+  "url": "https://huggingface.co/",
+  "section": "ai",
+  "desc": "Спільнота й платформа відкритих AI-моделей."
+ },
+ {
+  "name": "Genspark",
+  "url": "https://www.genspark.ai/",
+  "section": "ai",
+  "desc": "AI-агенти для пошуку, документів і презентацій."
+ },
+ {
+  "name": "MiniMax",
+  "url": "https://www.minimax.io/",
+  "section": "ai",
+  "desc": "Мультимодальні AI-моделі та продукти для 200+ млн людей."
+ },
+ {
+  "name": "fal",
+  "url": "https://fal.ai/",
+  "section": "ai",
+  "desc": "Платформа генеративних медіа-моделей: зображення, відео, звук."
+ },
+ {
+  "name": "Cognition",
+  "url": "https://cognition.com/",
+  "section": "ai",
+  "desc": "Компанія, що створила Devin – автономного AI-агента для софту."
+ },
+ {
+  "name": "Synthesia",
+  "url": "https://www.synthesia.io/",
+  "section": "ai",
+  "desc": "AI-відео з аватарами для навчання й комунікації бізнесу."
+ },
+ {
+  "name": "Nous Research",
+  "url": "https://nousresearch.com/",
+  "section": "ai",
+  "desc": "Лабораторія відкритих AI-моделей і агентів."
+ },
+ {
+  "name": "InVideo",
+  "url": "https://invideo.io/",
+  "section": "ai",
+  "desc": "AI-редактор, що збирає відео з ідеї."
+ },
+ {
+  "name": "Conductor",
+  "url": "https://www.conductor.build/",
+  "section": "ai",
+  "desc": "Хмарна платформа для команди AI-агентів, що створюють софт."
+ },
+ {
+  "name": "Zeely",
+  "url": "https://zeely.ai/",
+  "section": "growth",
+  "desc": "AI-платформа рекламних креативів: UGC-відео й статика."
+ },
+ {
+  "name": "Gong",
+  "url": "https://www.gong.io/",
+  "section": "growth",
+  "desc": "AI-платформа для відділів продажів і росту виручки."
+ },
+ {
+  "name": "Topaz Labs",
+  "url": "https://www.topazlabs.com/",
+  "section": "creative",
+  "desc": "AI-покращення фото й відео: апскейл, різкість, шумоподавлення.",
+  "cases": [
+   {
+    "label": "Studio",
+    "url": "https://www.topazlabs.com/studio"
+   }
+  ]
+ },
+ {
+  "name": "Photoroom",
+  "url": "https://www.photoroom.com/",
+  "section": "creative",
+  "desc": "AI-редактор продуктових фото для e-commerce і соцмереж."
+ },
+ {
+  "name": "Evoto",
+  "url": "https://www.evoto.ai/",
+  "section": "creative",
+  "desc": "AI-ретуш, кольорокорекція й обробка RAW для фотографів."
+ },
+ {
+  "name": "Beautiful.ai",
+  "url": "https://www.beautiful.ai/",
+  "section": "creative",
+  "desc": "AI-презентації, що тримають деки в стилі бренду."
+ },
+ {
+  "name": "Gamma",
+  "url": "https://gamma.app/",
+  "section": "creative",
+  "desc": "AI-партнер для презентацій, сайтів і документів."
+ },
+ {
+  "name": "Notion",
+  "url": "https://www.notion.com/",
+  "section": "saas",
+  "desc": "AI-робочий простір для документів, баз і агентів."
+ },
+ {
+  "name": "Calendly",
+  "url": "https://calendly.com/",
+  "section": "saas",
+  "desc": "Планування зустрічей і все, що навколо них."
+ },
+ {
+  "name": "n8n",
+  "url": "https://n8n.io/",
+  "section": "saas",
+  "desc": "Автоматизація робочих процесів з AI."
+ },
+ {
+  "name": "Gem",
+  "url": "https://www.gem.com/",
+  "section": "saas",
+  "desc": "AI-платформа для рекрутингу."
+ },
+ {
+  "name": "Copilot Money",
+  "url": "https://www.copilot.money/",
+  "section": "fintech",
+  "desc": "Особисті фінанси: витрати, бюджети й інвестиції в одному місці."
+ },
+ {
+  "name": "PLAUD",
+  "url": "https://www.plaud.ai/",
+  "section": "hardware",
+  "desc": "AI-нотатник для зустрічей, дзвінків і розмов наживо."
+ },
+ {
+  "name": "Jesko Jets",
+  "url": "https://jeskojets.com/",
+  "section": "hardware",
+  "desc": "Приватні перельоти бізнес-джетами."
+ },
+ {
+  "name": "Reface",
+  "url": "https://reface.ai/",
+  "section": "consumer",
+  "desc": "Застосунок для заміни облич і AI-ефектів у відео."
+ },
+ {
+  "name": "FaceApp",
+  "url": "https://www.faceapp.com/",
+  "section": "consumer",
+  "desc": "Редактор портретів з природним ретушем."
+ },
+ {
+  "name": "Moises",
+  "url": "https://moises.ai/",
+  "section": "consumer",
+  "desc": "Застосунок для музикантів: розділення доріжок і практика."
+ },
+ {
+  "name": "Jumpspeak",
+  "url": "https://www.jumpspeak.com/",
+  "section": "consumer",
+  "desc": "Вивчення мов через розмови з AI з першого дня."
+ },
+ {
+  "name": "Shopify Supply",
+  "url": "https://shopify.supply/",
+  "section": "consumer",
+  "desc": "Мерч-магазин Shopify для комерційної спільноти."
+ },
+ {
+  "name": "Ventriloc",
+  "url": "https://ventriloc.ca/en/",
+  "section": "infra",
+  "desc": "Консалтинг з бізнес-аналітики в Power BI і Microsoft Fabric."
+ }
+]

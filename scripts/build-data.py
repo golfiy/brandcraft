@@ -314,6 +314,12 @@ def build_product_sites():
             missing += 1
             continue
         by[lab["section"]].append({"name": lab["name"], "url": x["url"], "desc": lab["desc"].replace("—", "–")})
+    # Hand-curated additions (2026-10-06 batch: AI and product brands), already liveness-checked.
+    for x in json.loads((ROOT / "i18n" / "ps" / "extra.json").read_text()):
+        item = {k: x[k] for k in ("name", "url", "desc")}
+        if x.get("cases"):
+            item["cases"] = x["cases"]
+        by[x["section"]].append(item)
     if missing:
         print("PRODUCT SITES without labels:", missing)
     sections = []

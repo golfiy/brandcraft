@@ -1563,6 +1563,11 @@ window.CATALOGUE = [
       "desc": "AI-система, що веде всю компанію за допомогою агентів."
      },
      {
+      "name": "Cognition",
+      "url": "https://cognition.com/",
+      "desc": "Компанія, що створила Devin – автономного AI-агента для софту."
+     },
+     {
       "name": "Cohere",
       "url": "https://cohere.com/",
       "desc": "Корпоративні AI-моделі та рішення з фокусом на приватність."
@@ -1571,6 +1576,11 @@ window.CATALOGUE = [
       "name": "Composio",
       "url": "https://composio.dev/",
       "desc": "Підключення AI-агентів до понад 1500 застосунків."
+     },
+     {
+      "name": "Conductor",
+      "url": "https://www.conductor.build/",
+      "desc": "Хмарна платформа для команди AI-агентів, що створюють софт."
      },
      {
       "name": "Console",
@@ -1618,6 +1628,11 @@ window.CATALOGUE = [
       "desc": "AI-браузер для продуктивної роботи."
      },
      {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "desc": "AI-голоси, озвучення й голосові агенти на 90+ мовах."
+     },
+     {
       "name": "Epiminds",
       "url": "https://epiminds.com/",
       "desc": "Агентний AI для маркетингових команд."
@@ -1638,6 +1653,11 @@ window.CATALOGUE = [
       "desc": "AI-агенти Droids для створення, тестування й запуску програм."
      },
      {
+      "name": "fal",
+      "url": "https://fal.ai/",
+      "desc": "Платформа генеративних медіа-моделей: зображення, відео, звук."
+     },
+     {
       "name": "Fearn",
       "url": "https://fearn.ai/",
       "desc": "AI-нативна патентна фірма для стартапів."
@@ -1646,6 +1666,11 @@ window.CATALOGUE = [
       "name": "Fieldguide",
       "url": "https://www.fieldguide.com/",
       "desc": "AI-платформа для аудиторських і консалтингових фірм."
+     },
+     {
+      "name": "Fireflies",
+      "url": "https://fireflies.ai/",
+      "desc": "AI-нотатки зустрічей, задачі й база знань команди."
      },
      {
       "name": "Flank",
@@ -1663,6 +1688,11 @@ window.CATALOGUE = [
       "desc": "Сімейство AI-моделей від Google DeepMind."
      },
      {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "desc": "AI-агенти для пошуку, документів і презентацій."
+     },
+     {
       "name": "Gumloop",
       "url": "https://www.gumloop.com/",
       "desc": "Конструктор AI-агентів для всієї компанії."
@@ -1673,9 +1703,24 @@ window.CATALOGUE = [
       "desc": "Компанія з даних, аналітики та AI-рішень для бізнесу."
      },
      {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/",
+      "desc": "Реалістичні AI-відео з аватарами, озвученням і субтитрами."
+     },
+     {
       "name": "Heynds",
       "url": "https://www.heynds.com/",
       "desc": "AI-помічник для Mac і Windows: диктування та обробка тексту."
+     },
+     {
+      "name": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "desc": "AI-студія для зображень, відео й голосу з текстів і референсів."
+     },
+     {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "desc": "Спільнота й платформа відкритих AI-моделей."
      },
      {
       "name": "IKI AI",
@@ -1686,6 +1731,11 @@ window.CATALOGUE = [
       "name": "Intenseye",
       "url": "https://www.intenseye.com/",
       "desc": "AI-платформа безпеки праці з відеоаналітикою в реальному часі."
+     },
+     {
+      "name": "InVideo",
+      "url": "https://invideo.io/",
+      "desc": "AI-редактор, що збирає відео з ідеї."
      },
      {
       "name": "Irregular",
@@ -1708,9 +1758,19 @@ window.CATALOGUE = [
       "desc": "AI-агенти для наскрізної автоматизації маркетингу."
      },
      {
+      "name": "JustDone",
+      "url": "https://justdone.com/",
+      "desc": "AI-асистент для досліджень і написання текстів."
+     },
+     {
       "name": "Kive",
       "url": "https://kive.ai/",
       "desc": "AI-генерація предметних фото для споживчих брендів."
+     },
+     {
+      "name": "Kling AI",
+      "url": "https://kling.ai/",
+      "desc": "Генерація відео й зображень з тексту та референсів."
      },
      {
       "name": "Kodezi",
@@ -1733,9 +1793,19 @@ window.CATALOGUE = [
       "desc": "AI-агенти для розпізнавання документів і робочих процесів."
      },
      {
+      "name": "Lovable",
+      "url": "https://lovable.dev/",
+      "desc": "AI-платформа, що створює застосунки й сайти з опису."
+     },
+     {
       "name": "Maki",
       "url": "https://www.makipeople.com/",
       "desc": "AI-система, що веде найм від початку до кінця."
+     },
+     {
+      "name": "Manus",
+      "url": "https://manus.im/",
+      "desc": "AI-агент, що не просто відповідає, а виконує задачі."
      },
      {
       "name": "Maple",
@@ -1748,9 +1818,24 @@ window.CATALOGUE = [
       "desc": "Фреймворк для створення AI-агентів з пам’яттю та інструментами."
      },
      {
+      "name": "Meshy",
+      "url": "https://www.meshy.ai/",
+      "desc": "3D-моделі з тексту й зображень за пів хвилини."
+     },
+     {
       "name": "Microsoft Copilot",
       "url": "https://www.copilot.com/",
       "desc": "AI-асистент Microsoft для роботи, навчання та творчості."
+     },
+     {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com/",
+      "desc": "Генерація зображень з виразною естетикою."
+     },
+     {
+      "name": "MiniMax",
+      "url": "https://www.minimax.io/",
+      "desc": "Мультимодальні AI-моделі та продукти для 200+ млн людей."
      },
      {
       "name": "Monobotics",
@@ -1763,6 +1848,16 @@ window.CATALOGUE = [
       "desc": "AI-агенти для юридичних і комплаєнс-процесів."
      },
      {
+      "name": "Nous Research",
+      "url": "https://nousresearch.com/",
+      "desc": "Лабораторія відкритих AI-моделей і агентів."
+     },
+     {
+      "name": "NovelAI",
+      "url": "https://novelai.net/",
+      "desc": "AI для аніме-ілюстрацій і художніх історій."
+     },
+     {
       "name": "Obvious",
       "url": "https://obvious.ai/",
       "desc": "AI-агент для документів, таблиць, слайдів і дашбордів."
@@ -1771,6 +1866,16 @@ window.CATALOGUE = [
       "name": "Obviously AI",
       "url": "https://obviously.ai/",
       "desc": "Аналітика даних і прогнози на машинному навчанні в один клік."
+     },
+     {
+      "name": "OpenArt",
+      "url": "https://openart.ai/",
+      "desc": "Понад 100 моделей для зображень, відео й аудіо в одному місці."
+     },
+     {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "desc": "Єдиний доступ до сотень AI-моделей із порівнянням цін."
      },
      {
       "name": "Otter",
@@ -1818,6 +1923,11 @@ window.CATALOGUE = [
       "desc": "Операційний AI для служб громадської безпеки."
      },
      {
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "desc": "AI-пошук із відповідями та джерелами."
+     },
+     {
       "name": "Perplexity Sonar",
       "url": "https://sonar.perplexity.ai/",
       "desc": "Пошукова AI-модель Perplexity для вбудовування у продукти."
@@ -1846,6 +1956,11 @@ window.CATALOGUE = [
       "name": "Product Map",
       "url": "https://www.productmap.io/",
       "desc": "AI-помічник продакт-менеджера з автономними агентами."
+     },
+     {
+      "name": "QuillBot",
+      "url": "https://quillbot.com/",
+      "desc": "AI-перефразування, граматика й робота з текстом."
      },
      {
       "name": "Quin",
@@ -1898,6 +2013,11 @@ window.CATALOGUE = [
       "desc": "AI-рішення для тепличних господарств і виробників."
      },
      {
+      "name": "Speechify",
+      "url": "https://speechify.com/",
+      "desc": "Озвучення текстів, книжок і PDF природними голосами."
+     },
+     {
       "name": "Spellar",
       "url": "https://www.spellar.ai/",
       "desc": "AI-нотатки зустрічей без бота у дзвінку."
@@ -1923,9 +2043,19 @@ window.CATALOGUE = [
       "desc": "AI-простір для довгих текстів: від нотаток до статей."
      },
      {
+      "name": "Sudowrite",
+      "url": "https://sudowrite.com/",
+      "desc": "AI-співавтор для художньої прози."
+     },
+     {
       "name": "Summation",
       "url": "https://www.summation.com/",
       "desc": "AI-аналітик, що перетворює бізнес-дані на плани та дії."
+     },
+     {
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "desc": "AI-генератор оригінальної музики за лічені секунди."
      },
      {
       "name": "Superhuman",
@@ -1938,6 +2068,11 @@ window.CATALOGUE = [
       "desc": "AI-примірочна та підбір розміру для онлайн-магазинів."
      },
      {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "desc": "AI-відео з аватарами для навчання й комунікації бізнесу."
+     },
+     {
       "name": "Terminal X",
       "url": "https://www.terminal-x.ai/",
       "desc": "AI-агенти для інвестиційних менеджерів."
@@ -1946,6 +2081,11 @@ window.CATALOGUE = [
       "name": "Together AI",
       "url": "https://www.together.ai/",
       "desc": "AI-хмара для інференсу, донавчання моделей і GPU-кластерів."
+     },
+     {
+      "name": "Topview",
+      "url": "https://www.topview.ai/",
+      "desc": "AI-генератор рекламних відео для продуктів."
      },
      {
       "name": "Vapi",
@@ -2124,6 +2264,11 @@ window.CATALOGUE = [
       "name": "Column",
       "url": "https://column.com/",
       "desc": "Національний банк для створення нових фінансових сервісів."
+     },
+     {
+      "name": "Copilot Money",
+      "url": "https://www.copilot.money/",
+      "desc": "Особисті фінанси: витрати, бюджети й інвестиції в одному місці."
      },
      {
       "name": "Crezco",
@@ -2767,6 +2912,11 @@ window.CATALOGUE = [
       "desc": "Гнучкий сервіс онлайн-запису та планування зустрічей."
      },
      {
+      "name": "Calendly",
+      "url": "https://calendly.com/",
+      "desc": "Планування зустрічей і все, що навколо них."
+     },
+     {
       "name": "Campsite",
       "url": "https://www.campsite.com/",
       "desc": "Робоча комунікація для розподілених команд."
@@ -2825,6 +2975,11 @@ window.CATALOGUE = [
       "name": "G-P",
       "url": "https://www.globalization-partners.com/",
       "desc": "Платформа для найму й виплат працівникам по всьому світу."
+     },
+     {
+      "name": "Gem",
+      "url": "https://www.gem.com/",
+      "desc": "AI-платформа для рекрутингу."
      },
      {
       "name": "GitBook",
@@ -2930,6 +3085,16 @@ window.CATALOGUE = [
       "name": "Mural",
       "url": "https://www.mural.co/",
       "desc": "Візуальний простір з AI для спільної роботи команд."
+     },
+     {
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "desc": "Автоматизація робочих процесів з AI."
+     },
+     {
+      "name": "Notion",
+      "url": "https://www.notion.com/",
+      "desc": "AI-робочий простір для документів, баз і агентів."
      },
      {
       "name": "Odinaut",
@@ -3470,6 +3635,11 @@ window.CATALOGUE = [
       "desc": "Вбудовані коментарі й погодження для AI-продуктів."
      },
      {
+      "name": "Ventriloc",
+      "url": "https://ventriloc.ca/en/",
+      "desc": "Консалтинг з бізнес-аналітики в Power BI і Microsoft Fabric."
+     },
+     {
       "name": "Vercel",
       "url": "https://vercel.com/",
       "desc": "Хмарна платформа для запуску вебпродуктів і AI-агентів."
@@ -3641,6 +3811,11 @@ window.CATALOGUE = [
       "name": "Genie",
       "url": "https://genie.io/",
       "desc": "Керування запасами для брендів на Shopify."
+     },
+     {
+      "name": "Gong",
+      "url": "https://www.gong.io/",
+      "desc": "AI-платформа для відділів продажів і росту виручки."
      },
      {
       "name": "Helply",
@@ -3846,6 +4021,11 @@ window.CATALOGUE = [
       "name": "Zaap",
       "url": "https://zaap.ai/",
       "desc": "Магазин для креаторів: посилання, продажі й цифрові товари."
+     },
+     {
+      "name": "Zeely",
+      "url": "https://zeely.ai/",
+      "desc": "AI-платформа рекламних креативів: UGC-відео й статика."
      },
      {
       "name": "Zendesk",
@@ -4307,6 +4487,11 @@ window.CATALOGUE = [
       "desc": "Офіційний магазин пристроїв Google."
      },
      {
+      "name": "Jesko Jets",
+      "url": "https://jeskojets.com/",
+      "desc": "Приватні перельоти бізнес-джетами."
+     },
+     {
       "name": "Lucid",
       "url": "https://lucidmotors.com/",
       "desc": "Електромобілі, що переосмислюють досвід водіння."
@@ -4325,6 +4510,11 @@ window.CATALOGUE = [
       "name": "OXI Instruments",
       "url": "https://oxiinstruments.com/",
       "desc": "Іспанський виробник преміальних музичних секвенсорів."
+     },
+     {
+      "name": "PLAUD",
+      "url": "https://www.plaud.ai/",
+      "desc": "AI-нотатник для зустрічей, дзвінків і розмов наживо."
      },
      {
       "name": "Polar Cooling",
@@ -4500,6 +4690,11 @@ window.CATALOGUE = [
       "desc": "Заморожена спешелті-кава в капсулах із доставкою."
      },
      {
+      "name": "FaceApp",
+      "url": "https://www.faceapp.com/",
+      "desc": "Редактор портретів з природним ретушем."
+     },
+     {
       "name": "Floema",
       "url": "https://floema.com/",
       "desc": "Навігація, меблі та обладнання для сталих громадських просторів."
@@ -4530,6 +4725,11 @@ window.CATALOGUE = [
       "desc": "Застосунок для ведення щоденника на macOS."
      },
      {
+      "name": "Jumpspeak",
+      "url": "https://www.jumpspeak.com/",
+      "desc": "Вивчення мов через розмови з AI з першого дня."
+     },
+     {
       "name": "Krazam",
       "url": "https://www.krazam.tv/",
       "desc": "Комедійні скетчі про технології та стартапи."
@@ -4558,6 +4758,11 @@ window.CATALOGUE = [
       "name": "Modelec",
       "url": "https://www.modelec.com/fr",
       "desc": "Преміальні вимикачі й розетки, виготовлені у Франції з 1976 року."
+     },
+     {
+      "name": "Moises",
+      "url": "https://moises.ai/",
+      "desc": "Застосунок для музикантів: розділення доріжок і практика."
      },
      {
       "name": "mymind",
@@ -4625,6 +4830,11 @@ window.CATALOGUE = [
       "desc": "Преміальні корпоративні подарунки для клієнтів і команд."
      },
      {
+      "name": "Reface",
+      "url": "https://reface.ai/",
+      "desc": "Застосунок для заміни облич і AI-ефектів у відео."
+     },
+     {
       "name": "Refrakt",
       "url": "https://refrakt.app/",
       "desc": "Платформа для фотографії, створена фотографами."
@@ -4653,6 +4863,11 @@ window.CATALOGUE = [
       "name": "Shop",
       "url": "https://shop.app/",
       "desc": "Застосунок Shopify для покупок і відстеження замовлень."
+     },
+     {
+      "name": "Shopify Supply",
+      "url": "https://shopify.supply/",
+      "desc": "Мерч-магазин Shopify для комерційної спільноти."
      },
      {
       "name": "Sleeve",
@@ -4763,6 +4978,11 @@ window.CATALOGUE = [
       "desc": "Дизайн-система для Figma для створення інтерфейсів."
      },
      {
+      "name": "Beautiful.ai",
+      "url": "https://www.beautiful.ai/",
+      "desc": "AI-презентації, що тримають деки в стилі бренду."
+     },
+     {
       "name": "bio.link",
       "url": "https://bio.link/",
       "desc": "Сервіс сторінок із посиланнями для профілів у соцмережах."
@@ -4808,6 +5028,11 @@ window.CATALOGUE = [
       "desc": "Інструмент для 3D-графіки та візуалів без програмування."
      },
      {
+      "name": "Evoto",
+      "url": "https://www.evoto.ai/",
+      "desc": "AI-ретуш, кольорокорекція й обробка RAW для фотографів."
+     },
+     {
       "name": "Fixel",
       "url": "https://fixel.macpaw.com/",
       "desc": "Безкоштовний варіативний гротеск від MacPaw."
@@ -4851,6 +5076,11 @@ window.CATALOGUE = [
       "name": "Free Faces",
       "url": "https://www.freefaces.gallery/",
       "desc": "Добірка безкоштовних шрифтів із вільними ліцензіями."
+     },
+     {
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "desc": "AI-партнер для презентацій, сайтів і документів."
      },
      {
       "name": "Glide",
@@ -4916,6 +5146,11 @@ window.CATALOGUE = [
       "name": "pen.dev",
       "url": "https://www.pen.dev/",
       "desc": "Агентне полотно для створення сміливих цифрових продуктів."
+     },
+     {
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com/",
+      "desc": "AI-редактор продуктових фото для e-commerce і соцмереж."
      },
      {
       "name": "Pitch",
@@ -5006,6 +5241,17 @@ window.CATALOGUE = [
       "name": "The Bureau",
       "url": "https://the-bureau.framer.website/",
       "desc": "Мінімалістичний шаблон сайту агенції для Framer."
+     },
+     {
+      "name": "Topaz Labs",
+      "url": "https://www.topazlabs.com/",
+      "desc": "AI-покращення фото й відео: апскейл, різкість, шумоподавлення.",
+      "cases": [
+       {
+        "label": "Studio",
+        "url": "https://www.topazlabs.com/studio"
+       }
+      ]
      },
      {
       "name": "Typedream",
