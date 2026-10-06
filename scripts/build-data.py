@@ -211,28 +211,33 @@ def split_sources(text):
     return text[:m.start()].rstrip(), [{"label": SOURCE_LABELS[u], "url": u} for u in urls]
 
 
+# Model lineup re-checked against platform.claude.com, developers.openai.com and learn.chatgpt.com.
+MODELS_CHECKED = "06.10.2026"
+
+
 def build_ai_guide():
     g = json.loads((SRC / "ai-guide.json").read_text())
 
     def rows(block):
         out = []
         for r in block["rows"]:
-            text, src = split_sources(r["v"])
+            text, src = split_sources(r["v"].replace("GPT-5.6 Sol або Claude Sonnet 5.", "GPT-6.1 Sol або Claude Sonnet 5.5."))
             out.append({"k": r["k"], "v": text, "sources": src})
         return out
 
-    models_intro = g["models"]["rows"][0]["v"]
+    models_intro = (g["models"]["rows"][0]["v"] +
+                    " GPT-5.5 вимикається в ChatGPT і Codex 14.10.2026; GPT-5.6 Sol, Terra й Luna лишаються доступними на час переходу.")
     models = [
         {"task": "Типовий пост, документ, презентація за шаблоном",
-         "codex": ["GPT-5.6 Sol", "звичайна глибина міркування"],
-         "claude": ["Sonnet 5", "якщо є в акаунті"],
+         "codex": ["GPT-6.1 Sol", "глибина міркування за замовчуванням"],
+         "claude": ["Sonnet 5.5", "якщо є в акаунті"],
          "note": "Почати з одного матеріалу; продовжувати серію тільки після перевірки. Неповний бриф, відсутній шрифт або недоступний файл спочатку виправити."},
         {"task": "Новий skill, складна структура, помилка генератора",
-         "codex": ["GPT-6 Astra", "вищий reasoning effort для складного планування: більше часу й токенів"],
-         "claude": ["Opus 5", "якщо не впорався після виправлення вхідних даних – Fable 5.1, якщо доступна"],
+         "codex": ["GPT-6 Astra", "почати з Light, для складного планування підвищувати reasoning effort: більше часу й токенів"],
+         "claude": ["Opus 5.5", "якщо не впорався після виправлення вхідних даних – Fable 5.1, якщо доступна"],
          "note": "Дати конкретний збій або критерії складної задачі."},
         {"task": "Багато простих повторів",
-         "codex": ["GPT-5.6 Terra або Luna", "після перевірки процесу"],
+         "codex": ["GPT-6 Luna", "після перевірки процесу; почати з High"],
          "claude": ["Haiku 4.5", "після перевірки процесу"],
          "note": "Наприклад, назви файлів, розподіл текстів по готових полях. Порівняти з робочою моделлю на тому самому наборі; якщо помилки додають ручної роботи, лишити попередню модель."},
         {"task": "Картинки",
@@ -263,7 +268,7 @@ def build_ai_guide():
         "title": g["title"], "intro": g["intro"], "levels": g["levels"],
         "levelNames": g["levelNames"], "checkName": g["checkName"], "skills": g["skills"],
         "env": rows(g["env"]),
-        "modelsTitle": g["models"]["title"], "modelsIntro": models_intro, "models": models,
+        "modelsTitle": g["models"]["title"].replace("22.09.2026", MODELS_CHECKED), "modelsIntro": models_intro, "models": models,
         "save": rows(g["save"]), "workflow": rows(g["workflow"]), "assess": assess,
         "sources": sources,
     }
@@ -301,6 +306,7 @@ def main():
     for c in categories:
         for s in c["sections"]:
             en_title = s["title"]
+            s["title_en"] = en_title  # left nav stays English
             s["id"] = re.sub(r"[^a-z0-9]+", "-", en_title.lower()).strip("-")
             assert all(not DROP_URL.search(i["url"]) for i in s["items"])
             if en_title in uk["sections"]:

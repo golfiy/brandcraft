@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Brandcraft – ресурси для бренд-дизайнерів</title>
 <meta name="description" content="Добірка ресурсів для бренд-дизайнерів: айдентика, брендбуки, студії, AI-гайд та інструменти.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2300bbff'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2316c784'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500&family=Funnel+Sans:wght@400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
@@ -482,7 +482,7 @@
       <div class="brand">
         <canvas class="orb" aria-hidden="true"></canvas>
         <a class="wordmark" href="#/">brandcraft<span>.guide</span></a>
-        <p class="tagline">Добірка ресурсів для бренд-дизайнерів: айдентика, брендбуки, студії, AI-гайд та інструменти.</p>
+        <p class="tagline">A curated collection of identity craft, brand guidelines, studios, AI workflows, and tools for brand designers.</p>
       </div>
       <nav class="side-block" aria-label="Категорії">
         <span class="label">Navigation</span>
@@ -606,13 +606,13 @@
 
   /* ---------- AI Guide ---------- */
   var GUIDE_SECTIONS = [
-    { id: 'skills', short: 'Матриця навичок', count: GUIDE.skills.length },
-    { id: 'environments', short: 'Claude, Claude Code і Codex', count: GUIDE.env.length },
-    { id: 'models', short: 'З яких моделей починати', count: GUIDE.models.length },
-    { id: 'storage', short: 'Що зберігати', count: GUIDE.save.length },
-    { id: 'workflow', short: 'Приклад workflow', count: GUIDE.workflow.length },
-    { id: 'assessment', short: 'Навчання та оцінка', count: GUIDE.assess.length },
-    { id: 'sources', short: 'Джерела', count: GUIDE.sources.length }
+    { id: 'skills', short: 'Skill Matrix', count: GUIDE.skills.length },
+    { id: 'environments', short: 'Claude, Claude Code & Codex', count: GUIDE.env.length },
+    { id: 'models', short: 'Models to Start With', count: GUIDE.models.length },
+    { id: 'storage', short: 'What to Save', count: GUIDE.save.length },
+    { id: 'workflow', short: 'Workflow Example', count: GUIDE.workflow.length },
+    { id: 'assessment', short: 'Training & Assessment', count: GUIDE.assess.length },
+    { id: 'sources', short: 'Sources', count: GUIDE.sources.length }
   ];
   var level = 2;
   try { level = +localStorage.getItem('bc-ai-level') || 2; } catch (e) {}
@@ -842,7 +842,7 @@
       contentEl.innerHTML = isGuide ? renderGuide() : renderCategory(r.cat);
       secNavEl.innerHTML = (isGuide ? GUIDE_SECTIONS : r.cat.sections).map(function (s) {
         return '<li><a class="sec-link" data-sec="' + s.id + '" href="#/' + r.cat.id + '/' + s.id + '">' +
-          '<span>' + esc(s.short || s.title) + '</span><span class="count">' + pad(s.count != null ? s.count : s.items.length) + '</span></a></li>';
+          '<span>' + esc(s.short || s.title_en || s.title) + '</span><span class="count">' + pad(s.count != null ? s.count : s.items.length) + '</span></a></li>';
       }).join('');
       [].forEach.call(navEl.querySelectorAll('.nav-link'), function (a) {
         if (a.dataset.cat === r.cat.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
@@ -884,8 +884,37 @@
   var cv = document.querySelector('.orb');
   var ctx = cv.getContext('2d');
   var BAYER = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5];
-  var RAMP = [[8, 18, 48], [36, 52, 140], [92, 84, 210], [0, 150, 235], [0, 187, 255], [150, 228, 255], [240, 250, 255]];
+  var RAMP = [[4, 22, 14], [8, 52, 32], [12, 96, 56], [16, 146, 84], [22, 199, 132], [132, 236, 186], [232, 255, 242]];
   var cell = 3, raf = 0, last = 0;
+
+  // "U." mark rasterised once into a 128px alpha mask, sampled per dither cell.
+  var MASK_N = 128, mask = (function () {
+    var m = document.createElement('canvas');
+    m.width = m.height = MASK_N;
+    var g = m.getContext('2d');
+    g.fillStyle = '#000';
+    function uShape(x, y, w, h, r) {
+      g.beginPath();
+      g.moveTo(x, y); g.lineTo(x, y + h - r);
+      g.arc(x + r, y + h - r, r, Math.PI, 0, true);
+      g.lineTo(x + w, y); g.closePath();
+    }
+    uShape(16, 28, 68, 72, 34); g.fill();
+    g.globalCompositeOperation = 'destination-out';
+    uShape(37, 18, 26, 62, 13); g.fill();
+    g.globalCompositeOperation = 'source-over';
+    g.fillRect(91, 78, 22, 22);
+    var data = g.getImageData(0, 0, MASK_N, MASK_N).data, a = new Uint8Array(MASK_N * MASK_N);
+    for (var i = 0; i < a.length; i++) a[i] = data[i * 4 + 3];
+    return a;
+  })();
+  // Decal space: x, y in [-1, 1] on the sphere face; the mark fills ~70% of the diameter.
+  function inMark(x, y) {
+    var px = Math.round(64 + x * 64 / 0.78), py = Math.round(64 + y * 64 / 0.78);
+    if (px < 0 || py < 0 || px >= MASK_N || py >= MASK_N) return false;
+    return mask[py * MASK_N + px] > 127;
+  }
+
   function sizeOrb() {
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
     var w = cv.clientWidth;
@@ -900,6 +929,8 @@
     var a = t * 0.00035;
     var lx = -0.35 + Math.cos(a) * 0.45, ly = -0.5 + Math.sin(a * 0.7) * 0.2, lz = 1;
     var ll = Math.hypot(lx, ly, lz); lx /= ll; ly /= ll; lz /= ll;
+    // Spin around the vertical axis; one turn ≈ 7s.
+    var spin = t * 0.0009, cs = Math.cos(spin), sn = Math.sin(spin);
     for (var y = 0; y < n; y++) {
       for (var x = 0; x < n; x++) {
         var nx = (x + 0.5 - r) / r, ny = (y + 0.5 - r) / r, d = nx * nx + ny * ny;
@@ -910,6 +941,10 @@
         var rim = Math.pow(1 - nz, 3) * 0.35;
         var band = 0.06 * Math.sin((nx * 3 + ny * 2) * 3 + t * 0.0012);
         var v = Math.min(1, 0.08 + diff * 0.72 + spec + rim + band);
+        // Point in the sphere's rotating frame; front decal reads normally, the back one
+        // is mirrored so it reads correctly when it turns to face the viewer.
+        var rx = nx * cs - nz * sn, rz = nx * sn + nz * cs;
+        if (inMark(rz >= 0 ? rx : -rx, ny)) v = 0.02 + diff * 0.16;
         var lvl = v * (RAMP.length - 1);
         var lo = Math.floor(lvl), f = lvl - lo;
         var th = (BAYER[(y % 4) * 4 + (x % 4)] + 0.5) / 16;
@@ -925,14 +960,17 @@
     last = t;
     drawOrb(t);
   }
+  // ?orb=<ms> renders a single static frame (for screenshots and QA).
+  var fixedT = /[?&]orb=(\d+)/.exec(location.search);
   function startOrb() {
     cancelAnimationFrame(raf);
-    if (reduced.matches || document.hidden) drawOrb(9000);
+    if (fixedT) { drawOrb(+fixedT[1]); return; }
+    if (reduced.matches || document.hidden) drawOrb(0);
     else raf = requestAnimationFrame(loop);
   }
   document.addEventListener('visibilitychange', startOrb);
   reduced.addEventListener && reduced.addEventListener('change', startOrb);
-  window.addEventListener('resize', function () { W = sizeOrb(); drawOrb(last || 9000); });
+  window.addEventListener('resize', function () { W = sizeOrb(); drawOrb(last); });
   startOrb();
 })();
 </script>
