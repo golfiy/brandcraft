@@ -324,6 +324,67 @@ def build_product_sites():
     return sections
 
 
+# Landings: galleries of landing pages / sites / sections. Moved out of Inspiration (by name) + new links
+# from Viktor's list (liveness-checked 2026-10-06; dropped: upshift.supply, niceverynice.com – dead;
+# prettyfolio.com – hijacked spam; godly.website – now redirects to Recent Design).
+LANDINGS = [
+    ("Landing Pages", "Лендинги", "Галереї лендингів за галузями, типами й стилями.",
+     ["Land-book", "Lapa Ninja", "Landingfolio", "One Page Love", "SaaS Landing Page", "Saaspo", "SaaSFrame",
+      "Best SaaS Web Designs", "Landing Love", "Landdding"], []),
+    ("Website Galleries", "Галереї сайтів", "Кураторські добірки сайтів, щоб натренувати око.",
+     ["SiteInspire", "Minimal Gallery", "Curated Design", "Best Website Gallery", "Recent Design", "A1",
+      "inspora.design", "Hover States"],
+     [("Httpster", "https://httpster.net/", "Галерея креативних і нагородних сайтів."),
+      ("Umanmade", "https://www.umanmade.com/", "Каталог цифрових робіт, зроблених людьми для людей."),
+      ("Scrolltide", "https://www.scrolltide.co/", "Кінематографічні сайти зі скрол-анімацією та AI-промпти до них.")]),
+    ("Dark Mode", "Темна тема", "Сайти в темній темі: контраст, світло й акценти.",
+     ["Dark Mode Design", "Sombra"],
+     [("Dark Design", "https://www.dark.design/", "Добірка сайтів у темній темі, відібраних вручну.")]),
+    ("Sections & Components", "Секції та блоки", "Hero, футери, навігація й CTA окремо від цілої сторінки.",
+     ["SEESAW", "Supahero", "Sections.wtf", "footer.design", "navbar.design", "navbar.gallery", "cta.gallery"],
+     [("Unsection", "https://www.unsection.com/", "Секції лендингів, SaaS, портфоліо й e-commerce."),
+      ("Gridddy", "https://gridddy.framer.website/", "Галерея CTA-блоків перед футером.")]),
+    ("Product UI", "UI продуктів", "Екрани реальних продуктів і рішення, що за ними стоять.",
+     [],
+     [("Refero", "https://refero.design/", "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."),
+      ("Nicelydone", "https://nicelydone.club/", "Понад 200 тисяч екранів SaaS: ціни, онбординг, налаштування."),
+      ("abtest.design", "https://abtest.design/", "Результати A/B-тестів у найкращих застосунках."),
+      ("Handheld", "https://www.handheld.design/", "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти.")]),
+    ("Portfolios", "Портфоліо", "Сайти-портфоліо дизайнерів і студій.",
+     ["Folios Gallery", "Wall of Portfolios"],
+     [("Killer Portfolio", "https://www.killerportfolio.com/", "Добірка ефективних сайтів-портфоліо.")]),
+    ("Visual Journals", "Візуальні щоденники", "Мудборди й журнали з брендингом і графікою.",
+     [],
+     [("Savee", "https://savee.com/", "Кураторський простір візуального натхнення без реклами."),
+      ("Visual Journal", "https://visualjournal.it/", "Найкраще з брендингу, редакційного й графічного дизайну."),
+      ("Aesse Studio", "https://aessestudio.tumblr.com/", "Tumblr-добірка візуальних референсів."),
+      ("Klikkenthéke", "https://klikkentheke.com/catalogue/", "Каталог візуальних референсів.")]),
+]
+LANDING_CASES = {"One Page Love": [{"label": "OG Images", "url": "https://onepagelove.com/og"}]}
+
+
+def build_landings(categories):
+    """Pulls landing/site galleries out of Inspiration and builds the Landings category."""
+    insp = next(c for c in categories if c["id"] == "inspiration")
+    galleries = next(s for s in insp["sections"] if s["title_en"] == "Design Galleries")
+    pool = {i["name"]: i for i in galleries["items"]}
+    taken, sections = set(), []
+    for en, uk, desc, moved, new in LANDINGS:
+        items = []
+        for name in moved:
+            assert name in pool, name
+            items.append(dict(pool[name]))
+            taken.add(name)
+        items += [{"name": n, "url": u, "desc": d} for n, u, d in new]
+        for i in items:
+            if i["name"] in LANDING_CASES:
+                i["cases"] = LANDING_CASES[i["name"]]
+        sections.append({"title": uk, "title_en": en, "desc": desc,
+                         "id": re.sub(r"[^a-z0-9]+", "-", en.lower()).strip("-"), "items": items})
+    galleries["items"] = [i for i in galleries["items"] if i["name"] not in taken]
+    return {"id": "landings", "title": "Landings", "icon": "layout", "sections": sections}
+
+
 def load_uk():
     uk = {"sections": {}, "items": {}}
     for f in sorted((ROOT / "i18n").glob("uk-part*.json")):
@@ -411,6 +472,8 @@ def main():
     if missing:
         print("UNTRANSLATED:", len(missing), missing[:10])
     apply_brand_pass(categories)
+    landings = build_landings(categories)
+    categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), landings)
 
     ai = build_ai_guide()
     out = ("window.CATALOGUE = " + json.dumps(categories, ensure_ascii=False, indent=1) + ";\n"

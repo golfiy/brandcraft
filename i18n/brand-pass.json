@@ -1,15 +1,57 @@
 {
  "_note": "Brand-designer pass: drops pure dev tooling, rewrites section and item descriptions without code/frontend wording. Applied after uk-part*.json.",
  "drop": {
-  "Design Galleries": ["desengs.com", "designeng.tools", "designengineer.tools"],
-  "Reading": ["web.dev", "Learn Kernels", "Josh Comeau"],
-  "Type": ["Fontsource"],
-  "3D": ["Three.js", "React Three Fiber", "Drei", "gltf.report"],
-  "Shaders": ["compute.toys", "shadercn", "Book of Shaders"],
-  "Icons": ["MX Icons", "Devicon", "css.gg", "Reicon"],
-  "Utilities": ["RegExr", "Ray.so", "Transform", "Corne", "Shiori", "Open Source Together", "Replay"],
-  "Desktop": ["Ghostty", "Warp", "Canario", "CoolDock", "Revone"],
-  "Video & Capture": ["Remotion", "Remocn"]
+  "Design Galleries": [
+   "desengs.com",
+   "designeng.tools",
+   "designengineer.tools",
+   "Rebrand Gallery"
+  ],
+  "Reading": [
+   "web.dev",
+   "Learn Kernels",
+   "Josh Comeau"
+  ],
+  "Type": [
+   "Fontsource"
+  ],
+  "3D": [
+   "Three.js",
+   "React Three Fiber",
+   "Drei",
+   "gltf.report"
+  ],
+  "Shaders": [
+   "compute.toys",
+   "shadercn",
+   "Book of Shaders"
+  ],
+  "Icons": [
+   "MX Icons",
+   "Devicon",
+   "css.gg",
+   "Reicon"
+  ],
+  "Utilities": [
+   "RegExr",
+   "Ray.so",
+   "Transform",
+   "Corne",
+   "Shiori",
+   "Open Source Together",
+   "Replay"
+  ],
+  "Desktop": [
+   "Ghostty",
+   "Warp",
+   "Canario",
+   "CoolDock",
+   "Revone"
+  ],
+  "Video & Capture": [
+   "Remotion",
+   "Remocn"
+  ]
  },
  "sections": {
   "Design Galleries": "Галереї сайтів, айдентики й візуального натхнення.",

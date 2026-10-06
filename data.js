@@ -24,39 +24,14 @@ window.CATALOGUE = [
       "desc": "Сервіс для візуальних мудбордів і творчого натхнення."
      },
      {
-      "name": "Curated Design",
-      "url": "https://www.curated.design/",
-      "desc": "Вебдизайн, згрупований за естетичним стилем."
-     },
-     {
       "name": "Layers",
       "url": "https://layers.to/",
       "desc": "Платформа для публічного показу дизайн-робіт."
      },
      {
-      "name": "Minimal Gallery",
-      "url": "https://minimal.gallery/",
-      "desc": "Добірка мінімалістичних і стриманих сайтів."
-     },
-     {
       "name": "Mobbin",
       "url": "https://mobbin.com/",
       "desc": "Реальні флоу мобільних і вебпродуктів."
-     },
-     {
-      "name": "Saaspo",
-      "url": "https://www.saaspo.com/",
-      "desc": "Добірка дизайнів SaaS-лендингів."
-     },
-     {
-      "name": "SEESAW",
-      "url": "https://www.seesaw.website/",
-      "desc": "Дизайн-натхнення, впорядковане за секціями сторінки."
-     },
-     {
-      "name": "Supahero",
-      "url": "https://supahero.io/",
-      "desc": "Добірка hero-секцій сайтів."
      },
      {
       "name": "Imageory",
@@ -79,49 +54,14 @@ window.CATALOGUE = [
       "desc": "Аналіз мікровзаємодій у провідних цифрових продуктах."
      },
      {
-      "name": "Sombra",
-      "url": "https://sombra.design/",
-      "desc": "Добірка інтерфейсів сайтів у темній темі."
-     },
-     {
       "name": "Dribbble",
       "url": "https://dribbble.com/",
       "desc": "Глобальна спільнота, де діляться дизайн-концептами."
      },
      {
-      "name": "Recent Design",
-      "url": "https://recent.design/",
-      "desc": "Щотижнева добірка сайтів, гідних нагород."
-     },
-     {
-      "name": "navbar.design",
-      "url": "https://navbar.design/",
-      "desc": "Добірка патернів навігаційних панелей."
-     },
-     {
-      "name": "footer.design",
-      "url": "https://footer.design/",
-      "desc": "Добірка креативних футерів сайтів."
-     },
-     {
-      "name": "Land-book",
-      "url": "https://land-book.com/",
-      "desc": "Лендинги, згруповані за галузями."
-     },
-     {
       "name": "Collect UI",
       "url": "https://collectui.com/",
       "desc": "Щоденне UI-натхнення з тегами за типами екранів."
-     },
-     {
-      "name": "SiteInspire",
-      "url": "https://www.siteinspire.com/",
-      "desc": "Добірка майстерного вебдизайну."
-     },
-     {
-      "name": "Lapa Ninja",
-      "url": "https://www.lapa.ninja/",
-      "desc": "Добірка адаптивних лендингів."
      },
      {
       "name": "UX Archive",
@@ -139,39 +79,14 @@ window.CATALOGUE = [
       "desc": "Преміальні секції сайтів і патерни взаємодії для Webflow."
      },
      {
-      "name": "Hover States",
-      "url": "https://hoverstat.es/",
-      "desc": "Добірка інноваційного інтерактивного вебдизайну."
-     },
-     {
-      "name": "SaaSFrame",
-      "url": "https://www.saasframe.io/",
-      "desc": "Сотні скриншотів маркетингових сторінок SaaS."
-     },
-     {
-      "name": "Landingfolio",
-      "url": "https://www.landingfolio.com/",
-      "desc": "Велика бібліотека дизайнів лендингів."
-     },
-     {
       "name": "Pttrns",
       "url": "https://pttrns.com/",
       "desc": "Каталог патернів мобільних інтерфейсів."
      },
      {
-      "name": "One Page Love",
-      "url": "https://onepagelove.com/",
-      "desc": "Добірка односторінкових сайтів."
-     },
-     {
       "name": "Designspiration",
       "url": "https://www.designspiration.com/",
       "desc": "Творча пошукова платформа для візуального мистецтва."
-     },
-     {
-      "name": "Best Website Gallery",
-      "url": "https://bestwebsite.gallery/",
-      "desc": "Кураторський архів видатних сайтів."
      },
      {
       "name": "Inspiration Grid",
@@ -194,19 +109,9 @@ window.CATALOGUE = [
       "desc": "Кураторська галерея дизайну мобільних застосунків."
      },
      {
-      "name": "Dark Mode Design",
-      "url": "https://www.darkmodedesign.com/",
-      "desc": "Добірка сайтів у темній темі."
-     },
-     {
       "name": "Pinterest",
       "url": "https://www.pinterest.com/",
       "desc": "Візуальний пошуковик творчих ідей."
-     },
-     {
-      "name": "navbar.gallery",
-      "url": "https://navbar.gallery/",
-      "desc": "Тематична колекція сучасних навігаційних панелей."
      },
      {
       "name": "posts.design",
@@ -217,16 +122,6 @@ window.CATALOGUE = [
       "name": "loadmo.re",
       "url": "https://loadmo.re/",
       "desc": "Галерея експериментальних мобільних сайтів."
-     },
-     {
-      "name": "inspora.design",
-      "url": "https://www.inspora.design/",
-      "desc": "Архів сучасного візуального вебдизайну."
-     },
-     {
-      "name": "cta.gallery",
-      "url": "https://cta.gallery/",
-      "desc": "Добірка дизайнів CTA-кнопок і банерів."
      },
      {
       "name": "isthereanytool",
@@ -244,19 +139,9 @@ window.CATALOGUE = [
       "desc": "Каталог дизайн-ресурсів і посилань."
      },
      {
-      "name": "Rebrand Gallery",
-      "url": "https://rebrand.gallery/",
-      "desc": "Редизайни брендів у порівнянні «до» і «після»."
-     },
-     {
       "name": "Curations",
       "url": "https://curations.supply/",
       "desc": "Бібліотека відібраних цифрових дизайн-ресурсів."
-     },
-     {
-      "name": "Landing Love",
-      "url": "https://landing.love/",
-      "desc": "Вдалі лендинги, згруповані за типом анімації."
      },
      {
       "name": "Motionimo",
@@ -272,11 +157,6 @@ window.CATALOGUE = [
       "name": "Swiped",
       "url": "https://swiped.design/",
       "desc": "Найкращі дизайн-пости із соцмереж."
-     },
-     {
-      "name": "Landdding",
-      "url": "https://landdding.com/",
-      "desc": "Щоденний каталог креативних лендингів."
      },
      {
       "name": "Insposite",
@@ -309,19 +189,9 @@ window.CATALOGUE = [
       "desc": "Бренди з креативними доменами верхнього рівня."
      },
      {
-      "name": "Sections.wtf",
-      "url": "https://sections.wtf/",
-      "desc": "Галерея секцій і hero-секцій реальних сайтів."
-     },
-     {
       "name": "Browse.cool",
       "url": "https://browse.cool/",
       "desc": "Сайти, відібрані за виняткову тактильність."
-     },
-     {
-      "name": "Folios Gallery",
-      "url": "https://folios.gallery/",
-      "desc": "Вибірковий каталог видатних портфоліо дизайнерів."
      },
      {
       "name": "wwwtf.site",
@@ -349,11 +219,6 @@ window.CATALOGUE = [
       "desc": "Спільний мудборд унікальних візуальних знахідок."
      },
      {
-      "name": "Wall of Portfolios",
-      "url": "https://www.wallofportfolios.in/",
-      "desc": "Добірка портфоліо дизайнерів інтерфейсів і продуктів."
-     },
-     {
       "name": "Detail Design",
       "url": "https://detail.design/",
       "desc": "Архів продуманих мікровзаємодій у софті."
@@ -362,21 +227,6 @@ window.CATALOGUE = [
       "name": "Betwn Studios",
       "url": "https://betwnstudios.com/",
       "desc": "Студія, що створює сучасний вебдосвід для SaaS."
-     },
-     {
-      "name": "SaaS Landing Page",
-      "url": "https://saaslandingpage.com/",
-      "desc": "Добірка найкращих SaaS-лендингів."
-     },
-     {
-      "name": "Best SaaS Web Designs",
-      "url": "https://bestsaaswebdesigns.com/",
-      "desc": "Кураторська галерея натхнення з дизайну SaaS-сайтів."
-     },
-     {
-      "name": "A1",
-      "url": "https://www.a1.gallery/",
-      "desc": "Галерея натхнення для вебдизайну."
      }
     ],
     "title_en": "Design Galleries",
@@ -1198,6 +1048,295 @@ window.CATALOGUE = [
     ],
     "title_en": "Awards",
     "id": "awards"
+   }
+  ]
+ },
+ {
+  "id": "landings",
+  "title": "Landings",
+  "icon": "layout",
+  "sections": [
+   {
+    "title": "Лендинги",
+    "title_en": "Landing Pages",
+    "desc": "Галереї лендингів за галузями, типами й стилями.",
+    "id": "landing-pages",
+    "items": [
+     {
+      "name": "Land-book",
+      "url": "https://land-book.com/",
+      "desc": "Лендинги, згруповані за галузями."
+     },
+     {
+      "name": "Lapa Ninja",
+      "url": "https://www.lapa.ninja/",
+      "desc": "Добірка адаптивних лендингів."
+     },
+     {
+      "name": "Landingfolio",
+      "url": "https://www.landingfolio.com/",
+      "desc": "Велика бібліотека дизайнів лендингів."
+     },
+     {
+      "name": "One Page Love",
+      "url": "https://onepagelove.com/",
+      "desc": "Добірка односторінкових сайтів.",
+      "cases": [
+       {
+        "label": "OG Images",
+        "url": "https://onepagelove.com/og"
+       }
+      ]
+     },
+     {
+      "name": "SaaS Landing Page",
+      "url": "https://saaslandingpage.com/",
+      "desc": "Добірка найкращих SaaS-лендингів."
+     },
+     {
+      "name": "Saaspo",
+      "url": "https://www.saaspo.com/",
+      "desc": "Добірка дизайнів SaaS-лендингів."
+     },
+     {
+      "name": "SaaSFrame",
+      "url": "https://www.saasframe.io/",
+      "desc": "Сотні скриншотів маркетингових сторінок SaaS."
+     },
+     {
+      "name": "Best SaaS Web Designs",
+      "url": "https://bestsaaswebdesigns.com/",
+      "desc": "Кураторська галерея натхнення з дизайну SaaS-сайтів."
+     },
+     {
+      "name": "Landing Love",
+      "url": "https://landing.love/",
+      "desc": "Вдалі лендинги, згруповані за типом анімації."
+     },
+     {
+      "name": "Landdding",
+      "url": "https://landdding.com/",
+      "desc": "Щоденний каталог креативних лендингів."
+     }
+    ]
+   },
+   {
+    "title": "Галереї сайтів",
+    "title_en": "Website Galleries",
+    "desc": "Кураторські добірки сайтів, щоб натренувати око.",
+    "id": "website-galleries",
+    "items": [
+     {
+      "name": "SiteInspire",
+      "url": "https://www.siteinspire.com/",
+      "desc": "Добірка майстерного вебдизайну."
+     },
+     {
+      "name": "Minimal Gallery",
+      "url": "https://minimal.gallery/",
+      "desc": "Добірка мінімалістичних і стриманих сайтів."
+     },
+     {
+      "name": "Curated Design",
+      "url": "https://www.curated.design/",
+      "desc": "Вебдизайн, згрупований за естетичним стилем."
+     },
+     {
+      "name": "Best Website Gallery",
+      "url": "https://bestwebsite.gallery/",
+      "desc": "Кураторський архів видатних сайтів."
+     },
+     {
+      "name": "Recent Design",
+      "url": "https://recent.design/",
+      "desc": "Щотижнева добірка сайтів, гідних нагород."
+     },
+     {
+      "name": "A1",
+      "url": "https://www.a1.gallery/",
+      "desc": "Галерея натхнення для вебдизайну."
+     },
+     {
+      "name": "inspora.design",
+      "url": "https://www.inspora.design/",
+      "desc": "Архів сучасного візуального вебдизайну."
+     },
+     {
+      "name": "Hover States",
+      "url": "https://hoverstat.es/",
+      "desc": "Добірка інноваційного інтерактивного вебдизайну."
+     },
+     {
+      "name": "Httpster",
+      "url": "https://httpster.net/",
+      "desc": "Галерея креативних і нагородних сайтів."
+     },
+     {
+      "name": "Umanmade",
+      "url": "https://www.umanmade.com/",
+      "desc": "Каталог цифрових робіт, зроблених людьми для людей."
+     },
+     {
+      "name": "Scrolltide",
+      "url": "https://www.scrolltide.co/",
+      "desc": "Кінематографічні сайти зі скрол-анімацією та AI-промпти до них."
+     }
+    ]
+   },
+   {
+    "title": "Темна тема",
+    "title_en": "Dark Mode",
+    "desc": "Сайти в темній темі: контраст, світло й акценти.",
+    "id": "dark-mode",
+    "items": [
+     {
+      "name": "Dark Mode Design",
+      "url": "https://www.darkmodedesign.com/",
+      "desc": "Добірка сайтів у темній темі."
+     },
+     {
+      "name": "Sombra",
+      "url": "https://sombra.design/",
+      "desc": "Добірка інтерфейсів сайтів у темній темі."
+     },
+     {
+      "name": "Dark Design",
+      "url": "https://www.dark.design/",
+      "desc": "Добірка сайтів у темній темі, відібраних вручну."
+     }
+    ]
+   },
+   {
+    "title": "Секції та блоки",
+    "title_en": "Sections & Components",
+    "desc": "Hero, футери, навігація й CTA окремо від цілої сторінки.",
+    "id": "sections-components",
+    "items": [
+     {
+      "name": "SEESAW",
+      "url": "https://www.seesaw.website/",
+      "desc": "Дизайн-натхнення, впорядковане за секціями сторінки."
+     },
+     {
+      "name": "Supahero",
+      "url": "https://supahero.io/",
+      "desc": "Добірка hero-секцій сайтів."
+     },
+     {
+      "name": "Sections.wtf",
+      "url": "https://sections.wtf/",
+      "desc": "Галерея секцій і hero-секцій реальних сайтів."
+     },
+     {
+      "name": "footer.design",
+      "url": "https://footer.design/",
+      "desc": "Добірка креативних футерів сайтів."
+     },
+     {
+      "name": "navbar.design",
+      "url": "https://navbar.design/",
+      "desc": "Добірка патернів навігаційних панелей."
+     },
+     {
+      "name": "navbar.gallery",
+      "url": "https://navbar.gallery/",
+      "desc": "Тематична колекція сучасних навігаційних панелей."
+     },
+     {
+      "name": "cta.gallery",
+      "url": "https://cta.gallery/",
+      "desc": "Добірка дизайнів CTA-кнопок і банерів."
+     },
+     {
+      "name": "Unsection",
+      "url": "https://www.unsection.com/",
+      "desc": "Секції лендингів, SaaS, портфоліо й e-commerce."
+     },
+     {
+      "name": "Gridddy",
+      "url": "https://gridddy.framer.website/",
+      "desc": "Галерея CTA-блоків перед футером."
+     }
+    ]
+   },
+   {
+    "title": "UI продуктів",
+    "title_en": "Product UI",
+    "desc": "Екрани реальних продуктів і рішення, що за ними стоять.",
+    "id": "product-ui",
+    "items": [
+     {
+      "name": "Refero",
+      "url": "https://refero.design/",
+      "desc": "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."
+     },
+     {
+      "name": "Nicelydone",
+      "url": "https://nicelydone.club/",
+      "desc": "Понад 200 тисяч екранів SaaS: ціни, онбординг, налаштування."
+     },
+     {
+      "name": "abtest.design",
+      "url": "https://abtest.design/",
+      "desc": "Результати A/B-тестів у найкращих застосунках."
+     },
+     {
+      "name": "Handheld",
+      "url": "https://www.handheld.design/",
+      "desc": "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти."
+     }
+    ]
+   },
+   {
+    "title": "Портфоліо",
+    "title_en": "Portfolios",
+    "desc": "Сайти-портфоліо дизайнерів і студій.",
+    "id": "portfolios",
+    "items": [
+     {
+      "name": "Folios Gallery",
+      "url": "https://folios.gallery/",
+      "desc": "Вибірковий каталог видатних портфоліо дизайнерів."
+     },
+     {
+      "name": "Wall of Portfolios",
+      "url": "https://www.wallofportfolios.in/",
+      "desc": "Добірка портфоліо дизайнерів інтерфейсів і продуктів."
+     },
+     {
+      "name": "Killer Portfolio",
+      "url": "https://www.killerportfolio.com/",
+      "desc": "Добірка ефективних сайтів-портфоліо."
+     }
+    ]
+   },
+   {
+    "title": "Візуальні щоденники",
+    "title_en": "Visual Journals",
+    "desc": "Мудборди й журнали з брендингом і графікою.",
+    "id": "visual-journals",
+    "items": [
+     {
+      "name": "Savee",
+      "url": "https://savee.com/",
+      "desc": "Кураторський простір візуального натхнення без реклами."
+     },
+     {
+      "name": "Visual Journal",
+      "url": "https://visualjournal.it/",
+      "desc": "Найкраще з брендингу, редакційного й графічного дизайну."
+     },
+     {
+      "name": "Aesse Studio",
+      "url": "https://aessestudio.tumblr.com/",
+      "desc": "Tumblr-добірка візуальних референсів."
+     },
+     {
+      "name": "Klikkenthéke",
+      "url": "https://klikkentheke.com/catalogue/",
+      "desc": "Каталог візуальних референсів."
+     }
+    ]
    }
   ]
  },
