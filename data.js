@@ -5,627 +5,627 @@ window.CATALOGUE = [
   "icon": "spark",
   "sections": [
    {
-    "title": "Design Galleries",
-    "desc": "Design galleries, interface patterns, and web inspiration.",
+    "title": "Галереї дизайну",
+    "desc": "Галереї дизайну, патерни інтерфейсів і веб-натхнення.",
     "items": [
      {
       "name": "60fps",
       "url": "https://60fps.design/",
-      "desc": "Recordings of interfaces that move well."
+      "desc": "Записи інтерфейсів із вдалою анімацією."
      },
      {
       "name": "Awwwards",
       "url": "https://www.awwwards.com/",
-      "desc": "Awards celebrating exceptional digital web craft."
+      "desc": "Нагороди за видатну майстерність у вебі."
      },
      {
       "name": "Cosmos",
       "url": "https://www.cosmos.so/",
-      "desc": "Visual moodboarding and creative inspiration engine."
+      "desc": "Сервіс для візуальних мудбордів і творчого натхнення."
      },
      {
       "name": "Curated Design",
       "url": "https://www.curated.design/",
-      "desc": "Web design sorted by aesthetic style."
+      "desc": "Вебдизайн, згрупований за естетичним стилем."
      },
      {
       "name": "Layers",
       "url": "https://layers.to/",
-      "desc": "Platform for sharing design work publicly."
+      "desc": "Платформа для публічного показу дизайн-робіт."
      },
      {
       "name": "Minimal Gallery",
       "url": "https://minimal.gallery/",
-      "desc": "Showcase of minimal and restrained websites."
+      "desc": "Добірка мінімалістичних і стриманих сайтів."
      },
      {
       "name": "Mobbin",
       "url": "https://mobbin.com/",
-      "desc": "Real mobile and web product flows."
+      "desc": "Реальні флоу мобільних і вебпродуктів."
      },
      {
       "name": "Saaspo",
       "url": "https://www.saaspo.com/",
-      "desc": "Curated SaaS landing page designs."
+      "desc": "Добірка дизайнів SaaS-лендингів."
      },
      {
       "name": "SEESAW",
       "url": "https://www.seesaw.website/",
-      "desc": "Design inspiration organized by page section."
+      "desc": "Дизайн-натхнення, впорядковане за секціями сторінки."
      },
      {
       "name": "Supahero",
       "url": "https://supahero.io/",
-      "desc": "Curated collection of website hero sections."
+      "desc": "Добірка hero-секцій сайтів."
      },
      {
       "name": "Imageory",
       "url": "https://www.imageory.in/",
-      "desc": "Visual gallery pairing images with prompts."
+      "desc": "Візуальна галерея зображень разом із промптами."
      },
      {
       "name": "Backgrounds Supply",
       "url": "https://backgrounds.supply/",
-      "desc": "Handcrafted website backgrounds ready to use."
+      "desc": "Готові до використання фони для сайтів, створені вручну."
      },
      {
       "name": "Venust Backgrounds",
       "url": "https://backgrounds.venust.ai/",
-      "desc": "Free AI-generated backgrounds with original prompts."
+      "desc": "Безкоштовні AI-фони з оригінальними промптами."
      },
      {
       "name": "Details",
       "url": "https://www.details.so/",
-      "desc": "Micro-interaction analysis of top digital products."
+      "desc": "Аналіз мікровзаємодій у провідних цифрових продуктах."
      },
      {
       "name": "Sombra",
       "url": "https://sombra.design/",
-      "desc": "Showcase of dark-mode website interfaces."
+      "desc": "Добірка інтерфейсів сайтів у темній темі."
      },
      {
       "name": "Dribbble",
       "url": "https://dribbble.com/",
-      "desc": "Global community sharing design concepts."
+      "desc": "Глобальна спільнота, де діляться дизайн-концептами."
      },
      {
       "name": "Recent Design",
       "url": "https://recent.design/",
-      "desc": "Weekly selection of award-worthy websites."
+      "desc": "Щотижнева добірка сайтів, гідних нагород."
      },
      {
       "name": "navbar.design",
       "url": "https://navbar.design/",
-      "desc": "Curated gallery of navigation bar patterns."
+      "desc": "Добірка патернів навігаційних панелей."
      },
      {
       "name": "footer.design",
       "url": "https://footer.design/",
-      "desc": "Curated gallery of creative website footers."
+      "desc": "Добірка креативних футерів сайтів."
      },
      {
       "name": "Land-book",
       "url": "https://land-book.com/",
-      "desc": "Landing pages organized by industry."
+      "desc": "Лендинги, згруповані за галузями."
      },
      {
       "name": "Collect UI",
       "url": "https://collectui.com/",
-      "desc": "Daily UI inspiration tagged by component."
+      "desc": "Щоденне UI-натхнення з тегами за компонентами."
      },
      {
       "name": "SiteInspire",
       "url": "https://www.siteinspire.com/",
-      "desc": "Showcase of fine web design craft."
+      "desc": "Добірка майстерного вебдизайну."
      },
      {
       "name": "Lapa Ninja",
       "url": "https://www.lapa.ninja/",
-      "desc": "Curated gallery of responsive landing pages."
+      "desc": "Добірка адаптивних лендингів."
      },
      {
       "name": "UX Archive",
       "url": "https://uxarchive.com/",
-      "desc": "Historical archive of mobile onboarding flows."
+      "desc": "Історичний архів онбординг-флоу мобільних застосунків."
      },
      {
       "name": "Screenlane",
       "url": "https://screenlane.com/",
-      "desc": "Searchable gallery of interface screens."
+      "desc": "Галерея екранів інтерфейсів із пошуком."
      },
      {
       "name": "Flowbase",
       "url": "https://www.flowbase.co/",
-      "desc": "Premium UI components and interaction patterns."
+      "desc": "Преміальні UI-компоненти та патерни взаємодії."
      },
      {
       "name": "Hover States",
       "url": "https://hoverstat.es/",
-      "desc": "Showcase of innovative interactive web design."
+      "desc": "Добірка інноваційного інтерактивного вебдизайну."
      },
      {
       "name": "SaaSFrame",
       "url": "https://www.saasframe.io/",
-      "desc": "Hundreds of SaaS marketing page screenshots."
+      "desc": "Сотні скриншотів маркетингових сторінок SaaS."
      },
      {
       "name": "Landingfolio",
       "url": "https://www.landingfolio.com/",
-      "desc": "Extensive library of landing page designs."
+      "desc": "Велика бібліотека дизайнів лендингів."
      },
      {
       "name": "Pttrns",
       "url": "https://pttrns.com/",
-      "desc": "Directory of mobile user interface patterns."
+      "desc": "Каталог патернів мобільних інтерфейсів."
      },
      {
       "name": "One Page Love",
       "url": "https://onepagelove.com/",
-      "desc": "Showcase of single-page website designs."
+      "desc": "Добірка односторінкових сайтів."
      },
      {
       "name": "Designspiration",
       "url": "https://www.designspiration.com/",
-      "desc": "Creative search platform for visual art."
+      "desc": "Творча пошукова платформа для візуального мистецтва."
      },
      {
       "name": "Best Website Gallery",
       "url": "https://bestwebsite.gallery/",
-      "desc": "Curated archive of exceptional websites."
+      "desc": "Кураторський архів видатних сайтів."
      },
      {
       "name": "Inspiration Grid",
       "url": "https://theinspirationgrid.com/",
-      "desc": "Online magazine celebrating creative visual design."
+      "desc": "Онлайн-журнал про креативний візуальний дизайн."
      },
      {
       "name": "Scrnshts",
       "url": "https://scrnshts.club/",
-      "desc": "Curated App Store screenshot designs."
+      "desc": "Добірка дизайнів скриншотів для App Store."
      },
      {
       "name": "Are.na",
       "url": "https://www.are.na/",
-      "desc": "Collaborative research and visual bookmarking platform."
+      "desc": "Платформа для спільних досліджень і візуальних закладок."
      },
      {
       "name": "Appinspo",
       "url": "https://www.appinspo.com/",
-      "desc": "Curated mobile application design gallery."
+      "desc": "Кураторська галерея дизайну мобільних застосунків."
      },
      {
       "name": "Dark Mode Design",
       "url": "https://www.darkmodedesign.com/",
-      "desc": "Showcase celebrating dark-mode websites."
+      "desc": "Добірка сайтів у темній темі."
      },
      {
       "name": "Pinterest",
       "url": "https://www.pinterest.com/",
-      "desc": "Visual discovery engine for creative ideas."
+      "desc": "Візуальний пошуковик творчих ідей."
      },
      {
       "name": "navbar.gallery",
       "url": "https://navbar.gallery/",
-      "desc": "Focused collection of modern navigation bars."
+      "desc": "Тематична колекція сучасних навігаційних панелей."
      },
      {
       "name": "posts.design",
       "url": "https://posts.design/",
-      "desc": "Curated social media graphic design archive."
+      "desc": "Кураторський архів графіки для соцмереж."
      },
      {
       "name": "loadmo.re",
       "url": "https://loadmo.re/",
-      "desc": "Gallery of experimental mobile website designs."
+      "desc": "Галерея експериментальних мобільних сайтів."
      },
      {
       "name": "inspora.design",
       "url": "https://www.inspora.design/",
-      "desc": "Archive of contemporary visual web design."
+      "desc": "Архів сучасного візуального вебдизайну."
      },
      {
       "name": "cta.gallery",
       "url": "https://cta.gallery/",
-      "desc": "Curated call-to-action button and banner designs."
+      "desc": "Добірка дизайнів CTA-кнопок і банерів."
      },
      {
       "name": "desengs.com",
       "url": "https://desengs.com/",
-      "desc": "Directory of design engineering portfolios and lore."
+      "desc": "Каталог портфоліо та знань про дизайн-інженерію."
      },
      {
       "name": "isthereanytool",
       "url": "https://isthereanytool.app/",
-      "desc": "Directory of lesser-known design, craft, and AI tools."
+      "desc": "Каталог маловідомих інструментів для дизайну, крафту та AI."
      },
      {
       "name": "designeng.tools",
       "url": "https://designeng.tools/",
-      "desc": "Curated design engineering tools, resources, and inspiration."
+      "desc": "Добірка інструментів, ресурсів і натхнення для дизайн-інженерії."
      },
      {
       "name": "bestdesignsonx.com",
       "url": "https://bestdesignsonx.com/",
-      "desc": "Curated design-forward creators and posts on X."
+      "desc": "Добірка дизайн-орієнтованих авторів і постів в X."
      },
      {
       "name": "Design Bookmark",
       "url": "https://designbookmark.com/",
-      "desc": "Directory of design resources and links."
+      "desc": "Каталог дизайн-ресурсів і посилань."
      },
      {
       "name": "Rebrand Gallery",
       "url": "https://rebrand.gallery/",
-      "desc": "Brand redesigns compared before and after."
+      "desc": "Редизайни брендів у порівнянні «до» і «після»."
      },
      {
       "name": "Curations",
       "url": "https://curations.supply/",
-      "desc": "Library of curated digital design assets."
+      "desc": "Бібліотека відібраних цифрових дизайн-ресурсів."
      },
      {
       "name": "Landing Love",
       "url": "https://landing.love/",
-      "desc": "Delightful landing pages organized by animation."
+      "desc": "Вдалі лендинги, згруповані за типом анімації."
      },
      {
       "name": "Motionimo",
       "url": "https://motionimo.xyz/",
-      "desc": "Extensive library of motion design clips."
+      "desc": "Велика бібліотека кліпів із моушн-дизайном."
      },
      {
       "name": "before.click",
       "url": "https://before.click/",
-      "desc": "Showcase of high-converting app screenshot concepts."
+      "desc": "Концепти скриншотів застосунків із високою конверсією."
      },
      {
       "name": "Swiped",
       "url": "https://swiped.design/",
-      "desc": "Standout design posts from social platforms."
+      "desc": "Найкращі дизайн-пости із соцмереж."
      },
      {
       "name": "Landdding",
       "url": "https://landdding.com/",
-      "desc": "Daily catalogue of creative landing pages."
+      "desc": "Щоденний каталог креативних лендингів."
      },
      {
       "name": "designengineer.tools",
       "url": "https://designengineer.tools/",
-      "desc": "Essential tools tailored for design engineers."
+      "desc": "Ключові інструменти для дизайн-інженерів."
      },
      {
       "name": "Insposite",
       "url": "https://www.insposite.com/",
-      "desc": "Directory of design references and tools."
+      "desc": "Каталог дизайн-референсів та інструментів."
      },
      {
       "name": "Loader Buttons",
       "url": "https://loader-buttons.appllama.io/",
-      "desc": "Gallery of 25 loading button animations."
+      "desc": "Галерея з 25 анімацій кнопок завантаження."
      },
      {
       "name": "What Ships",
       "url": "https://whatships.com/",
-      "desc": "Standout product launch demo videos on X."
+      "desc": "Найкращі демовідео запусків продуктів в X."
      },
      {
       "name": "GreatStuff",
       "url": "https://greatstuff.fyi/",
-      "desc": "Carefully vetted archive of creative tools."
+      "desc": "Ретельно відібраний архів творчих інструментів."
      },
      {
       "name": "Great Apps",
       "url": "https://greatapps.fyi/",
-      "desc": "Weekly gallery highlighting exceptional iOS apps."
+      "desc": "Щотижнева галерея видатних iOS-застосунків."
      },
      {
       "name": "Curated Domains",
       "url": "https://curated.domains/",
-      "desc": "Brands using creative top-level domain names."
+      "desc": "Бренди з креативними доменами верхнього рівня."
      },
      {
       "name": "Sections.wtf",
       "url": "https://sections.wtf/",
-      "desc": "Real-world website section and hero gallery."
+      "desc": "Галерея секцій і hero-секцій реальних сайтів."
      },
      {
       "name": "Browse.cool",
       "url": "https://browse.cool/",
-      "desc": "Websites chosen for exceptional tactile feel."
+      "desc": "Сайти, відібрані за виняткову тактильність."
      },
      {
       "name": "Folios Gallery",
       "url": "https://folios.gallery/",
-      "desc": "Selective directory of outstanding designer portfolios."
+      "desc": "Вибірковий каталог видатних портфоліо дизайнерів."
      },
      {
       "name": "wwwtf.site",
       "url": "https://wwwtf.site/",
-      "desc": "Quirky and experimental interactive web corners."
+      "desc": "Дивакуваті й експериментальні інтерактивні куточки вебу."
      },
      {
       "name": "Early",
       "url": "https://www.early.tools/",
-      "desc": "Discovery platform for early-stage software products."
+      "desc": "Платформа для пошуку програмних продуктів на ранній стадії."
      },
      {
       "name": "OpenAlternative",
       "url": "https://openalternative.co/",
-      "desc": "Open-source alternatives to popular SaaS tools."
+      "desc": "Open-source альтернативи популярним SaaS-інструментам."
      },
      {
       "name": "Everywhere Tools",
       "url": "https://everywhere.tools/",
-      "desc": "Open-source creative tools for design craft."
+      "desc": "Open-source творчі інструменти для дизайн-крафту."
      },
      {
       "name": "Jessy In's Gallery",
       "url": "https://gallery.jessyin.world/",
-      "desc": "Collaborative moodboard of unique visual finds."
+      "desc": "Спільний мудборд унікальних візуальних знахідок."
      },
      {
       "name": "Wall of Portfolios",
       "url": "https://www.wallofportfolios.in/",
-      "desc": "Design engineering and product portfolio showcases."
+      "desc": "Добірка портфоліо з дизайн-інженерії та продуктового дизайну."
      },
      {
       "name": "Detail Design",
       "url": "https://detail.design/",
-      "desc": "Archive of thoughtful software micro-interactions."
+      "desc": "Архів продуманих мікровзаємодій у софті."
      },
      {
       "name": "Betwn Studios",
       "url": "https://betwnstudios.com/",
-      "desc": "Studio crafting modern SaaS web experiences."
+      "desc": "Студія, що створює сучасний вебдосвід для SaaS."
      },
      {
       "name": "SaaS Landing Page",
       "url": "https://saaslandingpage.com/",
-      "desc": "Showcase of top SaaS landing pages."
+      "desc": "Добірка найкращих SaaS-лендингів."
      },
      {
       "name": "Best SaaS Web Designs",
       "url": "https://bestsaaswebdesigns.com/",
-      "desc": "Curated inspiration gallery of SaaS website design."
+      "desc": "Кураторська галерея натхнення з дизайну SaaS-сайтів."
      },
      {
       "name": "A1",
       "url": "https://www.a1.gallery/",
-      "desc": "Website design inspiration gallery."
+      "desc": "Галерея натхнення для вебдизайну."
      }
     ],
     "id": "design-galleries"
    },
    {
-    "title": "Interface Design",
-    "desc": "Interface design canvases, tokens, and layout systems.",
+    "title": "Дизайн інтерфейсів",
+    "desc": "Полотна для дизайну інтерфейсів, токени та лейаут-системи.",
     "items": [
      {
       "name": "Figma",
       "url": "https://figma.com/",
-      "desc": "Collaborative interface design and prototyping platform."
+      "desc": "Платформа для спільного дизайну інтерфейсів і прототипування."
      },
      {
       "name": "Framer",
       "url": "https://framer.com/",
-      "desc": "Visual canvas designing and publishing websites."
+      "desc": "Візуальне полотно для дизайну й публікації сайтів."
      },
      {
       "name": "make.design",
       "url": "https://make.design/",
-      "desc": "AI generator turning prompts into polished designs."
+      "desc": "AI-генератор, що перетворює промпти на готовий дизайн."
      },
      {
       "name": "Penpot",
       "url": "https://penpot.app/",
-      "desc": "Open-source web design platform supporting SVG."
+      "desc": "Open-source платформа для вебдизайну з підтримкою SVG."
      },
      {
       "name": "Spline",
       "url": "https://spline.design/",
-      "desc": "Browser-based 3D design software with physics."
+      "desc": "Браузерний софт для 3D-дизайну з фізикою."
      },
      {
       "name": "Interface Craft",
       "url": "https://www.interfacecraft.dev/",
-      "desc": "Articles exploring modern digital interface craftsmanship."
+      "desc": "Статті про майстерність сучасних цифрових інтерфейсів."
      },
      {
       "name": "UI Labs",
       "url": "https://www.uilabs.dev/",
-      "desc": "Laboratory deconstructing animated UI components."
+      "desc": "Лабораторія, що розбирає анімовані UI-компоненти."
      },
      {
       "name": "UIWTF",
       "url": "https://uiw.tf/",
-      "desc": "Showcase of experimental web interface patterns."
+      "desc": "Добірка експериментальних патернів вебінтерфейсів."
      },
      {
       "name": "Lab01",
       "url": "https://lab01.dev/",
-      "desc": "Refined UI experiments from a studio."
+      "desc": "Витончені UI-експерименти від студії."
      },
      {
       "name": "design.dev",
       "url": "https://design.dev/",
-      "desc": "AI-assisted design token and system editor."
+      "desc": "Редактор дизайн-токенів і дизайн-систем з AI-асистентом."
      },
      {
       "name": "UI Playbook",
       "url": "https://uiplaybook.dev/",
-      "desc": "Guide to common UI component states."
+      "desc": "Посібник зі стандартних станів UI-компонентів."
      }
     ],
     "id": "interface-design"
    },
    {
-    "title": "Reading",
-    "desc": "Essential books, design engineering essays, and craft tutorials.",
+    "title": "Читання",
+    "desc": "Ключові книжки, есеї з дизайн-інженерії та туторіали з майстерності.",
     "items": [
      {
       "name": "Refactoring UI",
       "url": "https://refactoringui.com/",
-      "desc": "Practical design guide for building interfaces."
+      "desc": "Практичний посібник зі створення інтерфейсів."
      },
      {
       "name": "Practical Typography",
       "url": "https://practicaltypography.com/",
-      "desc": "Essential book covering typographic rules and layout."
+      "desc": "Ключова книжка про правила типографіки та верстку."
      },
      {
       "name": "web.dev",
       "url": "https://web.dev/",
-      "desc": "Guidance on web performance and modern standards."
+      "desc": "Поради щодо вебпродуктивності та сучасних стандартів."
      },
      {
       "name": "Inclusive Components",
       "url": "https://inclusive-components.design/",
-      "desc": "Pattern library teaching accessible component design."
+      "desc": "Бібліотека патернів про дизайн доступних компонентів."
      },
      {
       "name": "Josh Comeau",
       "url": "https://joshwcomeau.com/",
-      "desc": "Interactive tutorials breaking down CSS mechanics."
+      "desc": "Інтерактивні туторіали, що розбирають механіку CSS."
      },
      {
       "name": "Design Books",
       "url": "https://design-books.com/",
-      "desc": "Directory of essential design literature by discipline."
+      "desc": "Каталог ключової літератури з дизайну за дисциплінами."
      },
      {
       "name": "Learn Kernels",
       "url": "https://learn-kernels.com/",
-      "desc": "Interactive guide exploring GPU kernel programming."
+      "desc": "Інтерактивний посібник із програмування GPU-ядер."
      },
      {
       "name": "Design System Checklist",
       "url": "https://designsystemchecklist.com/",
-      "desc": "Comprehensive checklist for production design systems."
+      "desc": "Вичерпний чекліст для продакшн-дизайн-систем."
      },
      {
       "name": "Learn UI",
       "url": "https://learn-ui.com/",
-      "desc": "Video course teaching practical user interface design."
+      "desc": "Відеокурс із практичного дизайну інтерфейсів."
      },
      {
       "name": "Design Spells",
       "url": "https://designspells.com/",
-      "desc": "Dissecting subtle design details in software."
+      "desc": "Розбір тонких дизайн-деталей у софті."
      },
      {
       "name": "Good UI",
       "url": "https://goodui.org/",
-      "desc": "Evidence-based UI design patterns and data."
+      "desc": "Доказові UI-патерни та дані."
      },
      {
       "name": "Abduzeedo",
       "url": "https://abduzeedo.com/",
-      "desc": "Daily design blog sharing visual inspiration."
+      "desc": "Щоденний дизайн-блог із візуальним натхненням."
      },
      {
       "name": "UX Collective",
       "url": "https://uxdesign.cc/",
-      "desc": "Curated publication sharing critical UX essays."
+      "desc": "Кураторське видання з критичними есеями про UX."
      },
      {
       "name": "Smashing Magazine",
       "url": "https://www.smashingmagazine.com/",
-      "desc": "Reliable resource for web designers and developers."
+      "desc": "Надійний ресурс для вебдизайнерів і розробників."
      },
      {
       "name": "Codrops",
       "url": "https://tympanus.net/codrops/",
-      "desc": "Blog publishing creative frontend experiments and tutorials."
+      "desc": "Блог із креативними фронтенд-експериментами та туторіалами."
      },
      {
       "name": "Muzli",
       "url": "https://muz.li/",
-      "desc": "Daily digest curating latest design trends."
+      "desc": "Щоденний дайджест актуальних дизайн-трендів."
      },
      {
       "name": "Boxes and Arrows",
       "url": "https://boxesandarrows.com/",
-      "desc": "Journal dedicated to information architecture craft."
+      "desc": "Журнал про майстерність інформаційної архітектури."
      },
      {
       "name": "Designer News",
       "url": "https://www.designernews.co/",
-      "desc": "Community-driven news feed highlighting design stories."
+      "desc": "Стрічка новин про дизайн, яку формує спільнота."
      },
      {
       "name": "Web Designer Depot",
       "url": "https://www.webdesignerdepot.com/",
-      "desc": "Design publication covering web standards and tools."
+      "desc": "Дизайн-видання про вебстандарти та інструменти."
      },
      {
       "name": "Designmodo",
       "url": "https://designmodo.com/",
-      "desc": "Articles and tools covering web design."
+      "desc": "Статті та інструменти про вебдизайн."
      },
      {
       "name": "99designs Discover",
       "url": "https://99designs.com/discover",
-      "desc": "Design blog exploring creative branding insights."
+      "desc": "Дизайн-блог про креативні інсайти в брендингу."
      },
      {
       "name": "Interfaces",
       "url": "https://interfaces.dev/",
-      "desc": "Monthly digital publication exploring digital interfaces."
+      "desc": "Щомісячне онлайн-видання про цифрові інтерфейси."
      },
      {
       "name": "Making Software",
       "url": "https://www.makingsoftware.com/",
-      "desc": "Essays examining how tools shape design."
+      "desc": "Есеї про те, як інструменти формують дизайн."
      },
      {
       "name": "Visual Rambling",
       "url": "https://visualrambling.space/",
-      "desc": "Personal visual essays exploring interface design."
+      "desc": "Особисті візуальні есеї про дизайн інтерфейсів."
      },
      {
       "name": "Degreeless Design",
       "url": "https://www.degreeless.design/",
-      "desc": "Curated roadmap for mastering product design."
+      "desc": "Кураторська дорожня карта для опанування продуктового дизайну."
      },
      {
       "name": "SVG Guide",
       "url": "https://www.svg.guide/",
-      "desc": "Guide to mastering SVG markup and animations."
+      "desc": "Посібник з опанування розмітки та анімацій SVG."
      },
      {
       "name": "Animations.dev",
       "url": "https://www.animations.dev/",
-      "desc": "Course on creating web animations that feel right."
+      "desc": "Курс зі створення вебанімацій, які відчуваються правильно."
      },
      {
       "name": "UI Skills",
       "url": "https://ui-skills.com/",
-      "desc": "Course teaching techniques for designing with AI."
+      "desc": "Курс про техніки дизайну з AI."
      },
      {
       "name": "AI for UI",
       "url": "https://aiforui.dev/",
-      "desc": "Course teaching AI workflows for interfaces."
+      "desc": "Курс про AI-воркфлоу для інтерфейсів."
      },
      {
       "name": "UI Land",
       "url": "https://ui.land/",
-      "desc": "Interviews with leading design engineers on craft."
+      "desc": "Інтерв’ю з провідними дизайн-інженерами про майстерність."
      },
      {
       "name": "Laws of UX",
       "url": "https://lawsofux.com/",
-      "desc": "Psychological principles that influence interface usability."
+      "desc": "Психологічні принципи, що впливають на юзабіліті інтерфейсу."
      },
      {
       "name": "User Interface Wiki",
       "url": "https://userinterface.wiki/",
-      "desc": "Knowledge base documenting interface guidelines and rules."
+      "desc": "База знань із настановами та правилами для інтерфейсів."
      },
      {
       "name": "The Shape of AI",
       "url": "https://www.shapeof.ai/",
-      "desc": "Pattern library highlighting AI interface design."
+      "desc": "Бібліотека патернів дизайну AI-інтерфейсів."
      }
     ],
     "id": "reading"
@@ -638,13 +638,13 @@ window.CATALOGUE = [
   "icon": "brand",
   "sections": [
    {
-    "title": "Global Agencies",
-    "desc": "Network agencies and consultancies that set the bar for identity systems.",
+    "title": "Глобальні агенції",
+    "desc": "Мережеві агенції та консалтинг, що задають планку для систем айдентики.",
     "items": [
      {
       "name": "Pentagram",
       "url": "https://www.pentagram.com/",
-      "desc": "Partner-led studio behind some of the most cited identities.",
+      "desc": "Студія під керівництвом партнерів, автор одних із найцитованіших айдентик.",
       "cases": [
        {
         "label": "Oxide",
@@ -679,7 +679,7 @@ window.CATALOGUE = [
      {
       "name": "MetaDesign",
       "url": "https://metadesign.com/",
-      "desc": "Berlin-born consultancy for large corporate brand systems.",
+      "desc": "Консалтинг родом із Берліна для великих корпоративних бренд-систем.",
       "cases": [
        {
         "label": "AmerisourceBergen",
@@ -694,7 +694,7 @@ window.CATALOGUE = [
      {
       "name": "Wolff Olins",
       "url": "https://wolffolins.com/work/",
-      "desc": "London brand consultancy known for bold, strategy-led rebrands.",
+      "desc": "Лондонський бренд-консалтинг, відомий сміливими стратегічними ребрендингами.",
       "cases": [
        {
         "label": "AES",
@@ -709,7 +709,7 @@ window.CATALOGUE = [
      {
       "name": "Collins",
       "url": "https://www.wearecollins.com/",
-      "desc": "Brand experience studio building identities as living systems.",
+      "desc": "Студія бренд-досвіду, що будує айдентику як живу систему.",
       "cases": [
        {
         "label": "Twitch",
@@ -732,7 +732,7 @@ window.CATALOGUE = [
      {
       "name": "Interbrand",
       "url": "https://interbrand.com/",
-      "desc": "Global brand consultancy behind large-scale rebrands.",
+      "desc": "Глобальний бренд-консалтинг, автор масштабних ребрендингів.",
       "cases": [
        {
         "label": "CSA",
@@ -747,7 +747,7 @@ window.CATALOGUE = [
      {
       "name": "FutureBrand",
       "url": "https://www.futurebrand.com/",
-      "desc": "Global brand transformation consultancy.",
+      "desc": "Глобальний консалтинг із трансформації брендів.",
       "cases": [
        {
         "label": "Octave",
@@ -758,12 +758,12 @@ window.CATALOGUE = [
      {
       "name": "JKR",
       "url": "https://www.jkrglobal.com/work",
-      "desc": "Independent creative agency known for consumer brand identities."
+      "desc": "Незалежна креативна агенція, відома айдентикою споживчих брендів."
      },
      {
       "name": "Studio Dumbar",
       "url": "https://studiodumbar.com/",
-      "desc": "Rotterdam studio famous for systemic, motion-first identities.",
+      "desc": "Роттердамська студія, відома системною айдентикою з акцентом на моушн.",
       "cases": [
        {
         "label": "MSI",
@@ -774,57 +774,57 @@ window.CATALOGUE = [
      {
       "name": "R/GA",
       "url": "https://rga.com/",
-      "desc": "Agency at the intersection of brand, product and technology."
+      "desc": "Агенція на перетині бренду, продукту й технологій."
      },
      {
       "name": "Huge",
       "url": "https://www.hugeinc.com/",
-      "desc": "Digital-first agency for brand and experience design."
+      "desc": "Digital-first агенція з дизайну брендів і користувацького досвіду."
      },
      {
       "name": "Instrument",
       "url": "https://www.instrument.com/",
-      "desc": "Digital agency crafting brand and product experiences."
+      "desc": "Цифрова агенція, що створює бренд- і продуктовий досвід."
      },
      {
       "name": "ustwo",
       "url": "https://ustwo.com/",
-      "desc": "Digital product studio with strong brand craft."
+      "desc": "Студія цифрових продуктів із сильним бренд-дизайном."
      },
      {
       "name": "Fantasy",
       "url": "https://fantasy.co/",
-      "desc": "Digital product design agency for iconic brands."
+      "desc": "Агенція дизайну цифрових продуктів для культових брендів."
      },
      {
       "name": "AREA 17",
       "url": "https://area17.com/work",
-      "desc": "Brand and digital agency for culture and institutions."
+      "desc": "Бренд- і діджитал-агенція для культури та інституцій."
      },
      {
       "name": "Base Design",
       "url": "https://www.basedesign.com/work",
-      "desc": "Brand studio with clean, typographic identity systems."
+      "desc": "Бренд-студія з чистими типографічними системами айдентики."
      },
      {
       "name": "Kurppa Hosk",
       "url": "https://kurppahosk.com/",
-      "desc": "Stockholm brand agency for strategy and design."
+      "desc": "Стокгольмська бренд-агенція: стратегія й дизайн."
      },
      {
       "name": "BVD",
       "url": "https://bvd.se/about/",
-      "desc": "Stockholm agency built around simplifying brands."
+      "desc": "Стокгольмська агенція, що спеціалізується на спрощенні брендів."
      },
      {
       "name": "Stockholm Design Lab",
       "url": "https://www.stockholmdesignlab.se/work",
-      "desc": "Swedish studio known for reductive, timeless identities."
+      "desc": "Шведська студія, відома лаконічною позачасовою айдентикою."
      },
      {
       "name": "Spin",
       "url": "https://spin.co.uk/",
-      "desc": "London studio with rigorous, typographic identity work.",
+      "desc": "Лондонська студія з ретельною типографічною айдентикою.",
       "cases": [
        {
         "label": "ALRA",
@@ -855,129 +855,129 @@ window.CATALOGUE = [
      {
       "name": "Knowit",
       "url": "https://www.knowit.eu/cases/",
-      "desc": "Nordic consultancy with a brand and experience practice."
+      "desc": "Північноєвропейський консалтинг із практикою бренду та досвіду."
      }
     ],
     "id": "global-agencies"
    },
    {
-    "title": "Independent Studios",
-    "desc": "Smaller studios with sharp, distinctive identity work.",
+    "title": "Незалежні студії",
+    "desc": "Невеликі студії з чіткою, самобутньою айдентикою.",
     "items": [
      {
       "name": "Gretel",
       "url": "https://gretelny.com/work",
-      "desc": "New York studio for brand identity and motion."
+      "desc": "Нью-йоркська студія бренд-айдентики та моушну."
      },
      {
       "name": "The Branx",
       "url": "https://thebranx.com/",
-      "desc": "Brand and digital design agency."
+      "desc": "Агенція бренд- і цифрового дизайну."
      },
      {
       "name": "Together",
       "url": "https://together.agency/work/",
-      "desc": "Brand, web and product studio for B2B tech."
+      "desc": "Студія бренду, вебу й продуктів для B2B-техкомпаній."
      },
      {
       "name": "Wild Wild Web",
       "url": "https://wildwildweb.es/es/portfolio",
-      "desc": "Spanish studio for brand and web design."
+      "desc": "Іспанська студія брендингу та вебдизайну."
      },
      {
       "name": "Flowstate",
       "url": "https://flowstatebranding.com/work/",
-      "desc": "Branding studio for identity and strategy."
+      "desc": "Брендингова студія: айдентика та стратегія."
      },
      {
       "name": "Matchstic",
       "url": "https://matchstic.com/work",
-      "desc": "Atlanta brand identity firm."
+      "desc": "Фірма з бренд-айдентики з Атланти."
      },
      {
       "name": "Dwarf",
       "url": "https://dwarf.dk/",
-      "desc": "Copenhagen digital and brand agency."
+      "desc": "Копенгагенська діджитал- і бренд-агенція."
      },
      {
       "name": "Grávita",
       "url": "https://somosgravita.com/",
-      "desc": "Strategic branding agency: strategy, identity, activation."
+      "desc": "Агенція стратегічного брендингу: стратегія, айдентика, активація."
      },
      {
       "name": "Orizon",
       "url": "https://dribbble.com/Orizon",
-      "desc": "Canadian UI/UX agency with strong visual craft."
+      "desc": "Канадська UI/UX-агенція з сильною візуальною майстерністю."
      },
      {
       "name": "Joseph Mark",
       "url": "https://josephmark.studio/work",
-      "desc": "Venture design studio for brand and product."
+      "desc": "Венчурна дизайн-студія для брендів і продуктів."
      },
      {
       "name": "Ascend Studio",
       "url": "https://www.ascendstudio.co.uk/work/",
-      "desc": "UK branding agency across tech, real estate and culture."
+      "desc": "Британська брендингова агенція для технологій, нерухомості та культури."
      },
      {
       "name": "Humaan",
       "url": "https://www.humaan.com/work/commercial/",
-      "desc": "Australian studio for websites, apps and brands."
+      "desc": "Австралійська студія сайтів, застосунків і брендів."
      },
      {
       "name": "Koto",
       "url": "https://koto.studio/work/",
-      "desc": "Global brand studio known for playful, ownable systems."
+      "desc": "Глобальна бренд-студія, відома грайливими та впізнаваними системами."
      },
      {
       "name": "Mubien",
       "url": "https://mubien.com/portfolio/",
-      "desc": "Studio across branding, motion and digital products."
+      "desc": "Студія брендингу, моушну й цифрових продуктів."
      },
      {
       "name": "Moment",
       "url": "https://www.thisismoment.com/",
-      "desc": "Brand and visual design studio for design-led companies."
+      "desc": "Студія бренду й візуального дизайну для дизайн-орієнтованих компаній."
      },
      {
       "name": "Emdash",
       "url": "https://emdashoslo.no/work",
-      "desc": "Oslo design studio for identity and editorial work."
+      "desc": "Студія з Осло: айдентика та редакційний дизайн."
      },
      {
       "name": "Vrints-Kolsteren",
       "url": "https://www.vrints-kolsteren.com/",
-      "desc": "Belgian studio for identity and graphic design."
+      "desc": "Бельгійська студія айдентики та графічного дизайну."
      },
      {
       "name": "Play",
       "url": "https://www.play.studio/",
-      "desc": "San Francisco studio for brands, campaigns and products."
+      "desc": "Студія із Сан-Франциско: бренди, кампанії та продукти."
      },
      {
       "name": "Half Decent",
       "url": "https://halfdecent.studio/",
-      "desc": "Design studio with a visual journal on craft."
+      "desc": "Дизайн-студія з візуальним журналом про майстерність."
      },
      {
       "name": "Bedow",
       "url": "https://www.bedow.se/work/",
-      "desc": "Stockholm studio known for crisp, minimal identities."
+      "desc": "Стокгольмська студія, відома чіткою мінімалістичною айдентикою."
      },
      {
       "name": "Studio Mast",
       "url": "https://www.studiomast.co/",
-      "desc": "Denver graphic design and branding studio."
+      "desc": "Студія графічного дизайну й брендингу з Денвера."
      },
      {
       "name": "BerrielBrands",
       "url": "https://berrielbrands.com/",
-      "desc": "Branding and visual identity studio."
+      "desc": "Студія брендингу та візуальної айдентики."
      },
      {
       "name": "Traina",
       "url": "https://wearetraina.com/work/",
-      "desc": "San Francisco brand studio for tech and startups.",
+      "desc": "Бренд-студія із Сан-Франциско для техкомпаній і стартапів.",
       "cases": [
        {
         "label": "Deepcell",
@@ -988,62 +988,62 @@ window.CATALOGUE = [
      {
       "name": "dimadima",
       "url": "https://dimadima.partners/",
-      "desc": "Independent branding studio."
+      "desc": "Незалежна брендингова студія."
      },
      {
       "name": "Good Habit",
       "url": "https://goodhabit.studio/",
-      "desc": "Brand and design studio for early-stage tech."
+      "desc": "Бренд- і дизайн-студія для техкомпаній на ранній стадії."
      },
      {
       "name": "Tekni",
       "url": "https://studiotekni.com/",
-      "desc": "Creative bureau between physical and virtual worlds."
+      "desc": "Креативне бюро на межі фізичного та віртуального світів."
      },
      {
       "name": "Hymn",
       "url": "https://www.hymn.design/",
-      "desc": "Lausanne branding and design agency."
+      "desc": "Брендингова та дизайн-агенція з Лозанни."
      },
      {
       "name": "Daydream",
       "url": "https://daydreamstudio.uk/",
-      "desc": "UK design studio for brand and digital."
+      "desc": "Британська дизайн-студія для бренду й діджиталу."
      },
      {
       "name": "Athletics",
       "url": "https://athleticsnyc.com/",
-      "desc": "New York studio for identity, motion and digital."
+      "desc": "Нью-йоркська студія айдентики, моушну й діджиталу."
      },
      {
       "name": "Fol",
       "url": "https://fol.com.tr/",
-      "desc": "Istanbul studio for identity, UI and packaging."
+      "desc": "Стамбульська студія айдентики, UI та пакування."
      },
      {
       "name": "Bold Scandinavia",
       "url": "https://boldscandinavia.com/",
-      "desc": "Scandinavian brand agency for bold identities."
+      "desc": "Скандинавська бренд-агенція для сміливої айдентики."
      },
      {
       "name": "Vagrant",
       "url": "https://vagrant.studio/",
-      "desc": "Design and communication consultancy, research-led."
+      "desc": "Консалтинг із дизайну та комунікацій, що спирається на дослідження."
      },
      {
       "name": "Monroe",
       "url": "https://monroe.works/",
-      "desc": "Independent design studio."
+      "desc": "Незалежна дизайн-студія."
      },
      {
       "name": "ODA Branding",
       "url": "https://odabranding.com/",
-      "desc": "Independent UK branding agency."
+      "desc": "Незалежна британська брендингова агенція."
      },
      {
       "name": "ED.",
       "url": "https://ed.studio/",
-      "desc": "Brand and design studio.",
+      "desc": "Студія бренду й дизайну.",
       "cases": [
        {
         "label": "Enko",
@@ -1054,17 +1054,17 @@ window.CATALOGUE = [
      {
       "name": "LORD",
       "url": "https://www.callmelord.com/",
-      "desc": "Branding agency: be bold, be a brand."
+      "desc": "Брендингова агенція: будь сміливим, будь брендом."
      },
      {
       "name": "Onda Studio",
       "url": "https://www.ondastudio.co/",
-      "desc": "Design studio for brands that lead."
+      "desc": "Дизайн-студія для брендів-лідерів."
      },
      {
       "name": "Afternow",
       "url": "https://bb.agency/",
-      "desc": "Brand identity and communication studio.",
+      "desc": "Студія бренд-айдентики та комунікацій.",
       "cases": [
        {
         "label": "Pilot44",
@@ -1079,22 +1079,22 @@ window.CATALOGUE = [
      {
       "name": "Anagram Club",
       "url": "https://anagram.club/",
-      "desc": "Studio for bold branding and product design."
+      "desc": "Студія сміливого брендингу та продуктового дизайну."
      },
      {
       "name": "Nord ID",
       "url": "https://nordid.se/",
-      "desc": "Swedish agency for 360 brand experiences."
+      "desc": "Шведська агенція бренд-досвіду 360."
      },
      {
       "name": "Kallan&Co",
       "url": "https://www.kallan.co/work",
-      "desc": "Design and innovation studio blending craft and AI."
+      "desc": "Студія дизайну та інновацій, що поєднує крафт і AI."
      },
      {
       "name": "Ragged Edge",
       "url": "https://raggededge.com/work/",
-      "desc": "London brand agency for rebrands and campaigns.",
+      "desc": "Лондонська бренд-агенція для ребрендингів і кампаній.",
       "cases": [
        {
         "label": "Wise",
@@ -1105,83 +1105,83 @@ window.CATALOGUE = [
      {
       "name": "SKINN",
       "url": "https://www.skinn.agency/",
-      "desc": "Belgian branding agency, Antwerp and Bruges."
+      "desc": "Бельгійська брендингова агенція, Антверпен і Брюгге."
      },
      {
       "name": "Clou",
       "url": "https://www.clou.ch/",
-      "desc": "Lucerne advertising and brand agency."
+      "desc": "Рекламна та бренд-агенція з Люцерна."
      },
      {
       "name": "Ashfall",
       "url": "https://ashfall.studio/work",
-      "desc": "Creative and technology studio for brands."
+      "desc": "Креативна й технологічна студія для брендів."
      },
      {
       "name": "ONBOX",
       "url": "https://onboxcreative.com/",
-      "desc": "Vancouver studio for brand, web and product."
+      "desc": "Ванкуверська студія бренду, вебу й продуктів."
      },
      {
       "name": "Rhythm",
       "url": "https://rhythm.design/",
-      "desc": "Independent design studio."
+      "desc": "Незалежна дизайн-студія."
      },
      {
       "name": "Jamie Quantrill",
       "url": "https://www.jamiequantrill.co.uk/",
-      "desc": "Bristol designer across branding, motion and digital."
+      "desc": "Дизайнер із Бристоля: брендинг, моушн і діджитал."
      }
     ],
     "id": "independent-studios"
    },
    {
-    "title": "Specialists",
-    "desc": "Craft beyond the logo: sound, image-making and art direction.",
+    "title": "Вузькі спеціалісти",
+    "desc": "Майстерність поза логотипом: звук, створення зображень і арт-дирекція.",
     "items": [
      {
       "name": "Press Play On Tape",
       "url": "https://pressplayontape.studio/",
-      "desc": "Paris sound studio for audio branding."
+      "desc": "Паризька звукова студія для аудіобрендингу."
      },
      {
       "name": "Services Généraux",
       "url": "https://generaux.services/",
-      "desc": "Image-making studio for photography and direction."
+      "desc": "Студія створення зображень: фотографія та арт-дирекція."
      }
     ],
     "id": "specialists"
    },
    {
-    "title": "Guidelines & Libraries",
-    "desc": "Real brand guidelines to study how systems are documented.",
+    "title": "Гайдлайни та бібліотеки",
+    "desc": "Справжні бренд-гайдлайни, щоб вивчати, як документують системи.",
     "items": [
      {
       "name": "Brandbase",
       "url": "https://www.brandbase.xyz/",
-      "desc": "Growing collection of real brand guidelines."
+      "desc": "Колекція реальних бренд-гайдлайнів, що постійно поповнюється."
      },
      {
       "name": "Semrush Brand",
       "url": "https://brand.semrush.com/",
-      "desc": "Live brand guidelines site worth dissecting."
+      "desc": "Живий сайт бренд-гайдлайнів, який варто розібрати."
      },
      {
       "name": "Circular",
       "url": "https://www.madebycircular.com.au/",
-      "desc": "Brand guideline templates for designers."
+      "desc": "Шаблони бренд-гайдлайнів для дизайнерів."
      }
     ],
     "id": "guidelines-libraries"
    },
    {
-    "title": "Publications",
-    "desc": "Where new identities get published and discussed.",
+    "title": "Видання",
+    "desc": "Де публікують і обговорюють нову айдентику.",
     "items": [
      {
       "name": "The Brand Identity",
       "url": "https://the-brandidentity.com/",
-      "desc": "Publication covering new identity work.",
+      "desc": "Видання про нові роботи з айдентики.",
       "cases": [
        {
         "label": "StreetBeat by Clay",
@@ -1192,7 +1192,7 @@ window.CATALOGUE = [
      {
       "name": "Rebrand Gallery",
       "url": "https://www.rebrand.gallery/",
-      "desc": "Before and after archive of rebrands.",
+      "desc": "Архів ребрендингів «до» і «після».",
       "cases": [
        {
         "label": "Semrush 2026",
@@ -1204,18 +1204,18 @@ window.CATALOGUE = [
     "id": "publications"
    },
    {
-    "title": "Awards",
-    "desc": "Award archives to benchmark identity work.",
+    "title": "Нагороди",
+    "desc": "Архіви нагород, щоб звіряти рівень робіт з айдентики.",
     "items": [
      {
       "name": "Ukrainian Design Awards",
       "url": "https://design-awards.com.ua/winners/",
-      "desc": "Winners archive of Ukrainian design awards."
+      "desc": "Архів переможців українських дизайн-премій."
      },
      {
       "name": "Best Awards",
       "url": "https://bestawards.co.nz/",
-      "desc": "New Zealand design awards archive."
+      "desc": "Архів новозеландських дизайн-нагород."
      }
     ],
     "id": "awards"
@@ -1223,316 +1223,323 @@ window.CATALOGUE = [
   ]
  },
  {
+  "id": "ai-guide",
+  "title": "AI Guide",
+  "icon": "ai",
+  "type": "guide",
+  "sections": []
+ },
+ {
   "id": "visuals",
   "title": "Visuals",
   "icon": "palette",
   "sections": [
    {
-    "title": "Type",
-    "desc": "Curated web typefaces, pairings, and font optimization.",
+    "title": "Шрифти",
+    "desc": "Добірка вебшрифтів, поєднань і оптимізація шрифтів.",
     "items": [
      {
       "name": "Fontshare",
       "url": "https://fontshare.com/",
-      "desc": "High-quality professional fonts free for commercial use."
+      "desc": "Якісні професійні шрифти, безкоштовні для комерційного використання."
      },
      {
       "name": "Klim",
       "url": "https://klim.co.nz/",
-      "desc": "Type foundry creating contemporary web typefaces."
+      "desc": "Шрифтова студія, що створює сучасні вебшрифти."
      },
      {
       "name": "Fontsource",
       "url": "https://fontsource.org/",
-      "desc": "Self-host open-source fonts via npm packages."
+      "desc": "Самостійний хостинг відкритих шрифтів через npm-пакети."
      },
      {
       "name": "Wakamai Fondue",
       "url": "https://wakamaifondue.com/",
-      "desc": "Tool inspecting font files and features."
+      "desc": "Інструмент для перегляду файлів шрифтів і їхніх функцій."
      },
      {
       "name": "Utopia",
       "url": "https://utopia.fyi/",
-      "desc": "Fluid typography calculator generating CSS clamp."
+      "desc": "Калькулятор плавної типографіки, що генерує CSS clamp."
      },
      {
       "name": "Velvetyne",
       "url": "https://velvetyne.fr/",
-      "desc": "Open-source foundry distributing experimental typefaces."
+      "desc": "Студія з відкритим кодом, що поширює експериментальні шрифти."
      },
      {
       "name": "Departure Mono",
       "url": "https://departuremono.com/",
-      "desc": "Pixel monospace typeface designed for terminals."
+      "desc": "Піксельний моноширинний шрифт, створений для терміналів."
      }
     ],
     "id": "type"
    },
    {
-    "title": "Color",
-    "desc": "Color palette generators, contrast checkers, and color math.",
+    "title": "Колір",
+    "desc": "Генератори палітр, перевірка контрасту та математика кольору.",
     "items": [
      {
       "name": "OKLCH",
       "url": "https://oklch.com/",
-      "desc": "Color picker using perceptually uniform space."
+      "desc": "Інструмент вибору кольору в перцептивно рівномірному просторі."
      },
      {
       "name": "Color.review",
       "url": "https://color.review/",
-      "desc": "Contrast checker helping design accessible palettes."
+      "desc": "Перевірка контрасту для створення доступних палітр."
      },
      {
       "name": "Huetone",
       "url": "https://huetone.ardov.me/",
-      "desc": "Accessible palette generator balancing contrast ratios."
+      "desc": "Генератор доступних палітр зі збалансованим контрастом."
      },
      {
       "name": "APCA",
       "url": "https://www.myndex.com/APCA/",
-      "desc": "Modern contrast algorithm matching visual perception."
+      "desc": "Сучасний алгоритм контрасту, що відповідає зоровому сприйняттю."
      },
      {
       "name": "Ramps",
       "url": "https://www.ramps.studio/",
-      "desc": "Design token tool generating OKLCH ramps."
+      "desc": "Інструмент дизайн-токенів, що генерує шкали OKLCH."
      }
     ],
     "id": "color"
    },
    {
     "title": "3D",
-    "desc": "3D modeling tools and WebGL rendering engines online.",
+    "desc": "Онлайн-інструменти 3D-моделювання та рушії рендерингу WebGL.",
     "items": [
      {
       "name": "Three.js",
       "url": "https://threejs.org/",
-      "desc": "JavaScript 3D library rendering WebGL scenes."
+      "desc": "JavaScript-бібліотека для рендерингу 3D-сцен у WebGL."
      },
      {
       "name": "React Three Fiber",
       "url": "https://r3f.docs.pmnd.rs/",
-      "desc": "Declarative React renderer for Three.js scenes."
+      "desc": "Декларативний React-рендерер для сцен Three.js."
      },
      {
       "name": "Drei",
       "url": "https://drei.docs.pmnd.rs/",
-      "desc": "Helper components for React Three Fiber."
+      "desc": "Допоміжні компоненти для React Three Fiber."
      },
      {
       "name": "Blender",
       "url": "https://blender.org/",
-      "desc": "Open-source 3D modeling and animation suite."
+      "desc": "Пакет для 3D-моделювання та анімації з відкритим кодом."
      },
      {
       "name": "gltf.report",
       "url": "https://gltf.report/",
-      "desc": "Web-based optimizer for 3D glTF files."
+      "desc": "Онлайн-оптимізатор 3D-файлів glTF."
      },
      {
       "name": "Poly Haven",
       "url": "https://polyhaven.com/",
-      "desc": "Public asset library offering CC0 textures."
+      "desc": "Публічна бібліотека ресурсів із текстурами CC0."
      }
     ],
     "id": "3d"
    },
    {
-    "title": "Shaders",
-    "desc": "Interactive fragment shaders, procedural noise, and canvas effects.",
+    "title": "Шейдери",
+    "desc": "Інтерактивні фрагментні шейдери, процедурний шум і ефекти canvas.",
     "items": [
      {
       "name": "Book of Shaders",
       "url": "https://thebookofshaders.com/",
-      "desc": "Interactive guide to mastering fragment shaders."
+      "desc": "Інтерактивний посібник з опанування фрагментних шейдерів."
      },
      {
       "name": "compute.toys",
       "url": "https://compute.toys/",
-      "desc": "Sandbox for authoring WGSL compute shaders."
+      "desc": "Пісочниця для написання обчислювальних шейдерів WGSL."
      },
      {
       "name": "Shaderfrog",
       "url": "https://shaderfrog.com/",
-      "desc": "Visual node-based editor for composing shaders."
+      "desc": "Візуальний нодовий редактор для складання шейдерів."
      },
      {
       "name": "shadercn",
       "url": "https://shadercn.run/",
-      "desc": "Shader components for React, built on vgpu and TypeGPU."
+      "desc": "Шейдерні компоненти для React на основі vgpu і TypeGPU."
      },
      {
       "name": "Paper Shaders",
       "url": "https://shaders.paper.design/",
-      "desc": "Zero-dependency shaders ready to import."
+      "desc": "Шейдери без залежностей, готові до імпорту."
      },
      {
       "name": "OpenShaders",
       "url": "https://openshaders.com/",
-      "desc": "Open-source shader collection for web projects."
+      "desc": "Колекція шейдерів з відкритим кодом для вебпроєктів."
      },
      {
       "name": "Orbkit",
       "url": "https://orbkit.zzzzshawn.cloud/",
-      "desc": "WebGL shader renderer for orb animations."
+      "desc": "WebGL-рендерер шейдерів для анімацій сфер."
      }
     ],
     "id": "shaders"
    },
    {
-    "title": "Icons",
-    "desc": "Crisp icon families and glyphs for modern interfaces.",
+    "title": "Іконки",
+    "desc": "Чіткі набори іконок і гліфів для сучасних інтерфейсів.",
     "items": [
      {
       "name": "Lucide",
       "url": "https://lucide.dev/",
-      "desc": "Community-maintained Feather Icons fork with thousands of glyphs."
+      "desc": "Форк Feather Icons від спільноти з тисячами гліфів."
      },
      {
       "name": "Phosphor",
       "url": "https://phosphoricons.com/",
-      "desc": "Icon family providing six consistent weights."
+      "desc": "Сімейство іконок у шести узгоджених товщинах."
      },
      {
       "name": "Iconify",
       "url": "https://iconify.design/",
-      "desc": "Unified framework providing instant icon access."
+      "desc": "Єдиний фреймворк для миттєвого доступу до іконок."
      },
      {
       "name": "Rune Icons",
       "url": "https://www.runeicons.com/",
-      "desc": "Minimalist icon set offering five styles."
+      "desc": "Мінімалістичний набір іконок у п’яти стилях."
      },
      {
       "name": "Icon Museum",
       "url": "https://icon.museum/",
-      "desc": "Archive celebrating mobile app icon craftsmanship."
+      "desc": "Архів, що вшановує майстерність іконок мобільних застосунків."
      },
      {
       "name": "Tabler Icons",
       "url": "https://tabler.io/icons",
-      "desc": "Library of thousands of outline icons."
+      "desc": "Бібліотека з тисяч контурних іконок."
      },
      {
       "name": "Heroicons",
       "url": "https://heroicons.com/",
-      "desc": "Handcrafted SVG icons from Tailwind creators."
+      "desc": "SVG-іконки ручної роботи від творців Tailwind."
      },
      {
       "name": "Material Symbols",
       "url": "https://fonts.google.com/icons",
-      "desc": "Google variable icon font spanning three styles."
+      "desc": "Варіативний шрифт іконок від Google у трьох стилях."
      },
      {
       "name": "Bootstrap Icons",
       "url": "https://icons.getbootstrap.com/",
-      "desc": "Official icon library designed for Bootstrap."
+      "desc": "Офіційна бібліотека іконок для Bootstrap."
      },
      {
       "name": "Remix Icon",
       "url": "https://remixicon.com/",
-      "desc": "Neutral icon library in outline and fill."
+      "desc": "Нейтральна бібліотека іконок у контурному й заповненому стилях."
      },
      {
       "name": "Iconoir",
       "url": "https://iconoir.com/",
-      "desc": "Open-source SVG icons with consistent strokes."
+      "desc": "SVG-іконки з відкритим кодом і однаковою товщиною ліній."
      },
      {
       "name": "Ionicons",
       "url": "https://ionic.io/ionicons/",
-      "desc": "Premium icon pack for web and mobile."
+      "desc": "Преміальний набір іконок для вебу та мобільних застосунків."
      },
      {
       "name": "Simple Icons",
       "url": "https://simpleicons.org/",
-      "desc": "Over three thousand SVG brand logos."
+      "desc": "Понад три тисячі SVG-логотипів брендів."
      },
      {
       "name": "theSVG",
       "url": "https://thesvg.org/",
-      "desc": "Curated collection of clean brand SVGs."
+      "desc": "Добірка охайних SVG-логотипів брендів."
      },
      {
       "name": "Feather",
       "url": "https://feathericons.com/",
-      "desc": "Minimalist open-source icon set on 24px grid."
+      "desc": "Мінімалістичний набір іконок з відкритим кодом на сітці 24px."
      },
      {
       "name": "Carbon Icons",
       "url": "https://carbondesignsystem.com/",
-      "desc": "IBM official icon library for enterprise design."
+      "desc": "Офіційна бібліотека іконок IBM для корпоративного дизайну."
      },
      {
       "name": "Boxicons",
       "url": "https://boxicons.com/",
-      "desc": "Vector icons crafted in three styles."
+      "desc": "Векторні іконки у трьох стилях."
      },
      {
       "name": "MX Icons",
       "url": "https://mx-icons.vercel.app/",
-      "desc": "Large collection of customizable React icons."
+      "desc": "Велика колекція React-іконок, що легко налаштовуються."
      },
      {
       "name": "Eva Icons",
       "url": "https://akveo.github.io/eva-icons/",
-      "desc": "Pack of 400 icons in outline and fill."
+      "desc": "Набір із 400 іконок у контурному та заповненому стилях."
      },
      {
       "name": "Devicon",
       "url": "https://devicon.dev/",
-      "desc": "Developer-focused icon set for programming tools."
+      "desc": "Набір іконок інструментів програмування для розробників."
      },
      {
       "name": "css.gg",
       "url": "https://css.gg/",
-      "desc": "700 lightweight icons rendered using pure CSS."
+      "desc": "700 легких іконок, створених на чистому CSS."
      },
      {
       "name": "HugeIcons",
       "url": "https://hugeicons.com/",
-      "desc": "Comprehensive library of stroke and solid icons."
+      "desc": "Велика бібліотека контурних і суцільних іконок."
      },
      {
       "name": "Reicon",
       "url": "https://reicon.dev/",
-      "desc": "Tree-shakeable React icon library with dual weights."
+      "desc": "React-бібліотека іконок із tree-shaking і двома товщинами."
      },
      {
       "name": "Iconsax",
       "url": "https://app.iconsax.io/",
-      "desc": "Versatile icon set with six visual styles."
+      "desc": "Універсальний набір іконок у шести візуальних стилях."
      },
      {
       "name": "icons0",
       "url": "https://icons0.dev/",
-      "desc": "Search engine covering over 200k icons."
+      "desc": "Пошукова система з понад 200 тисячами іконок."
      },
      {
       "name": "Heroicons Animated",
       "url": "https://heroicons-animated.com/",
-      "desc": "Heroicons enhanced with reactive hover animations."
+      "desc": "Heroicons з інтерактивними анімаціями під час наведення."
      },
      {
       "name": "Icons.download",
       "url": "https://icons.download/",
-      "desc": "Curated icon library in sixteen aesthetic styles."
+      "desc": "Добірка іконок у шістнадцяти естетичних стилях."
      },
      {
       "name": "Lucide Animated",
       "url": "https://lucide-animated.com/",
-      "desc": "Lucide icons enhanced with micro-animations."
+      "desc": "Іконки Lucide з мікроанімаціями."
      },
      {
       "name": "Icon Foundry",
       "url": "https://iconfoundry.store/",
-      "desc": "Searchable collection of icons from many families."
+      "desc": "Колекція іконок із багатьох сімейств із пошуком."
      },
      {
       "name": "Inkword",
       "url": "https://inkword.app/",
-      "desc": "Turns a single word into a matching illustration."
+      "desc": "Перетворює одне слово на відповідну ілюстрацію."
      }
     ],
     "id": "icons"
@@ -1545,334 +1552,334 @@ window.CATALOGUE = [
   "icon": "tool",
   "sections": [
    {
-    "title": "Utilities",
-    "desc": "Developer utilities that accelerate frontend workflows.",
+    "title": "Утиліти",
+    "desc": "Утиліти для розробників, що пришвидшують фронтенд-роботу.",
     "items": [
      {
       "name": "SVGOMG",
       "url": "https://svgomg.net/",
-      "desc": "Web GUI to optimize and clean SVG files."
+      "desc": "Вебінтерфейс для оптимізації та очищення SVG-файлів."
      },
      {
       "name": "RegExr",
       "url": "https://regexr.com/",
-      "desc": "Interactive sandbox for testing regular expressions."
+      "desc": "Інтерактивна пісочниця для тестування регулярних виразів."
      },
      {
       "name": "Squoosh",
       "url": "https://squoosh.app/",
-      "desc": "Browser image compression with visual comparisons."
+      "desc": "Стиснення зображень у браузері з візуальним порівнянням."
      },
      {
       "name": "Fffuel",
       "url": "https://fffuel.co/",
-      "desc": "Generative SVG textures, gradients, and patterns."
+      "desc": "Генеративні SVG-текстури, градієнти та візерунки."
      },
      {
       "name": "ui.camera",
       "url": "https://ui.camera/",
-      "desc": "3D mockups and scene staging for software."
+      "desc": "3D-мокапи та постановка сцен для софту."
      },
      {
       "name": "Ray.so",
       "url": "https://ray.so/",
-      "desc": "Turn code snippets into shareable screenshots."
+      "desc": "Перетворює фрагменти коду на скриншоти для поширення."
      },
      {
       "name": "Transform",
       "url": "https://transform.tools/",
-      "desc": "Polyglot code converter for JSON and types."
+      "desc": "Конвертер коду між мовами для JSON і типів."
      },
      {
       "name": "Playgrnd",
       "url": "https://www.playgrnd.tools/",
-      "desc": "Suite of browser-based offline creative tools."
+      "desc": "Набір браузерних офлайн-інструментів для творчості."
      },
      {
       "name": "Anim8",
       "url": "https://www.tryanim8.com/",
-      "desc": "Convert MP4 recordings into animated SVG graphics."
+      "desc": "Конвертує MP4-записи в анімовану SVG-графіку."
      },
      {
       "name": "OGFolio",
       "url": "https://www.ogfolio.com/",
-      "desc": "Inspect and preview Open Graph social cards."
+      "desc": "Перевірка та попередній перегляд соціальних карток Open Graph."
      },
      {
       "name": "DotForge",
       "url": "https://dotforge.vercel.app/",
-      "desc": "Real-time dither effect generator for web."
+      "desc": "Генератор ефекту дизерингу в реальному часі для вебу."
      },
      {
       "name": "ASCIInator",
       "url": "https://asciinator.app/",
-      "desc": "Browser utility converting images into ASCII art."
+      "desc": "Браузерна утиліта, що перетворює зображення на ASCII-арт."
      },
      {
       "name": "Vessa",
       "url": "https://vessa.design/",
-      "desc": "Publish brand guidelines as live pages."
+      "desc": "Публікація гайдлайнів бренду у вигляді живих сторінок."
      },
      {
       "name": "Icoon",
       "url": "https://icoon.co/",
-      "desc": "AI tool generating custom 3D icons."
+      "desc": "AI-інструмент, що генерує власні 3D-іконки."
      },
      {
       "name": "Design Minis",
       "url": "https://www.designminis.com/",
-      "desc": "Suite of micro design tools and scales."
+      "desc": "Набір мікроінструментів і шкал для дизайну."
      },
      {
       "name": "ASCII (Kracked Devs)",
       "url": "https://ascii.krackeddevs.com/",
-      "desc": "Fast tool converting text into ASCII art."
+      "desc": "Швидкий інструмент для перетворення тексту на ASCII-арт."
      },
      {
       "name": "Dither Lab",
       "url": "https://literate-enigma-snowy.vercel.app/",
-      "desc": "Applies vintage dithering filters to photographs."
+      "desc": "Застосовує вінтажні фільтри дизерингу до фотографій."
      },
      {
       "name": "Hallmark",
       "url": "https://www.usehallmark.com/",
-      "desc": "Landing page builder producing handcrafted designs."
+      "desc": "Конструктор лендингів із дизайном ручної роботи."
      },
      {
       "name": "Tooooools",
       "url": "https://www.tooooools.app/",
-      "desc": "In-browser utilities to dither and pixelate images."
+      "desc": "Браузерні утиліти для дизерингу та пікселізації зображень."
      },
      {
       "name": "Screan",
       "url": "https://screan.app/",
-      "desc": "Create promotional App Store screenshot mockups."
+      "desc": "Рекламні мокапи скриншотів для App Store."
      },
      {
       "name": "PostSpark",
       "url": "https://postspark.app/",
-      "desc": "Format screenshots with clean social backgrounds."
+      "desc": "Оформлює скриншоти на охайних фонах для соцмереж."
      },
      {
       "name": "Drawably",
       "url": "https://www.drawably.dev/",
-      "desc": "Sketching tool generating hand-drawn UI shapes."
+      "desc": "Скетч-інструмент, що генерує UI-фігури в стилі ручного малюнка."
      },
      {
       "name": "Mesurer",
       "url": "https://mesurer.dev/",
-      "desc": "On-screen tool checking website pixel spacing."
+      "desc": "Екранний інструмент для перевірки піксельних відступів на сайті."
      },
      {
       "name": "Render Labs",
       "url": "https://render-labs.evlog.cloud/",
-      "desc": "Image rendering tool from evlog team."
+      "desc": "Інструмент рендерингу зображень від команди evlog."
      },
      {
       "name": "Butterfly",
       "url": "https://www.butterfly.so/",
-      "desc": "Minimalist landing page builder for validation."
+      "desc": "Мінімалістичний конструктор лендингів для валідації ідей."
      },
      {
       "name": "Corne",
       "url": "https://corne.rs/",
-      "desc": "Documentation for the Corne split keyboard."
+      "desc": "Документація для розділеної клавіатури Corne."
      },
      {
       "name": "Shiori",
       "url": "https://www.shiori.sh/",
-      "desc": "Bookmark manager with CLI and Raycast support."
+      "desc": "Менеджер закладок із підтримкою CLI та Raycast."
      },
      {
       "name": "Open Source Together",
       "url": "https://opensource-together.com/",
-      "desc": "Platform matching developers with open-source projects."
+      "desc": "Платформа, що поєднує розробників із проєктами з відкритим кодом."
      },
      {
       "name": "ASCII Studio",
       "url": "https://www.asciistudio.space/",
-      "desc": "Transforms images and videos into ASCII art."
+      "desc": "Перетворює зображення та відео на ASCII-арт."
      },
      {
       "name": "Tabbied",
       "url": "https://tabbied.com/",
-      "desc": "Generative geometric pattern creator for SVG."
+      "desc": "Генеративний конструктор геометричних візерунків у SVG."
      },
      {
       "name": "Rynix Studio",
       "url": "https://studio.rynix.in/edit",
-      "desc": "Playground for real-time video visual effects."
+      "desc": "Пісочниця для відеоефектів у реальному часі."
      },
      {
       "name": "Mascofast",
       "url": "https://mascofast.com/",
-      "desc": "AI tool generating animated transparent 3D mascots."
+      "desc": "AI-інструмент, що генерує анімованих 3D-маскотів із прозорим фоном."
      },
      {
       "name": "Screenshot Studio",
       "url": "https://www.screenshot-studio.com/",
-      "desc": "Frames screenshots inside realistic 3D mockups."
+      "desc": "Розміщує скриншоти в реалістичних 3D-мокапах."
      },
      {
       "name": "Replay",
       "url": "https://letsreplay.co/",
-      "desc": "Session replay and visitor recording for websites."
+      "desc": "Відтворення сесій і запис дій відвідувачів сайту."
      }
     ],
     "id": "utilities"
    },
    {
-    "title": "Desktop",
-    "desc": "Native macOS and desktop utility apps for productivity.",
+    "title": "Десктоп",
+    "desc": "Нативні застосунки-утиліти для macOS і десктопа для продуктивної роботи.",
     "items": [
      {
       "name": "Raycast",
       "url": "https://raycast.com/",
-      "desc": "Extendable desktop launcher replacing Spotlight."
+      "desc": "Розширюваний лаунчер для десктопа, що замінює Spotlight."
      },
      {
       "name": "Ghostty",
       "url": "https://ghostty.org/",
-      "desc": "Fast GPU-accelerated terminal emulator for developers."
+      "desc": "Швидкий емулятор термінала з GPU-прискоренням для розробників."
      },
      {
       "name": "Warp",
       "url": "https://warp.dev/",
-      "desc": "Rust-based terminal with block outputs and AI."
+      "desc": "Термінал на Rust із блоковим виводом і AI."
      },
      {
       "name": "CleanShot X",
       "url": "https://cleanshot.com/",
-      "desc": "Ultimate screen capture and recording utility."
+      "desc": "Універсальна утиліта для скриншотів і запису екрана."
      },
      {
       "name": "Granola",
       "url": "https://granola.ai/",
-      "desc": "AI notepad generating meeting summaries without bots."
+      "desc": "AI-блокнот, що створює підсумки зустрічей без ботів."
      },
      {
       "name": "LocalSend",
       "url": "https://localsend.org/",
-      "desc": "Share files securely across local Wi-Fi networks."
+      "desc": "Безпечний обмін файлами в локальній мережі Wi-Fi."
      },
      {
       "name": "Canario",
       "url": "https://rioterm.com/canario",
-      "desc": "Terminal organizing CLI sessions into panes."
+      "desc": "Термінал, що впорядковує CLI-сесії в панелі."
      },
      {
       "name": "CoolDock",
       "url": "https://cooldock.app/",
-      "desc": "Secondary dock supporting desktop monitoring widgets."
+      "desc": "Додатковий док із підтримкою віджетів моніторингу."
      },
      {
       "name": "Supaste",
       "url": "https://supaste.com/",
-      "desc": "Clipboard manager and screenshot history for Mac."
+      "desc": "Менеджер буфера обміну та історія скриншотів для Mac."
      },
      {
       "name": "Runey",
       "url": "https://runey.app/",
-      "desc": "Invoicing and client tracking app for freelancers."
+      "desc": "Виставлення рахунків і облік клієнтів для фрилансерів."
      },
      {
       "name": "Revone",
       "url": "https://revone.app/",
-      "desc": "Unified revenue dashboard aggregating payment metrics."
+      "desc": "Єдиний дашборд доходів, що зводить платіжні метрики."
      },
      {
       "name": "Zen Browser",
       "url": "https://zen-browser.app/",
-      "desc": "Firefox fork with vertical tabs and focus."
+      "desc": "Форк Firefox із вертикальними вкладками й акцентом на фокус."
      }
     ],
     "id": "desktop"
    },
    {
-    "title": "Video & Capture",
-    "desc": "Screen recording software, timeline editors, and demo tools.",
+    "title": "Відео та запис екрана",
+    "desc": "Програми для запису екрана, редактори з таймлайном і інструменти для демо.",
     "items": [
      {
       "name": "Screen Studio",
       "url": "https://screen.studio/",
-      "desc": "Screen recorder adding camera zooms automatically."
+      "desc": "Запис екрана з автоматичним наближенням камери."
      },
      {
       "name": "Remotion",
       "url": "https://remotion.dev/",
-      "desc": "Render high-definition videos programmatically with React."
+      "desc": "Програмний рендеринг відео у високій роздільності на React."
      },
      {
       "name": "DaVinci Resolve",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
-      "desc": "Professional video editing and color grading suite."
+      "desc": "Професійний пакет для монтажу та кольорокорекції відео."
      },
      {
       "name": "Descript",
       "url": "https://descript.com/",
-      "desc": "AI video editor where you edit text."
+      "desc": "AI-відеоредактор, у якому ви редагуєте текст."
      },
      {
       "name": "Gifski",
       "url": "https://gif.ski/",
-      "desc": "High-quality video-to-GIF converter preserving framerates."
+      "desc": "Якісний конвертер відео в GIF зі збереженням частоти кадрів."
      },
      {
       "name": "Slant It",
       "url": "https://slantit.app/",
-      "desc": "Transforms flat captures into 3D mockups."
+      "desc": "Перетворює пласкі знімки на 3D-мокапи."
      },
      {
       "name": "Remocn",
       "url": "https://www.remocn.dev/",
-      "desc": "Remotion animation components for video production."
+      "desc": "Анімаційні компоненти Remotion для відеопродакшену."
      },
      {
       "name": "BetterShot",
       "url": "https://www.bettershot.site/",
-      "desc": "Screen recorder featuring cursor zoom and captions."
+      "desc": "Запис екрана з наближенням курсора та субтитрами."
      },
      {
       "name": "Recordly",
       "url": "https://recordly.dev/",
-      "desc": "Screen recording tool for polished developer demos."
+      "desc": "Інструмент запису екрана для відшліфованих технічних демо."
      },
      {
       "name": "Cursorful",
       "url": "https://cursorful.com/",
-      "desc": "Screen recorder that automatically tracks cursor."
+      "desc": "Запис екрана з автоматичним відстеженням курсора."
      },
      {
       "name": "Tokokino",
       "url": "https://tokokino.com/",
-      "desc": "In-browser editor for device framing and mockups."
+      "desc": "Браузерний редактор для рамок пристроїв і мокапів."
      }
     ],
     "id": "video-capture"
    },
    {
-    "title": "Whiteboard",
-    "desc": "Infinite canvas workspaces for wireframing and systems architecture.",
+    "title": "Дошки",
+    "desc": "Нескінченні полотна для вайрфреймів і архітектури систем.",
     "items": [
      {
       "name": "tldraw",
       "url": "https://tldraw.com/",
-      "desc": "Infinite whiteboard library offering React SDK."
+      "desc": "Бібліотека нескінченної дошки з React SDK."
      },
      {
       "name": "Excalidraw",
       "url": "https://excalidraw.com/",
-      "desc": "Collaborative whiteboard with hand-drawn sketch aesthetic."
+      "desc": "Спільна дошка з естетикою ручних скетчів."
      },
      {
       "name": "Obsidian",
       "url": "https://obsidian.md/",
-      "desc": "Local-first Markdown knowledge base with graphs."
+      "desc": "Локальна база знань на Markdown із графами."
      },
      {
       "name": "Linear",
       "url": "https://linear.app/",
-      "desc": "Project management software setting speed standards."
+      "desc": "Сервіс керування проєктами, що задає стандарти швидкості."
      }
     ],
     "id": "whiteboard"
@@ -1885,668 +1892,668 @@ window.CATALOGUE = [
   "icon": "people",
   "sections": [
    {
-    "title": "Design engineers to follow",
-    "desc": "Curated design engineers and creative developers to follow.",
+    "title": "Дизайн-інженери, за якими варто стежити",
+    "desc": "Добірка дизайн-інженерів і креативних розробників, за якими варто стежити.",
     "items": [
      {
       "name": "Emil Kowalski",
       "url": "https://emilkowal.ski/",
-      "desc": "Creator of Sonner, Vaul, and animations."
+      "desc": "Створює Sonner, Vaul та анімації."
      },
      {
       "name": "Rauno Freiberg",
       "url": "https://rauno.me/",
-      "desc": "Author of Interaction Guidelines at Vercel."
+      "desc": "Стоїть за Interaction Guidelines у Vercel."
      },
      {
       "name": "Paco Coursey",
       "url": "https://paco.me/",
-      "desc": "Creator of cmdk and next-themes."
+      "desc": "Стоїть за cmdk і next-themes."
      },
      {
       "name": "Gavin Nelson",
       "url": "https://nelson.co/",
-      "desc": "Designer at OpenAI crafting tactile interfaces."
+      "desc": "Дизайнер OpenAI, створює тактильні інтерфейси."
      },
      {
       "name": "Adam Argyle",
       "url": "https://nerdy.dev/",
-      "desc": "Chrome DevRel keeping CSS modern."
+      "desc": "DevRel у Chrome, дбає про сучасний CSS."
      },
      {
       "name": "Sarah Drasner",
       "url": "https://sarahdrasner.com/",
-      "desc": "Engineering leader and web animation author."
+      "desc": "Керує інженерними командами, пише про вебанімацію."
      },
      {
       "name": "Jhey Tompkins",
       "url": "https://jhey.dev/",
-      "desc": "Creative developer building playful CSS experiments."
+      "desc": "Креативний розробник, створює грайливі CSS-експерименти."
      },
      {
       "name": "Lynn Fisher",
       "url": "https://lynnandtonic.com/",
-      "desc": "Designer behind the Single Div project."
+      "desc": "Дизайнер проєкту Single Div."
      },
      {
       "name": "Yogesh",
       "url": "https://yogesh.co/",
-      "desc": "Founder behind Remote3, Promptmonitor, and Dray."
+      "desc": "Засновник Remote3, Promptmonitor і Dray."
      },
      {
       "name": "shadcn",
       "url": "https://shadcn.com/",
-      "desc": "Creator of shadcn/ui and component registries."
+      "desc": "Стоїть за shadcn/ui і реєстрами компонентів."
      },
      {
       "name": "Äli",
       "url": "https://aaali.xyz/",
-      "desc": "Designer building minimal personal software."
+      "desc": "Дизайнер, створює мінімалістичні персональні застосунки."
      },
      {
       "name": "Arlan Marat",
       "url": "https://www.arlan.me/",
-      "desc": "Design engineer from Waymo and Yandex."
+      "desc": "Дизайн-інженер із досвідом у Waymo та Yandex."
      },
      {
       "name": "Ashish Kashyap",
       "url": "https://www.ashkashyap.me/",
-      "desc": "Creator of Pikaicons iconography system."
+      "desc": "Стоїть за системою іконок Pikaicons."
      },
      {
       "name": "Bakemono",
       "url": "https://www.bakemono.space/",
-      "desc": "Design engineer crafting tactile interfaces."
+      "desc": "Дизайн-інженер, створює тактильні інтерфейси."
      },
      {
       "name": "Emmanuel Hong",
       "url": "https://www.emmanuelhong.com/",
-      "desc": "NYC designer crafting digital brand experiences."
+      "desc": "Дизайнер із Нью-Йорка, створює цифровий досвід для брендів."
      },
      {
       "name": "Fara Yan",
       "url": "https://farayan.me/",
-      "desc": "CMU designer crafting community interfaces."
+      "desc": "Дизайнер із CMU, створює інтерфейси для спільнот."
      },
      {
       "name": "Flora Guo",
       "url": "https://www.floguo.com/",
-      "desc": "Product designer at Ramp and Vercel."
+      "desc": "Продуктовий дизайнер у Ramp і Vercel."
      },
      {
       "name": "Glenn Hitchcock",
       "url": "https://glenn.me/",
-      "desc": "Design systems lead at Poolside."
+      "desc": "Керує дизайн-системами в Poolside."
      },
      {
       "name": "Dominik Kandravý",
       "url": "https://www.heyiam.dk/",
-      "desc": "Building native macOS tools Hoy and Monocle."
+      "desc": "Розробляє нативні macOS-інструменти Hoy і Monocle."
      },
      {
       "name": "Hardik Pandya",
       "url": "https://hvpandya.com/",
-      "desc": "Design and AI leader at Google."
+      "desc": "Лідер напрямів дизайну та AI у Google."
      },
      {
       "name": "Noman Ijaz",
       "url": "https://iamnoman.com/",
-      "desc": "Frontend developer exploring pixel gradients."
+      "desc": "Фронтенд-розробник, експериментує з піксельними градієнтами."
      },
      {
       "name": "Julien Thibeaut",
       "url": "https://ibelick.com/",
-      "desc": "Designer building animations for AI startups."
+      "desc": "Дизайнер, створює анімації для AI-стартапів."
      },
      {
       "name": "Jia Chen",
       "url": "https://www.jia.build/",
-      "desc": "Creative engineer and prolific hackathon builder."
+      "desc": "Креативний інженер і постійний учасник хакатонів."
      },
      {
       "name": "Michelle Liu",
       "url": "https://www.liumichelle.com/",
-      "desc": "Designer crafting tools across Apple and NASA."
+      "desc": "Дизайнер інструментів із досвідом в Apple і NASA."
      },
      {
       "name": "Yuhang Lu",
       "url": "https://www.luyuhang.net/",
-      "desc": "Interface designer from Nothing to xAI."
+      "desc": "Дизайнер інтерфейсів: від Nothing до xAI."
      },
      {
       "name": "Lyle Klyne",
       "url": "https://lyleklyne.com/",
-      "desc": "Technical interface designer at Perplexity."
+      "desc": "Технічний дизайнер інтерфейсів у Perplexity."
      },
      {
       "name": "Marcelo Chaman Mallqui",
       "url": "https://marcelochaman.ca/",
-      "desc": "Infrastructure engineer building platform tools at Gumloop."
+      "desc": "Інфраструктурний інженер, створює платформні інструменти в Gumloop."
      },
      {
       "name": "Marijana Pavlinić",
       "url": "https://marijanapav.com/",
-      "desc": "Brand and devtools designer at Vercel."
+      "desc": "Дизайнер бренду та devtools у Vercel."
      },
      {
       "name": "Michael Alexander",
       "url": "https://www.mek.gallery/",
-      "desc": "Visual artist and typographer."
+      "desc": "Візуальний художник і типограф."
      },
      {
       "name": "Nick Jones",
       "url": "https://www.narrowdesign.com/",
-      "desc": "Experimental interface designer behind Stripe Press."
+      "desc": "Дизайнер експериментальних інтерфейсів, стоїть за Stripe Press."
      },
      {
       "name": "Stuart Regan",
       "url": "https://stuart.re/",
-      "desc": "Product designer crafting efficient software workflows."
+      "desc": "Продуктовий дизайнер, проєктує ефективні робочі процеси в софті."
      },
      {
       "name": "Vijay Verma",
       "url": "https://vjy.me/",
-      "desc": "Indie game maker and studio founder."
+      "desc": "Інді-розробник ігор і засновник студії."
      },
      {
       "name": "Benji Taylor",
       "url": "https://benji.org/",
-      "desc": "Creator of Agentation and Honk."
+      "desc": "Стоїть за Agentation і Honk."
      },
      {
       "name": "Aniket Pawar",
       "url": "https://www.aniketpawar.com/",
-      "desc": "Frontend engineer in the shadcn ecosystem."
+      "desc": "Фронтенд-інженер в екосистемі shadcn."
      },
      {
       "name": "Aaron Mahlke",
       "url": "https://www.mahlke.design/",
-      "desc": "Design engineer crafting tactile web experiments."
+      "desc": "Дизайн-інженер, створює тактильні вебексперименти."
      },
      {
       "name": "Grizz",
       "url": "https://grizz.fyi/",
-      "desc": "Interaction designer building expressive web experiments."
+      "desc": "Дизайнер взаємодії, створює виразні вебексперименти."
      },
      {
       "name": "Alistair Smith",
       "url": "https://alistair.sh/",
-      "desc": "Software engineer at Anthropic on Claude Code."
+      "desc": "Інженер-програміст в Anthropic, працює над Claude Code."
      },
      {
       "name": "David Umoru",
       "url": "https://davidumoru.me/",
-      "desc": "Creative technologist building ASCII art tools."
+      "desc": "Креативний технолог, створює інструменти для ASCII-арту."
      },
      {
       "name": "Fabian Arbor",
       "url": "https://fabianarbor.com/",
-      "desc": "Creative director crafting distinct brand identities."
+      "desc": "Креативний директор, створює самобутні айдентики брендів."
      },
      {
       "name": "Praveen Juge",
       "url": "https://praveenjuge.com/",
-      "desc": "Designer writing on interface accessibility."
+      "desc": "Дизайнер, пише про доступність інтерфейсів."
      },
      {
       "name": "Lokendra Kushwah",
       "url": "https://lokiii.me/",
-      "desc": "Frontend engineer building AI-driven interfaces."
+      "desc": "Фронтенд-інженер, створює AI-інтерфейси."
      },
      {
       "name": "Jakub Krehel",
       "url": "https://jakub.kr/",
-      "desc": "Founding design engineer at Interfere."
+      "desc": "Дизайн-інженер у команді засновників Interfere."
      },
      {
       "name": "Ishaan Dey",
       "url": "https://www.ishaand.com/",
-      "desc": "Design engineer and creator of Shadow."
+      "desc": "Дизайн-інженер, стоїть за Shadow."
      },
      {
       "name": "Tushaar Mehta",
       "url": "https://www.tushaarmehtaa.xyz/",
-      "desc": "Creative director designing AI-first products."
+      "desc": "Креативний директор, проєктує AI-first продукти."
      },
      {
       "name": "Kai Nair",
       "url": "https://ikeacrisp.com/",
-      "desc": "Creative technologist designing expressive brand systems."
+      "desc": "Креативний технолог, проєктує виразні бренд-системи."
      },
      {
       "name": "Paolo Nessim",
       "url": "https://www.paolonessim.com/",
-      "desc": "Engineer building real-time systems and robotics."
+      "desc": "Інженер, розробляє системи реального часу й робототехніку."
      },
      {
       "name": "Ashish Gogula",
       "url": "https://www.ashishgogula.in/",
-      "desc": "Design engineer building Xenon."
+      "desc": "Дизайн-інженер, створює Xenon."
      },
      {
       "name": "Ruru",
       "url": "https://ruru.build/",
-      "desc": "Design engineer building Ruru UI."
+      "desc": "Дизайн-інженер, створює Ruru UI."
      },
      {
       "name": "Harsh Singh",
       "url": "https://www.harshsingh.me/",
-      "desc": "Software engineer exploring minimalist design."
+      "desc": "Інженер-програміст, досліджує мінімалістичний дизайн."
      },
      {
       "name": "Rohit Singh Rawat",
       "url": "https://rohitsinghrawat.com/",
-      "desc": "Full-stack engineer crafting SaaS products."
+      "desc": "Full-stack інженер, створює SaaS-продукти."
      },
      {
       "name": "Preet Suthar",
       "url": "https://preetsuthar.me/",
-      "desc": "Design engineer building open-source tools."
+      "desc": "Дизайн-інженер, створює інструменти з відкритим кодом."
      },
      {
       "name": "Maze",
       "url": "https://remvze.com/",
-      "desc": "Design engineer and creator of Moodist."
+      "desc": "Дизайн-інженер, стоїть за Moodist."
      },
      {
       "name": "Siddharth",
       "url": "https://siddz.com/",
-      "desc": "Full-stack engineer crafting interactive UI."
+      "desc": "Full-stack інженер, створює інтерактивні інтерфейси."
      },
      {
       "name": "Sam",
       "url": "https://samworks.vercel.app/",
-      "desc": "Design engineer building motion-driven web apps."
+      "desc": "Дизайн-інженер, створює вебзастосунки з акцентом на моушн."
      },
      {
       "name": "Dhruv Suthar",
       "url": "https://dhrv.pw/",
-      "desc": "Community Engineer at Raycast."
+      "desc": "Community Engineer у Raycast."
      },
      {
       "name": "Rahul Singh Bhadoriya",
       "url": "https://rahulbhadoriya.com/",
-      "desc": "Visual designer and founder of Dacoit Design."
+      "desc": "Візуальний дизайнер і засновник Dacoit Design."
      },
      {
       "name": "Manu Arora",
       "url": "https://manuarora.in/",
-      "desc": "Creator of Aceternity UI and TailwindMasterKit."
+      "desc": "Стоїть за Aceternity UI і TailwindMasterKit."
      },
      {
       "name": "Swami Malode",
       "url": "https://swamii.me/",
-      "desc": "Design engineer building VidStudio and Rare UI."
+      "desc": "Дизайн-інженер, створює VidStudio і Rare UI."
      },
      {
       "name": "Shawn Dsilva",
       "url": "https://www.shwn.design/",
-      "desc": "Creator of Dot Matrix and Orbkit."
+      "desc": "Стоїть за Dot Matrix і Orbkit."
      },
      {
       "name": "Shivam",
       "url": "https://www.10xshivam.dev/",
-      "desc": "Full-stack developer building scalable web interfaces."
+      "desc": "Full-stack розробник, створює масштабовані вебінтерфейси."
      },
      {
       "name": "Rohit Mehta",
       "url": "https://portfolio.negativ.in/",
-      "desc": "Developer building Negativ UI."
+      "desc": "Розробник, створює Negativ UI."
      },
      {
       "name": "Ratnesh Chipre",
       "url": "https://ratneshc.com/",
-      "desc": "Design engineer building Draftlogo."
+      "desc": "Дизайн-інженер, створює Draftlogo."
      },
      {
       "name": "Shivraj Roy",
       "url": "https://www.shivrajroy.in/",
-      "desc": "Frontend engineer focused on micro-animations."
+      "desc": "Фронтенд-інженер, спеціалізується на мікроанімаціях."
      },
      {
       "name": "Vansh Nagar",
       "url": "https://www.vanshnagar.com/",
-      "desc": "Creator of ASCII Studio and web tools."
+      "desc": "Стоїть за ASCII Studio та вебінструментами."
      },
      {
       "name": "Harsh Jadhav",
       "url": "https://harshjdhv.com/",
-      "desc": "Design engineer and creator of Componentry."
+      "desc": "Дизайн-інженер, стоїть за Componentry."
      },
      {
       "name": "Aaryan",
       "url": "https://aaryan.design/",
-      "desc": "Creator of Sileo physics-based toast components."
+      "desc": "Стоїть за Sileo – toast-компонентами з фізикою."
      },
      {
       "name": "Atharvsinh Jadav",
       "url": "https://athrix.me/",
-      "desc": "Full-stack developer building ObsidianUI."
+      "desc": "Full-stack розробник, створює ObsidianUI."
      },
      {
       "name": "Divyansh Swarnkar",
       "url": "https://divyanshh.tech/",
-      "desc": "Full-stack developer building performant web apps."
+      "desc": "Full-stack розробник, створює швидкі вебзастосунки."
      },
      {
       "name": "Gurbinder",
       "url": "https://gurbinder.dev/",
-      "desc": "Design engineer building Skiper UI and EvilCharts."
+      "desc": "Дизайн-інженер, створює Skiper UI і EvilCharts."
      },
      {
       "name": "Ashutosh Singh",
       "url": "https://www.ashutoshx7.me/",
-      "desc": "Creator of Vengeance UI building AI interfaces."
+      "desc": "Стоїть за Vengeance UI, створює AI-інтерфейси."
      },
      {
       "name": "Palak Sharma",
       "url": "https://palakonweb.in/",
-      "desc": "Full-stack developer crafting 3D WebGL interfaces."
+      "desc": "Full-stack розробник, створює 3D-інтерфейси на WebGL."
      },
      {
       "name": "Aman Shakya",
       "url": "https://amanshakya.in/",
-      "desc": "Design engineer building Forge UI and Statsio."
+      "desc": "Дизайн-інженер, створює Forge UI і Statsio."
      },
      {
       "name": "Mihir Aman Raj",
       "url": "https://www.mihircodes.in/",
-      "desc": "Creative developer building atomix/ui experiments."
+      "desc": "Креативний розробник, експериментує в atomix/ui."
      },
      {
       "name": "Prasanjit Dey",
       "url": "https://www.prasanjitdey.com/",
-      "desc": "Design engineer and creator of Insposite."
+      "desc": "Дизайн-інженер, стоїть за Insposite."
      },
      {
       "name": "Chánh Đại",
       "url": "https://chanhdai.com/",
-      "desc": "Design engineer building React Wheel Picker."
+      "desc": "Дизайн-інженер, створює React Wheel Picker."
      },
      {
       "name": "Sophie Manalo",
       "url": "https://www.sophiamanalo.com/",
-      "desc": "Creative developer building expressive web interfaces."
+      "desc": "Креативний розробник, створює виразні вебінтерфейси."
      },
      {
       "name": "Abhinav Kale",
       "url": "https://abhi.at/",
-      "desc": "Design engineer crafting minimal web experiments."
+      "desc": "Дизайн-інженер, створює мінімалістичні вебексперименти."
      },
      {
       "name": "Karaan",
       "url": "https://www.karaan.me/",
-      "desc": "Frontend engineer focusing on UI craft."
+      "desc": "Фронтенд-інженер із фокусом на якості UI."
      },
      {
       "name": "Ram",
       "url": "https://ramx.in/",
-      "desc": "Frontend developer building interactive web products."
+      "desc": "Фронтенд-розробник, створює інтерактивні вебпродукти."
      },
      {
       "name": "Victor Williams",
       "url": "https://www.victorwilliams.me/",
-      "desc": "Design engineer crafting modern digital experiences."
+      "desc": "Дизайн-інженер, створює сучасний цифровий досвід."
      },
      {
       "name": "Umesh Nagare",
       "url": "https://umeshnagare.com/",
-      "desc": "Full-stack engineer building clean user interfaces."
+      "desc": "Full-stack інженер, створює чисті інтерфейси."
      },
      {
       "name": "Gautam",
       "url": "https://www.heygautam.com/",
-      "desc": "Full-stack developer building open-source tools."
+      "desc": "Full-stack розробник, створює інструменти з відкритим кодом."
      },
      {
       "name": "Atharva Mhaske",
       "url": "https://atharvaxdevs.xyz/",
-      "desc": "Frontend developer building creative web experiments."
+      "desc": "Фронтенд-розробник, створює креативні вебексперименти."
      },
      {
       "name": "Janina",
       "url": "https://janina.works/",
-      "desc": "Product designer crafting interactive interfaces."
+      "desc": "Продуктовий дизайнер, створює інтерактивні інтерфейси."
      },
      {
       "name": "Unlimited Studio",
       "url": "https://unlimited.studio/",
-      "desc": "Independent studio crafting bespoke digital identities."
+      "desc": "Незалежна студія, створює індивідуальні цифрові айдентики."
      },
      {
       "name": "Manish Kumar",
       "url": "https://www.manixh.dev/",
-      "desc": "Frontend developer building sleek web interfaces."
+      "desc": "Фронтенд-розробник, створює витончені вебінтерфейси."
      },
      {
       "name": "Dhruv",
       "url": "https://jdhruv.dev/",
-      "desc": "Design engineer crafting interactive tactile software."
+      "desc": "Дизайн-інженер, створює інтерактивний тактильний софт."
      },
      {
       "name": "Sahil Singh",
       "url": "https://sahilcodex.vercel.app/",
-      "desc": "Frontend developer crafting interactive React components."
+      "desc": "Фронтенд-розробник, створює інтерактивні React-компоненти."
      },
      {
       "name": "Nexvyn",
       "url": "https://nexvyn.dev/",
-      "desc": "Design engineer building nexvyn/ui components."
+      "desc": "Дизайн-інженер, створює компоненти nexvyn/ui."
      },
      {
       "name": "Syed Subhan",
       "url": "https://www.syedsubhan.in/",
-      "desc": "Creative developer crafting 3D shader experiments."
+      "desc": "Креативний розробник, експериментує з 3D-шейдерами."
      },
      {
       "name": "Jay",
       "url": "https://www.radiumcoders.com/",
-      "desc": "Design engineer building Evil Buttons and Mascot."
+      "desc": "Дизайн-інженер, створює Evil Buttons і Mascot."
      },
      {
       "name": "Chidu",
       "url": "https://chidu.me/",
-      "desc": "Product designer crafting considered web interactions."
+      "desc": "Продуктовий дизайнер, проєктує продумані вебвзаємодії."
      },
      {
       "name": "Connor Hepburn",
       "url": "https://hpbrn.cc/",
-      "desc": "Engineer developing Creed and web agents."
+      "desc": "Інженер, розробляє Creed і вебагентів."
      },
      {
       "name": "Pratham",
       "url": "https://www.pratham.me/",
-      "desc": "Product designer crafting high-craft landing pages."
+      "desc": "Продуктовий дизайнер, створює ретельно опрацьовані лендинги."
      },
      {
       "name": "Offgrid",
       "url": "https://offgrid.inc/",
-      "desc": "Branding studio crafting identities for tech companies."
+      "desc": "Брендингова студія, створює айдентики для технологічних компаній."
      },
      {
       "name": "Daniel White",
       "url": "https://www.danielwhite.uk/",
-      "desc": "Design engineer and founder of textmotion."
+      "desc": "Дизайн-інженер і засновник textmotion."
      },
      {
       "name": "Sasha Balandina",
       "url": "https://sashabalandina.com/",
-      "desc": "Product designer crafting typography-focused interfaces."
+      "desc": "Продуктовий дизайнер, створює інтерфейси з фокусом на типографіці."
      },
      {
       "name": "Timothy Maarv",
       "url": "https://www.timothymaarv.me/",
-      "desc": "Product designer crafting 0-to-1 software experiences."
+      "desc": "Продуктовий дизайнер, створює софт від 0 до 1."
      },
      {
       "name": "Soren Blank",
       "url": "https://sorenblank.com/",
-      "desc": "Design engineer crafting fluid micro-interactions."
+      "desc": "Дизайн-інженер, створює плавні мікровзаємодії."
      },
      {
       "name": "Ozzy",
       "url": "https://www.ozzyx.xyz/",
-      "desc": "Design engineer building interior.dev micro-interactions."
+      "desc": "Дизайн-інженер, створює мікровзаємодії interior.dev."
      },
      {
       "name": "Utsav Gupta",
       "url": "https://www.utsavworks.in/",
-      "desc": "Full-stack engineer building AI agents."
+      "desc": "Full-stack інженер, створює AI-агентів."
      },
      {
       "name": "Saurabh Sharma",
       "url": "https://www.srbh.site/",
-      "desc": "Design engineer building Great UI components."
+      "desc": "Дизайн-інженер, створює компоненти Great UI."
      },
      {
       "name": "Iteration",
       "url": "https://iteration.design/",
-      "desc": "Design studio founded by Josh Puckett."
+      "desc": "Дизайн-студія, заснована Josh Puckett."
      },
      {
       "name": "Josh Puckett",
       "url": "https://joshpuckett.me/",
-      "desc": "Founder of Iteration and DialKit."
+      "desc": "Засновник Iteration і DialKit."
      },
      {
       "name": "Mery Kaftar",
       "url": "https://merycodes.com/",
-      "desc": "Design engineer at Vercel crafting AI interfaces."
+      "desc": "Дизайн-інженер у Vercel, створює AI-інтерфейси."
      },
      {
       "name": "Lele Zhang",
       "url": "https://lelezhang.design/",
-      "desc": "Product designer exploring thoughtful AI interfaces."
+      "desc": "Продуктовий дизайнер, досліджує продумані AI-інтерфейси."
      },
      {
       "name": "Pranathi Peri",
       "url": "https://pranathiperi.com/",
-      "desc": "Designer at Anthropic on Claude Code."
+      "desc": "Дизайнер в Anthropic, працює над Claude Code."
      },
      {
       "name": "Airla Fan",
       "url": "https://airladesigns.com/",
-      "desc": "Digital designer at YouTube crafting visual systems."
+      "desc": "Цифровий дизайнер у YouTube, створює візуальні системи."
      },
      {
       "name": "Mariana Castilho",
       "url": "https://www.mrncst.computer/",
-      "desc": "Product designer and engineer at Profound."
+      "desc": "Продуктовий дизайнер та інженер у Profound."
      },
      {
       "name": "Evil Rabbit",
       "url": "https://www.evilrabbit.com/",
-      "desc": "Head of Design at Vercel."
+      "desc": "Head of Design у Vercel."
      },
      {
       "name": "Dominik Martin",
       "url": "https://dominikmart.in/",
-      "desc": "Product designer building modern digital products."
+      "desc": "Продуктовий дизайнер, створює сучасні цифрові продукти."
      },
      {
       "name": "Tom",
       "url": "https://tomm.page/",
-      "desc": "Creator of Spell UI crafting component kits."
+      "desc": "Стоїть за Spell UI, створює набори компонентів."
      },
      {
       "name": "Dan Hollick",
       "url": "https://old.alcohollick.com/",
-      "desc": "Design engineer at Cursor."
+      "desc": "Дизайн-інженер у Cursor."
      },
      {
       "name": "Anthony Fu",
       "url": "https://antfu.me/",
-      "desc": "Open-source creator and Vue core team member."
+      "desc": "Open-source розробник і учасник core-команди Vue."
      },
      {
       "name": "Paul Bakaus",
       "url": "https://paulbakaus.com/",
-      "desc": "Creator of jQuery UI building AI tools."
+      "desc": "Стоїть за jQuery UI, створює AI-інструменти."
      },
      {
       "name": "Aditya Sur",
       "url": "https://ample.studio/",
-      "desc": "Designer and developer crafting digital experiences."
+      "desc": "Дизайнер і розробник, створює цифровий досвід."
      },
      {
       "name": "Raphael Salaja",
       "url": "https://www.raphaelsalaja.com/",
-      "desc": "Design engineer pushing boundaries in interface craft."
+      "desc": "Дизайн-інженер, розсуває межі майстерності в інтерфейсах."
      },
      {
       "name": "Ana Howard",
       "url": "https://ana.sh/",
-      "desc": "Design engineer in London crafting thoughtful interfaces."
+      "desc": "Дизайн-інженер у Лондоні, створює продумані інтерфейси."
      },
      {
       "name": "Jakub Antalík",
       "url": "https://jakubantalik.com/",
-      "desc": "Product designer and Design Lead at Fun.xyz."
+      "desc": "Продуктовий дизайнер і Design Lead у Fun.xyz."
      },
      {
       "name": "Henry Heffernan",
       "url": "https://henryheffernan.com/",
-      "desc": "Creative developer known for the OS portfolio."
+      "desc": "Креативний розробник, стоїть за портфоліо у вигляді ОС."
      },
      {
       "name": "Wojtek Witkowski",
       "url": "https://wojtek.im/",
-      "desc": "Staff UI engineer at Coinbase."
+      "desc": "Staff UI engineer у Coinbase."
      },
      {
       "name": "Akash Bhadange",
       "url": "https://designerdada.com/",
-      "desc": "Product designer and founder of Peerlist."
+      "desc": "Продуктовий дизайнер і засновник Peerlist."
      },
      {
       "name": "Aiden Bai",
       "url": "https://aidenybai.com/",
-      "desc": "Founder of Million.js and React Scan."
+      "desc": "Засновник Million.js і React Scan."
      },
      {
       "name": "Shu Ding",
       "url": "https://shud.in/",
-      "desc": "Designer and engineer at Vercel."
+      "desc": "Дизайнер та інженер у Vercel."
      },
      {
       "name": "Danilo Woznica",
       "url": "https://danilowoz.com/",
-      "desc": "Creator of react-content-loader component library."
+      "desc": "Стоїть за бібліотекою компонентів react-content-loader."
      },
      {
       "name": "Daryl Ginn",
       "url": "https://system.studio/",
-      "desc": "Founder of System Studio and Minimal Gallery."
+      "desc": "Засновник System Studio і Minimal Gallery."
      },
      {
       "name": "Gunnar Gray",
       "url": "https://gunnargray.com/",
-      "desc": "Product Design Lead at Perplexity AI."
+      "desc": "Product Design Lead у Perplexity AI."
      },
      {
       "name": "Todd Hamilton",
       "url": "https://toddham.com/",
-      "desc": "Product designer and developer building AIProxy."
+      "desc": "Продуктовий дизайнер і розробник, створює AIProxy."
      },
      {
       "name": "Zaid Mukaddam",
       "url": "https://zaidmukaddam.com/",
-      "desc": "Creator of Scira AI conversational search."
+      "desc": "Стоїть за Scira AI, діалоговим пошуком."
      },
      {
       "name": "Kartik Labhshetwar",
       "url": "https://kartiklabhshetwar.com/",
-      "desc": "Software engineer building AI memory at Mem0."
+      "desc": "Інженер-програміст у Mem0, створює пам’ять для AI."
      },
      {
       "name": "Saurabh",
       "url": "https://saura3h.xyz/",
-      "desc": "Design engineer building beUI, a motion component library."
+      "desc": "Дизайн-інженер, створює beUI – бібліотеку моушн-компонентів."
      },
      {
       "name": "Daryl Patigas",
       "url": "https://imdaryl.com/",
-      "desc": "Founding designer at Lottielab."
+      "desc": "Дизайнер у команді засновників Lottielab."
      }
     ],
     "id": "design-engineers-to-follow"
@@ -2554,3 +2561,417 @@ window.CATALOGUE = [
   ]
  }
 ];
+window.AI_GUIDE = {
+ "title": "AI: що бренд-дизайнер має вміти зробити",
+ "intro": "Workflow – як вести поточну задачу. Skill – як зберегти інструкції та матеріали для наступної. Автоматизація – як повторити дії або зібрати серію без ручного виконання кожного кроку.",
+ "levels": "1 – повторює приклад із допомогою. 2 – виконує типову задачу сам. 3 – вирішує нову задачу, змінює підхід і перевіряє його на іншому матеріалі. Це рівні навички, а не грейди. Найближча ціль для Junior–Middle – рівень 2 у щоденній роботі.",
+ "levelNames": [
+  "1 · За готовим прикладом",
+  "2 · Самостійно",
+  "3 · Налаштовує під задачу"
+ ],
+ "checkName": "Як перевірити",
+ "skills": [
+  {
+   "n": 1,
+   "name": "Claude і Codex",
+   "l1": "У своєму акаунті знаходить Claude, доступний режим роботи з файлами та Codex. Показує, де обрати модель і додати файл. За інструкцією отримує короткий текст і зберігає його у файл.",
+   "l2": "Для задачі «зібрати презентацію з документа» перевіряє, у якій програмі є доступ до документа, шаблону та створення PPTX. Обирає цю програму й отримує файл. Пояснює різницю між Claude, Claude Code, Codex і моделлю всередині них.",
+   "l3": "Виконує однаковий бриф у двох доступних середовищах. Порівнює редагованість, помилки й час на правки. Обирає середовище для цього типу задач; якщо потрібного інструмента немає, знаходить інший спосіб виконання.",
+   "check": "Показати, чим відкривати: редагування тексту, створення PPTX, зміну коду шаблону, генерацію картинки. Пояснити вибір через доступні файли й інструменти. Результат файлової задачі має відкриватися поза чатом."
+  },
+  {
+   "n": 2,
+   "name": "Вибір моделі",
+   "l1": "За таблицею моделей нижче обирає модель для складання матеріалу й окремий інструмент для картинки. Записує назву обраної моделі. Не плутає назву програми з назвою моделі.",
+   "l2": "Для типового поста починає з робочої моделі. Для складної структури презентації або виправлення генератора обирає сильнішу модель чи більшу глибину міркування. Перед зміною моделі перевіряє, чи вистачає файлів, правил і доступів.",
+   "l3": "Порівнює дві моделі в одному середовищі з однаковими інструментами, брифом і файлами. Зіставляє матеріали, час на правки й доступні дані про витрати. Зберігає вибір для цієї задачі з датою перевірки; повторює пробу після зміни моделі.",
+   "check": "Рівень 2: обрати модель для поста й складної презентації та пояснити вибір. Рівень 3: показати два результати одного брифу й різницю в помилках та ручних правках. Якщо витрати не показані, так і зазначити."
+  },
+  {
+   "n": 3,
+   "name": "Бриф і файли для агента",
+   "l1": "За прикладом складає папку задачі: текст, логотип, шрифти, референс і шаблон. Заповнює в брифі формат, мову, аудиторію та потрібні файли на виході. З допомогою колеги уточнює відсутні дані.",
+   "l2": "Сам готує brief.md і додає потрібні файли. Вказує точні розміри, погоджений текст, дозволені зміни й місце збереження. На старті просить агента перелічити доступні матеріали та повідомити про відсутні. Закриває прогалини до генерації.",
+   "l3": "Для неповного ТЗ відділяє питання до замовника від власних дизайнерських рішень. Для продовження в новому чаті зберігає короткий опис: що погоджено, які файли актуальні, що лишилося зробити. Перевіряє, що новий чат може продовжити роботу.",
+   "check": "Відкрити новий чат і передати тільки підготовлений комплект. Агент має знайти вихідні файли, назвати вимоги й почати потрібну задачу без копіювання всієї старої переписки."
+  },
+  {
+   "n": 4,
+   "name": "Пошук і збереження референсів",
+   "l1": "Знаходить приклад у X/Twitter або спільній добірці. Зберігає зображення, посилання на оригінал і підпис, що саме корисне: сітка, заголовок, ілюстрація чи анімація.",
+   "l2": "Для задачі без заданого стилю знаходить різні підходи й обирає один. Передає агенту самі зображення та пояснення: що взяти з кожного й що змінити під бренд. Додає в спільну добірку теги формату та прийому.",
+   "l3": "Знаходить референс у бібліотеці за новим брифом і робить пробний макет. Якщо агент копіює зайве або не відтворює потрібний прийом, змінює добірку й пояснення. Зберігає поруч із референсом прийняту роботу компанії.",
+   "check": "Дати задачу «анонс події». Дизайнер знаходить відповідний приклад у бібліотеці та показує в готовому пості конкретний прийом. Посилання без картинки й пояснення не є готовим референсом для роботи."
+  },
+  {
+   "n": 5,
+   "name": "Правила бренду для AI",
+   "l1": "Передає агенту готові логотипи, шрифти, кольори та зразок. Зіставляє результат зі зразком і з допомогою колеги знаходить неправильний шрифт, колір або відступ.",
+   "l2": "Збирає brand.md із затверджених правил: шрифти, розміри тексту, кольорові коди, відступи, використання логотипа. Додає вихідні файли та приклади. Перевіряє застосування правил у готовому макеті, а не за відповіддю агента «все врахував».",
+   "l3": "Для нового формату додає до комплекту потрібний макет і правила розміщення. Перевіряє короткий і довгий текст. Зберігає версію комплекту та перелік змін; нові рішення щодо стилю погоджує з відповідальним за бренд.",
+   "check": "Зібрати два різні матеріали з одного комплекту. Шрифти, кольори й логотип відповідають затвердженим правилам. Референс задає прийом; brand.md задає оформлення вашої компанії."
+  },
+  {
+   "n": 6,
+   "name": "Агентський workflow",
+   "l1": "Проходить готову послідовність: бриф → референс → чернетка → перевірка → виправлення → експорт. Показує файл після кожного етапу. Розрізняє план агента й уже виконану дію.",
+   "l2": "Сам веде задачу по цих етапах. Перед серією погоджує один зразок, після правок перевіряє новий файл. Зупиняє повторні невдалі спроби та передає агенту конкретну помилку, скриншот і потрібну зміну.",
+   "l3": "Для складної задачі розділяє створення і перевірку між основним агентом та окремим агентом-рев'юером. Кожному задає файли, обсяг роботи й результат. Основний агент вносить виправлення; дизайнер перевіряє фінал. Не доручає агентам одночасно змінювати один файл.",
+   "check": "Показати чернетку, зауваження та виправлений результат. Для рівня 3 – окреме завдання рев'юеру і враховані зауваження. Якщо субагенти недоступні, використати окремий чат із тими самими файлами й критеріями."
+  },
+  {
+   "n": 7,
+   "name": "Створення та збереження skills",
+   "l1": "Встановлює або підключає готовий skill за інструкцією. Знаходить його SKILL.md і потрібні матеріали. Викликає skill на тестовому завданні та відкриває результат.",
+   "l2": "Після вдалої задачі просить агента створити skill: коли запускати, які файли потрібні, що зробити, як перевірити й що зберегти. Додає шаблон і референси. Встановлює skill та запускає його в новому чаті з іншим текстом.",
+   "l3": "Змінює skill після виявленої помилки й повторює попередній та новий приклади. Передає комплект колезі з інструкцією встановлення. Колега створює матеріал без доступу до переписки автора; робоча версія зберігається у спільному місці.",
+   "check": "Відкрити папку skill, показати SKILL.md, шаблон і референси. У новому чаті отримати інший пост або презентацію. Один збережений промпт без потрібних файлів і повторного запуску завдання не закриває."
+  },
+  {
+   "n": 8,
+   "name": "Генерація зображень",
+   "l1": "За готовим описом і референсом генерує картинку потрібної пропорції. Разом із колегою відкидає варіанти з дефектами об'єктів, випадковими написами або невдалим місцем під заголовок.",
+   "l2": "Сам задає сюжет, композицію, світло, палітру й вільне місце під текст. Передає обране зображення на редагування та змінює конкретну деталь. Логотип і текст, які мають редагуватися, накладає окремими елементами макета.",
+   "l3": "Збирає серію з трьох сюжетів зі спільною палітрою, світлом і способом зображення об'єктів. Зберігає опорне зображення, опис і налаштування. Додає четвертий сюжет без повторного пошуку стилю.",
+   "check": "Картинки відкриваються в потрібному розмірі; у макеті немає видимих артефактів і випадкового тексту. У серії збігаються задані ознаки стилю. Є вихідні зображення та матеріали для продовження."
+  },
+  {
+   "n": 9,
+   "name": "Пости та внутрішні матеріали",
+   "l1": "Через готовий процес збирає пост із погодженого тексту й картинки. За підказкою виправляє перенос, відступ або обрізаний елемент. Здає зображення та редагований вихідний файл.",
+   "l2": "Сам збирає пост у двох потрібних розмірах або внутрішній документ із готового тексту. Через правки агенту налаштовує заголовок, ієрархію, сітку й відступи. Перевіряє читання на телефоні або при звичайному масштабі документа.",
+   "l3": "Для нового формату створює макет з AI та перевіряє його на короткому й довгому тексті. Перебудовує композицію, якщо зміст не вміщується. Зберігає придатний макет для наступного матеріалу цього типу.",
+   "check": "Змінити в готовій роботі заголовок на довший і замінити картинку. Результат має зберегти ієрархію та читабельність. Усі потрібні розміри відкриваються, вихідний файл можна редагувати."
+  },
+  {
+   "n": 10,
+   "name": "Презентації",
+   "l1": "За готовим шаблоном через AI збирає п'ять слайдів із погодженого тексту. Відкриває PPTX, знаходить переповнення й із допомогою колеги виправляє його. Зберігає PPTX і PDF.",
+   "l2": "Сам збирає презентацію з готового документа: обирає макети, розподіляє текст, оформлює таблицю або схему. Перевіряє кожен слайд у цільовій програмі. Змінює текст і дані без перемальовування слайда.",
+   "l3": "Допрацьовує комплект United Tech: додає відсутні макети для порівнянь, даних або процесів. Перевіряє їх на двох різних матеріалах. Зберігає шаблон і правила вибору макетів, щоб наступна презентація збиралася з нового документа.",
+   "check": "Замінити дані в таблиці та подовжити заголовок. PPTX лишається редагованим, PDF не обрізає текст, числа збігаються з джерелом. Для рівня 3 – нова презентація з доопрацьованого комплекту."
+  },
+  {
+   "n": 11,
+   "name": "Пакетна збірка та автоматизація",
+   "l1": "Запускає готову збірку за інструкцією: передає файл із текстами, отримує комплект матеріалів. Розрізняє вихідні дані, шаблон, скрипт збірки та експорт; може показати кожен файл.",
+   "l2": "Сам змінює тексти й картинки у вхідних даних та повторює збірку. Перевіряє відповідність імен файлів, кількості й розмірів. Якщо даних бракує, виправляє конкретний запис і запускає ще раз, не збираючи всю серію вручну.",
+   "l3": "З допомогою агента автоматизує повторювану дію: підстановку контенту, адаптації розміру або експорт. Перевіряє нормальний, довгий і порожній текст. Зберігає команду чи інструкцію запуску, приклад даних і робочу попередню версію.",
+   "check": "Навчальний тест: три пости × два розміри = шість файлів. Після зміни одного тексту збірка дає оновлений комплект. Відсутня картинка викликає зрозуміле повідомлення, а не непомітний порожній макет."
+  },
+  {
+   "n": 12,
+   "name": "Перевірка й виправлення",
+   "l1": "За списком звіряє текст, числа, логотип, розміри й посилання. Відкриває всі файли після експорту. Передає колезі знайдені помилки з номером слайда або назвою файлу.",
+   "l2": "До передачі замовнику сам виправляє знайдене через агента або в редакторі. Для правки вказує місце, дефект і потрібний результат. Після виправлення відкриває новий файл і перевіряє його; не приймає повідомлення «готово» за доказ.",
+   "l3": "З повторюваної помилки робить перевірку в процесі: наприклад, контроль розміру, відсутнього файла чи переповнення. На прикладі з навмисною помилкою перевіряє, що вона спрацьовує. Візуально переглядає фінал навіть після автоматичних перевірок.",
+   "check": "Дати матеріал із неправильним числом, обрізаним заголовком і відсутньою картинкою. Дизайнер знаходить дефекти, виправляє й показує нові файли. Оформлення та факти перевіряються окремо."
+  }
+ ],
+ "env": [
+  {
+   "k": "Програма, модель, інструмент",
+   "v": "Програма дає робоче середовище: Codex або Claude. Модель виконує міркування: наприклад, GPT-5.6 Sol або Claude Sonnet 5. Інструмент робить дію: читає файл, запускає код, генерує картинку. Skill задає порядок роботи. Зміна моделі не надає відсутній доступ до Google Drive.",
+   "sources": []
+  },
+  {
+   "k": "Claude / Cowork",
+   "v": "Claude – назва продукту й сімейства моделей Anthropic. Для роботи з файлами перевірити доступність Cowork або відповідних можливостей у поточному інтерфейсі: у частини акаунтів чат і Cowork уже об'єднані. Проба: дати документ і попросити створити PPTX. Успіх – доступний для відкриття файл.",
+   "sources": [
+    {
+     "label": "Claude: Cowork і чат",
+     "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude"
+    }
+   ]
+  },
+  {
+   "k": "Claude Code",
+   "v": "Агент Anthropic для роботи з кодом: читає й змінює файли, запускає команди. Підходить для зміни генератора макетів або скрипту експорту, якщо проєкт і потрібні інструменти налаштовані. Це ближчий аналог Codex, ніж порівняння Codex зі звичайною розмовою в Claude.",
+   "sources": [
+    {
+     "label": "Claude Code: огляд",
+     "url": "https://code.claude.com/docs/en/overview"
+    }
+   ]
+  },
+  {
+   "k": "Codex",
+   "v": "Для наявного комплекту United Tech почати з Codex: відкрити проєкт, підключити skill і передати документ. Для нового процесу попросити створити шаблон, зібрати файл та перевірити експорт. Це запропонований порядок для вашої команди. Перевагу над іншим середовищем перевіряти на однаковій задачі; обидва можуть працювати з файлами й кодом за наявності інструментів.",
+   "sources": []
+  }
+ ],
+ "modelsTitle": "З яких моделей починати · перевірено 22.09.2026",
+ "modelsIntro": "Нижче – стартовий вибір для проби на ваших матеріалах, а не рейтинг якості дизайну. Доступність перевіряти в меню робочого акаунта: наявність моделі в API не гарантує її наявності в застосунку. Якщо моделі немає, узгодити доступний аналог із керівником. Зберігати назву фактично використаної моделі.",
+ "models": [
+  {
+   "task": "Типовий пост, документ, презентація за шаблоном",
+   "codex": [
+    "GPT-5.6 Sol",
+    "звичайна глибина міркування"
+   ],
+   "claude": [
+    "Sonnet 5",
+    "якщо є в акаунті"
+   ],
+   "note": "Почати з одного матеріалу; продовжувати серію тільки після перевірки. Неповний бриф, відсутній шрифт або недоступний файл спочатку виправити.",
+   "sources": [
+    {
+     "label": "ChatGPT: моделі",
+     "url": "https://learn.chatgpt.com/docs/models"
+    },
+    {
+     "label": "Claude: моделі",
+     "url": "https://platform.claude.com/docs/en/models/overview"
+    }
+   ]
+  },
+  {
+   "task": "Новий skill, складна структура, помилка генератора",
+   "codex": [
+    "GPT-6 Astra",
+    "вищий reasoning effort для складного планування: більше часу й токенів"
+   ],
+   "claude": [
+    "Opus 5",
+    "якщо не впорався після виправлення вхідних даних – Fable 5.1, якщо доступна"
+   ],
+   "note": "Дати конкретний збій або критерії складної задачі.",
+   "sources": [
+    {
+     "label": "OpenAI API: моделі",
+     "url": "https://developers.openai.com/api/docs/models"
+    },
+    {
+     "label": "Claude: моделі",
+     "url": "https://platform.claude.com/docs/en/models/overview"
+    }
+   ]
+  },
+  {
+   "task": "Багато простих повторів",
+   "codex": [
+    "GPT-5.6 Terra або Luna",
+    "після перевірки процесу"
+   ],
+   "claude": [
+    "Haiku 4.5",
+    "після перевірки процесу"
+   ],
+   "note": "Наприклад, назви файлів, розподіл текстів по готових полях. Порівняти з робочою моделлю на тому самому наборі; якщо помилки додають ручної роботи, лишити попередню модель.",
+   "sources": [
+    {
+     "label": "OpenAI API: моделі",
+     "url": "https://developers.openai.com/api/docs/models"
+    },
+    {
+     "label": "Claude: моделі",
+     "url": "https://platform.claude.com/docs/en/models/overview"
+    }
+   ]
+  },
+  {
+   "task": "Картинки",
+   "codex": [
+    "GPT Image 2.5 Flare",
+    "швидкі варіанти"
+   ],
+   "codex2": [
+    "GPT Image 2.5 Sunburst",
+    "точне редагування"
+   ],
+   "claude": null,
+   "note": "Це моделі генерації зображень, не заміна моделі агента. У застосунку модель картинки може обиратися автоматично: тоді використовувати доступний інструмент і перевіряти результат.",
+   "sources": [
+    {
+     "label": "GPT Image 2.5 Flare",
+     "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare"
+    },
+    {
+     "label": "GPT Image 2.5 Sunburst",
+     "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+    }
+   ]
+  }
+ ],
+ "save": [
+  {
+   "k": "Папка робочої задачі",
+   "v": "brief.md – формат, текст, обмеження й результат; brand/ – затверджені правила та файли; refs/ – зображення й джерела; input/ – контент поточного випуску; output/ – готові файли. Це запропонована структура папок команди. Особисті дані поточного брифу не переносити до загального skill.",
+   "sources": []
+  },
+  {
+   "k": "Skill для постів",
+   "v": "Попросити агента: «Збережи цей процес як skill ut-social-post. Опиши, коли його використовувати, які вхідні файли потрібні, як зібрати макет, перевірити й експортувати результат». Комплект: SKILL.md, assets/ із шаблоном, references/ із правилами й прикладами; scripts/ – лише якщо збірка потребує коду.",
+   "sources": [
+    {
+     "label": "Codex: Build skills",
+     "url": "https://learn.chatgpt.com/docs/build-skills"
+    }
+   ]
+  },
+  {
+   "k": "Вміст SKILL.md",
+   "v": "На початку – YAML-блок між рядками --- із полями name та description: назва й умова використання. Далі – вхідні файли, дії, перевірки та вихідні формати. Додати шаблон і референси, якщо вони потрібні цьому процесу. Вказати дії без картинки або тексту. Використати шляхи від папки skill, без особистих шляхів автора та посилань на стару переписку.",
+   "sources": []
+  },
+  {
+   "k": "Встановлення й передача",
+   "v": "Codex: попросити встановити skill у поточне середовище й показати, де він збережений; перевірити новим чатом. Для Codex CLI проєктна папка – .agents/skills/ut-social-post/. Claude Code – .claude/skills/ut-social-post/. У Claude скористатися додаванням власного skill у Customize → Skills, якщо доступно. Комплект у Drive – копія для передачі, його ще треба встановити.",
+   "sources": [
+    {
+     "label": "Codex: Build skills",
+     "url": "https://learn.chatgpt.com/docs/build-skills"
+    },
+    {
+     "label": "Claude Code: skills",
+     "url": "https://code.claude.com/docs/en/skills"
+    },
+    {
+     "label": "Claude: власні skills",
+     "url": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills"
+    }
+   ]
+  },
+  {
+   "k": "Перевірка збереження",
+   "v": "Відкрити новий чат, викликати встановлений skill і дати інший текст. Потім передати комплект колезі: він встановлює його й виконує власну задачу. Якщо потрібно шукати файли в старій переписці або дописувати відсутні правила, доповнити комплект і повторити пробу.",
+   "sources": []
+  },
+  {
+   "k": "Картка референсу",
+   "v": "Приклад: refs/event-01.png; URL оригіналу; автор; теги «подія / великий заголовок / фото»; коментар «беремо масштаб заголовка й розташування фото; палітра, шрифт і логотип – United Tech». Додати посилання на ваш готовий пост, якщо прийом уже застосований. Не зберігати лише посилання на стрічку або профіль.",
+   "sources": []
+  }
+ ],
+ "workflow": [
+  {
+   "k": "1. Підготувати",
+   "v": "Взяти погоджений текст, дату, зображення, правила бренду й два потрібні формати. Зберегти в папці задачі. Якщо дати або тексту немає – уточнити. Дати агенту brief.md і попросити перелічити відсутні файли.",
+   "sources": []
+  },
+  {
+   "k": "2. Обрати оформлення",
+   "v": "Знайти референс у бібліотеці або X/Twitter. Додати зображення й пояснення прийому. Якщо напрям не визначено, попросити різні чернетки; обрати одну перед створенням адаптацій.",
+   "sources": []
+  },
+  {
+   "k": "3. Зібрати",
+   "v": "Викликати skill, згенерувати потрібну ілюстрацію та зібрати редагований макет. Назвати конкретний формат вихідного файла. Попросити зберегти його й зображення для перегляду в output/.",
+   "sources": []
+  },
+  {
+   "k": "4. Перевірити",
+   "v": "Передати окремому агенту або новому чату бриф, brand.md, редагований файл і зображення макета. Шрифти й точні значення перевірити у вихідному файлі; за зображенням – вигляд та обрізання. Отримати список дефектів із місцем і потрібною зміною. Фінал переглядає дизайнер.",
+   "sources": [
+    {
+     "label": "Codex: субагенти",
+     "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents"
+    }
+   ]
+  },
+  {
+   "k": "5. Виправити й повторити",
+   "v": "Основний агент вносить прийняті правки та експортує обидва формати. Дизайнер відкриває файли. Після прийняття зберігає покращення у skill і запускає його в новому чаті для наступної події. Новий текст і дату передає окремо від шаблону.",
+   "sources": []
+  }
+ ],
+ "assess": [
+  {
+   "k": "Перша перевірка",
+   "v": "Для рівня 1 виконати дії його колонки з допомогою; для рівня 2 – своєї колонки самостійно. Колонка «Як перевірити» задає навчальний приклад: порівняння моделей, новий процес і передача колезі потрібні лише на зазначеному рівні. Кількість постів, слайдів і розмірів – приклади вправ, а не щотижневі норми.",
+   "sources": []
+  },
+  {
+   "k": "Що оцінювати",
+   "v": "За кожною навичкою відмітити виконаний рівень, посилання на роботу й конкретний крок, де була потрібна допомога. Одна робота може підтвердити різні дії. Якщо потрібної задачі або доступу не було – «Не перевірено». Не виставляти оцінку за кількість промптів, переглядів чи генерацій.",
+   "sources": []
+  },
+  {
+   "k": "Щотижнева практика",
+   "v": "Один короткий розбір знайденої роботи або AI-прийому. Дизайнер приносить джерело й власну пробу на матеріалі компанії. У бібліотеку потрапляє придатний референс або перевірений процес. Керівник заздалегідь виділяє час, потрібні доступи й бюджет на проби.",
+   "sources": []
+  },
+  {
+   "k": "Курс і результат",
+   "v": "Після навчання встановити власний skill і зробити ним новий матеріал. Навчання зараховується через цю роботу, а не сертифікат.",
+   "sources": [
+    {
+     "label": "Claude Academy: Introduction to Claude Cowork",
+     "url": "https://academy.claude.com/courses/introduction-to-claude-cowork"
+    },
+    {
+     "label": "Codex: Build skills",
+     "url": "https://learn.chatgpt.com/docs/build-skills"
+    }
+   ]
+  },
+  {
+   "k": "Спільні правила",
+   "v": "Не вигадувати факти, дати й цифри; звіряти з джерелом. Працювати з внутрішніми матеріалами в погоджених інструментах. Перевіряти права на чужі зображення. Зміни бренду погоджувати. Автоматизація готова до використання, коли результат прийнятий і повторний запуск не потребує ручного збирання з нуля.",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "name": "Claude: Cowork і чат",
+   "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+   "desc": "Чат і Cowork в одному інтерфейсі Claude."
+  },
+  {
+   "name": "Claude Code: огляд",
+   "url": "https://code.claude.com/docs/en/overview",
+   "desc": "Що вміє агент для роботи з кодом і файлами."
+  },
+  {
+   "name": "ChatGPT: моделі",
+   "url": "https://learn.chatgpt.com/docs/models",
+   "desc": "Моделі, доступні в ChatGPT і Codex."
+  },
+  {
+   "name": "Claude: моделі",
+   "url": "https://platform.claude.com/docs/en/models/overview",
+   "desc": "Огляд актуальних моделей Claude."
+  },
+  {
+   "name": "OpenAI API: моделі",
+   "url": "https://developers.openai.com/api/docs/models",
+   "desc": "Каталог моделей OpenAI API."
+  },
+  {
+   "name": "GPT Image 2.5 Flare",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare",
+   "desc": "Модель зображень для швидких варіантів."
+  },
+  {
+   "name": "GPT Image 2.5 Sunburst",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+   "desc": "Модель зображень для точного редагування."
+  },
+  {
+   "name": "Codex: Build skills",
+   "url": "https://learn.chatgpt.com/docs/build-skills",
+   "desc": "Як створити й зберегти skill у Codex."
+  },
+  {
+   "name": "Claude Code: skills",
+   "url": "https://code.claude.com/docs/en/skills",
+   "desc": "Skills у Claude Code: структура й встановлення."
+  },
+  {
+   "name": "Claude: власні skills",
+   "url": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills",
+   "desc": "Як додати власний skill у Claude."
+  },
+  {
+   "name": "Codex: субагенти",
+   "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+   "desc": "Налаштування субагентів для перевірки."
+  },
+  {
+   "name": "Claude Academy: Introduction to Claude Cowork",
+   "url": "https://academy.claude.com/courses/introduction-to-claude-cowork",
+   "desc": "Курс із роботи з файлами в Claude Cowork."
+  }
+ ]
+};

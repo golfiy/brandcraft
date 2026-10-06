@@ -171,6 +171,113 @@ BRAND = [
 ]
 
 
+SOURCE_LABELS = {
+    "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude": "Claude: Cowork і чат",
+    "https://code.claude.com/docs/en/overview": "Claude Code: огляд",
+    "https://learn.chatgpt.com/docs/models": "ChatGPT: моделі",
+    "https://platform.claude.com/docs/en/models/overview": "Claude: моделі",
+    "https://developers.openai.com/api/docs/models": "OpenAI API: моделі",
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare": "GPT Image 2.5 Flare",
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst": "GPT Image 2.5 Sunburst",
+    "https://learn.chatgpt.com/docs/build-skills": "Codex: Build skills",
+    "https://code.claude.com/docs/en/skills": "Claude Code: skills",
+    "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills": "Claude: власні skills",
+    "https://learn.chatgpt.com/docs/agent-configuration/subagents": "Codex: субагенти",
+    "https://academy.claude.com/courses/introduction-to-claude-cowork": "Claude Academy: Introduction to Claude Cowork",
+}
+SOURCE_DESC = {
+    "Claude: Cowork і чат": "Чат і Cowork в одному інтерфейсі Claude.",
+    "Claude Code: огляд": "Що вміє агент для роботи з кодом і файлами.",
+    "ChatGPT: моделі": "Моделі, доступні в ChatGPT і Codex.",
+    "Claude: моделі": "Огляд актуальних моделей Claude.",
+    "OpenAI API: моделі": "Каталог моделей OpenAI API.",
+    "GPT Image 2.5 Flare": "Модель зображень для швидких варіантів.",
+    "GPT Image 2.5 Sunburst": "Модель зображень для точного редагування.",
+    "Codex: Build skills": "Як створити й зберегти skill у Codex.",
+    "Claude Code: skills": "Skills у Claude Code: структура й встановлення.",
+    "Claude: власні skills": "Як додати власний skill у Claude.",
+    "Codex: субагенти": "Налаштування субагентів для перевірки.",
+    "Claude Academy: Introduction to Claude Cowork": "Курс із роботи з файлами в Claude Cowork.",
+}
+SRC_SPLIT = re.compile(r"\s*(?:Джерело|Джерела|Моделі|Субагенти Codex):\s*(.+)$")
+
+
+def split_sources(text):
+    """Moves trailing 'Джерело: url ; url' into a list of labelled links."""
+    m = SRC_SPLIT.search(text)
+    if not m:
+        return text, []
+    urls = [u.strip(" .") for u in m.group(1).split(";")]
+    return text[:m.start()].rstrip(), [{"label": SOURCE_LABELS[u], "url": u} for u in urls]
+
+
+def build_ai_guide():
+    g = json.loads((SRC / "ai-guide.json").read_text())
+
+    def rows(block):
+        out = []
+        for r in block["rows"]:
+            text, src = split_sources(r["v"])
+            out.append({"k": r["k"], "v": text, "sources": src})
+        return out
+
+    models_intro = g["models"]["rows"][0]["v"]
+    models = [
+        {"task": "Типовий пост, документ, презентація за шаблоном",
+         "codex": ["GPT-5.6 Sol", "звичайна глибина міркування"],
+         "claude": ["Sonnet 5", "якщо є в акаунті"],
+         "note": "Почати з одного матеріалу; продовжувати серію тільки після перевірки. Неповний бриф, відсутній шрифт або недоступний файл спочатку виправити."},
+        {"task": "Новий skill, складна структура, помилка генератора",
+         "codex": ["GPT-6 Astra", "вищий reasoning effort для складного планування: більше часу й токенів"],
+         "claude": ["Opus 5", "якщо не впорався після виправлення вхідних даних – Fable 5.1, якщо доступна"],
+         "note": "Дати конкретний збій або критерії складної задачі."},
+        {"task": "Багато простих повторів",
+         "codex": ["GPT-5.6 Terra або Luna", "після перевірки процесу"],
+         "claude": ["Haiku 4.5", "після перевірки процесу"],
+         "note": "Наприклад, назви файлів, розподіл текстів по готових полях. Порівняти з робочою моделлю на тому самому наборі; якщо помилки додають ручної роботи, лишити попередню модель."},
+        {"task": "Картинки",
+         "codex": ["GPT Image 2.5 Flare", "швидкі варіанти"],
+         "codex2": ["GPT Image 2.5 Sunburst", "точне редагування"],
+         "claude": None,
+         "note": "Це моделі генерації зображень, не заміна моделі агента. У застосунку модель картинки може обиратися автоматично: тоді використовувати доступний інструмент і перевіряти результат."},
+    ]
+    model_sources = [split_sources(r["v"])[1] for r in g["models"]["rows"][1:]]
+    for m, src in zip(models, model_sources):
+        m["sources"] = src
+
+    assess = rows(g["assess"])
+    for r in assess:
+        if r["k"] == "Курс і результат":
+            r["v"] = "Після навчання встановити власний skill і зробити ним новий матеріал. Навчання зараховується через цю роботу, а не сертифікат."
+            r["sources"] = [{"label": SOURCE_LABELS[u], "url": u} for u in (
+                "https://academy.claude.com/courses/introduction-to-claude-cowork",
+                "https://learn.chatgpt.com/docs/build-skills")]
+
+    sources, seen = [], set()
+    for u, label in SOURCE_LABELS.items():
+        if u not in seen:
+            seen.add(u)
+            sources.append({"name": label, "url": u, "desc": SOURCE_DESC[label]})
+
+    return {
+        "title": g["title"], "intro": g["intro"], "levels": g["levels"],
+        "levelNames": g["levelNames"], "checkName": g["checkName"], "skills": g["skills"],
+        "env": rows(g["env"]),
+        "modelsTitle": g["models"]["title"], "modelsIntro": models_intro, "models": models,
+        "save": rows(g["save"]), "workflow": rows(g["workflow"]), "assess": assess,
+        "sources": sources,
+    }
+
+
+def load_uk():
+    uk = {"sections": {}, "items": {}}
+    for f in sorted((ROOT / "i18n").glob("uk-part*.json")):
+        d = json.loads(f.read_text())
+        uk["sections"].update(d["sections"])
+        uk["items"].update(d["items"])
+    return uk
+
+
 def main():
     cat = parse_catalogue()
     pick = lambda *names: [cat[n] for n in names]
@@ -179,6 +286,7 @@ def main():
         {"id": "inspiration", "title": "Inspiration", "icon": "spark",
          "sections": pick("Design Galleries", "Interface Design", "Reading")},
         {"id": "brand-guidelines", "title": "Brand Guidelines", "icon": "brand", "sections": BRAND},
+        {"id": "ai-guide", "title": "AI Guide", "icon": "ai", "type": "guide", "sections": []},
         {"id": "visuals", "title": "Visuals", "icon": "palette",
          "sections": pick("Type", "Color", "3D", "Shaders", "Icons")},
         {"id": "utilities", "title": "Utilities", "icon": "tool",
@@ -188,14 +296,35 @@ def main():
                        "desc": "Curated design engineers and creative developers to follow.",
                        "items": [{"name": n, "url": u, "desc": d} for n, u, d in designers]}]},
     ]
+    uk = load_uk()
+    missing = []
     for c in categories:
         for s in c["sections"]:
-            s["id"] = re.sub(r"[^a-z0-9]+", "-", s["title"].lower()).strip("-")
+            en_title = s["title"]
+            s["id"] = re.sub(r"[^a-z0-9]+", "-", en_title.lower()).strip("-")
             assert all(not DROP_URL.search(i["url"]) for i in s["items"])
-    out = "window.CATALOGUE = " + json.dumps(categories, ensure_ascii=False, indent=1) + ";\n"
+            if en_title in uk["sections"]:
+                s["title"] = uk["sections"][en_title]["title"]
+                s["desc"] = uk["sections"][en_title]["desc"]
+            else:
+                missing.append(en_title)
+            tr = uk["items"].get(en_title, {})
+            for i in s["items"]:
+                if i["name"] in tr:
+                    i["desc"] = tr[i["name"]].replace("—", "–")
+                else:
+                    missing.append(f"{en_title} / {i['name']}")
+    if missing:
+        print("UNTRANSLATED:", len(missing), missing[:10])
+
+    ai = build_ai_guide()
+    out = ("window.CATALOGUE = " + json.dumps(categories, ensure_ascii=False, indent=1) + ";\n"
+           "window.AI_GUIDE = " + json.dumps(ai, ensure_ascii=False, indent=1) + ";\n")
+    assert "—" not in out, "em dash leaked into data"
     (ROOT / "data.js").write_text(out)
     for c in categories:
         print(c["title"], sum(len(s["items"]) for s in c["sections"]), [len(s["items"]) for s in c["sections"]])
+    print("AI Guide skills:", len(ai["skills"]), "sources:", len(ai["sources"]))
 
 
 if __name__ == "__main__":

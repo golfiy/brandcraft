@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Brandcraft – resources for brand designers</title>
-<meta name="description" content="A curated collection of identity craft, brand guidelines, studios, and resources for brand designers.">
+<title>Brandcraft – ресурси для бренд-дизайнерів</title>
+<meta name="description" content="Добірка ресурсів для бренд-дизайнерів: айдентика, брендбуки, студії, AI-гайд та інструменти.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2300bbff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -286,6 +286,133 @@
   .case svg { width: 10px; height: 10px; color: var(--ink-3); }
   .case:hover { color: var(--ink); border-color: var(--line-strong); background: var(--hover); }
 
+  /* ---------- AI Guide ---------- */
+  .g-section p { margin: 0; }
+  .g-section code {
+    font: 400 11.5px/1 var(--font-mono);
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: var(--hover);
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .g-note, .g-small { color: var(--ink-3); text-wrap: pretty; }
+  .g-note { margin: 0 0 16px; max-width: 60ch; }
+  .g-small { margin-top: 10px; font-size: 12px; }
+  .badge {
+    align-self: center;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font: 400 10px/1.4 var(--font-mono);
+    color: var(--accent-ink);
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+  }
+
+  .g-defs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-bottom: 14px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius-control); overflow: hidden; }
+  .g-def { display: grid; align-content: start; gap: 4px; padding: 12px 14px; background: var(--canvas); }
+  .g-def-k { font: 500 13px/1.3 var(--font-display); }
+  .g-def-v { color: var(--ink-2); text-wrap: pretty; }
+
+  .seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 4px; margin-bottom: 16px; border: 1px solid var(--line); border-radius: var(--radius-control); }
+  .seg-btn {
+    position: relative;
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 10px;
+    border-radius: 7px;
+    text-align: left;
+    color: var(--ink-2);
+    transition: background-color var(--dur-hover) var(--ease-out), color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+  }
+  .seg-btn:hover { color: var(--ink); background: var(--line-soft); }
+  .seg-btn:active { transform: scale(.98); }
+  .seg-btn[aria-pressed="true"] { color: var(--ink); background: var(--hover); box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .seg-n {
+    flex: none; display: grid; place-items: center;
+    width: 20px; height: 20px; border-radius: 6px;
+    font: 400 11px/1 var(--font-mono);
+    border: 1px solid var(--line-strong);
+  }
+  .seg-btn[aria-pressed="true"] .seg-n { background: var(--ink); color: var(--canvas); border-color: var(--ink); }
+  .seg-t { font-weight: 500; line-height: 1.25; }
+  .seg-goal { margin-left: auto; font: 400 10px/1 var(--font-mono); color: var(--accent-ink); }
+
+  .matrix, .models { width: 100%; border-collapse: collapse; }
+  .matrix th, .matrix td, .models th, .models td { padding: 12px 10px 12px 0; text-align: left; vertical-align: top; border-top: 1px dashed var(--line); }
+  .matrix thead th, .models thead th {
+    padding-top: 0; padding-bottom: 8px; border-top: 0;
+    font: 400 10px/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .matrix td:last-child, .models td:last-child { padding-right: 0; }
+  .m-num { width: 28px; font: 400 10px/1.9 var(--font-mono); color: var(--ink-3); }
+  .m-skill { width: 23%; font-weight: 500; color: var(--ink); line-height: 1.4; }
+  .m-level { width: 40%; color: var(--ink); line-height: 1.5; text-wrap: pretty; }
+  .m-check { color: var(--ink-2); line-height: 1.5; text-wrap: pretty; font-size: 12px; }
+  .m-label { display: none; }
+  .swap tr { animation: rise .4s var(--ease-out) both; }
+
+  .g-callout { margin-bottom: 16px !important; padding: 12px 14px; border-left: 2px solid var(--accent); background: var(--line-soft); border-radius: 0 var(--radius-chip) var(--radius-chip) 0; color: var(--ink-2); text-wrap: pretty; }
+  .models .t-task { width: 46%; font-weight: 400; }
+  .t-title { display: block; font-weight: 500; color: var(--ink); line-height: 1.4; margin-bottom: 4px; }
+  .t-note { display: block; color: var(--ink-3); line-height: 1.5; text-wrap: pretty; }
+  .pill {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: var(--radius-chip);
+    font: 500 12px/1.3 var(--font-sans);
+    background: var(--hover);
+    box-shadow: inset 0 0 0 1px var(--line-strong);
+    color: var(--ink);
+  }
+  .pill-hint { display: block; margin-top: 5px; font-size: 12px; color: var(--ink-3); line-height: 1.4; text-wrap: pretty; }
+  .pill-gap { display: block; height: 10px; }
+  .g-empty { color: var(--ink-3); }
+  .g-src { margin: 8px 0 0; }
+
+  .g-rows { display: grid; }
+  .g-row { display: grid; grid-template-columns: 168px minmax(0, 1fr); gap: 4px 20px; padding: 12px 0; border-top: 1px dashed var(--line); }
+  .g-row:first-child { border-top: 0; padding-top: 4px; }
+  .g-row-accent .g-term { color: var(--accent-ink); }
+  .g-term { font: 500 13px/1.45 var(--font-sans); color: var(--ink); }
+  .g-body { color: var(--ink-2); line-height: 1.55; text-wrap: pretty; }
+  .g-body > p + p { margin-top: 8px; }
+
+  .g-trees { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .g-tree { padding: 14px; border: 1px solid var(--line); border-radius: var(--radius-control); }
+  .g-tree .g-term { display: block; margin-bottom: 10px; }
+  .tree { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  .tree li { position: relative; display: grid; grid-template-columns: auto 1fr; align-items: baseline; gap: 10px; padding-left: 16px; }
+  .tree li::before { content: ""; position: absolute; left: 3px; top: -7px; bottom: 50%; width: 8px; border-left: 1px solid var(--line-strong); border-bottom: 1px solid var(--line-strong); border-bottom-left-radius: 3px; }
+  .tree li.tree-root { padding-left: 0; }
+  .tree li.tree-root::before { display: none; }
+  .tree li span { color: var(--ink-3); font-size: 12px; line-height: 1.4; }
+
+  .prompt { margin-bottom: 16px; border: 1px solid var(--line); border-radius: var(--radius-control); overflow: hidden; }
+  .prompt-head { display: flex; align-items: center; justify-content: space-between; padding: 8px 8px 8px 14px; border-bottom: 1px dashed var(--line); font: 400 10px/1 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+  .copy-btn { padding: 5px 9px; border-radius: var(--radius-chip); font: 400 11px/1 var(--font-mono); letter-spacing: 0; text-transform: none; color: var(--ink-2); box-shadow: inset 0 0 0 1px var(--line-strong); transition: color var(--dur-hover) var(--ease-out), background-color var(--dur-hover) var(--ease-out); }
+  .copy-btn:hover { color: var(--ink); background: var(--hover); }
+  .prompt p { padding: 12px 14px; font: 400 12.5px/1.6 var(--font-mono); color: var(--ink); }
+
+  .refcard { display: grid; grid-template-columns: 112px 1fr; gap: 14px; margin-bottom: 10px; padding: 12px; border: 1px solid var(--line); border-radius: var(--radius-control); }
+  .refcard-img {
+    display: grid; place-items: end start;
+    aspect-ratio: 4 / 5; padding: 6px;
+    border-radius: 6px;
+    background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 55%, var(--canvas)), color-mix(in srgb, #6b5cff 45%, var(--canvas)));
+  }
+  .refcard-img span { font: 400 9px/1.2 var(--font-mono); color: #fff; opacity: .9; }
+  .refcard dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-content: start; }
+  .refcard dt { font: 400 10px/1.8 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+  .refcard dd { margin: 0; color: var(--ink); line-height: 1.5; }
+  .tag { display: inline-block; margin: 0 4px 4px 0; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line-strong); font-size: 12px; color: var(--ink-2); }
+
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; }
+  .step { position: relative; display: grid; grid-template-columns: 28px 1fr; gap: 14px; padding-bottom: 18px; }
+  .step:not(:last-child)::after { content: ""; position: absolute; left: 13.5px; top: 30px; bottom: 4px; border-left: 1px dashed var(--line-strong); }
+  .step-n { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; font: 400 12px/1 var(--font-mono); border: 1px solid var(--line-strong); background: var(--canvas); }
+  .step:first-child .step-n { background: var(--ink); color: var(--canvas); border-color: var(--ink); }
+  .step-body h3 { margin: 4px 0 4px; font: 500 14px/1.3 var(--font-display); }
+  .step-body p { color: var(--ink-2); line-height: 1.55; text-wrap: pretty; }
+
   /* ---------- Motion ---------- */
   .rise { opacity: 0; transform: translateY(6px); filter: blur(4px); }
   .is-in .rise {
@@ -333,6 +460,18 @@
     .desc { white-space: normal; }
     .arrow { display: none; }
     .sec-desc { white-space: normal; flex-basis: 100%; }
+    .g-defs, .g-trees { grid-template-columns: 1fr; }
+    .seg { grid-template-columns: 1fr; }
+    .matrix thead, .models thead { display: none; }
+    .matrix, .matrix tbody, .matrix tr, .matrix th, .matrix td,
+    .models, .models tbody, .models tr, .models th, .models td { display: block; width: auto; }
+    .matrix tr, .models tr { padding: 14px 0; border-top: 1px dashed var(--line); }
+    .matrix th, .matrix td, .models th, .models td { border: 0; padding: 0 0 8px; }
+    .matrix .m-num { float: left; width: 28px; }
+    .matrix .m-level, .matrix .m-check { clear: both; }
+    .m-label { display: block; margin-bottom: 3px; font: 400 10px/1.3 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+    .g-row { grid-template-columns: 1fr; }
+    .refcard { grid-template-columns: 80px 1fr; }
   }
 </style>
 </head>
@@ -343,13 +482,13 @@
       <div class="brand">
         <canvas class="orb" aria-hidden="true"></canvas>
         <a class="wordmark" href="#/">brandcraft<span>.guide</span></a>
-        <p class="tagline">A curated collection of identity craft, brand guidelines, studios, and resources for brand designers.</p>
+        <p class="tagline">Добірка ресурсів для бренд-дизайнерів: айдентика, брендбуки, студії, AI-гайд та інструменти.</p>
       </div>
-      <nav class="side-block" aria-label="Categories">
+      <nav class="side-block" aria-label="Категорії">
         <span class="label">Navigation</span>
         <ul class="nav-list" id="nav"></ul>
       </nav>
-      <nav class="side-block sec-block" aria-label="Sections">
+      <nav class="side-block sec-block" aria-label="Розділи">
         <span class="label">Sections</span>
         <ul class="sec-list" id="secnav"></ul>
       </nav>
@@ -358,7 +497,7 @@
     <main>
       <div class="topbar">
         <span class="crumb" id="crumb"></span>
-        <button class="theme-btn" id="theme" type="button" aria-label="Switch theme">
+        <button class="theme-btn" id="theme" type="button" aria-label="Перемкнути тему">
           <svg data-icon="auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.25"/><path d="M12 3.75v16.5A8.25 8.25 0 0 0 12 3.75Z" fill="currentColor"/></svg>
           <svg data-icon="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.75v1.5M12 19.75v1.5M2.75 12h1.5M19.75 12h1.5M5.46 5.46l1.06 1.06M17.48 17.48l1.06 1.06M5.46 18.54l1.06-1.06M17.48 6.52l1.06-1.06"/></svg>
           <svg data-icon="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20.25 14.6A8.25 8.25 0 1 1 9.4 3.75a6.5 6.5 0 0 0 10.85 10.85Z"/></svg>
@@ -373,6 +512,7 @@
 <script>
 (function () {
   var DATA = window.CATALOGUE;
+  var GUIDE = window.AI_GUIDE;
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   var ICONS = {
@@ -380,6 +520,7 @@
     brand: '<path d="M4.75 4.75h6.5v6.5h-6.5zM12.75 12.75h6.5v6.5h-6.5z"/><circle cx="16" cy="8" r="3.25"/><path d="M8 13l3.25 6.25h-6.5Z"/>',
     palette: '<path d="M12 3.75a8.25 8.25 0 0 0 0 16.5c1.2 0 1.75-.8 1.75-1.6 0-1.3-1-1.5-1-2.65 0-.9.7-1.5 1.6-1.5h1.9a3.5 3.5 0 0 0 3.5-3.5c0-4-3.5-7.25-7.75-7.25Z"/><circle cx="8" cy="11" r="1"/><circle cx="11" cy="7.5" r="1"/><circle cx="15.25" cy="8.5" r="1"/>',
     tool: '<path d="M14.5 5.5a4 4 0 0 0 4.9 4.9L20.25 9.6l-2.4 2.4-5.85 5.85a2.12 2.12 0 0 1-3-3l5.85-5.85 2.4-2.4Z"/><path d="M4 4l4.5 4.5M3.75 8.25l4.5-4.5"/>',
+    ai: '<rect x="5.75" y="5.75" width="12.5" height="12.5" rx="2.5"/><path d="M9.5 15l1.6-6h1.8l1.6 6M10.1 13h3.8M9 2.75v3M15 2.75v3M9 18.25v3M15 18.25v3M2.75 9h3M2.75 15h3M18.25 9h3M18.25 15h3"/>',
     people: '<circle cx="9" cy="8.5" r="3.25"/><path d="M3.75 19.25c.6-3 2.7-4.75 5.25-4.75s4.65 1.75 5.25 4.75"/><path d="M15.5 5.6a3.25 3.25 0 0 1 0 5.8M17.5 14.9c1.5.6 2.4 2.1 2.75 4.35"/>'
   };
   var ARROW = '<svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6.65s6.94-.54 7.92.43c.97.98.43 7.92.43 7.92M16.5 7.5l-10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -391,7 +532,16 @@
     });
   }
   function pad(n) { return n < 10 ? '0' + n : String(n); }
-  function total(cat) { return cat.sections.reduce(function (n, s) { return n + s.items.length; }, 0); }
+  function total(cat) {
+    if (cat.type === 'guide') return GUIDE.skills.length;
+    return cat.sections.reduce(function (n, s) { return n + s.items.length; }, 0);
+  }
+  function plural(n, one, few, many) {
+    var m10 = n % 10, m100 = n % 100;
+    if (m10 === 1 && m100 !== 11) return one;
+    if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
+    return many;
+  }
   function host(url) { try { return new URL(url).hostname; } catch (e) { return ''; } }
 
   /* ---------- Theme ---------- */
@@ -401,7 +551,7 @@
     var root = document.documentElement;
     root.dataset.themePref = t;
     if (t === 'auto') delete root.dataset.theme; else root.dataset.theme = t;
-    themeBtn.setAttribute('aria-label', 'Switch theme, currently ' + t);
+    themeBtn.setAttribute('aria-label', 'Перемкнути тему, зараз: ' + { auto: 'авто', light: 'світла', dark: 'темна' }[t]);
     try { localStorage.setItem('bc-theme', t); } catch (e) {}
   }
   setTheme(document.documentElement.dataset.themePref || 'auto');
@@ -431,7 +581,7 @@
 
   function renderItem(it, i) {
     var cases = it.cases && it.cases.length
-      ? '<ul class="cases rise" style="--d:' + Math.min(i * 22 + 40, 700) + 'ms" aria-label="' + esc(it.name) + ' case studies">' +
+      ? '<ul class="cases rise" style="--d:' + Math.min(i * 22 + 40, 700) + 'ms" aria-label="Кейси ' + esc(it.name) + '">' +
         it.cases.map(function (c) {
           return '<li><a class="case" href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.label) + ARROW_SM + '</a></li>';
         }).join('') + '</ul>'
@@ -441,7 +591,7 @@
       favicon(it.url, it.name) +
       '<span class="txt"><span class="name">' + esc(it.name) + '</span><span class="dot" aria-hidden="true"></span>' +
       '<span class="desc">' + esc(it.desc) + '</span></span>' + ARROW +
-      '<span class="sr-only"> (opens in a new tab)</span></a>' + cases + '</li>';
+      '<span class="sr-only"> (відкривається в новій вкладці)</span></a>' + cases + '</li>';
   }
 
   function renderCategory(cat) {
@@ -452,6 +602,183 @@
         '<p class="sec-desc">' + esc(s.desc) + '</p></div>' +
         '<ul class="items">' + s.items.map(renderItem).join('') + '</ul></section>';
     }).join('');
+  }
+
+  /* ---------- AI Guide ---------- */
+  var GUIDE_SECTIONS = [
+    { id: 'skills', short: 'Матриця навичок', count: GUIDE.skills.length },
+    { id: 'environments', short: 'Claude, Claude Code і Codex', count: GUIDE.env.length },
+    { id: 'models', short: 'З яких моделей починати', count: GUIDE.models.length },
+    { id: 'storage', short: 'Що зберігати', count: GUIDE.save.length },
+    { id: 'workflow', short: 'Приклад workflow', count: GUIDE.workflow.length },
+    { id: 'assessment', short: 'Навчання та оцінка', count: GUIDE.assess.length },
+    { id: 'sources', short: 'Джерела', count: GUIDE.sources.length }
+  ];
+  var level = 2;
+  try { level = +localStorage.getItem('bc-ai-level') || 2; } catch (e) {}
+
+  // Wraps file names and paths (brief.md, refs/, .claude/skills/x/) in <code>.
+  function rich(t) {
+    return esc(t)
+      .replace(/(^|[\s(«])((?:\.?[a-z0-9_-]+\/)+(?:[a-z0-9_-]+(?:\.[a-z0-9]+)*)?|[a-z0-9_-]+\.(?:md|png|pptx))(?=[\s,.;:»)]|$)/g, '$1<code>$2</code>')
+      .replace(/ --- /g, ' <code>---</code> ')
+      .replace(/полями name та description/g, 'полями <code>name</code> та <code>description</code>');
+  }
+  function sourcesHtml(list, d) {
+    if (!list || !list.length) return '';
+    return '<ul class="cases g-src rise" style="--d:' + (d || 0) + 'ms" aria-label="Джерела">' + list.map(function (c) {
+      return '<li><a class="case" href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.label) + ARROW_SM + '</a></li>';
+    }).join('') + '</ul>';
+  }
+  function head(id, i, title, desc, extra) {
+    return '<div class="sec-head rise"><span class="sec-num">' + pad(i) + '</span>' +
+      '<h2 class="sec-title" id="h-' + id + '">' + esc(title) + '</h2>' + (extra || '') +
+      (desc ? '<p class="sec-desc">' + esc(desc) + '</p>' : '') + '</div>';
+  }
+  function section(id, body) {
+    return '<section class="section g-section" id="' + id + '" aria-labelledby="h-' + id + '">' + body + '</section>';
+  }
+
+  function matrixRows() {
+    return GUIDE.skills.map(function (sk, i) {
+      return '<tr class="rise" style="--d:' + Math.min(80 + i * 30, 500) + 'ms">' +
+        '<td class="m-num">' + pad(sk.n) + '</td>' +
+        '<th scope="row" class="m-skill">' + esc(sk.name) + '</th>' +
+        '<td class="m-level"><span class="m-label">' + esc(GUIDE.levelNames[level - 1]) + '</span>' + rich(sk['l' + level]) + '</td>' +
+        '<td class="m-check"><span class="m-label">' + esc(GUIDE.checkName) + '</span>' + rich(sk.check) + '</td></tr>';
+    }).join('');
+  }
+
+  function renderGuide() {
+    var g = GUIDE, out = [];
+
+    // 01 Skills matrix
+    var defs = g.intro.split(/\.\s+(?=[A-ZА-ЯІЇЄҐ])/).map(function (p) {
+      var m = p.replace(/\.$/, '').split(' – ');
+      return '<div class="g-def"><span class="g-def-k">' + esc(m[0]) + '</span><span class="g-def-v">' + esc(m[1] || '') + '</span></div>';
+    }).join('');
+    var seg = g.levelNames.map(function (name, i) {
+      var n = i + 1;
+      return '<button type="button" class="seg-btn" data-level="' + n + '" aria-pressed="' + (n === level) + '">' +
+        '<span class="seg-n">' + n + '</span><span class="seg-t">' + esc(name.replace(/^\d\s·\s/, '')) + '</span>' +
+        (n === 2 ? '<span class="seg-goal">ціль</span>' : '') + '</button>';
+    }).join('');
+    out.push(section('skills',
+      head('skills', 1, 'Матриця навичок', g.title) +
+      '<div class="g-defs rise" style="--d:40ms">' + defs + '</div>' +
+      '<p class="g-note rise" style="--d:60ms">' + esc(g.levels) + '</p>' +
+      '<div class="seg rise" style="--d:80ms" role="group" aria-label="Рівень навички">' + seg + '</div>' +
+      '<table class="matrix"><thead><tr><th scope="col" class="m-num">#</th><th scope="col">Навичка</th>' +
+      '<th scope="col" id="m-level-head">' + esc(g.levelNames[level - 1]) + '</th><th scope="col">' + esc(g.checkName) + '</th></tr></thead>' +
+      '<tbody id="matrix-body">' + matrixRows() + '</tbody></table>'));
+
+    // 02 Environments
+    var env = g.env.map(function (r, i) {
+      return '<div class="g-row rise" style="--d:' + (40 + i * 40) + 'ms"><span class="g-term">' + esc(r.k) + '</span>' +
+        '<div class="g-body"><p>' + rich(r.v) + '</p>' + sourcesHtml(r.sources, 60 + i * 40) + '</div></div>';
+    }).join('');
+    out.push(section('environments', head('environments', 2, 'Claude, Claude Code і Codex', 'Що саме обирати: програма, модель, інструмент.') + '<div class="g-rows">' + env + '</div>'));
+
+    // 03 Models
+    var checked = (g.modelsTitle.match(/перевірено\s+([\d.]+)/) || [])[1];
+    function cell(m) {
+      if (!m) return '<span class="g-empty">–</span>';
+      return '<span class="pill">' + esc(m[0]) + '</span><span class="pill-hint">' + esc(m[1]) + '</span>';
+    }
+    var models = g.models.map(function (m, i) {
+      return '<tr class="rise" style="--d:' + (80 + i * 50) + 'ms"><th scope="row" class="t-task"><span class="t-title">' + esc(m.task) + '</span>' +
+        '<span class="t-note">' + esc(m.note) + '</span>' + sourcesHtml(m.sources, 0) + '</th>' +
+        '<td><span class="m-label">Codex</span>' + cell(m.codex) + (m.codex2 ? '<span class="pill-gap"></span>' + cell(m.codex2) : '') + '</td>' +
+        '<td><span class="m-label">Claude</span>' + cell(m.claude) + '</td></tr>';
+    }).join('');
+    out.push(section('models',
+      head('models', 3, 'З яких моделей починати', '', checked ? '<span class="badge">перевірено ' + esc(checked) + '</span>' : '') +
+      '<p class="g-callout rise" style="--d:40ms">' + esc(g.modelsIntro) + '</p>' +
+      '<table class="models"><thead><tr><th scope="col">Задача</th><th scope="col">Codex</th><th scope="col">Claude</th></tr></thead><tbody>' + models + '</tbody></table>'));
+
+    // 04 Storage
+    var folder = g.save[0], skillRow = g.save[1];
+    var folderParts = folder.v.split(/\.\s+(?=[А-ЯІЇЄҐA-Z])/);
+    var tree = folderParts[0].split('; ').map(function (p) {
+      var kv = p.split(' – ');
+      return '<li><code>' + esc(kv[0]) + '</code><span>' + esc(kv[1] || '') + '</span></li>';
+    }).join('');
+    var prompt = (skillRow.v.match(/«([^»]+)»/) || [])[1] || '';
+    var skillTree = [
+      ['ut-social-post/', ''], ['SKILL.md', 'назва, умова запуску, кроки, перевірки'],
+      ['assets/', 'шаблон'], ['references/', 'правила й приклади'], ['scripts/', 'лише якщо збірка потребує коду']
+    ].map(function (r, i) {
+      return '<li' + (i === 0 ? ' class="tree-root"' : '') + '><code>' + esc(r[0]) + '</code><span>' + esc(r[1]) + '</span></li>';
+    }).join('');
+    var rest = g.save.slice(2).map(function (r, i) {
+      var body;
+      if (r.k === 'Картка референсу') {
+        body = '<div class="refcard"><div class="refcard-img" aria-hidden="true"><span>refs/event-01.png</span></div>' +
+          '<dl><dt>Оригінал</dt><dd>URL · автор</dd><dt>Теги</dt><dd><span class="tag">подія</span><span class="tag">великий заголовок</span><span class="tag">фото</span></dd>' +
+          '<dt>Коментар</dt><dd>Беремо масштаб заголовка й розташування фото; палітра, шрифт і логотип – United Tech.</dd></dl></div>' +
+          '<p>Додати посилання на ваш готовий пост, якщо прийом уже застосований. Не зберігати лише посилання на стрічку або профіль.</p>';
+      } else {
+        body = '<p>' + rich(r.v) + '</p>';
+      }
+      return '<div class="g-row rise" style="--d:' + (40 + i * 40) + 'ms"><span class="g-term">' + esc(r.k) + '</span><div class="g-body">' + body + sourcesHtml(r.sources, 0) + '</div></div>';
+    }).join('');
+    out.push(section('storage',
+      head('storage', 4, 'Що зберігати', 'Щоб задача повторювалася без старої переписки.') +
+      '<div class="g-trees">' +
+      '<div class="g-tree rise" style="--d:40ms"><span class="g-term">' + esc(folder.k) + '</span><ul class="tree">' + tree + '</ul><p class="g-small">' + esc(folderParts.slice(1).join('. ')) + '</p></div>' +
+      '<div class="g-tree rise" style="--d:80ms"><span class="g-term">' + esc(skillRow.k) + '</span><ul class="tree">' + skillTree + '</ul>' + sourcesHtml(skillRow.sources, 0) + '</div>' +
+      '</div>' +
+      (prompt ? '<div class="prompt rise" style="--d:120ms"><div class="prompt-head"><span>Промпт для агента</span>' +
+        '<button type="button" class="copy-btn" data-copy="' + esc(prompt) + '">Скопіювати</button></div><p>' + esc(prompt) + '</p></div>' : '') +
+      '<div class="g-rows">' + rest + '</div>'));
+
+    // 05 Workflow
+    var steps = g.workflow.map(function (r, i) {
+      var t = r.k.replace(/^\d+\.\s*/, '');
+      return '<li class="step rise" style="--d:' + (40 + i * 60) + 'ms"><span class="step-n">' + (i + 1) + '</span>' +
+        '<div class="step-body"><h3>' + esc(t) + '</h3><p>' + rich(r.v) + '</p>' + sourcesHtml(r.sources, 0) + '</div></li>';
+    }).join('');
+    out.push(section('workflow', head('workflow', 5, 'Приклад workflow', g.workflowTitle || 'Пост про внутрішню подію.') + '<ol class="steps">' + steps + '</ol>'));
+
+    // 06 Assessment
+    var assess = g.assess.map(function (r, i) {
+      return '<div class="g-row rise' + (r.k === 'Спільні правила' ? ' g-row-accent' : '') + '" style="--d:' + (40 + i * 40) + 'ms"><span class="g-term">' + esc(r.k) + '</span>' +
+        '<div class="g-body"><p>' + rich(r.v) + '</p>' + sourcesHtml(r.sources, 0) + '</div></div>';
+    }).join('');
+    out.push(section('assessment', head('assessment', 6, 'Навчання та оцінка', 'Навчальні задачі, оцінювання й щотижнева практика.') + '<div class="g-rows">' + assess + '</div>'));
+
+    // 07 Sources
+    out.push(section('sources', head('sources', 7, 'Джерела', 'Документація й курси, на які спирається гайд.') +
+      '<ul class="items">' + g.sources.map(renderItem).join('') + '</ul>'));
+
+    return out.join('');
+  }
+
+  function bindGuide() {
+    var segEl = contentEl.querySelector('.seg');
+    if (segEl) segEl.addEventListener('click', function (e) {
+      var b = e.target.closest('.seg-btn');
+      if (!b) return;
+      level = +b.dataset.level;
+      try { localStorage.setItem('bc-ai-level', level); } catch (err) {}
+      [].forEach.call(segEl.querySelectorAll('.seg-btn'), function (x) { x.setAttribute('aria-pressed', String(+x.dataset.level === level)); });
+      document.getElementById('m-level-head').textContent = GUIDE.levelNames[level - 1];
+      var body = document.getElementById('matrix-body');
+      body.innerHTML = matrixRows();
+      body.classList.remove('swap'); void body.offsetWidth; body.classList.add('swap');
+    });
+    [].forEach.call(contentEl.querySelectorAll('.copy-btn'), function (b) {
+      b.addEventListener('click', function () {
+        var txt = b.dataset.copy;
+        var done = function () { b.textContent = 'Скопійовано'; setTimeout(function () { b.textContent = 'Скопіювати'; }, 1600); };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, function () {});
+        else {
+          var ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); done(); } catch (e) {}
+          ta.remove();
+        }
+      });
+    });
   }
 
   /* ---------- Reveal + scrollspy ---------- */
@@ -511,16 +838,20 @@
     var first = current === null;
     current = r.cat.id;
     function swap() {
-      contentEl.innerHTML = renderCategory(r.cat);
-      secNavEl.innerHTML = r.cat.sections.map(function (s) {
+      var isGuide = r.cat.type === 'guide';
+      contentEl.innerHTML = isGuide ? renderGuide() : renderCategory(r.cat);
+      secNavEl.innerHTML = (isGuide ? GUIDE_SECTIONS : r.cat.sections).map(function (s) {
         return '<li><a class="sec-link" data-sec="' + s.id + '" href="#/' + r.cat.id + '/' + s.id + '">' +
-          '<span>' + esc(s.title) + '</span><span class="count">' + pad(s.items.length) + '</span></a></li>';
+          '<span>' + esc(s.short || s.title) + '</span><span class="count">' + pad(s.count != null ? s.count : s.items.length) + '</span></a></li>';
       }).join('');
       [].forEach.call(navEl.querySelectorAll('.nav-link'), function (a) {
         if (a.dataset.cat === r.cat.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
       });
-      crumbEl.innerHTML = '<b>' + esc(r.cat.title) + '</b> / ' + total(r.cat) + ' links';
-      document.title = (r.cat === DATA[0] ? 'Brandcraft' : r.cat.title + ' – Brandcraft') + ' – resources for brand designers';
+      var n = total(r.cat);
+      crumbEl.innerHTML = '<b>' + esc(r.cat.title) + '</b> / ' + n + ' ' +
+        (isGuide ? plural(n, 'навичка', 'навички', 'навичок') : plural(n, 'посилання', 'посилання', 'посилань'));
+      document.title = (r.cat === DATA[0] ? 'Brandcraft' : r.cat.title + ' – Brandcraft') + ' – ресурси для бренд-дизайнерів';
+      if (isGuide) bindGuide();
       if (r.sec) scrollToSection(r.sec, false); else if (!first) window.scrollTo(0, 0);
       observe();
       contentEl.classList.remove('is-leaving');

@@ -12,7 +12,9 @@ python3 -m http.server 4960
 
 - `index.html` – layout, styles, hash router (`#/category/section`), theme toggle (auto / light / dark)
 - `data.js` – generated catalogue, do not edit by hand
-- `scripts/build-data.py` – builds `data.js`; the Brand Guidelines list lives here
+- `scripts/build-data.py` – builds `data.js`; the Brand Guidelines list and AI Guide structure live here
+- `i18n/uk-part*.json` – Ukrainian section titles and link descriptions (UI language is Ukrainian, left-nav categories stay English)
+- `source/ai-guidelines.xlsx` → `source/ai-guide.json` – AI Guide content
 - `source/` – base catalogue (sections Inspiration, Visuals, Utilities, Design Engineers)
 - `content/brand-identity-studios.md` – review notes on the studio links
 
