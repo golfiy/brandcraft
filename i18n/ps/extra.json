@@ -292,5 +292,11 @@
   "url": "https://ventriloc.ca/en/",
   "section": "infra",
   "desc": "Консалтинг з бізнес-аналітики в Power BI і Microsoft Fabric."
+ },
+ {
+  "name": "Nike After Dark Tour",
+  "url": "https://www.afterdarktour.nike.com/",
+  "section": "consumer",
+  "desc": "Промосайт серії нічних забігів Nike у містах світу."
  }
 ]

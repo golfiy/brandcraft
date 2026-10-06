@@ -320,6 +320,27 @@ def build_product_sites():
         if x.get("cases"):
             item["cases"] = x["cases"]
         by[x["section"]].append(item)
+    # Batch 3 (2026-10-06): Mobbin «Latest» sites with their real URLs, liveness-checked;
+    # dropped dead, shut-down and redirected-elsewhere ones (see source/product-sites-3.json).
+    labels3 = {}
+    for f in sorted((ROOT / "i18n" / "ps").glob("out3-*.json")):
+        labels3.update(json.loads(f.read_text()))
+    for x in json.loads((SRC / "product-sites-3.json").read_text()):
+        lab = labels3.get(x["id"])
+        if not lab:
+            missing += 1
+            continue
+        by[lab["section"]].append({"name": x["name"], "url": x["url"], "desc": lab["desc"].replace("—", "–")})
+    # Sub-pages of brands already listed become chips instead of separate rows.
+    chips = {"Cloudflare": [("Workers", "https://workers.cloudflare.com/")],
+             "Nous Research": [("Hermes Agent", "https://hermes-agent.nousresearch.com/")],
+             "Perplexity": [("Personal Computer", "https://www.perplexity.ai/personal-computer")],
+             "Uniswap": [("Uniswap Cup", "https://unicup.uniswap.org/")],
+             "Shopify": [("Editions", "https://www.shopify.com/editions")]}
+    for items in by.values():
+        for i in items:
+            for label, url in chips.get(i["name"], []):
+                i.setdefault("cases", []).append({"label": label, "url": url})
     if missing:
         print("PRODUCT SITES without labels:", missing)
     sections = []
@@ -513,6 +534,12 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("visuals", "Shaders", "Shaders", "https://shaders.com/", "Редактор шейдерних ефектів із готовими колекціями.",
      [("City Grid", "https://shaders.com/collection/city-grid/cc316733-d3aa-4ee4-9eaa-cffa12eb6500")]),
     ("brand-guidelines", "Guidelines & Libraries", "Inspotype", "https://inspotype.com/", "Пошук, розбір і ремікс бренд-систем.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Dropbox Brand", "https://brand.dropbox.com/", "Брендбук Dropbox: один із найкращих живих гайдлайнів.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Shopify Design", "https://shopify.design/", "Як команда Shopify думає про дизайн і бренд.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Cash App Design", "https://design.cash.app/", "Дизайн-система й візуальна мова Cash App.", []),
+    ("visuals", "Type", "Claude Type", "https://claudetype.com/", "Незалежна французька шрифтова студія: кастомні гарнітури й логотипи.", []),
+    ("inspiration", "Design Galleries", "Museum of the Human Web", "https://museum.parallel.ai/", "Музей культурних артефактів з історії інтернету.", []),
+    ("inspiration", "Reading", "AI in Design Report 2026", "https://stateofaidesign.com/", "Щорічний звіт про те, як дизайн-команди адаптуються до AI.", []),
 ]
 VISUALS_CASES = [("inspiration", "Design Galleries", "Backgrounds Supply", ("Gradient Lab", "https://backgrounds.supply/gradient-lab"))]
 
