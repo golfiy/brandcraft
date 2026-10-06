@@ -271,6 +271,8 @@ def build_ai_guide():
         "modelsTitle": g["models"]["title"].replace("22.09.2026", MODELS_CHECKED), "modelsIntro": models_intro, "models": models,
         "save": rows(g["save"]), "workflow": rows(g["workflow"]), "assess": assess,
         "sources": sources,
+        # Personal "pick your level" guide rewritten from the matrix (addressed as «ти»).
+        "path": json.loads((SRC / "ai-skills-personal.json").read_text()) if (SRC / "ai-skills-personal.json").exists() else None,
     }
 
 

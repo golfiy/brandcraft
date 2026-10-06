@@ -320,43 +320,110 @@
   .g-def-k { font: 500 13px/1.3 var(--font-display); }
   .g-def-v { color: var(--ink-2); text-wrap: pretty; }
 
-  .seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 4px; margin-bottom: 16px; border: 1px solid var(--line); border-radius: var(--radius-control); }
-  .seg-btn {
-    position: relative;
-    display: flex; align-items: center; gap: 8px;
-    padding: 8px 10px;
-    border-radius: 7px;
+  .lvls { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
+  .lvl {
+    display: grid; align-content: start; gap: 6px;
+    padding: 14px;
+    border-radius: var(--radius-control);
     text-align: left;
-    color: var(--ink-2);
-    transition: background-color var(--dur-hover) var(--ease-out), color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+    box-shadow: inset 0 0 0 1px var(--line);
+    transition: box-shadow var(--dur-hover) var(--ease-out), background-color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
   }
-  .seg-btn:hover { color: var(--ink); background: var(--line-soft); }
-  .seg-btn:active { transform: scale(.98); }
-  .seg-btn[aria-pressed="true"] { color: var(--ink); background: var(--hover); box-shadow: inset 0 0 0 1px var(--line-strong); }
-  .seg-n {
-    flex: none; display: grid; place-items: center;
-    width: 20px; height: 20px; border-radius: 6px;
-    font: 400 11px/1 var(--font-mono);
-    border: 1px solid var(--line-strong);
+  .lvl:hover { box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .lvl:active { transform: scale(.985); }
+  .lvl[aria-checked="true"] { background: var(--hover); box-shadow: inset 0 0 0 1.5px var(--ink); }
+  .lvl-top { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
+  .lvl-n {
+    display: grid; place-items: center;
+    width: 26px; height: 26px; border-radius: 8px;
+    font: 400 13px/1 var(--font-mono);
+    box-shadow: inset 0 0 0 1px var(--line-strong);
   }
-  .seg-btn[aria-pressed="true"] .seg-n { background: var(--ink); color: var(--canvas); border-color: var(--ink); }
-  .seg-t { font-weight: 500; line-height: 1.25; }
-  .seg-goal { margin-left: auto; font: 400 10px/1 var(--font-mono); color: var(--accent-ink); }
+  .lvl[aria-checked="true"] .lvl-n { background: var(--ink); color: var(--canvas); box-shadow: none; }
+  .lvl-goal { font: 400 10px/1.2 var(--font-mono); color: var(--accent-ink); }
+  .lvl-tick { margin-left: auto; width: 16px; height: 16px; color: var(--ink); opacity: 0; transform: scale(.6); transition: opacity var(--dur-ui) var(--ease-out), transform var(--dur-ui) var(--ease-out); }
+  .lvl-tick svg { width: 100%; height: 100%; }
+  .lvl[aria-checked="true"] .lvl-tick { opacity: 1; transform: none; }
+  .lvl-name { font: 500 14px/1.3 var(--font-display); color: var(--ink); }
+  .lvl-who { color: var(--ink-2); line-height: 1.45; text-wrap: pretty; }
 
-  .matrix, .models { width: 100%; border-collapse: collapse; }
-  .matrix th, .matrix td, .models th, .models td { padding: 12px 10px 12px 0; text-align: left; vertical-align: top; border-top: 1px dashed var(--line); }
-  .matrix thead th, .models thead th {
+  .g-gloss { margin-top: 20px; }
+  .g-gloss .g-defs { margin-bottom: 0; }
+
+  .p-summary { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 16px; align-items: end; padding: 16px 0 12px; border-top: 1px dashed var(--line); }
+  .p-label { display: block; margin-bottom: 6px; font: 400 10px/1.3 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+  .p-focus { color: var(--ink); line-height: 1.5; text-wrap: pretty; }
+  .p-progress { display: grid; gap: 6px; }
+  .p-count { color: var(--ink-2); font-size: 12px; }
+  .p-count b { font: 500 16px/1 var(--font-display); color: var(--ink); }
+  .p-bar { display: block; height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; }
+  .p-bar span { display: block; height: 100%; border-radius: 2px; background: var(--accent); transition: width .4s var(--ease-out); }
+  .p-actions { display: flex; gap: 12px; }
+  .p-link { font: 400 11px/1.4 var(--font-mono); color: var(--ink-3); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+  .p-link:hover { color: var(--ink); }
+
+  .p-list { list-style: none; margin: 0; padding: 0; }
+  .p-skill { border-top: 1px dashed var(--line); }
+  .p-head { display: flex; align-items: flex-start; gap: 8px; }
+  .p-toggle { flex: 1; min-width: 0; display: flex; align-items: flex-start; gap: 10px; padding: 12px 0; text-align: left; border-radius: var(--radius-chip); }
+  .p-num { flex: none; width: 22px; padding-top: 2px; font: 400 10px/1.6 var(--font-mono); color: var(--ink-3); }
+  .p-titles { flex: 1; min-width: 0; display: grid; gap: 2px; }
+  .p-name { font-weight: 500; color: var(--ink); }
+  .p-goal { color: var(--ink-2); line-height: 1.45; text-wrap: pretty; }
+  .p-chev { flex: none; width: 16px; height: 16px; margin-top: 2px; color: var(--ink-3); transition: transform var(--dur-ui) var(--ease-out); }
+  .p-skill.is-open .p-chev { transform: rotate(180deg); }
+  .p-toggle:hover .p-name { text-decoration: underline; text-underline-offset: .3em; text-decoration-thickness: from-font; }
+  .p-done {
+    flex: none; display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 9px; padding: 4px 9px 4px 5px;
+    border-radius: 999px;
+    font-size: 12px; color: var(--ink-2);
+    box-shadow: inset 0 0 0 1px var(--line);
+    transition: color var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out), background-color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+  }
+  .p-done:hover { color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .p-done:active { transform: scale(.95); }
+  .p-box { display: grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .p-box svg { width: 11px; height: 11px; opacity: 0; transform: scale(.5); transition: opacity var(--dur-ui) var(--ease-out), transform var(--dur-ui) var(--ease-out); }
+  .p-done[aria-pressed="true"] { color: var(--ink); background: color-mix(in srgb, #16c784 14%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, #16c784 55%, transparent); }
+  .p-done[aria-pressed="true"] .p-box { background: #16c784; color: #fff; box-shadow: none; }
+  .p-done[aria-pressed="true"] .p-box svg { opacity: 1; transform: none; }
+  .p-skill.is-done .p-name { color: var(--ink-2); }
+
+  .p-body { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 24px; padding: 2px 0 18px 32px; }
+  .p-body[hidden] { display: none; }
+  .p-steps { margin: 0; padding: 0; list-style: none; counter-reset: st; display: grid; gap: 8px; }
+  .p-steps li { position: relative; padding-left: 26px; color: var(--ink); line-height: 1.5; text-wrap: pretty; counter-increment: st; }
+  .p-steps li::before {
+    content: counter(st);
+    position: absolute; left: 0; top: 1px;
+    display: grid; place-items: center;
+    width: 18px; height: 18px; border-radius: 50%;
+    font: 400 10px/1 var(--font-mono);
+    box-shadow: inset 0 0 0 1px var(--line-strong);
+    color: var(--ink-2);
+  }
+  .p-proof { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+  .p-proof li { display: grid; grid-template-columns: 16px 1fr; gap: 8px; color: var(--ink-2); line-height: 1.5; text-wrap: pretty; }
+  .p-proof svg { width: 14px; height: 14px; margin-top: 3px; color: #16c784; }
+  .p-next { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 10px 12px; border-radius: var(--radius-chip); background: var(--line-soft); }
+  .p-next .p-label { margin: 0; }
+  .p-next p { flex: 1; min-width: 200px; color: var(--ink-2); }
+  .p-next-btn { font: 500 12px/1.4 var(--font-sans); color: var(--accent-ink); }
+  .p-next-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+  #path.swap .p-summary, #path.swap .p-skill { animation: rise .45s var(--ease-out) both; }
+  #path.swap .p-skill:nth-child(n+2) { animation-delay: 30ms; }
+  #path.swap .p-skill:nth-child(n+4) { animation-delay: 60ms; }
+  #path.swap .p-skill:nth-child(n+7) { animation-delay: 90ms; }
+
+  .models { width: 100%; border-collapse: collapse; }
+  .models th, .models td { padding: 12px 10px 12px 0; text-align: left; vertical-align: top; border-top: 1px dashed var(--line); }
+  .models thead th {
     padding-top: 0; padding-bottom: 8px; border-top: 0;
     font: 400 10px/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3);
   }
-  .matrix td:last-child, .models td:last-child { padding-right: 0; }
-  .m-num { width: 28px; font: 400 10px/1.9 var(--font-mono); color: var(--ink-3); }
-  .m-skill { width: 23%; font-weight: 500; color: var(--ink); line-height: 1.4; }
-  .m-level { width: 40%; color: var(--ink); line-height: 1.5; text-wrap: pretty; }
-  .m-check { color: var(--ink-2); line-height: 1.5; text-wrap: pretty; font-size: 12px; }
+  .models td:last-child { padding-right: 0; }
   .m-label { display: none; }
-  .swap tr { animation: rise .4s var(--ease-out) both; }
-
   .g-callout { margin-bottom: 16px !important; padding: 12px 14px; border-left: 2px solid var(--accent); background: var(--line-soft); border-radius: 0 var(--radius-chip) var(--radius-chip) 0; color: var(--ink-2); text-wrap: pretty; }
   .models .t-task { width: 46%; font-weight: 400; }
   .t-title { display: block; font-weight: 500; color: var(--ink); line-height: 1.4; margin-bottom: 4px; }
@@ -468,14 +535,15 @@
     .arrow { display: none; }
     .sec-desc { white-space: normal; flex-basis: 100%; }
     .g-defs, .g-trees { grid-template-columns: 1fr; }
-    .seg { grid-template-columns: 1fr; }
-    .matrix thead, .models thead { display: none; }
-    .matrix, .matrix tbody, .matrix tr, .matrix th, .matrix td,
+    .models thead { display: none; }
     .models, .models tbody, .models tr, .models th, .models td { display: block; width: auto; }
-    .matrix tr, .models tr { padding: 14px 0; border-top: 1px dashed var(--line); }
-    .matrix th, .matrix td, .models th, .models td { border: 0; padding: 0 0 8px; }
-    .matrix .m-num { float: left; width: 28px; }
-    .matrix .m-level, .matrix .m-check { clear: both; }
+    .models tr { padding: 14px 0; border-top: 1px dashed var(--line); }
+    .models th, .models td { border: 0; padding: 0 0 8px; }
+    .lvls { grid-template-columns: 1fr; }
+    .p-summary { grid-template-columns: 1fr; }
+    .p-body { grid-template-columns: 1fr; padding-left: 0; }
+    .p-done-t { display: none; }
+    .p-done { padding: 5px; }
     .m-label { display: block; margin-bottom: 3px; font: 400 10px/1.3 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
     .g-row { grid-template-columns: 1fr; }
     .refcard { grid-template-columns: 80px 1fr; }
@@ -613,7 +681,7 @@
 
   /* ---------- AI Guide ---------- */
   var GUIDE_SECTIONS = [
-    { id: 'skills', short: 'Skill Matrix', count: GUIDE.skills.length },
+    { id: 'skills', short: 'Your Level Guide', count: GUIDE.skills.length },
     { id: 'environments', short: 'Claude, Claude Code & Codex', count: GUIDE.env.length },
     { id: 'models', short: 'Models to Start With', count: GUIDE.models.length },
     { id: 'storage', short: 'What to Save', count: GUIDE.save.length },
@@ -646,14 +714,64 @@
     return '<section class="section g-section" id="' + id + '" aria-labelledby="h-' + id + '">' + body + '</section>';
   }
 
-  function matrixRows() {
-    return GUIDE.skills.map(function (sk, i) {
-      return '<tr class="rise" style="--d:' + Math.min(80 + i * 30, 500) + 'ms">' +
-        '<td class="m-num">' + pad(sk.n) + '</td>' +
-        '<th scope="row" class="m-skill">' + esc(sk.name) + '</th>' +
-        '<td class="m-level"><span class="m-label">' + esc(GUIDE.levelNames[level - 1]) + '</span>' + rich(sk['l' + level]) + '</td>' +
-        '<td class="m-check"><span class="m-label">' + esc(GUIDE.checkName) + '</span>' + rich(sk.check) + '</td></tr>';
+  /* Personal path: pick a level, get 12 skills as steps + proof, mark what you can do. */
+  var PATH = GUIDE.path;
+  var openSkill = 1;
+  function doneSet() {
+    try { return JSON.parse(localStorage.getItem('bc-ai-done-' + level) || '[]'); } catch (e) { return []; }
+  }
+  function saveDone(list) {
+    try { localStorage.setItem('bc-ai-done-' + level, JSON.stringify(list)); } catch (e) {}
+  }
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var CHEVRON = '<svg class="p-chev" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  function levelPicker() {
+    return PATH.levels.map(function (l) {
+      return '<button type="button" class="lvl" role="radio" data-level="' + l.n + '" aria-checked="' + (l.n === level) + '">' +
+        '<span class="lvl-top"><span class="lvl-n">' + l.n + '</span>' +
+        (l.n === 2 ? '<span class="lvl-goal">ціль</span>' : '') +
+        '<span class="lvl-tick">' + CHECK + '</span></span>' +
+        '<span class="lvl-name">' + esc(l.name) + '</span>' +
+        '<span class="lvl-who">' + esc(l.who) + '</span></button>';
     }).join('');
+  }
+
+  function pathBody() {
+    var L = PATH.levels[level - 1], done = doneSet();
+    var next = PATH.levels[level];
+    var skills = PATH.skills.map(function (sk) {
+      var d = sk.levels[level], isDone = done.indexOf(sk.n) > -1, isOpen = openSkill === 'all' || sk.n === openSkill;
+      var nx = next && sk.levels[level + 1];
+      return '<li class="p-skill' + (isDone ? ' is-done' : '') + (isOpen ? ' is-open' : '') + '" data-skill="' + sk.n + '">' +
+        '<div class="p-head">' +
+          '<button type="button" class="p-toggle" aria-expanded="' + isOpen + '" aria-controls="p-body-' + sk.n + '">' +
+            '<span class="p-num">' + pad(sk.n) + '</span>' +
+            '<span class="p-titles"><span class="p-name">' + esc(sk.name) + '</span><span class="p-goal">' + rich(d.goal) + '</span></span>' +
+            CHEVRON + '</button>' +
+          '<button type="button" class="p-done" aria-pressed="' + isDone + '" aria-label="' + esc(sk.name) + ': вмію">' +
+            '<span class="p-box">' + CHECK + '</span><span class="p-done-t">Вмію</span></button>' +
+        '</div>' +
+        '<div class="p-body" id="p-body-' + sk.n + '"' + (isOpen ? '' : ' hidden') + '>' +
+          '<div class="p-col"><span class="p-label">Що зробити</span><ol class="p-steps">' +
+            d.steps.map(function (t) { return '<li>' + rich(t) + '</li>'; }).join('') + '</ol></div>' +
+          '<div class="p-col"><span class="p-label">Як показати результат</span><ul class="p-proof">' +
+            d.proof.map(function (t) { return '<li>' + CHECK + '<span>' + rich(t) + '</span></li>'; }).join('') + '</ul></div>' +
+          (nx ? '<div class="p-next"><span class="p-label">Наступний рівень</span><p>' + rich(nx.goal) + '</p>' +
+            '<button type="button" class="p-next-btn" data-goto="' + (level + 1) + '" data-skill="' + sk.n + '">Відкрити рівень ' + (level + 1) + ' →</button></div>' : '') +
+        '</div></li>';
+    }).join('');
+    var pct = Math.round(done.length / PATH.skills.length * 100);
+    return '<div class="p-summary">' +
+        '<div class="p-sum-text"><span class="p-label">Твій гайд · рівень ' + level + '</span>' +
+        '<p class="p-focus">' + esc(L.focus) + '</p></div>' +
+        '<div class="p-progress" role="group" aria-label="Прогрес">' +
+          '<span class="p-count"><b>' + done.length + '</b> з ' + PATH.skills.length + ' ' + plural(PATH.skills.length, 'навички', 'навичок', 'навичок') + '</span>' +
+          '<span class="p-bar"><span style="width:' + pct + '%"></span></span>' +
+          '<span class="p-actions"><button type="button" class="p-link" data-act="expand">' + (openSkill === 'all' ? 'Згорнути все' : 'Розгорнути все') + '</button>' +
+          (done.length ? '<button type="button" class="p-link" data-act="reset">Скинути</button>' : '') + '</span>' +
+        '</div></div>' +
+      '<ol class="p-list">' + skills + '</ol>';
   }
 
   function renderGuide() {
@@ -664,20 +782,14 @@
       var m = p.replace(/\.$/, '').split(' – ');
       return '<div class="g-def"><span class="g-def-k">' + esc(m[0]) + '</span><span class="g-def-v">' + esc(m[1] || '') + '</span></div>';
     }).join('');
-    var seg = g.levelNames.map(function (name, i) {
-      var n = i + 1;
-      return '<button type="button" class="seg-btn" data-level="' + n + '" aria-pressed="' + (n === level) + '">' +
-        '<span class="seg-n">' + n + '</span><span class="seg-t">' + esc(name.replace(/^\d\s·\s/, '')) + '</span>' +
-        (n === 2 ? '<span class="seg-goal">ціль</span>' : '') + '</button>';
-    }).join('');
-    out.push(section('skills',
-      head('skills', 1, 'Матриця навичок', g.title) +
-      '<div class="g-defs rise" style="--d:40ms">' + defs + '</div>' +
-      '<p class="g-note rise" style="--d:60ms">' + esc(g.levels) + '</p>' +
-      '<div class="seg rise" style="--d:80ms" role="group" aria-label="Рівень навички">' + seg + '</div>' +
-      '<table class="matrix"><thead><tr><th scope="col" class="m-num">#</th><th scope="col">Навичка</th>' +
-      '<th scope="col" id="m-level-head">' + esc(g.levelNames[level - 1]) + '</th><th scope="col">' + esc(g.checkName) + '</th></tr></thead>' +
-      '<tbody id="matrix-body">' + matrixRows() + '</tbody></table>'));
+    if (PATH) {
+      out.push(section('skills',
+        head('skills', 1, 'Твій AI-гайд за рівнем', 'Обери рівень і пройди 12 навичок крок за кроком.') +
+        '<p class="g-note rise" style="--d:40ms">Рівень – це те, як ти працюєш зараз, а не грейд.</p>' +
+        '<div class="lvls rise" style="--d:60ms" role="radiogroup" aria-label="Твій рівень">' + levelPicker() + '</div>' +
+        '<div id="path" class="rise" style="--d:80ms">' + pathBody() + '</div>' +
+        '<div class="g-gloss rise"><span class="p-label">Словничок</span><div class="g-defs">' + defs + '</div></div>'));
+    }
 
     // 02 Environments
     var env = g.env.map(function (r, i) {
@@ -762,17 +874,60 @@
   }
 
   function bindGuide() {
-    var segEl = contentEl.querySelector('.seg');
-    if (segEl) segEl.addEventListener('click', function (e) {
-      var b = e.target.closest('.seg-btn');
-      if (!b) return;
-      level = +b.dataset.level;
+    var pathEl = document.getElementById('path');
+    var lvlsEl = contentEl.querySelector('.lvls');
+    function refresh(swap) {
+      pathEl.innerHTML = pathBody();
+      if (swap && !reduced.matches) { pathEl.classList.remove('swap'); void pathEl.offsetWidth; pathEl.classList.add('swap'); }
+    }
+    function setLevel(n, skill) {
+      level = n;
+      if (skill) openSkill = skill;
       try { localStorage.setItem('bc-ai-level', level); } catch (err) {}
-      [].forEach.call(segEl.querySelectorAll('.seg-btn'), function (x) { x.setAttribute('aria-pressed', String(+x.dataset.level === level)); });
-      document.getElementById('m-level-head').textContent = GUIDE.levelNames[level - 1];
-      var body = document.getElementById('matrix-body');
-      body.innerHTML = matrixRows();
-      body.classList.remove('swap'); void body.offsetWidth; body.classList.add('swap');
+      [].forEach.call(lvlsEl.querySelectorAll('.lvl'), function (x) { x.setAttribute('aria-checked', String(+x.dataset.level === level)); });
+      refresh(true);
+    }
+    if (lvlsEl) {
+      lvlsEl.addEventListener('click', function (e) {
+        var b = e.target.closest('.lvl');
+        if (b) setLevel(+b.dataset.level);
+      });
+      // Arrow keys move between level cards (radiogroup pattern).
+      lvlsEl.addEventListener('keydown', function (e) {
+        if (['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp'].indexOf(e.key) < 0) return;
+        e.preventDefault();
+        var n = level + (e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : -1);
+        n = Math.min(3, Math.max(1, n));
+        setLevel(n);
+        lvlsEl.querySelector('[data-level="' + n + '"]').focus();
+      });
+    }
+    if (pathEl) pathEl.addEventListener('click', function (e) {
+      var t = e.target.closest('button');
+      if (!t) return;
+      var li = t.closest('.p-skill');
+      if (t.classList.contains('p-toggle')) {
+        var open = t.getAttribute('aria-expanded') !== 'true';
+        t.setAttribute('aria-expanded', String(open));
+        li.classList.toggle('is-open', open);
+        li.querySelector('.p-body').hidden = !open;
+      } else if (t.classList.contains('p-done')) {
+        var n = +li.dataset.skill, list = doneSet(), i = list.indexOf(n);
+        if (i > -1) list.splice(i, 1); else list.push(n);
+        saveDone(list);
+        refresh(false);
+        var again = pathEl.querySelector('.p-skill[data-skill="' + n + '"] .p-done');
+        if (again) again.focus();
+      } else if (t.classList.contains('p-next-btn')) {
+        setLevel(+t.dataset.goto, +t.dataset.skill);
+        document.getElementById('skills').scrollIntoView({ behavior: reduced.matches ? 'auto' : 'smooth' });
+      } else if (t.dataset.act === 'expand') {
+        openSkill = openSkill === 'all' ? 0 : 'all';
+        refresh(false);
+      } else if (t.dataset.act === 'reset') {
+        saveDone([]);
+        refresh(false);
+      }
     });
     [].forEach.call(contentEl.querySelectorAll('.copy-btn'), function (b) {
       b.addEventListener('click', function () {
