@@ -1,0 +1,530 @@
+{
+ "Emil Kowalski": {
+  "desc": "Стоїть за Sonner і Vaul – еталонами плавного руху в інтерфейсах.",
+  "drop": false
+ },
+ "Rauno Freiberg": {
+  "desc": "Автор Interaction Guidelines у Vercel – про відчуття взаємодії.",
+  "drop": false
+ },
+ "Paco Coursey": {
+  "desc": "Стоїть за cmdk і next-themes – командним меню та темами оформлення.",
+  "drop": false
+ },
+ "Gavin Nelson": {
+  "desc": "Дизайнер в OpenAI, створює тактильні інтерфейси.",
+  "drop": false
+ },
+ "Adam Argyle": {
+  "desc": "Показує нові можливості вебу для кольору, анімацій і переходів.",
+  "drop": false
+ },
+ "Sarah Drasner": {
+  "desc": "Пише про вебанімацію: таймінг, ритм і виразний моушн.",
+  "drop": false
+ },
+ "Jhey Tompkins": {
+  "desc": "Креативний технолог, створює грайливі візуальні експерименти.",
+  "drop": false
+ },
+ "Lynn Fisher": {
+  "desc": "Стоїть за Single Div – ілюстраціями, зібраними з одного елемента.",
+  "drop": false
+ },
+ "Yogesh": {
+  "desc": "Засновник продуктів Remote3, Promptmonitor і Dray.",
+  "drop": true
+ },
+ "shadcn": {
+  "desc": "Стоїть за shadcn/ui – впізнаваною візуальною мовою інтерфейсів.",
+  "drop": false
+ },
+ "Äli": {
+  "desc": "Дизайнер, створює мінімалістичні персональні застосунки.",
+  "drop": false
+ },
+ "Arlan Marat": {
+  "desc": "Дизайнер інтерфейсів із досвідом у Waymo та Yandex.",
+  "drop": false
+ },
+ "Ashish Kashyap": {
+  "desc": "Стоїть за Pikaicons – цілісною системою іконок.",
+  "drop": false
+ },
+ "Bakemono": {
+  "desc": "Дизайнер, створює тактильні інтерфейси з відчутною фізикою.",
+  "drop": false
+ },
+ "Emmanuel Hong": {
+  "desc": "Дизайнер із Нью-Йорка, створює цифровий досвід для брендів.",
+  "drop": false
+ },
+ "Fara Yan": {
+  "desc": "Дизайнер із CMU, створює інтерфейси для спільнот.",
+  "drop": false
+ },
+ "Flora Guo": {
+  "desc": "Продуктовий дизайнер із досвідом у Ramp і Vercel.",
+  "drop": false
+ },
+ "Glenn Hitchcock": {
+  "desc": "Керує дизайн-системами в Poolside.",
+  "drop": false
+ },
+ "Dominik Kandravý": {
+  "desc": "Робить нативні macOS-інструменти Hoy і Monocle.",
+  "drop": false
+ },
+ "Hardik Pandya": {
+  "desc": "Лідер напрямів дизайну та AI у Google.",
+  "drop": false
+ },
+ "Noman Ijaz": {
+  "desc": "Експериментує з піксельними градієнтами.",
+  "drop": false
+ },
+ "Julien Thibeaut": {
+  "desc": "Дизайнер, створює анімації для AI-стартапів.",
+  "drop": false
+ },
+ "Jia Chen": {
+  "desc": "Креативний технолог, швидко втілює ідеї на хакатонах.",
+  "drop": false
+ },
+ "Michelle Liu": {
+  "desc": "Дизайнер інструментів із досвідом в Apple і NASA.",
+  "drop": false
+ },
+ "Yuhang Lu": {
+  "desc": "Дизайнер інтерфейсів: від Nothing до xAI.",
+  "drop": false
+ },
+ "Lyle Klyne": {
+  "desc": "Дизайнер інтерфейсів у Perplexity, працює на стику дизайну й технологій.",
+  "drop": false
+ },
+ "Marcelo Chaman Mallqui": {
+  "desc": "Створює платформні інструменти в Gumloop.",
+  "drop": true
+ },
+ "Marijana Pavlinić": {
+  "desc": "Дизайнер бренду та devtools у Vercel.",
+  "drop": false
+ },
+ "Michael Alexander": {
+  "desc": "Візуальний художник і типограф.",
+  "drop": false
+ },
+ "Nick Jones": {
+  "desc": "Дизайнер експериментальних інтерфейсів, стоїть за Stripe Press.",
+  "drop": false
+ },
+ "Stuart Regan": {
+  "desc": "Продуктовий дизайнер, проєктує ефективні робочі сценарії.",
+  "drop": false
+ },
+ "Vijay Verma": {
+  "desc": "Робить інді-ігри та розвиває власну студію.",
+  "drop": false
+ },
+ "Benji Taylor": {
+  "desc": "Стоїть за продуктами Agentation і Honk.",
+  "drop": false
+ },
+ "Aniket Pawar": {
+  "desc": "Працює в екосистемі shadcn.",
+  "drop": true
+ },
+ "Aaron Mahlke": {
+  "desc": "Дизайнер, створює тактильні вебексперименти.",
+  "drop": false
+ },
+ "Grizz": {
+  "desc": "Дизайнер взаємодії, створює виразні вебексперименти.",
+  "drop": false
+ },
+ "Alistair Smith": {
+  "desc": "Працює в Anthropic над Claude Code.",
+  "drop": true
+ },
+ "David Umoru": {
+  "desc": "Креативний технолог, створює інструменти для ASCII-арту.",
+  "drop": false
+ },
+ "Fabian Arbor": {
+  "desc": "Креативний директор, створює самобутні айдентики брендів.",
+  "drop": false
+ },
+ "Praveen Juge": {
+  "desc": "Дизайнер, пише про доступність інтерфейсів.",
+  "drop": false
+ },
+ "Lokendra Kushwah": {
+  "desc": "Створює інтерфейси для AI-продуктів.",
+  "drop": false
+ },
+ "Jakub Krehel": {
+  "desc": "Дизайнер у команді засновників Interfere.",
+  "drop": false
+ },
+ "Ishaan Dey": {
+  "desc": "Дизайнер, стоїть за Shadow.",
+  "drop": false
+ },
+ "Tushaar Mehta": {
+  "desc": "Креативний директор, проєктує AI-first продукти.",
+  "drop": false
+ },
+ "Kai Nair": {
+  "desc": "Креативний технолог, проєктує виразні бренд-системи.",
+  "drop": false
+ },
+ "Paolo Nessim": {
+  "desc": "Працює із системами реального часу й робототехнікою.",
+  "drop": true
+ },
+ "Ashish Gogula": {
+  "desc": "Дизайнер, створює Xenon.",
+  "drop": false
+ },
+ "Ruru": {
+  "desc": "Дизайнер, створює Ruru UI – набір інтерфейсних елементів.",
+  "drop": false
+ },
+ "Harsh Singh": {
+  "desc": "Досліджує мінімалістичний дизайн.",
+  "drop": false
+ },
+ "Rohit Singh Rawat": {
+  "desc": "Створює продукти для бізнесу.",
+  "drop": true
+ },
+ "Preet Suthar": {
+  "desc": "Дизайнер, створює відкриті інструменти для спільноти.",
+  "drop": false
+ },
+ "Maze": {
+  "desc": "Дизайнер, стоїть за Moodist – застосунком атмосферних звуків.",
+  "drop": false
+ },
+ "Siddharth": {
+  "desc": "Створює інтерактивні інтерфейси.",
+  "drop": false
+ },
+ "Sam": {
+  "desc": "Дизайнер, створює вебзастосунки з акцентом на моушн.",
+  "drop": false
+ },
+ "Dhruv Suthar": {
+  "desc": "Працює з ком’юніті Raycast.",
+  "drop": true
+ },
+ "Rahul Singh Bhadoriya": {
+  "desc": "Візуальний дизайнер і засновник Dacoit Design.",
+  "drop": false
+ },
+ "Manu Arora": {
+  "desc": "Стоїть за Aceternity UI – набором ефектних анімованих блоків.",
+  "drop": false
+ },
+ "Swami Malode": {
+  "desc": "Дизайнер, створює VidStudio і Rare UI.",
+  "drop": false
+ },
+ "Shawn Dsilva": {
+  "desc": "Стоїть за Dot Matrix і Orbkit.",
+  "drop": false
+ },
+ "Shivam": {
+  "desc": "Створює масштабовані вебінтерфейси.",
+  "drop": true
+ },
+ "Rohit Mehta": {
+  "desc": "Створює Negativ UI – набір інтерфейсних елементів.",
+  "drop": false
+ },
+ "Ratnesh Chipre": {
+  "desc": "Дизайнер, створює Draftlogo.",
+  "drop": false
+ },
+ "Shivraj Roy": {
+  "desc": "Спеціалізується на мікроанімаціях інтерфейсів.",
+  "drop": false
+ },
+ "Vansh Nagar": {
+  "desc": "Стоїть за ASCII Studio та іншими вебінструментами.",
+  "drop": false
+ },
+ "Harsh Jadhav": {
+  "desc": "Дизайнер, стоїть за Componentry.",
+  "drop": false
+ },
+ "Aaryan": {
+  "desc": "Стоїть за Sileo – сповіщеннями з фізичною анімацією.",
+  "drop": false
+ },
+ "Atharvsinh Jadav": {
+  "desc": "Створює ObsidianUI – набір інтерфейсних елементів.",
+  "drop": false
+ },
+ "Divyansh Swarnkar": {
+  "desc": "Створює швидкі вебзастосунки.",
+  "drop": true
+ },
+ "Gurbinder": {
+  "desc": "Дизайнер, створює Skiper UI і стильні графіки EvilCharts.",
+  "drop": false
+ },
+ "Ashutosh Singh": {
+  "desc": "Стоїть за Vengeance UI, створює AI-інтерфейси.",
+  "drop": false
+ },
+ "Palak Sharma": {
+  "desc": "Створює 3D-інтерфейси на WebGL.",
+  "drop": false
+ },
+ "Aman Shakya": {
+  "desc": "Дизайнер, створює Forge UI і Statsio.",
+  "drop": false
+ },
+ "Mihir Aman Raj": {
+  "desc": "Креативний технолог, ставить візуальні експерименти в atomix/ui.",
+  "drop": false
+ },
+ "Prasanjit Dey": {
+  "desc": "Дизайнер, стоїть за Insposite.",
+  "drop": false
+ },
+ "Chánh Đại": {
+  "desc": "Дизайнер, створює Wheel Picker – барабан вибору для інтерфейсів.",
+  "drop": false
+ },
+ "Sophie Manalo": {
+  "desc": "Креативний технолог, створює виразні вебінтерфейси.",
+  "drop": false
+ },
+ "Abhinav Kale": {
+  "desc": "Дизайнер, створює мінімалістичні вебексперименти.",
+  "drop": false
+ },
+ "Karaan": {
+  "desc": "Фокусується на якості та майстерності UI.",
+  "drop": false
+ },
+ "Ram": {
+  "desc": "Створює інтерактивні вебпродукти.",
+  "drop": false
+ },
+ "Victor Williams": {
+  "desc": "Дизайнер, створює сучасний цифровий досвід.",
+  "drop": false
+ },
+ "Umesh Nagare": {
+  "desc": "Створює чисті, стримані інтерфейси.",
+  "drop": false
+ },
+ "Gautam": {
+  "desc": "Створює відкриті інструменти для спільноти.",
+  "drop": true
+ },
+ "Atharva Mhaske": {
+  "desc": "Створює креативні вебексперименти.",
+  "drop": false
+ },
+ "Janina": {
+  "desc": "Продуктовий дизайнер, створює інтерактивні інтерфейси.",
+  "drop": false
+ },
+ "Unlimited Studio": {
+  "desc": "Незалежна студія, створює індивідуальні цифрові айдентики.",
+  "drop": false
+ },
+ "Manish Kumar": {
+  "desc": "Створює витончені вебінтерфейси.",
+  "drop": false
+ },
+ "Dhruv": {
+  "desc": "Дизайнер, створює інтерактивні тактильні продукти.",
+  "drop": false
+ },
+ "Sahil Singh": {
+  "desc": "Створює інтерактивні інтерфейсні елементи.",
+  "drop": false
+ },
+ "Nexvyn": {
+  "desc": "Дизайнер, створює набір інтерфейсних елементів nexvyn/ui.",
+  "drop": false
+ },
+ "Syed Subhan": {
+  "desc": "Креативний технолог, експериментує з 3D-шейдерами.",
+  "drop": false
+ },
+ "Jay": {
+  "desc": "Дизайнер, створює Evil Buttons і Mascot.",
+  "drop": false
+ },
+ "Chidu": {
+  "desc": "Продуктовий дизайнер, проєктує продумані вебвзаємодії.",
+  "drop": false
+ },
+ "Connor Hepburn": {
+  "desc": "Працює над Creed і вебагентами.",
+  "drop": true
+ },
+ "Pratham": {
+  "desc": "Продуктовий дизайнер, створює ретельно опрацьовані лендинги.",
+  "drop": false
+ },
+ "Offgrid": {
+  "desc": "Брендингова студія, створює айдентики для технологічних компаній.",
+  "drop": false
+ },
+ "Daniel White": {
+  "desc": "Дизайнер і засновник textmotion.",
+  "drop": false
+ },
+ "Sasha Balandina": {
+  "desc": "Продуктовий дизайнер, створює інтерфейси з фокусом на типографіці.",
+  "drop": false
+ },
+ "Timothy Maarv": {
+  "desc": "Продуктовий дизайнер, створює продукти від 0 до 1.",
+  "drop": false
+ },
+ "Soren Blank": {
+  "desc": "Дизайнер, створює плавні мікровзаємодії.",
+  "drop": false
+ },
+ "Ozzy": {
+  "desc": "Дизайнер, створює мікровзаємодії interior.dev.",
+  "drop": false
+ },
+ "Utsav Gupta": {
+  "desc": "Створює AI-агентів.",
+  "drop": true
+ },
+ "Saurabh Sharma": {
+  "desc": "Дизайнер, створює набір інтерфейсних елементів Great UI.",
+  "drop": false
+ },
+ "Iteration": {
+  "desc": "Дизайн-студія, заснована Josh Puckett.",
+  "drop": false
+ },
+ "Josh Puckett": {
+  "desc": "Засновник студії Iteration і DialKit.",
+  "drop": false
+ },
+ "Mery Kaftar": {
+  "desc": "Дизайнер у Vercel, створює AI-інтерфейси.",
+  "drop": false
+ },
+ "Lele Zhang": {
+  "desc": "Продуктовий дизайнер, досліджує продумані AI-інтерфейси.",
+  "drop": false
+ },
+ "Pranathi Peri": {
+  "desc": "Дизайнер в Anthropic, працює над Claude Code.",
+  "drop": false
+ },
+ "Airla Fan": {
+  "desc": "Цифровий дизайнер у YouTube, створює візуальні системи.",
+  "drop": false
+ },
+ "Mariana Castilho": {
+  "desc": "Продуктовий дизайнер у Profound.",
+  "drop": false
+ },
+ "Evil Rabbit": {
+  "desc": "Head of Design у Vercel.",
+  "drop": false
+ },
+ "Dominik Martin": {
+  "desc": "Продуктовий дизайнер, створює сучасні цифрові продукти.",
+  "drop": false
+ },
+ "Tom": {
+  "desc": "Стоїть за Spell UI, створює набори інтерфейсних елементів.",
+  "drop": false
+ },
+ "Dan Hollick": {
+  "desc": "Дизайнер у Cursor.",
+  "drop": false
+ },
+ "Anthony Fu": {
+  "desc": "Учасник core-команди Vue і автор відкритих проєктів.",
+  "drop": true
+ },
+ "Paul Bakaus": {
+  "desc": "Стоїть за jQuery UI, створює AI-інструменти.",
+  "drop": true
+ },
+ "Aditya Sur": {
+  "desc": "Дизайнер, створює цифровий досвід у студії Ample.",
+  "drop": false
+ },
+ "Raphael Salaja": {
+  "desc": "Дизайнер, розсуває межі майстерності в інтерфейсах.",
+  "drop": false
+ },
+ "Ana Howard": {
+  "desc": "Дизайнер у Лондоні, створює продумані інтерфейси.",
+  "drop": false
+ },
+ "Jakub Antalík": {
+  "desc": "Продуктовий дизайнер і Design Lead у Fun.xyz.",
+  "drop": false
+ },
+ "Henry Heffernan": {
+  "desc": "Креативний технолог, стоїть за портфоліо у вигляді ОС.",
+  "drop": false
+ },
+ "Wojtek Witkowski": {
+  "desc": "Відповідає за майстерність UI у Coinbase.",
+  "drop": false
+ },
+ "Akash Bhadange": {
+  "desc": "Продуктовий дизайнер і засновник Peerlist.",
+  "drop": false
+ },
+ "Aiden Bai": {
+  "desc": "Засновник Million.js і React Scan.",
+  "drop": true
+ },
+ "Shu Ding": {
+  "desc": "Дизайнер у Vercel.",
+  "drop": false
+ },
+ "Danilo Woznica": {
+  "desc": "Стоїть за content-loader – SVG-скелетонами для станів завантаження.",
+  "drop": false
+ },
+ "Daryl Ginn": {
+  "desc": "Засновник System Studio і Minimal Gallery.",
+  "drop": false
+ },
+ "Gunnar Gray": {
+  "desc": "Product Design Lead у Perplexity AI.",
+  "drop": false
+ },
+ "Todd Hamilton": {
+  "desc": "Продуктовий дизайнер, створює AIProxy.",
+  "drop": false
+ },
+ "Zaid Mukaddam": {
+  "desc": "Стоїть за Scira AI – інтерфейсом діалогового пошуку.",
+  "drop": false
+ },
+ "Kartik Labhshetwar": {
+  "desc": "Створює пам’ять для AI у Mem0.",
+  "drop": true
+ },
+ "Saurabh": {
+  "desc": "Дизайнер, створює beUI – набір моушн-компонентів.",
+  "drop": false
+ },
+ "Daryl Patigas": {
+  "desc": "Дизайнер у команді засновників Lottielab – інструменту для моушну.",
+  "drop": false
+ }
+}

@@ -283,6 +283,40 @@ def load_uk():
     return uk
 
 
+CODE_WORDS = re.compile(r"фронтенд|full-stack|розробни|інженер|\bкод|React|CSS|npm|JavaScript|терміна|CLI\b", re.I)
+
+
+def apply_brand_pass(categories):
+    """Brand-designer pass: drop dev-only tools, rewrite copy without code/frontend wording."""
+    bp = json.loads((ROOT / "i18n" / "brand-pass.json").read_text())
+    people_path = ROOT / "i18n" / "designers-brand.json"
+    people = json.loads(people_path.read_text()) if people_path.exists() else {}
+    dropped = []
+    for c in categories:
+        for s in c["sections"]:
+            en = s["title_en"]
+            drop = set(bp["drop"].get(en, []))
+            if en == "Design engineers to follow":
+                drop |= {n for n, v in people.items() if v.get("drop")}
+                for i in s["items"]:
+                    if i["name"] in people:
+                        i["desc"] = people[i["name"]]["desc"]
+            unknown = drop - {i["name"] for i in s["items"]}
+            assert not unknown, (en, unknown)
+            dropped += [f"{en} / {n}" for n in sorted(drop)]
+            s["items"] = [i for i in s["items"] if i["name"] not in drop]
+            s["desc"] = bp["sections"].get(en, s["desc"])
+            s["title"] = bp["titles"].get(en, s["title"])
+            for i in s["items"]:
+                i["desc"] = bp["items"].get(en, {}).get(i["name"], i["desc"])
+            if c["id"] != "brand-guidelines":
+                left = [f"{en} / {i['name']}: {i['desc']}" for i in s["items"] if CODE_WORDS.search(i["desc"])]
+                left += [f"{en} (section): {s['desc']}"] if CODE_WORDS.search(s["desc"]) else []
+                if left:
+                    print("CODE WORDING LEFT:", *left, sep="\n  ")
+    print("Dropped:", len(dropped))
+
+
 def main():
     cat = parse_catalogue()
     pick = lambda *names: [cat[n] for n in names]
@@ -291,7 +325,6 @@ def main():
         {"id": "inspiration", "title": "Inspiration", "icon": "spark",
          "sections": pick("Design Galleries", "Interface Design", "Reading")},
         {"id": "brand-guidelines", "title": "Brand Guidelines", "icon": "brand", "sections": BRAND},
-        {"id": "ai-guide", "title": "AI Guide", "icon": "ai", "type": "guide", "sections": []},
         {"id": "visuals", "title": "Visuals", "icon": "palette",
          "sections": pick("Type", "Color", "3D", "Shaders", "Icons")},
         {"id": "utilities", "title": "Utilities", "icon": "tool",
@@ -300,6 +333,7 @@ def main():
          "sections": [{"title": "Design engineers to follow",
                        "desc": "Curated design engineers and creative developers to follow.",
                        "items": [{"name": n, "url": u, "desc": d} for n, u, d in designers]}]},
+        {"id": "ai-guide", "title": "AI Guide", "icon": "ai", "type": "guide", "sections": []},
     ]
     uk = load_uk()
     missing = []
@@ -322,6 +356,7 @@ def main():
                     missing.append(f"{en_title} / {i['name']}")
     if missing:
         print("UNTRANSLATED:", len(missing), missing[:10])
+    apply_brand_pass(categories)
 
     ai = build_ai_guide()
     out = ("window.CATALOGUE = " + json.dumps(categories, ensure_ascii=False, indent=1) + ";\n"

@@ -6,7 +6,7 @@ window.CATALOGUE = [
   "sections": [
    {
     "title": "Галереї дизайну",
-    "desc": "Галереї дизайну, патерни інтерфейсів і веб-натхнення.",
+    "desc": "Галереї сайтів, айдентики й візуального натхнення.",
     "items": [
      {
       "name": "60fps",
@@ -111,7 +111,7 @@ window.CATALOGUE = [
      {
       "name": "Collect UI",
       "url": "https://collectui.com/",
-      "desc": "Щоденне UI-натхнення з тегами за компонентами."
+      "desc": "Щоденне UI-натхнення з тегами за типами екранів."
      },
      {
       "name": "SiteInspire",
@@ -136,7 +136,7 @@ window.CATALOGUE = [
      {
       "name": "Flowbase",
       "url": "https://www.flowbase.co/",
-      "desc": "Преміальні UI-компоненти та патерни взаємодії."
+      "desc": "Преміальні секції сайтів і патерни взаємодії для Webflow."
      },
      {
       "name": "Hover States",
@@ -229,19 +229,9 @@ window.CATALOGUE = [
       "desc": "Добірка дизайнів CTA-кнопок і банерів."
      },
      {
-      "name": "desengs.com",
-      "url": "https://desengs.com/",
-      "desc": "Каталог портфоліо та знань про дизайн-інженерію."
-     },
-     {
       "name": "isthereanytool",
       "url": "https://isthereanytool.app/",
       "desc": "Каталог маловідомих інструментів для дизайну, крафту та AI."
-     },
-     {
-      "name": "designeng.tools",
-      "url": "https://designeng.tools/",
-      "desc": "Добірка інструментів, ресурсів і натхнення для дизайн-інженерії."
      },
      {
       "name": "bestdesignsonx.com",
@@ -287,11 +277,6 @@ window.CATALOGUE = [
       "name": "Landdding",
       "url": "https://landdding.com/",
       "desc": "Щоденний каталог креативних лендингів."
-     },
-     {
-      "name": "designengineer.tools",
-      "url": "https://designengineer.tools/",
-      "desc": "Ключові інструменти для дизайн-інженерів."
      },
      {
       "name": "Insposite",
@@ -366,7 +351,7 @@ window.CATALOGUE = [
      {
       "name": "Wall of Portfolios",
       "url": "https://www.wallofportfolios.in/",
-      "desc": "Добірка портфоліо з дизайн-інженерії та продуктового дизайну."
+      "desc": "Добірка портфоліо дизайнерів інтерфейсів і продуктів."
      },
      {
       "name": "Detail Design",
@@ -399,7 +384,7 @@ window.CATALOGUE = [
    },
    {
     "title": "Дизайн інтерфейсів",
-    "desc": "Полотна для дизайну інтерфейсів, токени та лейаут-системи.",
+    "desc": "Інструменти для макетів, прототипів і дизайн-систем.",
     "items": [
      {
       "name": "Figma",
@@ -419,7 +404,7 @@ window.CATALOGUE = [
      {
       "name": "Penpot",
       "url": "https://penpot.app/",
-      "desc": "Open-source платформа для вебдизайну з підтримкою SVG."
+      "desc": "Відкрита платформа для дизайну й прототипування."
      },
      {
       "name": "Spline",
@@ -434,7 +419,7 @@ window.CATALOGUE = [
      {
       "name": "UI Labs",
       "url": "https://www.uilabs.dev/",
-      "desc": "Лабораторія, що розбирає анімовані UI-компоненти."
+      "desc": "Розбори анімацій і мікровзаємодій в інтерфейсах."
      },
      {
       "name": "UIWTF",
@@ -449,12 +434,12 @@ window.CATALOGUE = [
      {
       "name": "design.dev",
       "url": "https://design.dev/",
-      "desc": "Редактор дизайн-токенів і дизайн-систем з AI-асистентом."
+      "desc": "Редактор дизайн-токенів і систем з AI-асистентом."
      },
      {
       "name": "UI Playbook",
       "url": "https://uiplaybook.dev/",
-      "desc": "Посібник зі стандартних станів UI-компонентів."
+      "desc": "Посібник зі станів інтерфейсних елементів."
      }
     ],
     "title_en": "Interface Design",
@@ -462,7 +447,7 @@ window.CATALOGUE = [
    },
    {
     "title": "Читання",
-    "desc": "Ключові книжки, есеї з дизайн-інженерії та туторіали з майстерності.",
+    "desc": "Книжки, видання й курси про типографіку, візуальні системи та майстерність.",
     "items": [
      {
       "name": "Refactoring UI",
@@ -475,29 +460,14 @@ window.CATALOGUE = [
       "desc": "Ключова книжка про правила типографіки та верстку."
      },
      {
-      "name": "web.dev",
-      "url": "https://web.dev/",
-      "desc": "Поради щодо вебпродуктивності та сучасних стандартів."
-     },
-     {
       "name": "Inclusive Components",
       "url": "https://inclusive-components.design/",
-      "desc": "Бібліотека патернів про дизайн доступних компонентів."
-     },
-     {
-      "name": "Josh Comeau",
-      "url": "https://joshwcomeau.com/",
-      "desc": "Інтерактивні туторіали, що розбирають механіку CSS."
+      "desc": "Патерни доступного дизайну інтерфейсних елементів."
      },
      {
       "name": "Design Books",
       "url": "https://design-books.com/",
       "desc": "Каталог ключової літератури з дизайну за дисциплінами."
-     },
-     {
-      "name": "Learn Kernels",
-      "url": "https://learn-kernels.com/",
-      "desc": "Інтерактивний посібник із програмування GPU-ядер."
      },
      {
       "name": "Design System Checklist",
@@ -532,12 +502,12 @@ window.CATALOGUE = [
      {
       "name": "Smashing Magazine",
       "url": "https://www.smashingmagazine.com/",
-      "desc": "Надійний ресурс для вебдизайнерів і розробників."
+      "desc": "Видання про вебдизайн, типографіку та UX."
      },
      {
       "name": "Codrops",
       "url": "https://tympanus.net/codrops/",
-      "desc": "Блог із креативними фронтенд-експериментами та туторіалами."
+      "desc": "Креативні вебексперименти з анімацією, типографікою й 3D."
      },
      {
       "name": "Muzli",
@@ -592,12 +562,12 @@ window.CATALOGUE = [
      {
       "name": "SVG Guide",
       "url": "https://www.svg.guide/",
-      "desc": "Посібник з опанування розмітки та анімацій SVG."
+      "desc": "Посібник з векторної SVG-графіки та її анімації."
      },
      {
       "name": "Animations.dev",
       "url": "https://www.animations.dev/",
-      "desc": "Курс зі створення вебанімацій, які відчуваються правильно."
+      "desc": "Курс про анімації в інтерфейсах, які відчуваються правильно."
      },
      {
       "name": "UI Skills",
@@ -612,7 +582,7 @@ window.CATALOGUE = [
      {
       "name": "UI Land",
       "url": "https://ui.land/",
-      "desc": "Інтерв’ю з провідними дизайн-інженерами про майстерність."
+      "desc": "Інтерв’ю з дизайнерами про майстерність інтерфейсів."
      },
      {
       "name": "Laws of UX",
@@ -627,7 +597,7 @@ window.CATALOGUE = [
      {
       "name": "The Shape of AI",
       "url": "https://www.shapeof.ai/",
-      "desc": "Бібліотека патернів дизайну AI-інтерфейсів."
+      "desc": "Патерни дизайну AI-інтерфейсів."
      }
     ],
     "title_en": "Reading",
@@ -1232,20 +1202,13 @@ window.CATALOGUE = [
   ]
  },
  {
-  "id": "ai-guide",
-  "title": "AI Guide",
-  "icon": "ai",
-  "type": "guide",
-  "sections": []
- },
- {
   "id": "visuals",
   "title": "Visuals",
   "icon": "palette",
   "sections": [
    {
     "title": "Шрифти",
-    "desc": "Добірка вебшрифтів, поєднань і оптимізація шрифтів.",
+    "desc": "Шрифти, поєднання й інструменти для роботи з типографікою.",
     "items": [
      {
       "name": "Fontshare",
@@ -1255,12 +1218,7 @@ window.CATALOGUE = [
      {
       "name": "Klim",
       "url": "https://klim.co.nz/",
-      "desc": "Шрифтова студія, що створює сучасні вебшрифти."
-     },
-     {
-      "name": "Fontsource",
-      "url": "https://fontsource.org/",
-      "desc": "Самостійний хостинг відкритих шрифтів через npm-пакети."
+      "desc": "Шрифтова студія, що створює сучасні гарнітури."
      },
      {
       "name": "Wakamai Fondue",
@@ -1270,17 +1228,17 @@ window.CATALOGUE = [
      {
       "name": "Utopia",
       "url": "https://utopia.fyi/",
-      "desc": "Калькулятор плавної типографіки, що генерує CSS clamp."
+      "desc": "Калькулятор адаптивних типографічних шкал."
      },
      {
       "name": "Velvetyne",
       "url": "https://velvetyne.fr/",
-      "desc": "Студія з відкритим кодом, що поширює експериментальні шрифти."
+      "desc": "Незалежна студія, що поширює вільні експериментальні шрифти."
      },
      {
       "name": "Departure Mono",
       "url": "https://departuremono.com/",
-      "desc": "Піксельний моноширинний шрифт, створений для терміналів."
+      "desc": "Піксельний моноширинний шрифт із ретро-характером."
      }
     ],
     "title_en": "Type",
@@ -1288,7 +1246,7 @@ window.CATALOGUE = [
    },
    {
     "title": "Колір",
-    "desc": "Генератори палітр, перевірка контрасту та математика кольору.",
+    "desc": "Палітри, перевірка контрасту й кольорові шкали для бренд-систем.",
     "items": [
      {
       "name": "OKLCH",
@@ -1313,7 +1271,7 @@ window.CATALOGUE = [
      {
       "name": "Ramps",
       "url": "https://www.ramps.studio/",
-      "desc": "Інструмент дизайн-токенів, що генерує шкали OKLCH."
+      "desc": "Генератор кольорових шкал в OKLCH для бренд-палітр."
      }
     ],
     "title_en": "Color",
@@ -1321,37 +1279,17 @@ window.CATALOGUE = [
    },
    {
     "title": "3D",
-    "desc": "Онлайн-інструменти 3D-моделювання та рушії рендерингу WebGL.",
+    "desc": "3D-моделювання, текстури й матеріали для key visuals.",
     "items": [
-     {
-      "name": "Three.js",
-      "url": "https://threejs.org/",
-      "desc": "JavaScript-бібліотека для рендерингу 3D-сцен у WebGL."
-     },
-     {
-      "name": "React Three Fiber",
-      "url": "https://r3f.docs.pmnd.rs/",
-      "desc": "Декларативний React-рендерер для сцен Three.js."
-     },
-     {
-      "name": "Drei",
-      "url": "https://drei.docs.pmnd.rs/",
-      "desc": "Допоміжні компоненти для React Three Fiber."
-     },
      {
       "name": "Blender",
       "url": "https://blender.org/",
-      "desc": "Пакет для 3D-моделювання та анімації з відкритим кодом."
-     },
-     {
-      "name": "gltf.report",
-      "url": "https://gltf.report/",
-      "desc": "Онлайн-оптимізатор 3D-файлів glTF."
+      "desc": "Безкоштовний пакет для 3D-моделювання, рендеру й анімації."
      },
      {
       "name": "Poly Haven",
       "url": "https://polyhaven.com/",
-      "desc": "Публічна бібліотека ресурсів із текстурами CC0."
+      "desc": "Безкоштовні текстури, HDRI та 3D-моделі під ліцензією CC0."
      }
     ],
     "title_en": "3D",
@@ -1359,42 +1297,27 @@ window.CATALOGUE = [
    },
    {
     "title": "Шейдери",
-    "desc": "Інтерактивні фрагментні шейдери, процедурний шум і ефекти canvas.",
+    "desc": "Шейдерні ефекти, градієнти й генеративні фони для key visuals.",
     "items": [
-     {
-      "name": "Book of Shaders",
-      "url": "https://thebookofshaders.com/",
-      "desc": "Інтерактивний посібник з опанування фрагментних шейдерів."
-     },
-     {
-      "name": "compute.toys",
-      "url": "https://compute.toys/",
-      "desc": "Пісочниця для написання обчислювальних шейдерів WGSL."
-     },
      {
       "name": "Shaderfrog",
       "url": "https://shaderfrog.com/",
-      "desc": "Візуальний нодовий редактор для складання шейдерів."
-     },
-     {
-      "name": "shadercn",
-      "url": "https://shadercn.run/",
-      "desc": "Шейдерні компоненти для React на основі vgpu і TypeGPU."
+      "desc": "Візуальний нодовий редактор шейдерних ефектів."
      },
      {
       "name": "Paper Shaders",
       "url": "https://shaders.paper.design/",
-      "desc": "Шейдери без залежностей, готові до імпорту."
+      "desc": "Готові шейдерні градієнти й ефекти для фонів."
      },
      {
       "name": "OpenShaders",
       "url": "https://openshaders.com/",
-      "desc": "Колекція шейдерів з відкритим кодом для вебпроєктів."
+      "desc": "Відкрита колекція шейдерних ефектів для key visuals."
      },
      {
       "name": "Orbkit",
       "url": "https://orbkit.zzzzshawn.cloud/",
-      "desc": "WebGL-рендерер шейдерів для анімацій сфер."
+      "desc": "Генератор анімованих сфер на шейдерах."
      }
     ],
     "title_en": "Shaders",
@@ -1402,7 +1325,7 @@ window.CATALOGUE = [
    },
    {
     "title": "Іконки",
-    "desc": "Чіткі набори іконок і гліфів для сучасних інтерфейсів.",
+    "desc": "Набори іконок і гліфів для бренд- та продуктових систем.",
     "items": [
      {
       "name": "Lucide",
@@ -1417,7 +1340,7 @@ window.CATALOGUE = [
      {
       "name": "Iconify",
       "url": "https://iconify.design/",
-      "desc": "Єдиний фреймворк для миттєвого доступу до іконок."
+      "desc": "Пошук по сотнях наборів іконок в одному місці."
      },
      {
       "name": "Rune Icons",
@@ -1432,12 +1355,12 @@ window.CATALOGUE = [
      {
       "name": "Tabler Icons",
       "url": "https://tabler.io/icons",
-      "desc": "Бібліотека з тисяч контурних іконок."
+      "desc": "Тисячі контурних іконок в одному стилі."
      },
      {
       "name": "Heroicons",
       "url": "https://heroicons.com/",
-      "desc": "SVG-іконки ручної роботи від творців Tailwind."
+      "desc": "Акуратні іконки ручної роботи у двох стилях."
      },
      {
       "name": "Material Symbols",
@@ -1447,17 +1370,17 @@ window.CATALOGUE = [
      {
       "name": "Bootstrap Icons",
       "url": "https://icons.getbootstrap.com/",
-      "desc": "Офіційна бібліотека іконок для Bootstrap."
+      "desc": "Великий універсальний набір іконок від команди Bootstrap."
      },
      {
       "name": "Remix Icon",
       "url": "https://remixicon.com/",
-      "desc": "Нейтральна бібліотека іконок у контурному й заповненому стилях."
+      "desc": "Нейтральні іконки в контурному й заповненому стилях."
      },
      {
       "name": "Iconoir",
       "url": "https://iconoir.com/",
-      "desc": "SVG-іконки з відкритим кодом і однаковою товщиною ліній."
+      "desc": "Вільний набір іконок з однаковою товщиною ліній."
      },
      {
       "name": "Ionicons",
@@ -1477,12 +1400,12 @@ window.CATALOGUE = [
      {
       "name": "Feather",
       "url": "https://feathericons.com/",
-      "desc": "Мінімалістичний набір іконок з відкритим кодом на сітці 24px."
+      "desc": "Мінімалістичний вільний набір іконок на сітці 24px."
      },
      {
       "name": "Carbon Icons",
       "url": "https://carbondesignsystem.com/",
-      "desc": "Офіційна бібліотека іконок IBM для корпоративного дизайну."
+      "desc": "Іконки IBM для корпоративних дизайн-систем."
      },
      {
       "name": "Boxicons",
@@ -1490,34 +1413,14 @@ window.CATALOGUE = [
       "desc": "Векторні іконки у трьох стилях."
      },
      {
-      "name": "MX Icons",
-      "url": "https://mx-icons.vercel.app/",
-      "desc": "Велика колекція React-іконок, що легко налаштовуються."
-     },
-     {
       "name": "Eva Icons",
       "url": "https://akveo.github.io/eva-icons/",
       "desc": "Набір із 400 іконок у контурному та заповненому стилях."
      },
      {
-      "name": "Devicon",
-      "url": "https://devicon.dev/",
-      "desc": "Набір іконок інструментів програмування для розробників."
-     },
-     {
-      "name": "css.gg",
-      "url": "https://css.gg/",
-      "desc": "700 легких іконок, створених на чистому CSS."
-     },
-     {
       "name": "HugeIcons",
       "url": "https://hugeicons.com/",
-      "desc": "Велика бібліотека контурних і суцільних іконок."
-     },
-     {
-      "name": "Reicon",
-      "url": "https://reicon.dev/",
-      "desc": "React-бібліотека іконок із tree-shaking і двома товщинами."
+      "desc": "Великий набір контурних і суцільних іконок."
      },
      {
       "name": "Iconsax",
@@ -1567,17 +1470,12 @@ window.CATALOGUE = [
   "sections": [
    {
     "title": "Утиліти",
-    "desc": "Утиліти для розробників, що пришвидшують фронтенд-роботу.",
+    "desc": "Генератори текстур, мокапів і графічних ефектів для бренд-задач.",
     "items": [
      {
       "name": "SVGOMG",
       "url": "https://svgomg.net/",
       "desc": "Вебінтерфейс для оптимізації та очищення SVG-файлів."
-     },
-     {
-      "name": "RegExr",
-      "url": "https://regexr.com/",
-      "desc": "Інтерактивна пісочниця для тестування регулярних виразів."
      },
      {
       "name": "Squoosh",
@@ -1592,22 +1490,12 @@ window.CATALOGUE = [
      {
       "name": "ui.camera",
       "url": "https://ui.camera/",
-      "desc": "3D-мокапи та постановка сцен для софту."
-     },
-     {
-      "name": "Ray.so",
-      "url": "https://ray.so/",
-      "desc": "Перетворює фрагменти коду на скриншоти для поширення."
-     },
-     {
-      "name": "Transform",
-      "url": "https://transform.tools/",
-      "desc": "Конвертер коду між мовами для JSON і типів."
+      "desc": "3D-мокапи та постановка сцен для презентації продуктів."
      },
      {
       "name": "Playgrnd",
       "url": "https://www.playgrnd.tools/",
-      "desc": "Набір браузерних офлайн-інструментів для творчості."
+      "desc": "Набір браузерних інструментів для творчих експериментів."
      },
      {
       "name": "Anim8",
@@ -1622,7 +1510,7 @@ window.CATALOGUE = [
      {
       "name": "DotForge",
       "url": "https://dotforge.vercel.app/",
-      "desc": "Генератор ефекту дизерингу в реальному часі для вебу."
+      "desc": "Генератор ефекту дизерингу в реальному часі."
      },
      {
       "name": "ASCIInator",
@@ -1682,32 +1570,17 @@ window.CATALOGUE = [
      {
       "name": "Mesurer",
       "url": "https://mesurer.dev/",
-      "desc": "Екранний інструмент для перевірки піксельних відступів на сайті."
+      "desc": "Перевірка піксельних відступів прямо на екрані."
      },
      {
       "name": "Render Labs",
       "url": "https://render-labs.evlog.cloud/",
-      "desc": "Інструмент рендерингу зображень від команди evlog."
+      "desc": "Інструмент для рендерингу й обробки зображень."
      },
      {
       "name": "Butterfly",
       "url": "https://www.butterfly.so/",
       "desc": "Мінімалістичний конструктор лендингів для валідації ідей."
-     },
-     {
-      "name": "Corne",
-      "url": "https://corne.rs/",
-      "desc": "Документація для розділеної клавіатури Corne."
-     },
-     {
-      "name": "Shiori",
-      "url": "https://www.shiori.sh/",
-      "desc": "Менеджер закладок із підтримкою CLI та Raycast."
-     },
-     {
-      "name": "Open Source Together",
-      "url": "https://opensource-together.com/",
-      "desc": "Платформа, що поєднує розробників із проєктами з відкритим кодом."
      },
      {
       "name": "ASCII Studio",
@@ -1733,11 +1606,6 @@ window.CATALOGUE = [
       "name": "Screenshot Studio",
       "url": "https://www.screenshot-studio.com/",
       "desc": "Розміщує скриншоти в реалістичних 3D-мокапах."
-     },
-     {
-      "name": "Replay",
-      "url": "https://letsreplay.co/",
-      "desc": "Відтворення сесій і запис дій відвідувачів сайту."
      }
     ],
     "title_en": "Utilities",
@@ -1745,22 +1613,12 @@ window.CATALOGUE = [
    },
    {
     "title": "Десктоп",
-    "desc": "Нативні застосунки-утиліти для macOS і десктопа для продуктивної роботи.",
+    "desc": "Застосунки для Mac, що пришвидшують щоденну роботу дизайнера.",
     "items": [
      {
       "name": "Raycast",
       "url": "https://raycast.com/",
-      "desc": "Розширюваний лаунчер для десктопа, що замінює Spotlight."
-     },
-     {
-      "name": "Ghostty",
-      "url": "https://ghostty.org/",
-      "desc": "Швидкий емулятор термінала з GPU-прискоренням для розробників."
-     },
-     {
-      "name": "Warp",
-      "url": "https://warp.dev/",
-      "desc": "Термінал на Rust із блоковим виводом і AI."
+      "desc": "Лаунчер для Mac, що замінює Spotlight і пришвидшує рутину."
      },
      {
       "name": "CleanShot X",
@@ -1778,16 +1636,6 @@ window.CATALOGUE = [
       "desc": "Безпечний обмін файлами в локальній мережі Wi-Fi."
      },
      {
-      "name": "Canario",
-      "url": "https://rioterm.com/canario",
-      "desc": "Термінал, що впорядковує CLI-сесії в панелі."
-     },
-     {
-      "name": "CoolDock",
-      "url": "https://cooldock.app/",
-      "desc": "Додатковий док із підтримкою віджетів моніторингу."
-     },
-     {
       "name": "Supaste",
       "url": "https://supaste.com/",
       "desc": "Менеджер буфера обміну та історія скриншотів для Mac."
@@ -1796,11 +1644,6 @@ window.CATALOGUE = [
       "name": "Runey",
       "url": "https://runey.app/",
       "desc": "Виставлення рахунків і облік клієнтів для фрилансерів."
-     },
-     {
-      "name": "Revone",
-      "url": "https://revone.app/",
-      "desc": "Єдиний дашборд доходів, що зводить платіжні метрики."
      },
      {
       "name": "Zen Browser",
@@ -1813,17 +1656,12 @@ window.CATALOGUE = [
    },
    {
     "title": "Відео та запис екрана",
-    "desc": "Програми для запису екрана, редактори з таймлайном і інструменти для демо.",
+    "desc": "Запис екрана, монтаж і мокапи для презентації робіт.",
     "items": [
      {
       "name": "Screen Studio",
       "url": "https://screen.studio/",
       "desc": "Запис екрана з автоматичним наближенням камери."
-     },
-     {
-      "name": "Remotion",
-      "url": "https://remotion.dev/",
-      "desc": "Програмний рендеринг відео у високій роздільності на React."
      },
      {
       "name": "DaVinci Resolve",
@@ -1846,11 +1684,6 @@ window.CATALOGUE = [
       "desc": "Перетворює пласкі знімки на 3D-мокапи."
      },
      {
-      "name": "Remocn",
-      "url": "https://www.remocn.dev/",
-      "desc": "Анімаційні компоненти Remotion для відеопродакшену."
-     },
-     {
       "name": "BetterShot",
       "url": "https://www.bettershot.site/",
       "desc": "Запис екрана з наближенням курсора та субтитрами."
@@ -1858,7 +1691,7 @@ window.CATALOGUE = [
      {
       "name": "Recordly",
       "url": "https://recordly.dev/",
-      "desc": "Інструмент запису екрана для відшліфованих технічних демо."
+      "desc": "Запис екрана для відшліфованих демо продуктів."
      },
      {
       "name": "Cursorful",
@@ -1876,12 +1709,12 @@ window.CATALOGUE = [
    },
    {
     "title": "Дошки",
-    "desc": "Нескінченні полотна для вайрфреймів і архітектури систем.",
+    "desc": "Нескінченні полотна для мудбордів, скетчів і планування.",
     "items": [
      {
       "name": "tldraw",
       "url": "https://tldraw.com/",
-      "desc": "Бібліотека нескінченної дошки з React SDK."
+      "desc": "Нескінченна онлайн-дошка для скетчів і схем."
      },
      {
       "name": "Excalidraw",
@@ -1891,7 +1724,7 @@ window.CATALOGUE = [
      {
       "name": "Obsidian",
       "url": "https://obsidian.md/",
-      "desc": "Локальна база знань на Markdown із графами."
+      "desc": "Локальна база знань і нотаток зі зв’язками між ними."
      },
      {
       "name": "Linear",
@@ -1910,58 +1743,53 @@ window.CATALOGUE = [
   "icon": "people",
   "sections": [
    {
-    "title": "Дизайн-інженери, за якими варто стежити",
-    "desc": "Добірка дизайн-інженерів і креативних розробників, за якими варто стежити.",
+    "title": "Дизайнери, за якими варто стежити",
+    "desc": "Дизайнери інтерфейсів, моушну й візуальних систем, у яких варто вчитися.",
     "items": [
      {
       "name": "Emil Kowalski",
       "url": "https://emilkowal.ski/",
-      "desc": "Створює Sonner, Vaul та анімації."
+      "desc": "Стоїть за Sonner і Vaul – еталонами плавного руху в інтерфейсах."
      },
      {
       "name": "Rauno Freiberg",
       "url": "https://rauno.me/",
-      "desc": "Стоїть за Interaction Guidelines у Vercel."
+      "desc": "Автор Interaction Guidelines у Vercel – про відчуття взаємодії."
      },
      {
       "name": "Paco Coursey",
       "url": "https://paco.me/",
-      "desc": "Стоїть за cmdk і next-themes."
+      "desc": "Стоїть за cmdk і next-themes – командним меню та темами оформлення."
      },
      {
       "name": "Gavin Nelson",
       "url": "https://nelson.co/",
-      "desc": "Дизайнер OpenAI, створює тактильні інтерфейси."
+      "desc": "Дизайнер в OpenAI, створює тактильні інтерфейси."
      },
      {
       "name": "Adam Argyle",
       "url": "https://nerdy.dev/",
-      "desc": "DevRel у Chrome, дбає про сучасний CSS."
+      "desc": "Показує нові можливості вебу для кольору, анімацій і переходів."
      },
      {
       "name": "Sarah Drasner",
       "url": "https://sarahdrasner.com/",
-      "desc": "Керує інженерними командами, пише про вебанімацію."
+      "desc": "Пише про вебанімацію: таймінг, ритм і виразний моушн."
      },
      {
       "name": "Jhey Tompkins",
       "url": "https://jhey.dev/",
-      "desc": "Креативний розробник, створює грайливі CSS-експерименти."
+      "desc": "Креативний технолог, створює грайливі візуальні експерименти."
      },
      {
       "name": "Lynn Fisher",
       "url": "https://lynnandtonic.com/",
-      "desc": "Дизайнер проєкту Single Div."
-     },
-     {
-      "name": "Yogesh",
-      "url": "https://yogesh.co/",
-      "desc": "Засновник Remote3, Promptmonitor і Dray."
+      "desc": "Стоїть за Single Div – ілюстраціями, зібраними з одного елемента."
      },
      {
       "name": "shadcn",
       "url": "https://shadcn.com/",
-      "desc": "Стоїть за shadcn/ui і реєстрами компонентів."
+      "desc": "Стоїть за shadcn/ui – впізнаваною візуальною мовою інтерфейсів."
      },
      {
       "name": "Äli",
@@ -1971,17 +1799,17 @@ window.CATALOGUE = [
      {
       "name": "Arlan Marat",
       "url": "https://www.arlan.me/",
-      "desc": "Дизайн-інженер із досвідом у Waymo та Yandex."
+      "desc": "Дизайнер інтерфейсів із досвідом у Waymo та Yandex."
      },
      {
       "name": "Ashish Kashyap",
       "url": "https://www.ashkashyap.me/",
-      "desc": "Стоїть за системою іконок Pikaicons."
+      "desc": "Стоїть за Pikaicons – цілісною системою іконок."
      },
      {
       "name": "Bakemono",
       "url": "https://www.bakemono.space/",
-      "desc": "Дизайн-інженер, створює тактильні інтерфейси."
+      "desc": "Дизайнер, створює тактильні інтерфейси з відчутною фізикою."
      },
      {
       "name": "Emmanuel Hong",
@@ -1996,7 +1824,7 @@ window.CATALOGUE = [
      {
       "name": "Flora Guo",
       "url": "https://www.floguo.com/",
-      "desc": "Продуктовий дизайнер у Ramp і Vercel."
+      "desc": "Продуктовий дизайнер із досвідом у Ramp і Vercel."
      },
      {
       "name": "Glenn Hitchcock",
@@ -2006,7 +1834,7 @@ window.CATALOGUE = [
      {
       "name": "Dominik Kandravý",
       "url": "https://www.heyiam.dk/",
-      "desc": "Розробляє нативні macOS-інструменти Hoy і Monocle."
+      "desc": "Робить нативні macOS-інструменти Hoy і Monocle."
      },
      {
       "name": "Hardik Pandya",
@@ -2016,7 +1844,7 @@ window.CATALOGUE = [
      {
       "name": "Noman Ijaz",
       "url": "https://iamnoman.com/",
-      "desc": "Фронтенд-розробник, експериментує з піксельними градієнтами."
+      "desc": "Експериментує з піксельними градієнтами."
      },
      {
       "name": "Julien Thibeaut",
@@ -2026,7 +1854,7 @@ window.CATALOGUE = [
      {
       "name": "Jia Chen",
       "url": "https://www.jia.build/",
-      "desc": "Креативний інженер і постійний учасник хакатонів."
+      "desc": "Креативний технолог, швидко втілює ідеї на хакатонах."
      },
      {
       "name": "Michelle Liu",
@@ -2041,12 +1869,7 @@ window.CATALOGUE = [
      {
       "name": "Lyle Klyne",
       "url": "https://lyleklyne.com/",
-      "desc": "Технічний дизайнер інтерфейсів у Perplexity."
-     },
-     {
-      "name": "Marcelo Chaman Mallqui",
-      "url": "https://marcelochaman.ca/",
-      "desc": "Інфраструктурний інженер, створює платформні інструменти в Gumloop."
+      "desc": "Дизайнер інтерфейсів у Perplexity, працює на стику дизайну й технологій."
      },
      {
       "name": "Marijana Pavlinić",
@@ -2066,37 +1889,27 @@ window.CATALOGUE = [
      {
       "name": "Stuart Regan",
       "url": "https://stuart.re/",
-      "desc": "Продуктовий дизайнер, проєктує ефективні робочі процеси в софті."
+      "desc": "Продуктовий дизайнер, проєктує ефективні робочі сценарії."
      },
      {
       "name": "Vijay Verma",
       "url": "https://vjy.me/",
-      "desc": "Інді-розробник ігор і засновник студії."
+      "desc": "Робить інді-ігри та розвиває власну студію."
      },
      {
       "name": "Benji Taylor",
       "url": "https://benji.org/",
-      "desc": "Стоїть за Agentation і Honk."
-     },
-     {
-      "name": "Aniket Pawar",
-      "url": "https://www.aniketpawar.com/",
-      "desc": "Фронтенд-інженер в екосистемі shadcn."
+      "desc": "Стоїть за продуктами Agentation і Honk."
      },
      {
       "name": "Aaron Mahlke",
       "url": "https://www.mahlke.design/",
-      "desc": "Дизайн-інженер, створює тактильні вебексперименти."
+      "desc": "Дизайнер, створює тактильні вебексперименти."
      },
      {
       "name": "Grizz",
       "url": "https://grizz.fyi/",
       "desc": "Дизайнер взаємодії, створює виразні вебексперименти."
-     },
-     {
-      "name": "Alistair Smith",
-      "url": "https://alistair.sh/",
-      "desc": "Інженер-програміст в Anthropic, працює над Claude Code."
      },
      {
       "name": "David Umoru",
@@ -2116,17 +1929,17 @@ window.CATALOGUE = [
      {
       "name": "Lokendra Kushwah",
       "url": "https://lokiii.me/",
-      "desc": "Фронтенд-інженер, створює AI-інтерфейси."
+      "desc": "Створює інтерфейси для AI-продуктів."
      },
      {
       "name": "Jakub Krehel",
       "url": "https://jakub.kr/",
-      "desc": "Дизайн-інженер у команді засновників Interfere."
+      "desc": "Дизайнер у команді засновників Interfere."
      },
      {
       "name": "Ishaan Dey",
       "url": "https://www.ishaand.com/",
-      "desc": "Дизайн-інженер, стоїть за Shadow."
+      "desc": "Дизайнер, стоїть за Shadow."
      },
      {
       "name": "Tushaar Mehta",
@@ -2139,54 +1952,39 @@ window.CATALOGUE = [
       "desc": "Креативний технолог, проєктує виразні бренд-системи."
      },
      {
-      "name": "Paolo Nessim",
-      "url": "https://www.paolonessim.com/",
-      "desc": "Інженер, розробляє системи реального часу й робототехніку."
-     },
-     {
       "name": "Ashish Gogula",
       "url": "https://www.ashishgogula.in/",
-      "desc": "Дизайн-інженер, створює Xenon."
+      "desc": "Дизайнер, створює Xenon."
      },
      {
       "name": "Ruru",
       "url": "https://ruru.build/",
-      "desc": "Дизайн-інженер, створює Ruru UI."
+      "desc": "Дизайнер, створює Ruru UI – набір інтерфейсних елементів."
      },
      {
       "name": "Harsh Singh",
       "url": "https://www.harshsingh.me/",
-      "desc": "Інженер-програміст, досліджує мінімалістичний дизайн."
-     },
-     {
-      "name": "Rohit Singh Rawat",
-      "url": "https://rohitsinghrawat.com/",
-      "desc": "Full-stack інженер, створює SaaS-продукти."
+      "desc": "Досліджує мінімалістичний дизайн."
      },
      {
       "name": "Preet Suthar",
       "url": "https://preetsuthar.me/",
-      "desc": "Дизайн-інженер, створює інструменти з відкритим кодом."
+      "desc": "Дизайнер, створює відкриті інструменти для спільноти."
      },
      {
       "name": "Maze",
       "url": "https://remvze.com/",
-      "desc": "Дизайн-інженер, стоїть за Moodist."
+      "desc": "Дизайнер, стоїть за Moodist – застосунком атмосферних звуків."
      },
      {
       "name": "Siddharth",
       "url": "https://siddz.com/",
-      "desc": "Full-stack інженер, створює інтерактивні інтерфейси."
+      "desc": "Створює інтерактивні інтерфейси."
      },
      {
       "name": "Sam",
       "url": "https://samworks.vercel.app/",
-      "desc": "Дизайн-інженер, створює вебзастосунки з акцентом на моушн."
-     },
-     {
-      "name": "Dhruv Suthar",
-      "url": "https://dhrv.pw/",
-      "desc": "Community Engineer у Raycast."
+      "desc": "Дизайнер, створює вебзастосунки з акцентом на моушн."
      },
      {
       "name": "Rahul Singh Bhadoriya",
@@ -2196,12 +1994,12 @@ window.CATALOGUE = [
      {
       "name": "Manu Arora",
       "url": "https://manuarora.in/",
-      "desc": "Стоїть за Aceternity UI і TailwindMasterKit."
+      "desc": "Стоїть за Aceternity UI – набором ефектних анімованих блоків."
      },
      {
       "name": "Swami Malode",
       "url": "https://swamii.me/",
-      "desc": "Дизайн-інженер, створює VidStudio і Rare UI."
+      "desc": "Дизайнер, створює VidStudio і Rare UI."
      },
      {
       "name": "Shawn Dsilva",
@@ -2209,54 +2007,44 @@ window.CATALOGUE = [
       "desc": "Стоїть за Dot Matrix і Orbkit."
      },
      {
-      "name": "Shivam",
-      "url": "https://www.10xshivam.dev/",
-      "desc": "Full-stack розробник, створює масштабовані вебінтерфейси."
-     },
-     {
       "name": "Rohit Mehta",
       "url": "https://portfolio.negativ.in/",
-      "desc": "Розробник, створює Negativ UI."
+      "desc": "Створює Negativ UI – набір інтерфейсних елементів."
      },
      {
       "name": "Ratnesh Chipre",
       "url": "https://ratneshc.com/",
-      "desc": "Дизайн-інженер, створює Draftlogo."
+      "desc": "Дизайнер, створює Draftlogo."
      },
      {
       "name": "Shivraj Roy",
       "url": "https://www.shivrajroy.in/",
-      "desc": "Фронтенд-інженер, спеціалізується на мікроанімаціях."
+      "desc": "Спеціалізується на мікроанімаціях інтерфейсів."
      },
      {
       "name": "Vansh Nagar",
       "url": "https://www.vanshnagar.com/",
-      "desc": "Стоїть за ASCII Studio та вебінструментами."
+      "desc": "Стоїть за ASCII Studio та іншими вебінструментами."
      },
      {
       "name": "Harsh Jadhav",
       "url": "https://harshjdhv.com/",
-      "desc": "Дизайн-інженер, стоїть за Componentry."
+      "desc": "Дизайнер, стоїть за Componentry."
      },
      {
       "name": "Aaryan",
       "url": "https://aaryan.design/",
-      "desc": "Стоїть за Sileo – toast-компонентами з фізикою."
+      "desc": "Стоїть за Sileo – сповіщеннями з фізичною анімацією."
      },
      {
       "name": "Atharvsinh Jadav",
       "url": "https://athrix.me/",
-      "desc": "Full-stack розробник, створює ObsidianUI."
-     },
-     {
-      "name": "Divyansh Swarnkar",
-      "url": "https://divyanshh.tech/",
-      "desc": "Full-stack розробник, створює швидкі вебзастосунки."
+      "desc": "Створює ObsidianUI – набір інтерфейсних елементів."
      },
      {
       "name": "Gurbinder",
       "url": "https://gurbinder.dev/",
-      "desc": "Дизайн-інженер, створює Skiper UI і EvilCharts."
+      "desc": "Дизайнер, створює Skiper UI і стильні графіки EvilCharts."
      },
      {
       "name": "Ashutosh Singh",
@@ -2266,67 +2054,62 @@ window.CATALOGUE = [
      {
       "name": "Palak Sharma",
       "url": "https://palakonweb.in/",
-      "desc": "Full-stack розробник, створює 3D-інтерфейси на WebGL."
+      "desc": "Створює 3D-інтерфейси на WebGL."
      },
      {
       "name": "Aman Shakya",
       "url": "https://amanshakya.in/",
-      "desc": "Дизайн-інженер, створює Forge UI і Statsio."
+      "desc": "Дизайнер, створює Forge UI і Statsio."
      },
      {
       "name": "Mihir Aman Raj",
       "url": "https://www.mihircodes.in/",
-      "desc": "Креативний розробник, експериментує в atomix/ui."
+      "desc": "Креативний технолог, ставить візуальні експерименти в atomix/ui."
      },
      {
       "name": "Prasanjit Dey",
       "url": "https://www.prasanjitdey.com/",
-      "desc": "Дизайн-інженер, стоїть за Insposite."
+      "desc": "Дизайнер, стоїть за Insposite."
      },
      {
       "name": "Chánh Đại",
       "url": "https://chanhdai.com/",
-      "desc": "Дизайн-інженер, створює React Wheel Picker."
+      "desc": "Дизайнер, створює Wheel Picker – барабан вибору для інтерфейсів."
      },
      {
       "name": "Sophie Manalo",
       "url": "https://www.sophiamanalo.com/",
-      "desc": "Креативний розробник, створює виразні вебінтерфейси."
+      "desc": "Креативний технолог, створює виразні вебінтерфейси."
      },
      {
       "name": "Abhinav Kale",
       "url": "https://abhi.at/",
-      "desc": "Дизайн-інженер, створює мінімалістичні вебексперименти."
+      "desc": "Дизайнер, створює мінімалістичні вебексперименти."
      },
      {
       "name": "Karaan",
       "url": "https://www.karaan.me/",
-      "desc": "Фронтенд-інженер із фокусом на якості UI."
+      "desc": "Фокусується на якості та майстерності UI."
      },
      {
       "name": "Ram",
       "url": "https://ramx.in/",
-      "desc": "Фронтенд-розробник, створює інтерактивні вебпродукти."
+      "desc": "Створює інтерактивні вебпродукти."
      },
      {
       "name": "Victor Williams",
       "url": "https://www.victorwilliams.me/",
-      "desc": "Дизайн-інженер, створює сучасний цифровий досвід."
+      "desc": "Дизайнер, створює сучасний цифровий досвід."
      },
      {
       "name": "Umesh Nagare",
       "url": "https://umeshnagare.com/",
-      "desc": "Full-stack інженер, створює чисті інтерфейси."
-     },
-     {
-      "name": "Gautam",
-      "url": "https://www.heygautam.com/",
-      "desc": "Full-stack розробник, створює інструменти з відкритим кодом."
+      "desc": "Створює чисті, стримані інтерфейси."
      },
      {
       "name": "Atharva Mhaske",
       "url": "https://atharvaxdevs.xyz/",
-      "desc": "Фронтенд-розробник, створює креативні вебексперименти."
+      "desc": "Створює креативні вебексперименти."
      },
      {
       "name": "Janina",
@@ -2341,42 +2124,37 @@ window.CATALOGUE = [
      {
       "name": "Manish Kumar",
       "url": "https://www.manixh.dev/",
-      "desc": "Фронтенд-розробник, створює витончені вебінтерфейси."
+      "desc": "Створює витончені вебінтерфейси."
      },
      {
       "name": "Dhruv",
       "url": "https://jdhruv.dev/",
-      "desc": "Дизайн-інженер, створює інтерактивний тактильний софт."
+      "desc": "Дизайнер, створює інтерактивні тактильні продукти."
      },
      {
       "name": "Sahil Singh",
       "url": "https://sahilcodex.vercel.app/",
-      "desc": "Фронтенд-розробник, створює інтерактивні React-компоненти."
+      "desc": "Створює інтерактивні інтерфейсні елементи."
      },
      {
       "name": "Nexvyn",
       "url": "https://nexvyn.dev/",
-      "desc": "Дизайн-інженер, створює компоненти nexvyn/ui."
+      "desc": "Дизайнер, створює набір інтерфейсних елементів nexvyn/ui."
      },
      {
       "name": "Syed Subhan",
       "url": "https://www.syedsubhan.in/",
-      "desc": "Креативний розробник, експериментує з 3D-шейдерами."
+      "desc": "Креативний технолог, експериментує з 3D-шейдерами."
      },
      {
       "name": "Jay",
       "url": "https://www.radiumcoders.com/",
-      "desc": "Дизайн-інженер, створює Evil Buttons і Mascot."
+      "desc": "Дизайнер, створює Evil Buttons і Mascot."
      },
      {
       "name": "Chidu",
       "url": "https://chidu.me/",
       "desc": "Продуктовий дизайнер, проєктує продумані вебвзаємодії."
-     },
-     {
-      "name": "Connor Hepburn",
-      "url": "https://hpbrn.cc/",
-      "desc": "Інженер, розробляє Creed і вебагентів."
      },
      {
       "name": "Pratham",
@@ -2391,7 +2169,7 @@ window.CATALOGUE = [
      {
       "name": "Daniel White",
       "url": "https://www.danielwhite.uk/",
-      "desc": "Дизайн-інженер і засновник textmotion."
+      "desc": "Дизайнер і засновник textmotion."
      },
      {
       "name": "Sasha Balandina",
@@ -2401,27 +2179,22 @@ window.CATALOGUE = [
      {
       "name": "Timothy Maarv",
       "url": "https://www.timothymaarv.me/",
-      "desc": "Продуктовий дизайнер, створює софт від 0 до 1."
+      "desc": "Продуктовий дизайнер, створює продукти від 0 до 1."
      },
      {
       "name": "Soren Blank",
       "url": "https://sorenblank.com/",
-      "desc": "Дизайн-інженер, створює плавні мікровзаємодії."
+      "desc": "Дизайнер, створює плавні мікровзаємодії."
      },
      {
       "name": "Ozzy",
       "url": "https://www.ozzyx.xyz/",
-      "desc": "Дизайн-інженер, створює мікровзаємодії interior.dev."
-     },
-     {
-      "name": "Utsav Gupta",
-      "url": "https://www.utsavworks.in/",
-      "desc": "Full-stack інженер, створює AI-агентів."
+      "desc": "Дизайнер, створює мікровзаємодії interior.dev."
      },
      {
       "name": "Saurabh Sharma",
       "url": "https://www.srbh.site/",
-      "desc": "Дизайн-інженер, створює компоненти Great UI."
+      "desc": "Дизайнер, створює набір інтерфейсних елементів Great UI."
      },
      {
       "name": "Iteration",
@@ -2431,12 +2204,12 @@ window.CATALOGUE = [
      {
       "name": "Josh Puckett",
       "url": "https://joshpuckett.me/",
-      "desc": "Засновник Iteration і DialKit."
+      "desc": "Засновник студії Iteration і DialKit."
      },
      {
       "name": "Mery Kaftar",
       "url": "https://merycodes.com/",
-      "desc": "Дизайн-інженер у Vercel, створює AI-інтерфейси."
+      "desc": "Дизайнер у Vercel, створює AI-інтерфейси."
      },
      {
       "name": "Lele Zhang",
@@ -2456,7 +2229,7 @@ window.CATALOGUE = [
      {
       "name": "Mariana Castilho",
       "url": "https://www.mrncst.computer/",
-      "desc": "Продуктовий дизайнер та інженер у Profound."
+      "desc": "Продуктовий дизайнер у Profound."
      },
      {
       "name": "Evil Rabbit",
@@ -2471,37 +2244,27 @@ window.CATALOGUE = [
      {
       "name": "Tom",
       "url": "https://tomm.page/",
-      "desc": "Стоїть за Spell UI, створює набори компонентів."
+      "desc": "Стоїть за Spell UI, створює набори інтерфейсних елементів."
      },
      {
       "name": "Dan Hollick",
       "url": "https://old.alcohollick.com/",
-      "desc": "Дизайн-інженер у Cursor."
-     },
-     {
-      "name": "Anthony Fu",
-      "url": "https://antfu.me/",
-      "desc": "Open-source розробник і учасник core-команди Vue."
-     },
-     {
-      "name": "Paul Bakaus",
-      "url": "https://paulbakaus.com/",
-      "desc": "Стоїть за jQuery UI, створює AI-інструменти."
+      "desc": "Дизайнер у Cursor."
      },
      {
       "name": "Aditya Sur",
       "url": "https://ample.studio/",
-      "desc": "Дизайнер і розробник, створює цифровий досвід."
+      "desc": "Дизайнер, створює цифровий досвід у студії Ample."
      },
      {
       "name": "Raphael Salaja",
       "url": "https://www.raphaelsalaja.com/",
-      "desc": "Дизайн-інженер, розсуває межі майстерності в інтерфейсах."
+      "desc": "Дизайнер, розсуває межі майстерності в інтерфейсах."
      },
      {
       "name": "Ana Howard",
       "url": "https://ana.sh/",
-      "desc": "Дизайн-інженер у Лондоні, створює продумані інтерфейси."
+      "desc": "Дизайнер у Лондоні, створює продумані інтерфейси."
      },
      {
       "name": "Jakub Antalík",
@@ -2511,12 +2274,12 @@ window.CATALOGUE = [
      {
       "name": "Henry Heffernan",
       "url": "https://henryheffernan.com/",
-      "desc": "Креативний розробник, стоїть за портфоліо у вигляді ОС."
+      "desc": "Креативний технолог, стоїть за портфоліо у вигляді ОС."
      },
      {
       "name": "Wojtek Witkowski",
       "url": "https://wojtek.im/",
-      "desc": "Staff UI engineer у Coinbase."
+      "desc": "Відповідає за майстерність UI у Coinbase."
      },
      {
       "name": "Akash Bhadange",
@@ -2524,19 +2287,14 @@ window.CATALOGUE = [
       "desc": "Продуктовий дизайнер і засновник Peerlist."
      },
      {
-      "name": "Aiden Bai",
-      "url": "https://aidenybai.com/",
-      "desc": "Засновник Million.js і React Scan."
-     },
-     {
       "name": "Shu Ding",
       "url": "https://shud.in/",
-      "desc": "Дизайнер та інженер у Vercel."
+      "desc": "Дизайнер у Vercel."
      },
      {
       "name": "Danilo Woznica",
       "url": "https://danilowoz.com/",
-      "desc": "Стоїть за бібліотекою компонентів react-content-loader."
+      "desc": "Стоїть за content-loader – SVG-скелетонами для станів завантаження."
      },
      {
       "name": "Daryl Ginn",
@@ -2551,33 +2309,35 @@ window.CATALOGUE = [
      {
       "name": "Todd Hamilton",
       "url": "https://toddham.com/",
-      "desc": "Продуктовий дизайнер і розробник, створює AIProxy."
+      "desc": "Продуктовий дизайнер, створює AIProxy."
      },
      {
       "name": "Zaid Mukaddam",
       "url": "https://zaidmukaddam.com/",
-      "desc": "Стоїть за Scira AI, діалоговим пошуком."
-     },
-     {
-      "name": "Kartik Labhshetwar",
-      "url": "https://kartiklabhshetwar.com/",
-      "desc": "Інженер-програміст у Mem0, створює пам’ять для AI."
+      "desc": "Стоїть за Scira AI – інтерфейсом діалогового пошуку."
      },
      {
       "name": "Saurabh",
       "url": "https://saura3h.xyz/",
-      "desc": "Дизайн-інженер, створює beUI – бібліотеку моушн-компонентів."
+      "desc": "Дизайнер, створює beUI – набір моушн-компонентів."
      },
      {
       "name": "Daryl Patigas",
       "url": "https://imdaryl.com/",
-      "desc": "Дизайнер у команді засновників Lottielab."
+      "desc": "Дизайнер у команді засновників Lottielab – інструменту для моушну."
      }
     ],
     "title_en": "Design engineers to follow",
     "id": "design-engineers-to-follow"
    }
   ]
+ },
+ {
+  "id": "ai-guide",
+  "title": "AI Guide",
+  "icon": "ai",
+  "type": "guide",
+  "sections": []
  }
 ];
 window.AI_GUIDE = {
