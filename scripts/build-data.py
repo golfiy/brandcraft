@@ -580,6 +580,32 @@ def restructure_visuals(categories):
         item.setdefault("cases", []).append({"label": label, "url": url})
 
 
+# Skills: ready-made instructions for AI agents (Claude, Cursor…), mostly from ui-skills.com.
+SKILLS = [
+    ("Agent Skills", "Skills для AI-агентів",
+     "Готові інструкції для Claude, Cursor та інших агентів: ставиш однією командою, і агент працює за правилами майстрів.",
+     [("UI Skills", "https://www.ui-skills.com/", "Каталог skills для дизайн-інженерів із пошуком і встановленням в одну команду."),
+      ("emil-design-eng", "https://www.ui-skills.com/skills/emilkowalski/emil-design-eng", "Підхід Еміла Ковальскі до відполірованого UI: компоненти, анімації, смак у деталях."),
+      ("make-interfaces-feel-better", "https://www.ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better", "Принципи Якуба Крегеля: мікровзаємодії, типографіка й деталі, що роблять інтерфейс приємним."),
+      ("playwright-cli", "https://www.ui-skills.com/skills/microsoft/playwright-cli", "Офіційний skill Microsoft: агент сам відкриває браузер, проходить сценарії й перевіряє сайт."),
+      ("react-doctor", "https://www.ui-skills.com/skills/millionco/react-doctor", "Перевіряє React-інтерфейс на проблеми безпеки, швидкодії й архітектури та ставить оцінку."),
+      ("fixing-accessibility", "https://www.ui-skills.com/skills/ibelick/fixing-accessibility", "Знаходить і виправляє проблеми доступності: підписи, клавіатура, фокус, контраст, форми."),
+      ("12-principles-of-animation", "https://www.ui-skills.com/skills/raphaelsalaja/12-principles-of-animation", "12 принципів анімації Disney, адаптовані для інтерфейсів, від Рафаеля Салаї."),
+      ("shadcn", "https://www.ui-skills.com/skills/shadcn-ui/shadcn", "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу.")]),
+]
+
+
+def build_skills(categories):
+    insp = next(c for c in categories if c["id"] == "inspiration")
+    reading = next(s for s in insp["sections"] if s["title_en"] == "Reading")
+    reading["items"] = [i for i in reading["items"] if "ui-skills.com" not in i["url"]]  # moved here
+    sections = [{"title": uk, "title_en": en, "desc": desc,
+                 "id": re.sub(r"[^a-z0-9]+", "-", en.lower()).strip("-"),
+                 "items": [{"name": n, "url": u, "desc": d} for n, u, d in items]}
+                for en, uk, desc, items in SKILLS]
+    return {"id": "skills", "title": "Skills", "icon": "skill", "sections": sections}
+
+
 def load_uk():
     uk = {"sections": {}, "items": {}}
     for f in sorted((ROOT / "i18n").glob("uk-part*.json")):
@@ -670,6 +696,8 @@ def main():
     restructure_visuals(categories)
     landings = build_landings(categories)
     categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), landings)
+    skills = build_skills(categories)
+    categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "ai-guide"), skills)
     aso = build_aso(categories)
     categories.insert(next(i for i, c in enumerate(categories) if c["id"] == "product-sites"), aso)
 

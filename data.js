@@ -426,11 +426,6 @@ window.CATALOGUE = [
       "desc": "Курс про анімації в інтерфейсах, які відчуваються правильно."
      },
      {
-      "name": "UI Skills",
-      "url": "https://ui-skills.com/",
-      "desc": "Курс про техніки дизайну з AI."
-     },
-     {
       "name": "AI for UI",
       "url": "https://aiforui.dev/",
       "desc": "Курс про AI-воркфлоу для інтерфейсів."
@@ -9493,6 +9488,61 @@ window.CATALOGUE = [
     ],
     "title_en": "Design engineers to follow",
     "id": "design-engineers-to-follow"
+   }
+  ]
+ },
+ {
+  "id": "skills",
+  "title": "Skills",
+  "icon": "skill",
+  "sections": [
+   {
+    "title": "Skills для AI-агентів",
+    "title_en": "Agent Skills",
+    "desc": "Готові інструкції для Claude, Cursor та інших агентів: ставиш однією командою, і агент працює за правилами майстрів.",
+    "id": "agent-skills",
+    "items": [
+     {
+      "name": "UI Skills",
+      "url": "https://www.ui-skills.com/",
+      "desc": "Каталог skills для дизайн-інженерів із пошуком і встановленням в одну команду."
+     },
+     {
+      "name": "emil-design-eng",
+      "url": "https://www.ui-skills.com/skills/emilkowalski/emil-design-eng",
+      "desc": "Підхід Еміла Ковальскі до відполірованого UI: компоненти, анімації, смак у деталях."
+     },
+     {
+      "name": "make-interfaces-feel-better",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better",
+      "desc": "Принципи Якуба Крегеля: мікровзаємодії, типографіка й деталі, що роблять інтерфейс приємним."
+     },
+     {
+      "name": "playwright-cli",
+      "url": "https://www.ui-skills.com/skills/microsoft/playwright-cli",
+      "desc": "Офіційний skill Microsoft: агент сам відкриває браузер, проходить сценарії й перевіряє сайт."
+     },
+     {
+      "name": "react-doctor",
+      "url": "https://www.ui-skills.com/skills/millionco/react-doctor",
+      "desc": "Перевіряє React-інтерфейс на проблеми безпеки, швидкодії й архітектури та ставить оцінку."
+     },
+     {
+      "name": "fixing-accessibility",
+      "url": "https://www.ui-skills.com/skills/ibelick/fixing-accessibility",
+      "desc": "Знаходить і виправляє проблеми доступності: підписи, клавіатура, фокус, контраст, форми."
+     },
+     {
+      "name": "12-principles-of-animation",
+      "url": "https://www.ui-skills.com/skills/raphaelsalaja/12-principles-of-animation",
+      "desc": "12 принципів анімації Disney, адаптовані для інтерфейсів, від Рафаеля Салаї."
+     },
+     {
+      "name": "shadcn",
+      "url": "https://www.ui-skills.com/skills/shadcn-ui/shadcn",
+      "desc": "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу."
+     }
+    ]
    }
   ]
  },
