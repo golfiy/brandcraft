@@ -296,6 +296,11 @@ window.CATALOGUE = [
       "name": "UI Playbook",
       "url": "https://uiplaybook.dev/",
       "desc": "Посібник зі станів інтерфейсних елементів."
+     },
+     {
+      "name": "Component Gallery",
+      "url": "https://component.gallery/",
+      "desc": "Понад 2600 прикладів того, як дизайн-системи вирішують один і той самий елемент."
      }
     ],
     "title_en": "Interface Design",
@@ -1297,6 +1302,16 @@ window.CATALOGUE = [
       "name": "Gridddy",
       "url": "https://gridddy.framer.website/",
       "desc": "Галерея CTA-блоків перед футером."
+     },
+     {
+      "name": "Pricing Pages",
+      "url": "https://pricingpages.design/",
+      "desc": "Кураторська галерея сторінок цін."
+     },
+     {
+      "name": "404s",
+      "url": "https://www.404s.design/",
+      "desc": "Креативні сторінки помилки 404, які варто вкрасти."
      }
     ]
    },
@@ -1309,7 +1324,13 @@ window.CATALOGUE = [
      {
       "name": "Refero",
       "url": "https://refero.design/",
-      "desc": "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."
+      "desc": "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком.",
+      "cases": [
+       {
+        "label": "Styles",
+        "url": "https://styles.refero.design/"
+       }
+      ]
      },
      {
       "name": "Nicelydone",
@@ -1335,6 +1356,11 @@ window.CATALOGUE = [
       "name": "Patttterns",
       "url": "https://patttterns.com/",
       "desc": "Понад 400 реальних дизайн-патернів, відібраних вручну."
+     },
+     {
+      "name": "Kage",
+      "url": "https://kage.design/",
+      "desc": "Інтерфейси реальних продуктів, які можна одразу перетворити на промпт для агента."
      }
     ]
    },
@@ -8489,6 +8515,11 @@ window.CATALOGUE = [
         "url": "https://shaders.com/collection/city-grid/cc316733-d3aa-4ee4-9eaa-cffa12eb6500"
        }
       ]
+     },
+     {
+      "name": "Shadertoy",
+      "url": "https://www.shadertoy.com/",
+      "desc": "Головний онлайн-редактор шейдерів і спільнота шейдерного мистецтва."
      }
     ],
     "title_en": "Shaders",
@@ -8627,6 +8658,11 @@ window.CATALOGUE = [
       "name": "Inkword",
       "url": "https://inkword.app/",
       "desc": "Перетворює одне слово на відповідну ілюстрацію."
+     },
+     {
+      "name": "3dicons",
+      "url": "https://3dicons.co/",
+      "desc": "Понад 1440 відкритих 3D-іконок без потреби в атрибуції."
      }
     ],
     "title_en": "Icons",
@@ -8652,6 +8688,44 @@ window.CATALOGUE = [
       "name": "MicroKit",
       "url": "https://microkit.co/",
       "desc": "49 готових мікровзаємодій: кнопки, ховери, таби, поля."
+     },
+     {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com/",
+      "desc": "Понад 200 анімованих елементів, блоків і шаблонів лендингів."
+     },
+     {
+      "name": "Magic UI",
+      "url": "https://magicui.design/",
+      "desc": "Понад 150 анімованих елементів і ефектів для лендингів."
+     },
+     {
+      "name": "Motion Primitives",
+      "url": "https://motion-primitives.com/",
+      "desc": "Набір анімованих елементів для складних взаємодій."
+     },
+     {
+      "name": "Shadcnblocks",
+      "url": "https://www.shadcnblocks.com/",
+      "desc": "Понад 2000 готових секцій і блоків у стилі shadcn/ui."
+     },
+     {
+      "name": "21st.dev",
+      "url": "https://21st.dev/",
+      "desc": "Реєстр елементів, шаблонів і тем, який агент підключає через MCP."
+     }
+    ]
+   },
+   {
+    "title": "Ілюстрації",
+    "title_en": "Illustrations",
+    "desc": "Бібліотеки ілюстрацій для сайтів, презентацій і соцмереж.",
+    "id": "illustrations",
+    "items": [
+     {
+      "name": "Kitbitz",
+      "url": "https://kitbitz.art/",
+      "desc": "Понад 2000 безкоштовних мальованих ілюстрацій у SVG і PNG."
      }
     ]
    }
@@ -9687,6 +9761,16 @@ window.CATALOGUE = [
       "name": "Awesome Claude Skills",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "desc": "Кураторський список skills, ресурсів та інструментів для Claude."
+     },
+     {
+      "name": "DESIGN.md",
+      "url": "https://designmd.ai/",
+      "desc": "Сотні готових DESIGN.md: дизайн-системи, які читає AI-агент."
+     },
+     {
+      "name": "VibePrompt",
+      "url": "https://vibeprompts.dev/",
+      "desc": "Бібліотека промптів для секцій сторінок: hero, ціни, FAQ."
      }
     ]
    }

@@ -376,7 +376,9 @@ LANDINGS = [
     ("Sections & Components", "Секції та блоки", "Hero, футери, навігація й CTA окремо від цілої сторінки.",
      ["SEESAW", "Supahero", "Sections.wtf", "footer.design", "navbar.design", "navbar.gallery", "cta.gallery"],
      [("Unsection", "https://www.unsection.com/", "Секції лендингів, SaaS, портфоліо й e-commerce."),
-      ("Gridddy", "https://gridddy.framer.website/", "Галерея CTA-блоків перед футером.")]),
+      ("Gridddy", "https://gridddy.framer.website/", "Галерея CTA-блоків перед футером."),
+      ("Pricing Pages", "https://pricingpages.design/", "Кураторська галерея сторінок цін."),
+      ("404s", "https://www.404s.design/", "Креативні сторінки помилки 404, які варто вкрасти.")]),
     ("Product UI", "UI продуктів", "Екрани реальних продуктів і рішення, що за ними стоять.",
      [],
      [("Refero", "https://refero.design/", "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."),
@@ -384,7 +386,8 @@ LANDINGS = [
       ("abtest.design", "https://abtest.design/", "Результати A/B-тестів у найкращих застосунках."),
       ("Handheld", "https://www.handheld.design/", "Розсилка про мобільний дизайн: фреймворки, натхнення, інструменти."),
       ("Page Flows", "https://pageflows.com/", "Понад 100 тисяч записаних флоу й екранів топових застосунків."),
-      ("Patttterns", "https://patttterns.com/", "Понад 400 реальних дизайн-патернів, відібраних вручну.")]),
+      ("Patttterns", "https://patttterns.com/", "Понад 400 реальних дизайн-патернів, відібраних вручну."),
+      ("Kage", "https://kage.design/", "Інтерфейси реальних продуктів, які можна одразу перетворити на промпт для агента.")]),
     ("Portfolios", "Портфоліо", "Сайти-портфоліо дизайнерів і студій.",
      ["Folios Gallery", "Wall of Portfolios"],
      [("Killer Portfolio", "https://www.killerportfolio.com/", "Добірка ефективних сайтів-портфоліо.")]),
@@ -395,7 +398,8 @@ LANDINGS = [
       ("Aesse Studio", "https://aessestudio.tumblr.com/", "Tumblr-добірка візуальних референсів."),
       ("Klikkenthéke", "https://klikkentheke.com/catalogue/", "Каталог візуальних референсів.")]),
 ]
-LANDING_CASES = {"One Page Love": [{"label": "OG Images", "url": "https://onepagelove.com/og"}]}
+LANDING_CASES = {"One Page Love": [{"label": "OG Images", "url": "https://onepagelove.com/og"}],
+                 "Refero": [{"label": "Styles", "url": "https://styles.refero.design/"}]}
 
 
 def build_landings(categories):
@@ -533,7 +537,14 @@ VISUALS_NEW = [
     ("UI Kits", "UI-кіти", "Готові інтерфейсні елементи й мікровзаємодії.", "Icons", [],
      [("shadcn/ui", "https://ui.shadcn.com/", "Основа для власної дизайн-системи з продуманими елементами.", []),
       ("Uiverse", "https://uiverse.io/elements", "Тисячі відкритих інтерфейсних елементів від спільноти.", []),
-      ("MicroKit", "https://microkit.co/", "49 готових мікровзаємодій: кнопки, ховери, таби, поля.", [])]),
+      ("MicroKit", "https://microkit.co/", "49 готових мікровзаємодій: кнопки, ховери, таби, поля.", []),
+      ("Aceternity UI", "https://ui.aceternity.com/", "Понад 200 анімованих елементів, блоків і шаблонів лендингів.", []),
+      ("Magic UI", "https://magicui.design/", "Понад 150 анімованих елементів і ефектів для лендингів.", []),
+      ("Motion Primitives", "https://motion-primitives.com/", "Набір анімованих елементів для складних взаємодій.", []),
+      ("Shadcnblocks", "https://www.shadcnblocks.com/", "Понад 2000 готових секцій і блоків у стилі shadcn/ui.", []),
+      ("21st.dev", "https://21st.dev/", "Реєстр елементів, шаблонів і тем, який агент підключає через MCP.", [])]),
+    ("Illustrations", "Ілюстрації", "Бібліотеки ілюстрацій для сайтів, презентацій і соцмереж.", "UI Kits", [],
+     [("Kitbitz", "https://kitbitz.art/", "Понад 2000 безкоштовних мальованих ілюстрацій у SVG і PNG.", [])]),
 ]
 VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("visuals", "Type", "Space Type Generator", "https://spacetypegenerator.com/clutter", "Кінетичні генератори типографіки для постерів і моушну.", []),
@@ -552,6 +563,9 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("brand-guidelines", "Guidelines & Libraries", "Brand Guidelines", "https://www.brandguidelines.net/", "Каталог брендбуків світових компаній у PDF.", []),
     ("inspiration", "Design Galleries", "Noiced", "https://noiced.com/", "Кураторські відео для дизайнерів і креативників.", []),
     ("utilities", "Video & Capture", "Pixlo", "https://pixlo.me/", "Перетворює добірку фото на відео-слайдшоу для соцмереж.", []),
+    ("visuals", "Shaders", "Shadertoy", "https://www.shadertoy.com/", "Головний онлайн-редактор шейдерів і спільнота шейдерного мистецтва.", []),
+    ("visuals", "Icons", "3dicons", "https://3dicons.co/", "Понад 1440 відкритих 3D-іконок без потреби в атрибуції.", []),
+    ("inspiration", "Interface Design", "Component Gallery", "https://component.gallery/", "Понад 2600 прикладів того, як дизайн-системи вирішують один і той самий елемент.", []),
     ("visuals", "Gradients", "Colir", "https://colir.space/", "Градієнти з керуванням кривими, режимами змішування й ефектами.", []),
     ("visuals", "Patterns & Generators", "Ditther", "https://ditther.com/", "Понад 75 ефектів: дизеринг, халфтон, ASCII, піксель-арт.", []),
 ]
@@ -627,6 +641,8 @@ SKILLS = [
       ('UI/UX Pro Max', 'https://github.com/nextlevelbuilder/ui-ux-pro-max-skill', 'Дизайн-знання для агента, щоб збирати професійний UI/UX на різних платформах.'),
       ('Archify', 'https://github.com/tt-a1i/archify', 'Перетворює ідею чи план на красиву інтерактивну схему.'),
       ('Awesome Claude Skills', 'https://github.com/ComposioHQ/awesome-claude-skills', 'Кураторський список skills, ресурсів та інструментів для Claude.'),
+      ('DESIGN.md', 'https://designmd.ai/', 'Сотні готових DESIGN.md: дизайн-системи, які читає AI-агент.'),
+      ('VibePrompt', 'https://vibeprompts.dev/', 'Бібліотека промптів для секцій сторінок: hero, ціни, FAQ.'),
      ]),
 ]
 
