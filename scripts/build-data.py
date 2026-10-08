@@ -540,6 +540,10 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("visuals", "Type", "Claude Type", "https://claudetype.com/", "Незалежна французька шрифтова студія: кастомні гарнітури й логотипи.", []),
     ("inspiration", "Design Galleries", "Museum of the Human Web", "https://museum.parallel.ai/", "Музей культурних артефактів з історії інтернету.", []),
     ("inspiration", "Reading", "AI in Design Report 2026", "https://stateofaidesign.com/", "Щорічний звіт про те, як дизайн-команди адаптуються до AI.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Deck.gallery", "https://www.deck.gallery/", "Кураторська добірка красивих презентацій, деків і гайдлайнів.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Logosystem", "https://logosystem.co/", "Понад 1300 логотипів і анімованих лого з фільтрами за кольором і стилем.", []),
+    ("brand-guidelines", "Guidelines & Libraries", "Brand Guidelines", "https://www.brandguidelines.net/", "Каталог брендбуків світових компаній у PDF.", []),
+    ("inspiration", "Design Galleries", "Noiced", "https://noiced.com/", "Кураторські відео для дизайнерів і креативників.", []),
 ]
 VISUALS_CASES = [("inspiration", "Design Galleries", "Backgrounds Supply", ("Gradient Lab", "https://backgrounds.supply/gradient-lab"))]
 

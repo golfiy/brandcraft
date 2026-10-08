@@ -228,6 +228,11 @@ window.CATALOGUE = [
       "name": "Museum of the Human Web",
       "url": "https://museum.parallel.ai/",
       "desc": "Музей культурних артефактів з історії інтернету."
+     },
+     {
+      "name": "Noiced",
+      "url": "https://noiced.com/",
+      "desc": "Кураторські відео для дизайнерів і креативників."
      }
     ],
     "title_en": "Design Galleries",
@@ -1022,6 +1027,21 @@ window.CATALOGUE = [
       "name": "Cash App Design",
       "url": "https://design.cash.app/",
       "desc": "Дизайн-система й візуальна мова Cash App."
+     },
+     {
+      "name": "Deck.gallery",
+      "url": "https://www.deck.gallery/",
+      "desc": "Кураторська добірка красивих презентацій, деків і гайдлайнів."
+     },
+     {
+      "name": "Logosystem",
+      "url": "https://logosystem.co/",
+      "desc": "Понад 1300 логотипів і анімованих лого з фільтрами за кольором і стилем."
+     },
+     {
+      "name": "Brand Guidelines",
+      "url": "https://www.brandguidelines.net/",
+      "desc": "Каталог брендбуків світових компаній у PDF."
      }
     ],
     "title_en": "Guidelines & Libraries",
