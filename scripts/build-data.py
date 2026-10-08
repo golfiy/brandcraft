@@ -591,7 +591,21 @@ SKILLS = [
       ("react-doctor", "https://www.ui-skills.com/skills/millionco/react-doctor", "Перевіряє React-інтерфейс на проблеми безпеки, швидкодії й архітектури та ставить оцінку."),
       ("fixing-accessibility", "https://www.ui-skills.com/skills/ibelick/fixing-accessibility", "Знаходить і виправляє проблеми доступності: підписи, клавіатура, фокус, контраст, форми."),
       ("12-principles-of-animation", "https://www.ui-skills.com/skills/raphaelsalaja/12-principles-of-animation", "12 принципів анімації Disney, адаптовані для інтерфейсів, від Рафаеля Салаї."),
-      ("shadcn", "https://www.ui-skills.com/skills/shadcn-ui/shadcn", "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу.")]),
+      ("shadcn", "https://www.ui-skills.com/skills/shadcn-ui/shadcn", "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу."),
+      ("frontend-design", "https://www.ui-skills.com/skills/anthropics/frontend-design", "Офіційний skill Anthropic: виразні інтерфейси без шаблонної «AI-естетики»."),
+      ("apple-design", "https://www.ui-skills.com/skills/emilkowalski/apple-design", "Підхід Apple до інтерфейсів і фізичного руху: жести та пружинні анімації."),
+      ("beautiful-shadows", "https://www.ui-skills.com/skills/mengto/beautiful-shadows", "Глибина й тіні без бруду: правильна елевація в інтерфейсі від Meng To."),
+      ("accessibility", "https://www.ui-skills.com/skills/addyosmani/accessibility", "Аудит і покращення доступності за WCAG 2.2 від Едді Османі."),
+      ("design-review", "https://www.ui-skills.com/skills/superfuture/design-review", "Чіткий дизайн-рев’ю з пріоритетами: ієрархія, типографіка, відступи, колір."),
+      ("adapt", "https://www.ui-skills.com/skills/pbakaus/adapt", "Адаптує дизайн під брейкпоінти, пристрої та обмеження платформ."),
+      ("better-interface", "https://www.ui-skills.com/skills/jakubkrehel/better-interface", "Комплексний рев’ю інтерфейсу: доступність, сітка, тексти, типографіка, колір."),
+      ("interaction-design", "https://www.ui-skills.com/skills/wshobson/interaction-design", "Мікровзаємодії, моушн, переходи й фідбек для приємного досвіду.")]),
+    ("Skill Packs", "Набори skills",
+     "Великі набори й каталоги skills на GitHub, які варто поставити агенту цілком.",
+     [("Impeccable", "https://github.com/pbakaus/impeccable", "Дизайн-мова від Пола Бакауса, що робить AI-агентів кращими в дизайні."),
+      ("UI/UX Pro Max", "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "Дизайн-знання для агента, щоб збирати професійний UI/UX на різних платформах."),
+      ("Archify", "https://github.com/tt-a1i/archify", "Перетворює ідею чи план на красиву інтерактивну схему."),
+      ("Awesome Claude Skills", "https://github.com/ComposioHQ/awesome-claude-skills", "Кураторський список skills, ресурсів та інструментів для Claude.")]),
 ]
 
 

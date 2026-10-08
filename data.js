@@ -9541,6 +9541,74 @@ window.CATALOGUE = [
       "name": "shadcn",
       "url": "https://www.ui-skills.com/skills/shadcn-ui/shadcn",
       "desc": "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу."
+     },
+     {
+      "name": "frontend-design",
+      "url": "https://www.ui-skills.com/skills/anthropics/frontend-design",
+      "desc": "Офіційний skill Anthropic: виразні інтерфейси без шаблонної «AI-естетики»."
+     },
+     {
+      "name": "apple-design",
+      "url": "https://www.ui-skills.com/skills/emilkowalski/apple-design",
+      "desc": "Підхід Apple до інтерфейсів і фізичного руху: жести та пружинні анімації."
+     },
+     {
+      "name": "beautiful-shadows",
+      "url": "https://www.ui-skills.com/skills/mengto/beautiful-shadows",
+      "desc": "Глибина й тіні без бруду: правильна елевація в інтерфейсі від Meng To."
+     },
+     {
+      "name": "accessibility",
+      "url": "https://www.ui-skills.com/skills/addyosmani/accessibility",
+      "desc": "Аудит і покращення доступності за WCAG 2.2 від Едді Османі."
+     },
+     {
+      "name": "design-review",
+      "url": "https://www.ui-skills.com/skills/superfuture/design-review",
+      "desc": "Чіткий дизайн-рев’ю з пріоритетами: ієрархія, типографіка, відступи, колір."
+     },
+     {
+      "name": "adapt",
+      "url": "https://www.ui-skills.com/skills/pbakaus/adapt",
+      "desc": "Адаптує дизайн під брейкпоінти, пристрої та обмеження платформ."
+     },
+     {
+      "name": "better-interface",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/better-interface",
+      "desc": "Комплексний рев’ю інтерфейсу: доступність, сітка, тексти, типографіка, колір."
+     },
+     {
+      "name": "interaction-design",
+      "url": "https://www.ui-skills.com/skills/wshobson/interaction-design",
+      "desc": "Мікровзаємодії, моушн, переходи й фідбек для приємного досвіду."
+     }
+    ]
+   },
+   {
+    "title": "Набори skills",
+    "title_en": "Skill Packs",
+    "desc": "Великі набори й каталоги skills на GitHub, які варто поставити агенту цілком.",
+    "id": "skill-packs",
+    "items": [
+     {
+      "name": "Impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "desc": "Дизайн-мова від Пола Бакауса, що робить AI-агентів кращими в дизайні."
+     },
+     {
+      "name": "UI/UX Pro Max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "desc": "Дизайн-знання для агента, щоб збирати професійний UI/UX на різних платформах."
+     },
+     {
+      "name": "Archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "desc": "Перетворює ідею чи план на красиву інтерактивну схему."
+     },
+     {
+      "name": "Awesome Claude Skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "desc": "Кураторський список skills, ресурсів та інструментів для Claude."
      }
     ]
    }
