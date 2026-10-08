@@ -563,6 +563,7 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("brand-guidelines", "Guidelines & Libraries", "Brand Guidelines", "https://www.brandguidelines.net/", "Каталог брендбуків світових компаній у PDF.", []),
     ("inspiration", "Design Galleries", "Noiced", "https://noiced.com/", "Кураторські відео для дизайнерів і креативників.", []),
     ("utilities", "Video & Capture", "Pixlo", "https://pixlo.me/", "Перетворює добірку фото на відео-слайдшоу для соцмереж.", []),
+    ("visuals", "Motion & Effects", "Anime.js", "https://animejs.com/", "Легкий і швидкий рушій для вебанімацій.", []),
     ("visuals", "Shaders", "Shadertoy", "https://www.shadertoy.com/", "Головний онлайн-редактор шейдерів і спільнота шейдерного мистецтва.", []),
     ("visuals", "Icons", "3dicons", "https://3dicons.co/", "Понад 1440 відкритих 3D-іконок без потреби в атрибуції.", []),
     ("inspiration", "Interface Design", "Component Gallery", "https://component.gallery/", "Понад 2600 прикладів того, як дизайн-системи вирішують один і той самий елемент.", []),

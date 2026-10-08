@@ -8460,6 +8460,11 @@ window.CATALOGUE = [
       "name": "liquefy-ui",
       "url": "https://liquefy-ui.com/",
       "desc": "Прозорі Liquid Glass-елементи з пружинною фізикою."
+     },
+     {
+      "name": "Anime.js",
+      "url": "https://animejs.com/",
+      "desc": "Легкий і швидкий рушій для вебанімацій."
      }
     ]
    },
@@ -8467,6 +8472,11 @@ window.CATALOGUE = [
     "title": "3D",
     "desc": "3D-моделювання, текстури й матеріали для key visuals.",
     "items": [
+     {
+      "name": "Three.js",
+      "url": "https://threejs.org/",
+      "desc": "Найпопулярніша бібліотека для 3D у вебі."
+     },
      {
       "name": "Blender",
       "url": "https://blender.org/",
@@ -8485,6 +8495,11 @@ window.CATALOGUE = [
     "title": "Шейдери",
     "desc": "Шейдерні ефекти, градієнти й генеративні фони для key visuals.",
     "items": [
+     {
+      "name": "Book of Shaders",
+      "url": "https://thebookofshaders.com/",
+      "desc": "Безкоштовний інтерактивний вступ до фрагментних шейдерів."
+     },
      {
       "name": "Shaderfrog",
       "url": "https://shaderfrog.com/",
