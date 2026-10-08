@@ -315,7 +315,13 @@ def build_product_sites():
             continue
         by[lab["section"]].append({"name": lab["name"], "url": x["url"], "desc": lab["desc"].replace("—", "–")})
     # Hand-curated additions (2026-10-06 batch: AI and product brands), already liveness-checked.
-    for x in json.loads((ROOT / "i18n" / "ps" / "extra.json").read_text()):
+    # extra.json – hand-curated; jun-hi.json – weekly intake from @jun_hi «Inspiration» (scripts/jun_hi_weekly.py).
+    extras = []
+    for name in ("extra.json", "jun-hi.json"):
+        f = ROOT / "i18n" / "ps" / name
+        if f.exists():
+            extras += json.loads(f.read_text())
+    for x in extras:
         item = {k: x[k] for k in ("name", "url", "desc")}
         if x.get("cases"):
             item["cases"] = x["cases"]

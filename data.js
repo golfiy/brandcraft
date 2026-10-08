@@ -5606,7 +5606,7 @@ window.CATALOGUE = [
      },
      {
       "name": "Airbnb",
-      "url": "https://ru.airbnb.com/services",
+      "url": "https://www.airbnb.com/",
       "desc": "Бронювання послуг у подорожі: кухарі, масаж, фотозйомка."
      },
      {
