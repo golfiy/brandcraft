@@ -1480,6 +1480,11 @@ window.CATALOGUE = [
       "name": "Rotato",
       "url": "https://rotato.app/",
       "desc": "3D-мокапи пристроїв і анімації для Mac."
+     },
+     {
+      "name": "Hano",
+      "url": "https://www.hano.so/",
+      "desc": "3D-мокапи пристроїв і анімація сцен прямо в браузері."
      }
     ]
    },
@@ -8353,6 +8358,11 @@ window.CATALOGUE = [
       "name": "Grainient",
       "url": "https://grainient.supply/",
       "desc": "Понад 1000 градієнтів, зернисті текстури й анімовані фони."
+     },
+     {
+      "name": "Colir",
+      "url": "https://colir.space/",
+      "desc": "Градієнти з керуванням кривими, режимами змішування й ефектами."
      }
     ]
    },
@@ -8381,6 +8391,11 @@ window.CATALOGUE = [
       "name": "SVG Hub",
       "url": "https://svghub.vercel.app/",
       "desc": "Понад 70 закарлючок, фігур і скетчів у будь-якому кольорі."
+     },
+     {
+      "name": "Ditther",
+      "url": "https://ditther.com/",
+      "desc": "Понад 75 ефектів: дизеринг, халфтон, ASCII, піксель-арт."
      }
     ]
    },
@@ -8861,6 +8876,11 @@ window.CATALOGUE = [
       "name": "Tokokino",
       "url": "https://tokokino.com/",
       "desc": "Браузерний редактор для рамок пристроїв і мокапів."
+     },
+     {
+      "name": "Pixlo",
+      "url": "https://pixlo.me/",
+      "desc": "Перетворює добірку фото на відео-слайдшоу для соцмереж."
      }
     ],
     "title_en": "Video & Capture",
@@ -9497,16 +9517,64 @@ window.CATALOGUE = [
   "icon": "skill",
   "sections": [
    {
-    "title": "Skills для AI-агентів",
-    "title_en": "Agent Skills",
-    "desc": "Готові інструкції для Claude, Cursor та інших агентів: ставиш однією командою, і агент працює за правилами майстрів.",
-    "id": "agent-skills",
+    "title": "Продуктовий дизайн",
+    "title_en": "Product Design",
+    "desc": "Інтерв’ю й брифи, критика, тексти в інтерфейсі, edge cases і Figma-документація.",
+    "id": "product-design",
     "items": [
      {
-      "name": "UI Skills",
-      "url": "https://www.ui-skills.com/",
-      "desc": "Каталог skills для дизайн-інженерів із пошуком і встановленням в одну команду."
+      "name": "design-review",
+      "url": "https://www.ui-skills.com/skills/superfuture/design-review",
+      "desc": "Чіткий дизайн-рев’ю з пріоритетами: ієрархія, типографіка, відступи, колір."
      },
+     {
+      "name": "better-interface",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/better-interface",
+      "desc": "Комплексний рев’ю інтерфейсу: доступність, сітка, тексти, типографіка, колір."
+     },
+     {
+      "name": "critique",
+      "url": "https://www.ui-skills.com/skills/pbakaus/critique",
+      "desc": "Оцінка дизайну за UX-шкалою з перевіркою персон і конкретними правками."
+     },
+     {
+      "name": "shape",
+      "url": "https://www.ui-skills.com/skills/pbakaus/shape",
+      "desc": "Планує UX фічі через дизайн-інтерв’ю й видає готовий бриф."
+     },
+     {
+      "name": "harden",
+      "url": "https://www.ui-skills.com/skills/pbakaus/harden",
+      "desc": "Порожні стани, помилки, edge cases, онбординг і локалізація перед релізом."
+     },
+     {
+      "name": "better-writing",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/better-writing",
+      "desc": "UX-тексти: лейбли, помилки, порожні стани, сповіщення, голос продукту."
+     },
+     {
+      "name": "adapt",
+      "url": "https://www.ui-skills.com/skills/pbakaus/adapt",
+      "desc": "Адаптує дизайн під брейкпоінти, пристрої та обмеження платформ."
+     },
+     {
+      "name": "accessibility",
+      "url": "https://www.ui-skills.com/skills/addyosmani/accessibility",
+      "desc": "Аудит і покращення доступності за WCAG 2.2 від Едді Османі."
+     },
+     {
+      "name": "apple-hig",
+      "url": "https://www.ui-skills.com/skills/justinwetch/apple-hig",
+      "desc": "Довідник Apple HIG: правила платформ, специфікації компонентів, розміри."
+     }
+    ]
+   },
+   {
+    "title": "Дизайн-інженерія",
+    "title_en": "Design Engineering",
+    "desc": "Анімації, переходи, типографіка, колір і прототипи з високим рівнем крафту.",
+    "id": "design-engineering",
+    "items": [
      {
       "name": "emil-design-eng",
       "url": "https://www.ui-skills.com/skills/emilkowalski/emil-design-eng",
@@ -9516,31 +9584,6 @@ window.CATALOGUE = [
       "name": "make-interfaces-feel-better",
       "url": "https://www.ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better",
       "desc": "Принципи Якуба Крегеля: мікровзаємодії, типографіка й деталі, що роблять інтерфейс приємним."
-     },
-     {
-      "name": "playwright-cli",
-      "url": "https://www.ui-skills.com/skills/microsoft/playwright-cli",
-      "desc": "Офіційний skill Microsoft: агент сам відкриває браузер, проходить сценарії й перевіряє сайт."
-     },
-     {
-      "name": "react-doctor",
-      "url": "https://www.ui-skills.com/skills/millionco/react-doctor",
-      "desc": "Перевіряє React-інтерфейс на проблеми безпеки, швидкодії й архітектури та ставить оцінку."
-     },
-     {
-      "name": "fixing-accessibility",
-      "url": "https://www.ui-skills.com/skills/ibelick/fixing-accessibility",
-      "desc": "Знаходить і виправляє проблеми доступності: підписи, клавіатура, фокус, контраст, форми."
-     },
-     {
-      "name": "12-principles-of-animation",
-      "url": "https://www.ui-skills.com/skills/raphaelsalaja/12-principles-of-animation",
-      "desc": "12 принципів анімації Disney, адаптовані для інтерфейсів, від Рафаеля Салаї."
-     },
-     {
-      "name": "shadcn",
-      "url": "https://www.ui-skills.com/skills/shadcn-ui/shadcn",
-      "desc": "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу."
      },
      {
       "name": "frontend-design",
@@ -9553,43 +9596,78 @@ window.CATALOGUE = [
       "desc": "Підхід Apple до інтерфейсів і фізичного руху: жести та пружинні анімації."
      },
      {
-      "name": "beautiful-shadows",
-      "url": "https://www.ui-skills.com/skills/mengto/beautiful-shadows",
-      "desc": "Глибина й тіні без бруду: правильна елевація в інтерфейсі від Meng To."
+      "name": "12-principles-of-animation",
+      "url": "https://www.ui-skills.com/skills/raphaelsalaja/12-principles-of-animation",
+      "desc": "12 принципів анімації Disney, адаптовані для інтерфейсів, від Рафаеля Салаї."
      },
      {
-      "name": "accessibility",
-      "url": "https://www.ui-skills.com/skills/addyosmani/accessibility",
-      "desc": "Аудит і покращення доступності за WCAG 2.2 від Едді Османі."
-     },
-     {
-      "name": "design-review",
-      "url": "https://www.ui-skills.com/skills/superfuture/design-review",
-      "desc": "Чіткий дизайн-рев’ю з пріоритетами: ієрархія, типографіка, відступи, колір."
-     },
-     {
-      "name": "adapt",
-      "url": "https://www.ui-skills.com/skills/pbakaus/adapt",
-      "desc": "Адаптує дизайн під брейкпоінти, пристрої та обмеження платформ."
-     },
-     {
-      "name": "better-interface",
-      "url": "https://www.ui-skills.com/skills/jakubkrehel/better-interface",
-      "desc": "Комплексний рев’ю інтерфейсу: доступність, сітка, тексти, типографіка, колір."
+      "name": "animate",
+      "url": "https://www.ui-skills.com/skills/emilkowalski/animate",
+      "desc": "Анімація з нуля в правильному порядку рішень: чи потрібна, навіщо, як."
      },
      {
       "name": "interaction-design",
       "url": "https://www.ui-skills.com/skills/wshobson/interaction-design",
       "desc": "Мікровзаємодії, моушн, переходи й фідбек для приємного досвіду."
+     },
+     {
+      "name": "transitions-dev",
+      "url": "https://www.ui-skills.com/skills/jakubantalik/transitions-dev",
+      "desc": "Готові патерни переходів для карток, модалок, меню й сторінок."
+     },
+     {
+      "name": "better-typography",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/better-typography",
+      "desc": "Вебтипографіка: вибір і пари шрифтів, відступи, перенос, доступність."
+     },
+     {
+      "name": "oklch-skill",
+      "url": "https://www.ui-skills.com/skills/jakubkrehel/oklch-skill",
+      "desc": "Кольорові системи в OKLCH: консистентні, доступні й керовані."
+     },
+     {
+      "name": "beautiful-shadows",
+      "url": "https://www.ui-skills.com/skills/mengto/beautiful-shadows",
+      "desc": "Глибина й тіні без бруду: правильна елевація в інтерфейсі від Meng To."
+     },
+     {
+      "name": "prototype",
+      "url": "https://www.ui-skills.com/skills/emilkowalski/prototype",
+      "desc": "Кілька різних варіантів UI з візуальним перемикачем, щоб обрати найсильніший."
+     },
+     {
+      "name": "fixing-accessibility",
+      "url": "https://www.ui-skills.com/skills/ibelick/fixing-accessibility",
+      "desc": "Знаходить і виправляє проблеми доступності: підписи, клавіатура, фокус, контраст, форми."
+     },
+     {
+      "name": "shadcn",
+      "url": "https://www.ui-skills.com/skills/shadcn-ui/shadcn",
+      "desc": "Офіційний skill shadcn/ui: шукає, додає й правильно збирає елементи інтерфейсу."
+     },
+     {
+      "name": "react-doctor",
+      "url": "https://www.ui-skills.com/skills/millionco/react-doctor",
+      "desc": "Перевіряє React-інтерфейс на проблеми безпеки, швидкодії й архітектури та ставить оцінку."
+     },
+     {
+      "name": "playwright-cli",
+      "url": "https://www.ui-skills.com/skills/microsoft/playwright-cli",
+      "desc": "Офіційний skill Microsoft: агент сам відкриває браузер, проходить сценарії й перевіряє сайт."
      }
     ]
    },
    {
-    "title": "Набори skills",
-    "title_en": "Skill Packs",
-    "desc": "Великі набори й каталоги skills на GitHub, які варто поставити агенту цілком.",
-    "id": "skill-packs",
+    "title": "Набори й каталоги",
+    "title_en": "Packs & Catalogs",
+    "desc": "Великі набори й каталоги skills, які варто поставити агенту цілком.",
+    "id": "packs-catalogs",
     "items": [
+     {
+      "name": "UI Skills",
+      "url": "https://www.ui-skills.com/",
+      "desc": "Каталог skills для дизайн-інженерів із пошуком і встановленням в одну команду."
+     },
      {
       "name": "Impeccable",
       "url": "https://github.com/pbakaus/impeccable",
