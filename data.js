@@ -298,6 +298,11 @@ window.CATALOGUE = [
       "desc": "Посібник зі станів інтерфейсних елементів."
      },
      {
+      "name": "Paper",
+      "url": "https://paper.design/",
+      "desc": "Сучасний дизайн-редактор: створюй, діліться й запускай."
+     },
+     {
       "name": "Component Gallery",
       "url": "https://component.gallery/",
       "desc": "Понад 2600 прикладів того, як дизайн-системи вирішують один і той самий елемент."
@@ -1644,6 +1649,11 @@ window.CATALOGUE = [
       "desc": "Агентний AI для компаній харчової галузі та напоїв."
      },
      {
+      "name": "Character.ai",
+      "url": "https://character.ai/",
+      "desc": "Розмови з AI-персонажами."
+     },
+     {
       "name": "Chronicle",
       "url": "https://chroniclehq.com/",
       "desc": "AI-сервіс для створення професійних інтерактивних презентацій."
@@ -1789,6 +1799,11 @@ window.CATALOGUE = [
       "desc": "Сімейство AI-моделей від Google DeepMind."
      },
      {
+      "name": "Gemini Notebook",
+      "url": "https://notebook.google.com/",
+      "desc": "AI-асистент Google для досліджень і нотаток на основі ваших джерел (раніше NotebookLM)."
+     },
+     {
       "name": "General Intelligence Company",
       "url": "https://generalintelligencecompany.com/",
       "desc": "Прикладна AI-лабораторія для повної автоматизації бізнесу."
@@ -1861,7 +1876,13 @@ window.CATALOGUE = [
      {
       "name": "Hugging Face",
       "url": "https://huggingface.co/",
-      "desc": "Спільнота й платформа відкритих AI-моделей."
+      "desc": "Спільнота й платформа відкритих AI-моделей.",
+      "cases": [
+       {
+        "label": "Spaces",
+        "url": "https://huggingface.co/spaces"
+       }
+      ]
      },
      {
       "name": "Humble",
@@ -1944,6 +1965,11 @@ window.CATALOGUE = [
       "desc": "AI-співробітник, що працює з усіма інструментами команди."
      },
      {
+      "name": "Liner",
+      "url": "https://liner.com/",
+      "desc": "AI-пошук із джерелами для досліджень і текстів."
+     },
+     {
       "name": "LlamaIndex",
       "url": "https://www.llamaindex.ai/",
       "desc": "AI-агенти для розпізнавання документів і робочих процесів."
@@ -2014,9 +2040,19 @@ window.CATALOGUE = [
       "desc": "Готові системи комп’ютерного зору для бізнесу будь-якого розміру."
      },
      {
+      "name": "Mubert",
+      "url": "https://mubert.com/",
+      "desc": "AI-генератор музики без роялті для відео й проєктів."
+     },
+     {
       "name": "Norm Ai",
       "url": "https://www.norm.ai/",
       "desc": "AI-агенти для юридичних і комплаєнс-процесів."
+     },
+     {
+      "name": "Noty",
+      "url": "https://noty.ai/",
+      "desc": "AI-асистент зустрічей, що веде нотатки й задачі."
      },
      {
       "name": "Nous Research",
@@ -2146,6 +2182,11 @@ window.CATALOGUE = [
       "desc": "Пошукова AI-модель Perplexity для вбудовування у продукти."
      },
      {
+      "name": "Pika",
+      "url": "https://pika.art/",
+      "desc": "AI-інструменти для відео для креаторів."
+     },
+     {
       "name": "Pivot",
       "url": "https://www.pivotapp.ai/",
       "desc": "AI-система для закупівель: від запитів до платежів."
@@ -2154,6 +2195,11 @@ window.CATALOGUE = [
       "name": "Plus AI",
       "url": "https://plusai.com/",
       "desc": "AI-помічник для створення презентацій у PowerPoint і Slides."
+     },
+     {
+      "name": "Poe",
+      "url": "https://poe.com/",
+      "desc": "Доступ до багатьох AI-моделей і ботів в одному застосунку."
      },
      {
       "name": "Pogo",
@@ -2369,6 +2415,11 @@ window.CATALOGUE = [
       "name": "Wispr Flow",
       "url": "https://wisprflow.ai/",
       "desc": "Голосовий набір тексту з AI, що працює в будь-якому застосунку."
+     },
+     {
+      "name": "Wordtune",
+      "url": "https://wordtune.com/",
+      "desc": "AI-помічник, що перефразовує й покращує англійські тексти."
      },
      {
       "name": "xAI",
@@ -3923,7 +3974,13 @@ window.CATALOGUE = [
      {
       "name": "Zapier",
       "url": "https://zapier.com/",
-      "desc": "Автоматизація процесів і AI-агентів у 9000+ застосунках."
+      "desc": "Автоматизація процесів і AI-агентів у 9000+ застосунках.",
+      "cases": [
+       {
+        "label": "AI",
+        "url": "https://zapier.com/ai"
+       }
+      ]
      },
      {
       "name": "Zelt",
@@ -4428,6 +4485,11 @@ window.CATALOGUE = [
       "name": "Y42",
       "url": "https://www.y42.com/",
       "desc": "Платформа для побудови та моніторингу потоків даних бізнесу."
+     },
+     {
+      "name": "You.com",
+      "url": "https://you.com/",
+      "desc": "Вебпошук, підготовлений для AI-продуктів і агентів."
      }
     ],
     "title_en": "Data & Cloud",
@@ -6509,6 +6571,11 @@ window.CATALOGUE = [
       "desc": "AI-генерація зображень і відео для креативних задач."
      },
      {
+      "name": "Looka",
+      "url": "https://looka.com/",
+      "desc": "AI-генератор логотипів і бренд-кітів."
+     },
+     {
       "name": "Maneken",
       "url": "https://maneken.app/",
       "desc": "Сотні мокапів у браузерному редакторі."
@@ -6579,6 +6646,11 @@ window.CATALOGUE = [
       "desc": "3D-середовище Plamo з AI-агентами для створення сцен."
      },
      {
+      "name": "Playground",
+      "url": "https://playgroundai.com/",
+      "desc": "AI-редактор для логотипів, принтів і графіки для соцмереж."
+     },
+     {
       "name": "Prismic",
       "url": "https://prismic.io/",
       "desc": "AI-платформа для маркетологів, щоб швидко створювати сайти."
@@ -6612,6 +6684,11 @@ window.CATALOGUE = [
       "name": "Relume",
       "url": "https://www.relume.ai/",
       "desc": "Конструктор маркетингових сайтів на готовій системі компонентів."
+     },
+     {
+      "name": "remove.bg",
+      "url": "https://www.remove.bg/",
+      "desc": "Видаляє фон із зображення за кілька секунд."
      },
      {
       "name": "Rive",
@@ -8154,6 +8231,11 @@ window.CATALOGUE = [
       "name": "Claude Type",
       "url": "https://claudetype.com/",
       "desc": "Незалежна французька шрифтова студія: кастомні гарнітури й логотипи."
+     },
+     {
+      "name": "Best Free Fonts",
+      "url": "https://bestfreefonts.com/",
+      "desc": "Кураторська добірка найкращих безкоштовних шрифтів для бренду й вебу."
      }
     ],
     "title_en": "Type",
@@ -8465,6 +8547,11 @@ window.CATALOGUE = [
       "name": "Anime.js",
       "url": "https://animejs.com/",
       "desc": "Легкий і швидкий рушій для вебанімацій."
+     },
+     {
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com/",
+      "desc": "Анімаційний редактор із візуальним таймлайном для вебу."
      }
     ]
    },
@@ -8675,6 +8762,26 @@ window.CATALOGUE = [
       "desc": "Перетворює одне слово на відповідну ілюстрацію."
      },
      {
+      "name": "Hugeicons Animated",
+      "url": "https://hugeicons-animated.com/",
+      "desc": "Анімовані іконки Hugeicons, зроблені вручну."
+     },
+     {
+      "name": "AnimateIcons",
+      "url": "https://animateicons.in/",
+      "desc": "Понад 1170 безкоштовних анімованих іконок на базі Lucide."
+     },
+     {
+      "name": "Its Hover",
+      "url": "https://www.itshover.com/",
+      "desc": "Анімовані іконки, що рухаються за наведення."
+     },
+     {
+      "name": "icons-animated",
+      "url": "https://icons.lndev.me/",
+      "desc": "Анімовані іконки з Hugeicons, Tabler, Phosphor, Heroicons і Lucide."
+     },
+     {
       "name": "3dicons",
       "url": "https://3dicons.co/",
       "desc": "Понад 1440 відкритих 3D-іконок без потреби в атрибуції."
@@ -8727,7 +8834,78 @@ window.CATALOGUE = [
      {
       "name": "21st.dev",
       "url": "https://21st.dev/",
-      "desc": "Реєстр елементів, шаблонів і тем, який агент підключає через MCP."
+      "desc": "Реєстр елементів, шаблонів і тем, який агент підключає через MCP.",
+      "cases": [
+       {
+        "label": "Icons",
+        "url": "https://21st.dev/community/icons"
+       }
+      ]
+     },
+     {
+      "name": "Annnimate",
+      "url": "https://annnimate.com/animations",
+      "desc": "Понад 110 анімацій: появи за скролом, текстові ефекти, слайдери, переходи."
+     },
+     {
+      "name": "useLayouts",
+      "url": "https://uselayouts.com/",
+      "desc": "Безкоштовні анімовані елементи з прев’ю."
+     },
+     {
+      "name": "Arc UI",
+      "url": "https://uiarc.dev/",
+      "desc": "Анімовані елементи й блоки з вбудованим моушном."
+     },
+     {
+      "name": "Kobra",
+      "url": "https://kobra.systems/",
+      "desc": "Ретельно опрацьовані елементи зі всіма станами у світлій і темній темі."
+     },
+     {
+      "name": "Bencho",
+      "url": "https://bencho.dev/",
+      "desc": "Інтерактивні блоки й мікровзаємодії, які можна покрутити наживо."
+     },
+     {
+      "name": "Hyperiux Vault",
+      "url": "https://vault.hyperiux.com/",
+      "desc": "Понад 50 безкоштовних інтерактивних ефектів для сайтів."
+     },
+     {
+      "name": "Libraries.dev",
+      "url": "https://libraries.dev/",
+      "desc": "Бібліотеки візуальних ефектів Beam, Orb, Gooey, Metal та Image."
+     },
+     {
+      "name": "beUI",
+      "url": "https://beui.dev/",
+      "desc": "Відкрита бібліотека анімованих елементів."
+     },
+     {
+      "name": "Beautiful UI",
+      "url": "https://www.beautifului.dev/",
+      "desc": "Елементи для AI-інтерфейсів: чати, стани «думаю», підтвердження дій."
+     },
+     {
+      "name": "UImaxxing",
+      "url": "https://uimaxx.ing/",
+      "desc": "Бібліотека дизайн-системи з характером."
+     },
+     {
+      "name": "affectUI",
+      "url": "https://www.affectui.com/",
+      "desc": "Екрани й блоки для AI-продуктів і SaaS, готові для агентів."
+     },
+     {
+      "name": "UIAble",
+      "url": "https://uiable.com/",
+      "desc": "Повна дизайн-система в стилі shadcn: блоки, шаблони, дашборди."
+     },
+     {
+      "name": "mapcn",
+      "url": "https://www.mapcn.dev/",
+      "desc": "Красиві й доступні елементи карт."
      }
     ]
    },

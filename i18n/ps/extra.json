@@ -298,5 +298,77 @@
   "url": "https://www.afterdarktour.nike.com/",
   "section": "consumer",
   "desc": "Промосайт серії нічних забігів Nike у містах світу."
+ },
+ {
+  "name": "Gemini Notebook",
+  "url": "https://notebook.google.com/",
+  "section": "ai",
+  "desc": "AI-асистент Google для досліджень і нотаток на основі ваших джерел (раніше NotebookLM)."
+ },
+ {
+  "name": "Poe",
+  "url": "https://poe.com/",
+  "section": "ai",
+  "desc": "Доступ до багатьох AI-моделей і ботів в одному застосунку."
+ },
+ {
+  "name": "Character.ai",
+  "url": "https://character.ai/",
+  "section": "ai",
+  "desc": "Розмови з AI-персонажами."
+ },
+ {
+  "name": "Pika",
+  "url": "https://pika.art/",
+  "section": "ai",
+  "desc": "AI-інструменти для відео для креаторів."
+ },
+ {
+  "name": "remove.bg",
+  "url": "https://www.remove.bg/",
+  "section": "creative",
+  "desc": "Видаляє фон із зображення за кілька секунд."
+ },
+ {
+  "name": "Playground",
+  "url": "https://playgroundai.com/",
+  "section": "creative",
+  "desc": "AI-редактор для логотипів, принтів і графіки для соцмереж."
+ },
+ {
+  "name": "Mubert",
+  "url": "https://mubert.com/",
+  "section": "ai",
+  "desc": "AI-генератор музики без роялті для відео й проєктів."
+ },
+ {
+  "name": "Looka",
+  "url": "https://looka.com/",
+  "section": "creative",
+  "desc": "AI-генератор логотипів і бренд-кітів."
+ },
+ {
+  "name": "Wordtune",
+  "url": "https://wordtune.com/",
+  "section": "ai",
+  "desc": "AI-помічник, що перефразовує й покращує англійські тексти."
+ },
+ {
+  "name": "Liner",
+  "url": "https://liner.com/",
+  "section": "ai",
+  "desc": "AI-пошук із джерелами для досліджень і текстів."
+ },
+ {
+  "name": "Noty",
+  "url": "https://noty.ai/",
+  "section": "ai",
+  "desc": "AI-асистент зустрічей, що веде нотатки й задачі."
+ },
+ {
+  "name": "You.com",
+  "url": "https://you.com/",
+  "section": "infra",
+  "desc": "Вебпошук, підготовлений для AI-продуктів і агентів."
  }
 ]

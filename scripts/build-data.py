@@ -342,7 +342,9 @@ def build_product_sites():
              "Nous Research": [("Hermes Agent", "https://hermes-agent.nousresearch.com/")],
              "Perplexity": [("Personal Computer", "https://www.perplexity.ai/personal-computer")],
              "Uniswap": [("Uniswap Cup", "https://unicup.uniswap.org/")],
-             "Shopify": [("Editions", "https://www.shopify.com/editions")]}
+             "Shopify": [("Editions", "https://www.shopify.com/editions")],
+             "Hugging Face": [("Spaces", "https://huggingface.co/spaces")],
+             "Zapier": [("AI", "https://zapier.com/ai")]}
     for items in by.values():
         for i in items:
             for label, url in chips.get(i["name"], []):
@@ -542,7 +544,21 @@ VISUALS_NEW = [
       ("Magic UI", "https://magicui.design/", "Понад 150 анімованих елементів і ефектів для лендингів.", []),
       ("Motion Primitives", "https://motion-primitives.com/", "Набір анімованих елементів для складних взаємодій.", []),
       ("Shadcnblocks", "https://www.shadcnblocks.com/", "Понад 2000 готових секцій і блоків у стилі shadcn/ui.", []),
-      ("21st.dev", "https://21st.dev/", "Реєстр елементів, шаблонів і тем, який агент підключає через MCP.", [])]),
+      ("21st.dev", "https://21st.dev/", "Реєстр елементів, шаблонів і тем, який агент підключає через MCP.",
+       [("Icons", "https://21st.dev/community/icons")]),
+      ("Annnimate", "https://annnimate.com/animations", "Понад 110 анімацій: появи за скролом, текстові ефекти, слайдери, переходи.", []),
+      ("useLayouts", "https://uselayouts.com/", "Безкоштовні анімовані елементи з прев’ю.", []),
+      ("Arc UI", "https://uiarc.dev/", "Анімовані елементи й блоки з вбудованим моушном.", []),
+      ("Kobra", "https://kobra.systems/", "Ретельно опрацьовані елементи зі всіма станами у світлій і темній темі.", []),
+      ("Bencho", "https://bencho.dev/", "Інтерактивні блоки й мікровзаємодії, які можна покрутити наживо.", []),
+      ("Hyperiux Vault", "https://vault.hyperiux.com/", "Понад 50 безкоштовних інтерактивних ефектів для сайтів.", []),
+      ("Libraries.dev", "https://libraries.dev/", "Бібліотеки візуальних ефектів Beam, Orb, Gooey, Metal та Image.", []),
+      ("beUI", "https://beui.dev/", "Відкрита бібліотека анімованих елементів.", []),
+      ("Beautiful UI", "https://www.beautifului.dev/", "Елементи для AI-інтерфейсів: чати, стани «думаю», підтвердження дій.", []),
+      ("UImaxxing", "https://uimaxx.ing/", "Бібліотека дизайн-системи з характером.", []),
+      ("affectUI", "https://www.affectui.com/", "Екрани й блоки для AI-продуктів і SaaS, готові для агентів.", []),
+      ("UIAble", "https://uiable.com/", "Повна дизайн-система в стилі shadcn: блоки, шаблони, дашборди.", []),
+      ("mapcn", "https://www.mapcn.dev/", "Красиві й доступні елементи карт.", [])]),
     ("Illustrations", "Ілюстрації", "Бібліотеки ілюстрацій для сайтів, презентацій і соцмереж.", "UI Kits", [],
      [("Kitbitz", "https://kitbitz.art/", "Понад 2000 безкоштовних мальованих ілюстрацій у SVG і PNG.", [])]),
 ]
@@ -564,6 +580,13 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("inspiration", "Design Galleries", "Noiced", "https://noiced.com/", "Кураторські відео для дизайнерів і креативників.", []),
     ("utilities", "Video & Capture", "Pixlo", "https://pixlo.me/", "Перетворює добірку фото на відео-слайдшоу для соцмереж.", []),
     ("visuals", "Motion & Effects", "Anime.js", "https://animejs.com/", "Легкий і швидкий рушій для вебанімацій.", []),
+    ("visuals", "Type", "Best Free Fonts", "https://bestfreefonts.com/", "Кураторська добірка найкращих безкоштовних шрифтів для бренду й вебу.", []),
+    ("visuals", "Motion & Effects", "Theatre.js", "https://www.theatrejs.com/", "Анімаційний редактор із візуальним таймлайном для вебу.", []),
+    ("visuals", "Icons", "Hugeicons Animated", "https://hugeicons-animated.com/", "Анімовані іконки Hugeicons, зроблені вручну.", []),
+    ("visuals", "Icons", "AnimateIcons", "https://animateicons.in/", "Понад 1170 безкоштовних анімованих іконок на базі Lucide.", []),
+    ("visuals", "Icons", "Its Hover", "https://www.itshover.com/", "Анімовані іконки, що рухаються за наведення.", []),
+    ("visuals", "Icons", "icons-animated", "https://icons.lndev.me/", "Анімовані іконки з Hugeicons, Tabler, Phosphor, Heroicons і Lucide.", []),
+    ("inspiration", "Interface Design", "Paper", "https://paper.design/", "Сучасний дизайн-редактор: створюй, діліться й запускай.", []),
     ("visuals", "Shaders", "Shadertoy", "https://www.shadertoy.com/", "Головний онлайн-редактор шейдерів і спільнота шейдерного мистецтва.", []),
     ("visuals", "Icons", "3dicons", "https://3dicons.co/", "Понад 1440 відкритих 3D-іконок без потреби в атрибуції.", []),
     ("inspiration", "Interface Design", "Component Gallery", "https://component.gallery/", "Понад 2600 прикладів того, як дизайн-системи вирішують один і той самий елемент.", []),
