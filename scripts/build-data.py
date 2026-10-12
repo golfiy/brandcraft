@@ -587,6 +587,8 @@ VISUALS_ADD = [  # (cat, section_en, name, url, desc, cases)
     ("visuals", "Icons", "AnimateIcons", "https://animateicons.in/", "Понад 1170 безкоштовних анімованих іконок на базі Lucide.", []),
     ("visuals", "Icons", "Its Hover", "https://www.itshover.com/", "Анімовані іконки, що рухаються за наведення.", []),
     ("visuals", "Icons", "icons-animated", "https://icons.lndev.me/", "Анімовані іконки з Hugeicons, Tabler, Phosphor, Heroicons і Lucide.", []),
+    ("visuals", "Icons", "Streamline", "https://www.streamlinehq.com/", "Величезна бібліотека іконок, ілюстрацій і емодзі в єдиних стилях.", []),
+    ("visuals", "Icons", "Lordicon", "https://lordicon.com/", "Понад 48 тисяч анімованих іконок для вебу, застосунків і контенту.", []),
     ("inspiration", "Interface Design", "Paper", "https://paper.design/", "Сучасний дизайн-редактор: створюй, діліться й запускай.", []),
     ("visuals", "Shaders", "Shadertoy", "https://www.shadertoy.com/", "Головний онлайн-редактор шейдерів і спільнота шейдерного мистецтва.", []),
     ("visuals", "Icons", "3dicons", "https://3dicons.co/", "Понад 1440 відкритих 3D-іконок без потреби в атрибуції.", []),

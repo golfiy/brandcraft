@@ -8817,6 +8817,16 @@ window.CATALOGUE = [
       "desc": "Анімовані іконки з Hugeicons, Tabler, Phosphor, Heroicons і Lucide."
      },
      {
+      "name": "Streamline",
+      "url": "https://www.streamlinehq.com/",
+      "desc": "Величезна бібліотека іконок, ілюстрацій і емодзі в єдиних стилях."
+     },
+     {
+      "name": "Lordicon",
+      "url": "https://lordicon.com/",
+      "desc": "Понад 48 тисяч анімованих іконок для вебу, застосунків і контенту."
+     },
+     {
       "name": "3dicons",
       "url": "https://3dicons.co/",
       "desc": "Понад 1440 відкритих 3D-іконок без потреби в атрибуції."
