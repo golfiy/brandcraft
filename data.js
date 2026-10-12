@@ -1654,6 +1654,11 @@ window.CATALOGUE = [
       "desc": "Розмови з AI-персонажами."
      },
      {
+      "name": "ChatLabs",
+      "url": "https://chatlabs.com/",
+      "desc": "AI-студія, що з одного фото товару робить предметні знімки й рекламу."
+     },
+     {
       "name": "Chronicle",
       "url": "https://chroniclehq.com/",
       "desc": "AI-сервіс для створення професійних інтерактивних презентацій."
@@ -3010,6 +3015,11 @@ window.CATALOGUE = [
       "desc": "Американський цифровий банк."
      },
      {
+      "name": "Vivid",
+      "url": "https://vivid.money/en-eu/",
+      "desc": "Бізнес-рахунки, корпоративні картки та контроль витрат для компаній."
+     },
+     {
       "name": "Wealthsimple",
       "url": "https://www.wealthsimple.com/en-ca",
       "desc": "Канадський сервіс для витрат, торгівлі та інвестицій."
@@ -3917,6 +3927,11 @@ window.CATALOGUE = [
       "desc": "Сайт технологічного стартапу."
      },
      {
+      "name": "Twist",
+      "url": "https://twist.com/",
+      "desc": "Месенджер для команд із тредами замість нескінченного чату."
+     },
+     {
       "name": "Unbench",
       "url": "https://www.unbench.us/",
       "desc": "Підбір перевірених технічних команд за 48 годин."
@@ -4770,6 +4785,11 @@ window.CATALOGUE = [
       "desc": "Фулфілмент і логістика для брендів."
      },
      {
+      "name": "Panxo",
+      "url": "https://www.panxo.com/",
+      "desc": "Сервіс, що розпізнає відвідувачів з AI-чатів і монетизує цей трафік."
+     },
+     {
       "name": "Parcel",
       "url": "https://parcel.io/",
       "desc": "Платформа для створення й тестування email-листів."
@@ -5503,6 +5523,11 @@ window.CATALOGUE = [
       "name": "Einride",
       "url": "https://www.einride.tech/",
       "desc": "Технології вантажної логістики з меншими викидами."
+     },
+     {
+      "name": "Everyday Robots",
+      "url": "https://x.company/projects/everyday-robots/",
+      "desc": "Проєкт Google X зі створення роботів, які самі вчаться нових задач."
      },
      {
       "name": "Fauna Robotics",
@@ -6569,6 +6594,11 @@ window.CATALOGUE = [
       "name": "Leonardo AI",
       "url": "https://leonardo.ai/",
       "desc": "AI-генерація зображень і відео для креативних задач."
+     },
+     {
+      "name": "Loki.Build",
+      "url": "https://loki.build/",
+      "desc": "AI-конструктор лендингів, що швидко збирає сторінки у стилі бренду."
      },
      {
       "name": "Looka",

@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "name": "Twist",
+  "url": "https://twist.com/",
+  "section": "saas",
+  "desc": "Месенджер для команд із тредами замість нескінченного чату."
+ },
+ {
+  "name": "Vivid",
+  "url": "https://vivid.money/en-eu/",
+  "section": "fintech",
+  "desc": "Бізнес-рахунки, корпоративні картки та контроль витрат для компаній."
+ },
+ {
+  "name": "Panxo",
+  "url": "https://www.panxo.com/",
+  "section": "growth",
+  "desc": "Сервіс, що розпізнає відвідувачів з AI-чатів і монетизує цей трафік."
+ },
+ {
+  "name": "Loki.Build",
+  "url": "https://loki.build/",
+  "section": "creative",
+  "desc": "AI-конструктор лендингів, що швидко збирає сторінки у стилі бренду."
+ },
+ {
+  "name": "ChatLabs",
+  "url": "https://chatlabs.com/",
+  "section": "ai",
+  "desc": "AI-студія, що з одного фото товару робить предметні знімки й рекламу."
+ },
+ {
+  "name": "Everyday Robots",
+  "url": "https://x.company/projects/everyday-robots/",
+  "section": "hardware",
+  "desc": "Проєкт Google X зі створення роботів, які самі вчаться нових задач."
+ }
+]
