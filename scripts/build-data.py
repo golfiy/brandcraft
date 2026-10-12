@@ -380,7 +380,8 @@ LANDINGS = [
      [("Unsection", "https://www.unsection.com/", "Секції лендингів, SaaS, портфоліо й e-commerce."),
       ("Gridddy", "https://gridddy.framer.website/", "Галерея CTA-блоків перед футером."),
       ("Pricing Pages", "https://pricingpages.design/", "Кураторська галерея сторінок цін."),
-      ("404s", "https://www.404s.design/", "Креативні сторінки помилки 404, які варто вкрасти.")]),
+      ("404s", "https://www.404s.design/", "Креативні сторінки помилки 404, які варто вкрасти."),
+      ("Bento Grids", "https://bentogrids.com/", "Кураторська добірка бенто-сіток для натхнення.")]),
     ("Product UI", "UI продуктів", "Екрани реальних продуктів і рішення, що за ними стоять.",
      [],
      [("Refero", "https://refero.design/", "Десятки тисяч UI-референсів для вебу та iOS із розумним пошуком."),
@@ -667,6 +668,7 @@ SKILLS = [
       ('Awesome Claude Skills', 'https://github.com/ComposioHQ/awesome-claude-skills', 'Кураторський список skills, ресурсів та інструментів для Claude.'),
       ('DESIGN.md', 'https://designmd.ai/', 'Сотні готових DESIGN.md: дизайн-системи, які читає AI-агент.'),
       ('VibePrompt', 'https://vibeprompts.dev/', 'Бібліотека промптів для секцій сторінок: hero, ціни, FAQ.'),
+      ('Jiro', 'https://jiro.build/', 'Понад 1200 дизайн-промптів: обираєш реальний дизайн і копіюєш промпт для агента.'),
      ]),
 ]
 

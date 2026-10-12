@@ -1317,6 +1317,11 @@ window.CATALOGUE = [
       "name": "404s",
       "url": "https://www.404s.design/",
       "desc": "Креативні сторінки помилки 404, які варто вкрасти."
+     },
+     {
+      "name": "Bento Grids",
+      "url": "https://bentogrids.com/",
+      "desc": "Кураторська добірка бенто-сіток для натхнення."
      }
     ]
    },
@@ -9994,6 +9999,11 @@ window.CATALOGUE = [
       "name": "VibePrompt",
       "url": "https://vibeprompts.dev/",
       "desc": "Бібліотека промптів для секцій сторінок: hero, ціни, FAQ."
+     },
+     {
+      "name": "Jiro",
+      "url": "https://jiro.build/",
+      "desc": "Понад 1200 дизайн-промптів: обираєш реальний дизайн і копіюєш промпт для агента."
      }
     ]
    }
