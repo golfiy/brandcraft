@@ -206,6 +206,74 @@
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
   }
+  .top-actions { display: flex; align-items: center; gap: 8px; flex: none; }
+  .kbd {
+    display: inline-grid; place-items: center;
+    min-width: 18px; height: 18px; padding: 0 5px;
+    border-radius: 5px;
+    font: 400 10px/1 var(--font-mono);
+    color: var(--ink-3);
+    background: var(--canvas);
+    box-shadow: inset 0 0 0 1px var(--line-strong), 0 1px 0 var(--line-strong);
+  }
+  .search-btn {
+    display: flex; align-items: center; gap: 8px;
+    height: 30px; padding: 0 6px 0 10px;
+    border-radius: 999px;
+    color: var(--ink-3);
+    background: var(--line-soft);
+    box-shadow: inset 0 0 0 1px var(--line);
+    transition: color var(--dur-hover) var(--ease-out), box-shadow var(--dur-hover) var(--ease-out), background-color var(--dur-hover) var(--ease-out), transform var(--dur-hover) var(--ease-out);
+  }
+  .search-btn:hover { color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-strong); background: var(--hover); }
+  .search-btn:active { transform: scale(.97); }
+  .search-btn svg { width: 14px; height: 14px; flex: none; }
+  .search-btn-t { font-size: 12px; padding-right: 14px; }
+
+  /* Search palette */
+  .sp { position: fixed; inset: 0; z-index: 50; }
+  .sp[hidden] { display: none; }
+  .sp-backdrop { position: absolute; inset: 0; background: color-mix(in srgb, var(--canvas) 55%, transparent); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); animation: sp-fade .18s var(--ease-out); }
+  .sp-panel {
+    position: relative;
+    display: flex; flex-direction: column;
+    width: min(640px, calc(100vw - 32px)); max-height: min(560px, 76dvh);
+    margin: 11vh auto 0;
+    border-radius: 16px;
+    background: var(--canvas);
+    box-shadow: 0 0 0 1px var(--line-strong), 0 24px 60px -12px rgba(0,0,0,.35), 0 8px 20px -8px rgba(0,0,0,.2);
+    overflow: hidden;
+    animation: sp-pop .26s var(--ease-out);
+  }
+  @keyframes sp-fade { from { opacity: 0; } }
+  @keyframes sp-pop { from { opacity: 0; transform: translateY(-6px) scale(.985); } }
+  .sp-head { display: flex; align-items: center; gap: 10px; padding: 14px 14px 14px 18px; border-bottom: 1px dashed var(--line); }
+  .sp-head svg { width: 18px; height: 18px; flex: none; color: var(--ink-3); }
+  .sp-head input { flex: 1; min-width: 0; border: 0; outline: 0; background: none; color: var(--ink); font: 400 16px/1.3 var(--font-sans); }
+  .sp-head input::placeholder { color: var(--ink-3); }
+  .sp-esc { cursor: pointer; height: 22px; padding: 0 7px; }
+  .sp-list { overflow-y: auto; overscroll-behavior: contain; padding: 6px 8px 10px; scrollbar-width: thin; }
+  .sp-group { padding: 12px 10px 6px; font: 400 10px/1.2 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+  .sp-item {
+    display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; align-items: center; gap: 10px;
+    padding: 8px 10px; border-radius: 10px; cursor: pointer;
+    color: var(--ink);
+  }
+  .sp-item .fav { margin-top: 0; }
+  .sp-item[aria-selected="true"] { background: var(--hover); box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .sp-main { min-width: 0; display: flex; align-items: baseline; gap: 8px; }
+  .sp-name { flex: none; font-weight: 500; }
+  .sp-desc { min-width: 0; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sp-meta { font: 400 10px/1 var(--font-mono); color: var(--ink-3); white-space: nowrap; }
+  .sp-ico { display: grid; place-items: center; width: 18px; height: 18px; border-radius: 6px; color: var(--ink-2); box-shadow: inset 0 0 0 1px var(--line-strong); }
+  .sp-ico svg { width: 12px; height: 12px; }
+  .sp-item mark { background: color-mix(in srgb, var(--accent) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+  .sp-empty { padding: 36px 16px 30px; text-align: center; color: var(--ink-3); }
+  .sp-empty b { display: block; margin-bottom: 4px; font: 500 15px/1.3 var(--font-display); color: var(--ink); }
+  .sp-foot { display: flex; gap: 16px; padding: 10px 16px; border-top: 1px dashed var(--line); font-size: 11px; color: var(--ink-3); }
+  .sp-foot span { display: inline-flex; align-items: center; gap: 4px; }
+  @media (prefers-reduced-motion: reduce) { .sp-backdrop, .sp-panel { animation: none; } }
+
   .crumb { font: 400 11px/1 var(--font-mono); color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .crumb b { font-weight: 400; color: var(--ink); }
   .theme-btn {
@@ -535,6 +603,13 @@
     .arrow { display: none; }
     .sec-desc { white-space: normal; flex-basis: 100%; }
     .g-defs, .g-trees { grid-template-columns: 1fr; }
+    .search-btn-t, .search-btn .kbd { display: none; }
+    .search-btn { width: 30px; padding: 0; justify-content: center; }
+    .sp-panel { width: 100vw; max-height: none; height: 100dvh; margin: 0; border-radius: 0; }
+    .sp-foot { display: none; }
+    .sp-meta { display: none; }
+    .sp-main { flex-direction: column; gap: 1px; }
+    .sp-desc { white-space: normal; }
     .models thead { display: none; }
     .models, .models tbody, .models tr, .models th, .models td { display: block; width: auto; }
     .models tr { padding: 14px 0; border-top: 1px dashed var(--line); }
@@ -572,14 +647,34 @@
     <main>
       <div class="topbar">
         <span class="crumb" id="crumb"></span>
+        <div class="top-actions">
+        <button class="search-btn" id="search-open" type="button" aria-haspopup="dialog" aria-label="Пошук">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.25"/><path d="m20 20-4.5-4.5"/></svg>
+          <span class="search-btn-t">Пошук</span>
+          <kbd class="kbd" data-kbd></kbd>
+        </button>
         <button class="theme-btn" id="theme" type="button" aria-label="Перемкнути тему">
           <svg data-icon="auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.25"/><path d="M12 3.75v16.5A8.25 8.25 0 0 0 12 3.75Z" fill="currentColor"/></svg>
           <svg data-icon="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.75v1.5M12 19.75v1.5M2.75 12h1.5M19.75 12h1.5M5.46 5.46l1.06 1.06M17.48 17.48l1.06 1.06M5.46 18.54l1.06-1.06M17.48 6.52l1.06-1.06"/></svg>
           <svg data-icon="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M20.25 14.6A8.25 8.25 0 1 1 9.4 3.75a6.5 6.5 0 0 0 10.85 10.85Z"/></svg>
         </button>
+        </div>
       </div>
       <div class="content" id="content"></div>
     </main>
+  </div>
+</div>
+
+<div class="sp" id="sp" hidden>
+  <div class="sp-backdrop" data-sp-close></div>
+  <div class="sp-panel" role="dialog" aria-modal="true" aria-label="Пошук по Brandcraft">
+    <div class="sp-head">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.25"/><path d="m20 20-4.5-4.5"/></svg>
+      <input id="sp-input" type="text" role="combobox" aria-expanded="true" aria-controls="sp-list" aria-autocomplete="list" autocomplete="off" spellcheck="false">
+      <button type="button" class="kbd sp-esc" data-sp-close aria-label="Закрити">Esc</button>
+    </div>
+    <div class="sp-list" id="sp-list" role="listbox" aria-label="Результати"></div>
+    <div class="sp-foot" aria-hidden="true"><span><kbd class="kbd">↑</kbd><kbd class="kbd">↓</kbd> навігація</span><span><kbd class="kbd">↵</kbd> відкрити</span><span><kbd class="kbd">Esc</kbd> закрити</span></div>
   </div>
 </div>
 
@@ -981,6 +1076,159 @@
     });
   }
   window.addEventListener('scroll', function () { requestAnimationFrame(updateSpy); }, { passive: true });
+
+  /* ---------- Search palette ---------- */
+  var spEl = document.getElementById('sp');
+  var spInput = document.getElementById('sp-input');
+  var spList = document.getElementById('sp-list');
+  var spOpenBtn = document.getElementById('search-open');
+  var isMac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
+  [].forEach.call(document.querySelectorAll('[data-kbd]'), function (k) { k.textContent = isMac ? '⌘K' : 'Ctrl K'; });
+  var spIndex = null, spResults = [], spActive = 0, spLastFocus = null;
+  var SECTION_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h9"/></svg>';
+
+  function fold(t) {
+    return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ё/g, 'е');
+  }
+  function buildIndex() {
+    var idx = [], total = 0;
+    DATA.forEach(function (c) {
+      var secs = c.type === 'guide' ? GUIDE_SECTIONS : c.sections;
+      secs.forEach(function (sec) {
+        var secName = sec.short || sec.title_en || sec.title;
+        idx.push({ kind: 'section', name: secName, desc: (c.type === 'guide' ? '' : sec.title), cat: c.title,
+          hash: '#/' + c.id + '/' + sec.id, n: fold(secName + ' ' + (sec.title || '')), d: '' });
+        (sec.items || []).forEach(function (it) {
+          total++;
+          idx.push({ kind: 'item', name: it.name, desc: it.desc, url: it.url, host: host(it.url).replace(/^www\./, ''),
+            cat: c.title, sec: secName, n: fold(it.name), h: fold(host(it.url)), d: fold(it.desc), s: fold(secName + ' ' + c.title) });
+        });
+      });
+    });
+    spInput.placeholder = 'Пошук серед ' + total + ' ресурсів…';
+    return idx;
+  }
+  function score(e, toks) {
+    var sc = 0;
+    for (var i = 0; i < toks.length; i++) {
+      var t = toks[i], hit = 0;
+      if (e.n.indexOf(t) === 0) hit = 100;
+      else if (e.n.indexOf(t) > -1) hit = 60;
+      else if (e.h && e.h.indexOf(t) > -1) hit = 40;
+      else if (e.s && e.s.indexOf(t) > -1) hit = 15;
+      else if (e.d && e.d.indexOf(t) > -1) hit = 10;
+      if (!hit) return 0;
+      sc += hit;
+    }
+    return sc + (e.kind === 'section' ? 25 : 0);
+  }
+  function mark(text, toks) {
+    var out = esc(text);
+    toks.forEach(function (t) {
+      if (t.length < 2) return;
+      var re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+      out = out.replace(/(<[^>]*>)|([^<]+)/g, function (m, tag, txt) { return tag || txt.replace(re, '<mark>$1</mark>'); });
+    });
+    return out;
+  }
+  function spRender() {
+    var q = fold(spInput.value.trim());
+    var toks = q.split(/\s+/).filter(Boolean);
+    var html = '';
+    if (!toks.length) {
+      spResults = DATA.map(function (c) {
+        return { kind: 'section', name: c.title, desc: '', cat: '', hash: c === DATA[0] ? '#/' : '#/' + c.id };
+      });
+      html = '<div class="sp-group">Категорії</div>' + spResults.map(function (e, i) { return row(e, i, []); }).join('');
+    } else {
+      var hits = spIndex.map(function (e) { return { e: e, sc: score(e, toks) }; })
+        .filter(function (x) { return x.sc > 0; })
+        .sort(function (a, b) { return b.sc - a.sc || a.e.name.localeCompare(b.e.name); });
+      var secs = hits.filter(function (x) { return x.e.kind === 'section'; }).slice(0, 4).map(function (x) { return x.e; });
+      var items = hits.filter(function (x) { return x.e.kind === 'item'; }).slice(0, 60).map(function (x) { return x.e; });
+      var order = [], groups = {};
+      items.forEach(function (e) { if (!groups[e.cat]) { groups[e.cat] = []; order.push(e.cat); } groups[e.cat].push(e); });
+      spResults = secs.slice();
+      if (secs.length) html += '<div class="sp-group">Розділи</div>' + secs.map(function (e, i) { return row(e, i, toks); }).join('');
+      order.forEach(function (cat) {
+        html += '<div class="sp-group">' + esc(cat) + '</div>';
+        groups[cat].forEach(function (e) { html += row(e, spResults.length, toks); spResults.push(e); });
+      });
+      if (!spResults.length) {
+        html = '<div class="sp-empty"><b>Нічого не знайшлося</b>Спробуй інше слово: «іконки», «шрифти», «fintech», «анімації».</div>';
+      }
+    }
+    spList.innerHTML = html;
+    spActive = 0;
+    spHighlight();
+  }
+  function row(e, i, toks) {
+    toks = toks || [];
+    var id = 'sp-opt-' + i;
+    var lead = e.kind === 'item' ? favicon(e.url, e.name) : '<span class="sp-ico">' + SECTION_ICON + '</span>';
+    var meta = e.kind === 'item' ? esc(e.sec) : esc(e.cat);
+    return '<div class="sp-item" role="option" id="' + id + '" data-i="' + i + '" aria-selected="false">' + lead +
+      '<span class="sp-main"><span class="sp-name">' + mark(e.name, toks) + '</span>' +
+      (e.desc ? '<span class="sp-desc">' + mark(e.desc, toks) + '</span>' : '') + '</span>' +
+      '<span class="sp-meta">' + meta + '</span></div>';
+  }
+  function spHighlight() {
+    var rows = spList.querySelectorAll('.sp-item');
+    [].forEach.call(rows, function (r) { r.setAttribute('aria-selected', String(+r.dataset.i === spActive)); });
+    var cur = spList.querySelector('[data-i="' + spActive + '"]');
+    spInput.setAttribute('aria-activedescendant', cur ? cur.id : '');
+    if (cur) cur.scrollIntoView({ block: 'nearest' });
+  }
+  function spGo(i) {
+    var e = spResults[i];
+    if (!e) return;
+    if (e.kind === 'item') { window.open(e.url, '_blank', 'noopener'); }
+    else { spClose(); location.hash = e.hash; }
+  }
+  function spOpen() {
+    if (!spIndex) spIndex = buildIndex();
+    spLastFocus = document.activeElement;
+    spEl.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    spInput.value = '';
+    spRender();
+    spInput.focus();
+  }
+  function spClose() {
+    if (spEl.hidden) return;
+    spEl.hidden = true;
+    document.documentElement.style.overflow = '';
+    if (spLastFocus && spLastFocus.focus) spLastFocus.focus();
+  }
+  // Same favicon fallback as the main list: drop 404s and Google's 16px placeholder globe.
+  spList.addEventListener('error', function (ev) { if (ev.target.tagName === 'IMG') ev.target.remove(); }, true);
+  spList.addEventListener('load', function (ev) {
+    var img = ev.target;
+    if (img.tagName === 'IMG' && img.naturalWidth > 0 && img.naturalWidth <= 16) img.remove();
+  }, true);
+  spOpenBtn.addEventListener('click', spOpen);
+  spInput.addEventListener('input', spRender);
+  spInput.addEventListener('keydown', function (ev) {
+    if (ev.key === 'ArrowDown') { ev.preventDefault(); spActive = Math.min(spResults.length - 1, spActive + 1); spHighlight(); }
+    else if (ev.key === 'ArrowUp') { ev.preventDefault(); spActive = Math.max(0, spActive - 1); spHighlight(); }
+    else if (ev.key === 'Enter') { ev.preventDefault(); spGo(spActive); }
+    else if (ev.key === 'Escape') { ev.preventDefault(); spClose(); }
+  });
+  spList.addEventListener('mousemove', function (ev) {
+    var r = ev.target.closest('.sp-item');
+    if (r && +r.dataset.i !== spActive) { spActive = +r.dataset.i; spHighlight(); }
+  });
+  spList.addEventListener('click', function (ev) {
+    var r = ev.target.closest('.sp-item');
+    if (r) spGo(+r.dataset.i);
+  });
+  spEl.addEventListener('click', function (ev) { if (ev.target.closest('[data-sp-close]')) spClose(); });
+  document.addEventListener('keydown', function (ev) {
+    var typing = /INPUT|TEXTAREA|SELECT/.test((ev.target && ev.target.tagName) || '') || (ev.target && ev.target.isContentEditable);
+    if ((ev.metaKey || ev.ctrlKey) && (ev.key === 'k' || ev.key === 'K')) { ev.preventDefault(); spEl.hidden ? spOpen() : spClose(); }
+    else if (ev.key === '/' && !typing && spEl.hidden) { ev.preventDefault(); spOpen(); }
+    else if (ev.key === 'Escape' && !spEl.hidden) { spClose(); }
+  });
 
   /* ---------- Router ---------- */
   var current = null;
