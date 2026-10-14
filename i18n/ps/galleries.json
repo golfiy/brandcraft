@@ -2326,5 +2326,467 @@
   "url": "https://wizcommerce.com/",
   "section": "saas",
   "desc": "ШІ-платформа для оптових продажів: B2B-магазин, застосунок і платежі."
+ },
+ {
+  "name": "Athleats",
+  "url": "https://www.weareathleats.com/",
+  "section": "consumer",
+  "desc": "Рецепти для спортсменів із планом харчування на тиждень і списком покупок."
+ },
+ {
+  "name": "24/7 Artists",
+  "url": "https://247artists.com/",
+  "section": "community",
+  "desc": "Освітня платформа і спільнота для музикантів та музичної індустрії."
+ },
+ {
+  "name": "Airloom",
+  "url": "https://www.airloom.energy/",
+  "section": "climate",
+  "desc": "Компанія, що створює нову технологію вітрової енергетики."
+ },
+ {
+  "name": "Ankar",
+  "url": "https://ankar.ai/",
+  "section": "ai",
+  "desc": "ШІ-платформа для винахідників і роботи з патентами."
+ },
+ {
+  "name": "Arrows",
+  "url": "https://arrows.to/",
+  "section": "growth",
+  "desc": "ШІ-агенти, що складають план для кожної угоди й ведуть продажі за ним."
+ },
+ {
+  "name": "Brainfish",
+  "url": "https://brainfishai.com/",
+  "section": "ai",
+  "desc": "ШІ-агенти підтримки, що відповідають клієнтам на основі бази знань."
+ },
+ {
+  "name": "Bloxs",
+  "url": "https://site.bloxs.com.br:443/en",
+  "section": "fintech",
+  "desc": "Платформа для структурування, випуску й розміщення активів на ринку капіталу."
+ },
+ {
+  "name": "Brew",
+  "url": "https://brew.new/",
+  "section": "growth",
+  "desc": "ШІ-сервіс email-розсилок, що генерує листи у стилі вашого бренду."
+ },
+ {
+  "name": "Buttery",
+  "url": "https://www.buttery.so/icons",
+  "section": "creative",
+  "desc": "Мінімалістичний набір іконок для інтерфейсів."
+ },
+ {
+  "name": "Consensys",
+  "url": "https://consensys.com/",
+  "section": "crypto",
+  "desc": "Блокчейн-компанія, що створює інструменти й інфраструктуру для DeFi."
+ },
+ {
+  "name": "Commure",
+  "url": "https://www.commure.com/",
+  "section": "health",
+  "desc": "ШІ-платформа для клінік: дзвінки, документація, страхові заявки й оплати."
+ },
+ {
+  "name": "Crescent",
+  "url": "https://www.getcrescent.com/",
+  "section": "fintech",
+  "desc": "Бізнес-банкінг із високою дохідністю та розширеним захистом коштів."
+ },
+ {
+  "name": "Compound",
+  "url": "https://compoundplanning.com/",
+  "section": "fintech",
+  "desc": "Платформа для управління капіталом та інвестиціями."
+ },
+ {
+  "name": "Daytona",
+  "url": "https://www.daytona.io/",
+  "section": "infra",
+  "desc": "Безпечна інфраструктура для запуску програм, згенерованих ШІ."
+ },
+ {
+  "name": "Daylit",
+  "url": "https://www.daylit.com/",
+  "section": "fintech",
+  "desc": "ШІ-агенти для дебіторської заборгованості, щоб отримувати оплату вчасно."
+ },
+ {
+  "name": "Detail",
+  "url": "https://detail.dev/",
+  "section": "infra",
+  "desc": "Глибоке сканування продукту, що знаходить баги, вразливості й помилки в білінгу."
+ },
+ {
+  "name": "Cartage",
+  "url": "https://www.cartage.ai/",
+  "section": "ai",
+  "desc": "Wilson – ШІ-агент, що керує вантажоперевезеннями для виробників."
+ },
+ {
+  "name": "DOSS",
+  "url": "https://www.doss.com/",
+  "section": "saas",
+  "desc": "ШІ-платформа для операційної роботи брендів споживчих товарів."
+ },
+ {
+  "name": "Craftwork",
+  "url": "https://craftwork.design/",
+  "section": "creative",
+  "desc": "Дизайн-ресурси: ілюстрації, 3D, мокапи, шрифти й шаблони для Figma та Framer."
+ },
+ {
+  "name": "Default",
+  "url": "https://www.default.com/",
+  "section": "growth",
+  "desc": "Платформа для go-to-market: збагачення даних, розподіл лідів і зустрічі."
+ },
+ {
+  "name": "Kirki",
+  "url": "https://kirki.com/",
+  "section": "creative",
+  "desc": "Візуальний конструктор сайтів для WordPress на нескінченному полотні."
+ },
+ {
+  "name": "Effortel",
+  "url": "https://www.effortel.com/",
+  "section": "saas",
+  "desc": "Платформи для операторів зв’язку: запуск MVNO, eSIM та IoT."
+ },
+ {
+  "name": "Expensify",
+  "url": "https://use.expensify.com/",
+  "section": "fintech",
+  "desc": "Облік витрат компанії: сканування чеків, оплата рахунків і кешбек."
+ },
+ {
+  "name": "Engine",
+  "url": "https://engine.com/",
+  "section": "saas",
+  "desc": "Сервіс для бізнес-подорожей: готелі, авіаквитки та оренда авто."
+ },
+ {
+  "name": "Espresso",
+  "url": "https://www.espressosys.com/",
+  "section": "crypto",
+  "desc": "Високопродуктивний блокчейн для власних мереж і фінансових систем."
+ },
+ {
+  "name": "Flexis",
+  "url": "https://flexis-mobility.com/",
+  "section": "hardware",
+  "desc": "Електричні фургони для міської логістики останньої милі."
+ },
+ {
+  "name": "Finch",
+  "url": "https://www.tryfinch.com/",
+  "section": "saas",
+  "desc": "Єдина платформа інтеграцій із системами зарплат, HR і пільг."
+ },
+ {
+  "name": "Figr",
+  "url": "https://figr.design/",
+  "section": "creative",
+  "desc": "ШІ-агент продуктового дизайну, що створює UX-флоу й макети для Figma."
+ },
+ {
+  "name": "Fly.io",
+  "url": "https://fly.io/",
+  "section": "infra",
+  "desc": "Хмара, що дає ШІ-агентам справжні комп’ютери замість пісочниць."
+ },
+ {
+  "name": "Featurebase",
+  "url": "https://www.featurebase.app/",
+  "section": "saas",
+  "desc": "Платформа для підтримки клієнтів, збору фідбеку й анонсів оновлень."
+ },
+ {
+  "name": "Gladia",
+  "url": "https://www.gladia.io/",
+  "section": "ai",
+  "desc": "ШІ-інфраструктура для транскрипції та аналізу голосових розмов."
+ },
+ {
+  "name": "Giga Energy",
+  "url": "https://www.gigaenergy.com/",
+  "section": "hardware",
+  "desc": "Виробництво й будівництво енергетичної інфраструктури для ШІ-проєктів."
+ },
+ {
+  "name": "GoCardless",
+  "url": "https://gocardless.com/",
+  "section": "fintech",
+  "desc": "Сервіс для прийому регулярних платежів напряму з банківських рахунків."
+ },
+ {
+  "name": "GitButler",
+  "url": "https://gitbutler.com/",
+  "section": "infra",
+  "desc": "Інструмент для зручної роботи з гілками й версіями в Git."
+ },
+ {
+  "name": "HIFI",
+  "url": "https://www.hifi.com/",
+  "section": "crypto",
+  "desc": "Інфраструктура для глобальних платежів у фіаті та стейблкоїнах."
+ },
+ {
+  "name": "Hume AI",
+  "url": "https://www.hume.ai/",
+  "section": "ai",
+  "desc": "Оцінка й покращення голосового ШІ з урахуванням емоцій."
+ },
+ {
+  "name": "Isomorphic Labs",
+  "url": "https://www.isomorphiclabs.com/",
+  "section": "health",
+  "desc": "Пошук нових ліків за допомогою передового ШІ."
+ },
+ {
+  "name": "Koyeb",
+  "url": "https://www.koyeb.com/",
+  "section": "infra",
+  "desc": "Хмара для розгортання застосунків, інференсу й баз даних на GPU та CPU."
+ },
+ {
+  "name": "Latitude.sh",
+  "url": "https://www.latitude.sh/",
+  "section": "infra",
+  "desc": "Глобальна хмара для компаній, що будують продукти на ШІ."
+ },
+ {
+  "name": "Lantern",
+  "url": "https://www.withlantern.com/",
+  "section": "growth",
+  "desc": "ШІ-агент для маркетингу та процесів, що приносять виручку."
+ },
+ {
+  "name": "LEKO LABS",
+  "url": "https://www.lekolabs.com/",
+  "section": "climate",
+  "desc": "Вуглецево-негативні будматеріали, оптимізовані ШІ та виготовлені роботами."
+ },
+ {
+  "name": "Letta",
+  "url": "https://www.letta.com/",
+  "section": "ai",
+  "desc": "Платформа для ШІ-агентів із пам’яттю, що постійно навчаються."
+ },
+ {
+  "name": "LightningProxies",
+  "url": "https://lightningproxies.net/",
+  "section": "infra",
+  "desc": "Резидентні, мобільні й серверні проксі для збору даних з вебу."
+ },
+ {
+  "name": "Maggie",
+  "url": "https://maggie-app.com/",
+  "section": "consumer",
+  "desc": "Безкоштовний застосунок, де мами знаходять заняття й події для дітей поруч."
+ },
+ {
+  "name": "Medusa",
+  "url": "https://medusajs.com/",
+  "section": "saas",
+  "desc": "Гнучка відкрита платформа для онлайн-торгівлі з підтримкою ШІ-агентів."
+ },
+ {
+  "name": "Miter",
+  "url": "https://www.miter.com/",
+  "section": "saas",
+  "desc": "Платформа для зарплат, HR, витрат і польових операцій."
+ },
+ {
+  "name": "MiTrust",
+  "url": "https://www.mitrust.eu/",
+  "section": "saas",
+  "desc": "Безпечна платформа, щоб користувачі ділилися перевіреними даними з бізнесом."
+ },
+ {
+  "name": "Modeinspect",
+  "url": "https://modeinspect.com/",
+  "section": "creative",
+  "desc": "ШІ-інструмент дизайну, що працює всередині вашого продукту без хендофу."
+ },
+ {
+  "name": "Mockuuups",
+  "url": "https://mockuuups.studio/",
+  "section": "creative",
+  "desc": "Онлайн-генератор мокапів iPhone, MacBook і друку з 5200+ шаблонів."
+ },
+ {
+  "name": "Nextjsshop",
+  "url": "https://nextjsshop.com/",
+  "section": "creative",
+  "desc": "Магазин готових шаблонів сайтів і компонентів інтерфейсу."
+ },
+ {
+  "name": "Nominal",
+  "url": "https://nominal.io/",
+  "section": "infra",
+  "desc": "Програмний комплекс для тестування й експлуатації обладнання."
+ },
+ {
+  "name": "Ona",
+  "url": "https://ona.com/",
+  "section": "ai",
+  "desc": "Команда хмарних ШІ-агентів, що виконують задачі у фоновому режимі."
+ },
+ {
+  "name": "Pebble",
+  "url": "https://pebblelife.com/",
+  "section": "hardware",
+  "desc": "Повністю електричний будинок на колесах із сонячним живленням."
+ },
+ {
+  "name": "Planhat",
+  "url": "https://www.planhat.com/",
+  "section": "saas",
+  "desc": "Клієнтська платформа з ШІ-асистентом Pi для комерційних команд."
+ },
+ {
+  "name": "Pomegranate",
+  "url": "https://pomegranate.health/",
+  "section": "health",
+  "desc": "Персональна платформа, що допомагає розуміти дані про здоров’я."
+ },
+ {
+  "name": "Polestar",
+  "url": "https://www.polestar.com/",
+  "section": "hardware",
+  "desc": "Електромобілі з прогресивним дизайном і високою продуктивністю."
+ },
+ {
+  "name": "Pangram Pangram",
+  "url": "https://pangrampangram.com/",
+  "section": "creative",
+  "desc": "Шрифтова ливарня з сучасними шрифтами, які можна спробувати безкоштовно."
+ },
+ {
+  "name": "PostHog",
+  "url": "https://posthog.com/",
+  "section": "growth",
+  "desc": "Продуктова аналітика, що сама діагностує проблеми й виправляє баги."
+ },
+ {
+  "name": "Rainmaker",
+  "url": "https://www.rainmaker.com/",
+  "section": "climate",
+  "desc": "Засівання хмар дронами, щоб збільшити опади й боротися з посухою."
+ },
+ {
+  "name": "Rune",
+  "url": "https://rune.energy/",
+  "section": "climate",
+  "desc": "Обчислювальні потужності на невикористаній сонячній енергії."
+ },
+ {
+  "name": "Ruul",
+  "url": "https://ruul.io/",
+  "section": "fintech",
+  "desc": "Сервіс для фрилансерів і бізнесу: рахунки, платежі й комплаєнс."
+ },
+ {
+  "name": "SayBriefly",
+  "url": "https://saybriefly.com/",
+  "section": "saas",
+  "desc": "Помічник, що пам’ятає домовленості з клієнтом і ловить роботу понад обсяг."
+ },
+ {
+  "name": "Scrintal",
+  "url": "https://scrintal.com/",
+  "section": "saas",
+  "desc": "Візуальний інструмент для нотаток і досліджень із пов’язаними ідеями."
+ },
+ {
+  "name": "Sanity",
+  "url": "https://www.sanity.io/",
+  "section": "saas",
+  "desc": "Контентна операційна система для сайтів, застосунків і ШІ-агентів."
+ },
+ {
+  "name": "Solidroad",
+  "url": "https://www.solidroad.com/",
+  "section": "ai",
+  "desc": "ШІ-платформа для навчання команд підтримки на симуляціях клієнтів."
+ },
+ {
+  "name": "SingleStore",
+  "url": "https://www.singlestore.com/",
+  "section": "infra",
+  "desc": "База даних реального часу для ШІ, застосунків та аналітики."
+ },
+ {
+  "name": "Instagram",
+  "url": "https://www.instagram.com/",
+  "section": "consumer",
+  "desc": "Соцмережа для фото, відео, історій і повідомлень."
+ },
+ {
+  "name": "Things",
+  "url": "https://things.inc/",
+  "section": "consumer",
+  "desc": "Стартап, що створює застосунки для спільної творчості та гри."
+ },
+ {
+  "name": "Trunk",
+  "url": "https://trunk.io/",
+  "section": "infra",
+  "desc": "Платформа, що прискорює CI і знаходить нестабільні тести."
+ },
+ {
+  "name": "Vortex",
+  "url": "https://vortex.design/",
+  "section": "creative",
+  "desc": "Дизайн-система під ваш бренд із готовими компонентами й токенами."
+ },
+ {
+  "name": "Veo",
+  "url": "https://www.veo.com/",
+  "section": "hardware",
+  "desc": "ШІ-камера, що автоматично знімає й аналізує спортивні матчі."
+ },
+ {
+  "name": "Unlearn",
+  "url": "https://www.unlearn.ai/",
+  "section": "health",
+  "desc": "ШІ та цифрові двійники пацієнтів для швидших клінічних досліджень."
+ },
+ {
+  "name": "Walrus",
+  "url": "https://walrus.xyz/",
+  "section": "crypto",
+  "desc": "Платформа даних для ШІ, де дані переносимі, захищені й перевірювані."
+ },
+ {
+  "name": "Winden",
+  "url": "https://winden.co/",
+  "section": "fintech",
+  "desc": "Бізнес-кредитка з ШІ, що максимізує кешбек на кожній покупці."
+ },
+ {
+  "name": "Wrangle",
+  "url": "https://wrangle.ai/",
+  "section": "ai",
+  "desc": "ШІ-платформа для пошуку кандидатів, аутрічу й інтерв’ю."
+ },
+ {
+  "name": "Wrike",
+  "url": "https://www.wrike.com/",
+  "section": "saas",
+  "desc": "Платформа керування роботою для великих компаній, де працюють люди й ШІ."
+ },
+ {
+  "name": "Zentry",
+  "url": "https://zentry.com/",
+  "section": "crypto",
+  "desc": "Web3-екосистема, що поєднує людську активність, ШІ та дані."
  }
 ]
