@@ -370,5 +370,11 @@
   "url": "https://you.com/",
   "section": "infra",
   "desc": "Вебпошук, підготовлений для AI-продуктів і агентів."
+ },
+ {
+  "name": "HappyRobot",
+  "url": "https://www.happyrobot.ai/",
+  "section": "ai",
+  "desc": "Автономні AI-працівники, що спілкуються й виконують операції в реальній економіці."
  }
 ]
