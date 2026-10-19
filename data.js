@@ -3680,6 +3680,11 @@ window.CATALOGUE = [
       "desc": "Сервіс платежів і рахунків для малого бізнесу."
      },
      {
+      "name": "Tranch",
+      "url": "https://tranch.com/",
+      "desc": "Сервіс, що дає бізнесу продавати з оплатою частинами для клієнтів."
+     },
+     {
       "name": "Trullion",
       "url": "https://trullion.com/",
       "desc": "AI для бухобліку оренди та підготовки до аудиту."
@@ -3743,6 +3748,11 @@ window.CATALOGUE = [
       "name": "Yordex",
       "url": "https://www.yordex.com/",
       "desc": "Випуск власних карток і банківських рахунків для бізнесу."
+     },
+     {
+      "name": "Zeta",
+      "url": "https://www.zeta.tech/us/",
+      "desc": "Хмарна платформа для банків, щоб випускати картки й обробляти платежі."
      }
     ],
     "title_en": "Fintech & Payments",
@@ -6073,6 +6083,11 @@ window.CATALOGUE = [
       "name": "Genie",
       "url": "https://genie.io/",
       "desc": "Керування запасами для брендів на Shopify."
+     },
+     {
+      "name": "Gleap",
+      "url": "https://www.gleap.ai/",
+      "desc": "AI-служба підтримки, яка відповідає клієнтам і розбирає звернення."
      },
      {
       "name": "Gong",

@@ -34,5 +34,23 @@
   "url": "https://x.company/projects/everyday-robots/",
   "section": "hardware",
   "desc": "Проєкт Google X зі створення роботів, які самі вчаться нових задач."
+ },
+ {
+  "name": "Tranch",
+  "url": "https://tranch.com/",
+  "section": "fintech",
+  "desc": "Сервіс, що дає бізнесу продавати з оплатою частинами для клієнтів."
+ },
+ {
+  "name": "Gleap",
+  "url": "https://www.gleap.ai/",
+  "section": "growth",
+  "desc": "AI-служба підтримки, яка відповідає клієнтам і розбирає звернення."
+ },
+ {
+  "name": "Zeta",
+  "url": "https://www.zeta.tech/us/",
+  "section": "fintech",
+  "desc": "Хмарна платформа для банків, щоб випускати картки й обробляти платежі."
  }
 ]
