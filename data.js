@@ -233,6 +233,11 @@ window.CATALOGUE = [
       "name": "Noiced",
       "url": "https://noiced.com/",
       "desc": "Кураторські відео для дизайнерів і креативників."
+     },
+     {
+      "name": "on.design",
+      "url": "https://on.design/",
+      "desc": "Закрита спільнота дизайнерів і студій за запрошеннями."
      }
     ],
     "title_en": "Design Galleries",
@@ -1168,6 +1173,11 @@ window.CATALOGUE = [
       "name": "Landdding",
       "url": "https://landdding.com/",
       "desc": "Щоденний каталог креативних лендингів."
+     },
+     {
+      "name": "Wonderlist",
+      "url": "https://wonderlist.design/",
+      "desc": "127 преміальних шаблонів сайтів у Figma: SaaS, агенції, портфоліо."
      }
     ]
    },
@@ -8856,6 +8866,11 @@ window.CATALOGUE = [
       "desc": "ШІ-інструмент дизайну, що працює всередині вашого продукту без хендофу."
      },
      {
+      "name": "Modulify",
+      "url": "https://modulify.ai/",
+      "desc": "AI-конструктор сайтів і вебзастосунків: від промпту до публікації."
+     },
+     {
       "name": "Moody",
       "url": "https://moody.mjarosz.com/",
       "desc": "Телесуфлер для Mac біля камери, що стежить за вашим голосом."
@@ -10616,6 +10631,11 @@ window.CATALOGUE = [
       "name": "Best Free Fonts",
       "url": "https://bestfreefonts.com/",
       "desc": "Кураторська добірка найкращих безкоштовних шрифтів для бренду й вебу."
+     },
+     {
+      "name": "Font in Logo",
+      "url": "https://www.fontinlogo.com/",
+      "desc": "Які шрифти стоять за логотипами відомих брендів."
      }
     ],
     "title_en": "Type",
@@ -10932,6 +10952,11 @@ window.CATALOGUE = [
       "name": "Theatre.js",
       "url": "https://www.theatrejs.com/",
       "desc": "Анімаційний редактор із візуальним таймлайном для вебу."
+     },
+     {
+      "name": "Motion",
+      "url": "https://www.motionin.design/",
+      "desc": "Інтерактивні секції сайтів із фізикою й реакцією на курсор, з готовими промптами."
      }
     ]
    },
@@ -11165,6 +11190,11 @@ window.CATALOGUE = [
       "name": "Streamline",
       "url": "https://www.streamlinehq.com/",
       "desc": "Величезна бібліотека іконок, ілюстрацій і емодзі в єдиних стилях."
+     },
+     {
+      "name": "Iconly",
+      "url": "https://iconly.design/",
+      "desc": "Понад 2400 іконок застосунків, ігор і вебсервісів з фільтрами за стилем і кольором."
      },
      {
       "name": "Lordicon",
